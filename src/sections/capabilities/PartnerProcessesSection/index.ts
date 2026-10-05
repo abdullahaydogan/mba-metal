@@ -1,0 +1,1 @@
+export { PartnerProcessesSection } from './PartnerProcessesSection';

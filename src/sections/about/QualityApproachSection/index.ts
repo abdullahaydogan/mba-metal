@@ -1,0 +1,1 @@
+export { QualityApproachSection } from './QualityApproachSection';

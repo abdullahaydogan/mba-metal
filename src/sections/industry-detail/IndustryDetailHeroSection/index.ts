@@ -1,0 +1,1 @@
+export {IndustryDetailHeroSection,} from './IndustryDetailHeroSection';

@@ -1,0 +1,1568 @@
+{
+  "common": {
+    "learnMore": "Learn More",
+    "discover": "Discover",
+    "viewAll": "View All",
+    "contactUs": "Contact Us",
+    "getQuote": "Request a Quote",
+    "sendMessage": "Send Message",
+    "whatsapp": "WhatsApp",
+    "readMore": "Read More"
+  },
+  "navigation": {
+    "home": "Home",
+    "corporate": "Corporate",
+    "about": "About Us",
+    "whyUs": "Why MBA Metal",
+    "capabilities": "Capabilities",
+    "industries": "Industries",
+    "quality": "Quality",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Industrial Metal Manufacturing",
+    "title": "Turning Ideas Into Reality.",
+    "description": "We transform technical requirements for wire, tube and metal components into manufacturable, reliable and sustainable solutions.",
+    "primaryAction": "Our Capabilities",
+    "secondaryAction": "Request a Quote"
+  },
+  "about": {
+    "eyebrow": "About Us",
+    "title": "Building Reliability",
+    "description1": "At MBA Metal, our experienced craftsmen and technical expertise allow us to deliver more than metal components — we provide reliability, service quality and skilled workmanship.",
+    "description2": "As an industrial solution partner specializing in forming, joining and preparing wire and metal components for production, MBA Metal transforms a wide range of B2B requirements into manufacturable solutions, from custom parts to repeatable production."
+  },
+  "capabilities": {
+    "eyebrow": "Our Capabilities",
+    "title": "Manufacturing Capabilities for Tube, Wire and Metal Components",
+    "description": "MBA Metal provides solutions for a wide range of manufacturing requirements, from OEM components, welding and threading to stainless steel processing, tube forming and wire forming. We approach the process with manufacturability in mind, from technical drawings to prototypes and repeatable production."
+  },
+  "industries": {
+    "eyebrow": "Industries",
+    "title": "Manufacturing Solutions Across Industries",
+    "description": "We develop wire, tube and metal component solutions tailored to the technical requirements of different industries."
+  },
+  "process": {
+    "eyebrow": "Our Process",
+    "title": "From Technical Requirement to Production",
+    "description": "We approach every project by validating technical requirements, evaluating manufacturability and following a controlled production process."
+  },
+  "quality": {
+    "eyebrow": "Quality",
+    "title": "Quality Throughout Production",
+    "description": "From technical requirements to final inspection, quality remains a priority throughout every stage of production."
+  },
+  "quote": {
+    "eyebrow": "Let's Discuss Your Project",
+    "title": "Send Your Technical Drawing. Let's Build It Together.",
+    "description": "Send us the technical drawing or project details of the component you need. Our team will review your requirements and contact you.",
+    "button": "Request a Quote"
+  },
+  "footer": {
+    "eyebrow": "LET'S DISCUSS YOUR PROJECT",
+    "ctaTitle": "Let's turn your technical requirement into a manufacturable solution.",
+    "ctaDescription": "Send us your technical drawing or project details. Let's evaluate your requirements with manufacturability in mind.",
+    "description": "Industrial manufacturing solutions for wire, tube and metal components.",
+    "corporate": "Corporate",
+    "production": "Manufacturing",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "capabilities": "Capabilities",
+    "industries": "Industries",
+    "quality": "Quality",
+    "projects": "Projects",
+    "phone": "Phone",
+    "email": "Email",
+    "whatsapp": "Contact via WhatsApp",
+    "copyright": "All rights reserved.",
+    "tagline": "Industrial Metal Manufacturing"
+  },
+  "home": {
+    "hero": {
+      "titleLine1": "Shaping",
+      "titleLine2": "Metal Into Reality.",
+      "description": "We develop reliable industrial solutions for wire, steel rod and metal components, from bending and welding to custom manufacturing and repeatable production.",
+      "imageAlt": "MBA Metal industrial manufacturing facility",
+      "scrollToNext": "Go to the next section",
+      "industries": {
+        "automotive": "Automotive",
+        "whiteGoods": "Home Appliances",
+        "retail": "Retail",
+        "industrial": "Industrial"
+      }
+    },
+    "about": {
+      "eyebrow": "Our Manufacturing Approach",
+      "titleLine1": "We don't just",
+      "titleLine2": "shape metal.",
+      "imageAlt": "MBA Metal manufacturing facility",
+      "imageLabel": "Manufacturing • Technology • Experience",
+      "lead": "We turn metal component requirements into reliable manufacturing solutions.",
+      "description": "From wire and steel rod forming to welded assemblies, from custom components to repeatable production, we develop manufacturing solutions for the requirements of different industries.",
+      "discover": "Discover MBA Metal",
+      "capabilities": {
+        "wire": {
+          "title": "Wire & Rod",
+          "description": "Forming"
+        },
+        "welding": {
+          "title": "Welding",
+          "description": "Joining"
+        },
+        "oem": {
+          "title": "OEM",
+          "description": "Custom Manufacturing"
+        }
+      }
+    }
+  },
+  "capabilitiesPage": {
+    "hero": {
+      "eyebrow": "MANUFACTURING CAPABILITIES",
+      "title": "Manufacturable solutions for wire, tube and metal components.",
+      "description": "From technical drawings and samples to prototypes and serial production, we evaluate wire, tube and metal component projects in terms of manufacturability, process, quality and delivery.",
+      "primaryAction": "Share Your Project",
+      "secondaryAction": "Explore Our Capabilities",
+      "imageAlt": "MBA Metal wire, tube and metal component manufacturing facility",
+      "explore": "Explore"
+    },
+    "productionApproach": {
+      "eyebrow": "OUR MANUFACTURING APPROACH",
+      "title": "From technical requirements to repeatable serial production.",
+      "items": {
+        "cad": "Manufacturing based on CAD and technical drawings",
+        "dfm": "DFM and manufacturability assessment",
+        "prototype": "Prototype, sample and serial production",
+        "processes": "Wire, tube, welding and threading processes",
+        "stainless": "Stainless and galvanized wire processing",
+        "management": "Integrated project management with a single point of contact"
+      }
+    },
+    "mainCapabilities": {
+      "eyebrow": "IN-HOUSE",
+      "title": "Our core manufacturing capabilities",
+      "description": "We manage the core manufacturing processes for wire, tube and metal component projects within our own production infrastructure. From technical requirements to samples and serial production, we evaluate manufacturability, process consistency and quality requirements together.",
+      "processLabel": "Manufacturing Process",
+      "items": {
+        "tel-cekme": {
+          "title": "Wire Drawing",
+          "description": "Controlled cold drawing of wire rod to achieve the required diameter and surface characteristics.",
+          "features": [
+            "Diameter control",
+            "Surface monitoring",
+            "Coiled or straightened wire"
+          ],
+          "actionLabel": "View Details",
+          "imageAlt": "MBA Metal industrial wire manufacturing and processing"
+        },
+        "cnc-tel-bukme": {
+          "title": "CNC Wire Bending",
+          "description": "Precise and repeatable serial production of 2D and 3D wire components according to technical drawings.",
+          "features": [
+            "Custom geometries",
+            "Serial production",
+            "Dimensional inspection"
+          ],
+          "actionLabel": "View Details",
+          "imageAlt": "MBA Metal CNC wire bending manufacturing process"
+        },
+        "2d-3d-tel-sekillendirme": {
+          "title": "2D / 3D Wire Forming",
+          "description": "Forming custom wire components requiring multi-axis bends and complex geometries according to technical requirements.",
+          "features": [
+            "Multi-axis forms",
+            "Custom angles and radii",
+            "OEM applications"
+          ],
+          "actionLabel": "View Details",
+          "imageAlt": "MBA Metal 2D and 3D wire forming application"
+        },
+        "mig-tig-kaynak": {
+          "title": "MIG / TIG Welding",
+          "description": "Controlled joining of wire, tube and metal components using welding methods selected according to project requirements.",
+          "features": [
+            "MIG welding",
+            "TIG welding",
+            "Welded assemblies"
+          ],
+          "actionLabel": "Share Your Project",
+          "imageAlt": "MBA Metal MIG and TIG welding manufacturing process"
+        },
+        "puntali-kaynak": {
+          "title": "Spot Welding",
+          "description": "Repeatable and controlled spot welding applications for wire baskets, panels, grids and similar products.",
+          "features": [
+            "Wire-to-wire joining",
+            "Panels and grids",
+            "Serial production"
+          ],
+          "actionLabel": "View Details",
+          "imageAlt": "MBA Metal spot welding manufacturing process"
+        },
+        "dis-acma": {
+          "title": "Threading",
+          "description": "Creating threaded ends and connection areas using thread rolling or thread cutting methods according to project requirements.",
+          "features": [
+            "Thread rolling",
+            "Thread cutting",
+            "Custom connection components"
+          ],
+          "actionLabel": "Send Technical Requirements",
+          "imageAlt": "MBA Metal custom metal component and fastener manufacturing"
+        },
+        "boru-bukme": {
+          "title": "Tube Bending",
+          "description": "Tube forming, welding and assembled component manufacturing according to technical drawings.",
+          "features": [
+            "Custom tube geometries",
+            "Assembled components",
+            "Sample and serial production"
+          ],
+          "actionLabel": "Share Your Tube Project",
+          "imageAlt": "MBA Metal tube and metal bending manufacturing process"
+        },
+        "paslanmaz-celik-isleme": {
+          "title": "Stainless Steel Processing",
+          "description": "Bending, welding, forming and assembly processes for stainless steel wire and metal components.",
+          "features": [
+            "Stainless steel wire",
+            "Welded products",
+            "Custom OEM components"
+          ],
+          "actionLabel": "Request a Quote",
+          "imageAlt": "MBA Metal stainless steel and metal processing"
+        },
+        "prototip-seri-uretim": {
+          "title": "Prototype & Serial Production",
+          "description": "Managing the manufacturing process from sample validation and first article approval to repeatable serial production and shipment planning.",
+          "features": [
+            "Prototype",
+            "First article approval",
+            "Serial production planning"
+          ],
+          "actionLabel": "Request a Manufacturability Review",
+          "imageAlt": "MBA Metal prototype and serial production process"
+        }
+      }
+    },
+    "partnerProcesses": {
+      "eyebrow": "APPROVED SOLUTION PARTNERS",
+      "title": "We coordinate complementary processes under a single project management structure.",
+      "description": "While carrying out our core manufacturing operations in-house, we coordinate complementary manufacturing and surface treatment processes through our approved solution partners.",
+      "note": "These processes are not carried out within MBA Metal. They are planned with suitable solution partners according to technical requirements, monitored throughout the process and managed to maintain project integrity.",
+      "imageAlt": "MBA Metal complementary manufacturing processes and solution partners",
+      "groups": {
+        "manufacturing": {
+          "title": "Complementary Manufacturing Processes",
+          "description": "Special manufacturing requirements that complement the core production process are coordinated with approved manufacturing partners according to project requirements.",
+          "items": [
+            "Upsetting / End forming",
+            "Laser cutting",
+            "Sheet metal processing",
+            "Spring manufacturing"
+          ]
+        },
+        "surface": {
+          "title": "Surface Treatments & Complementary Operations",
+          "description": "Surface and complementary operations required by the technical specifications of the product are coordinated with approved solution partners.",
+          "items": [
+            "Powder coating",
+            "Coating coordination",
+            "Custom packaging"
+          ]
+        }
+      },
+      "coordination": {
+        "eyebrow": "PROJECT COORDINATION",
+        "title": "Single point of contact, controlled processes, integrated delivery.",
+        "description": "For projects requiring partner processes, we manage the entire workflow from transferring technical requirements and process monitoring to product inspection and shipment preparation.",
+        "steps": {
+          "technicalSpecification": {
+            "title": "Technical Specification",
+            "description": "Product and process requirements are clarified."
+          },
+          "partnerProcess": {
+            "title": "Partner Process",
+            "description": "The appropriate solution partner and manufacturing method are determined."
+          },
+          "processTracking": {
+            "title": "Process Monitoring",
+            "description": "Complementary operations are monitored according to project criteria."
+          },
+          "qualityControl": {
+            "title": "Quality Control",
+            "description": "Product requirements are verified after the process."
+          },
+          "shipping": {
+            "title": "Shipping",
+            "description": "Completed products are prepared according to the delivery plan."
+          }
+        }
+      }
+    },
+    "projectFlow": {
+      "eyebrow": "PROJECT FLOW",
+      "title": "From technical request to serial production",
+      "description": "We manage every project stage from receiving the initial request through manufacturing and shipment according to technical requirements.",
+      "completedLabel": "Process completed",
+      "items": {
+        "technicalRequest": {
+          "title": "Technical Request",
+          "description": "Drawings, samples, quantities, materials and operating conditions are collected."
+        },
+        "dfmReview": {
+          "title": "DFM Review",
+          "description": "Geometry, tolerances, process sequence and manufacturability are evaluated."
+        },
+        "quoteSample": {
+          "title": "Quotation & Sample",
+          "description": "Pricing, lead time, tooling and sample requirements are clarified."
+        },
+        "serialProduction": {
+          "title": "Serial Production",
+          "description": "The production plan is executed according to approved technical specifications."
+        },
+        "inspectionShipping": {
+          "title": "Inspection & Shipping",
+          "description": "Dimensional inspection, packaging and delivery processes are completed."
+        }
+      }
+    },
+    "oemProduction": {
+      "eyebrow": "OEM & CONTRACT MANUFACTURING",
+      "title": "Manufacturing based on technical drawings, samples or application requirements.",
+      "description": "We evaluate more than just the geometry of the part. Material selection, wire or tube dimensions, bending radii, tolerances, welding areas, threading requirements, surface expectations, packaging and annual demand are considered together.",
+      "evaluation": {
+        "eyebrow": "PROJECT EVALUATION",
+        "title": "Manufacturing is about more than part geometry.",
+        "items": [
+          "Material selection",
+          "Wire or tube dimensions",
+          "Bending radii",
+          "Dimensions and tolerances",
+          "Welding areas",
+          "Threading requirements",
+          "Surface expectations",
+          "Packaging",
+          "Annual demand"
+        ]
+      },
+      "withoutDrawing": {
+        "eyebrow": "NO TECHNICAL DRAWING?",
+        "title": "We can start with a sample and application details.",
+        "description": "A preliminary evaluation can be made using an existing sample, product photographs, approximate dimensions and intended application. Critical dimensions and technical requirements are finalized before serial production.",
+        "inputs": [
+          "Existing product or sample",
+          "Product photographs",
+          "Approximate dimensions",
+          "Intended application"
+        ]
+      }
+    },
+    "quoteRequirements": {
+      "eyebrow": "QUOTE PREPARATION",
+      "title": "Information required for an accurate quotation.",
+      "description": "Sharing the essential technical information at the beginning of the project enables a more accurate evaluation of manufacturability, process requirements, cost and lead time.",
+      "items": {
+        "technicalDocument": {
+          "title": "Technical Documentation",
+          "description": "Technical drawings in PDF, DWG or STEP format, or an existing product sample."
+        },
+        "materialDimensions": {
+          "title": "Material & Dimensions",
+          "description": "Material specification together with the diameter and dimensions of the wire or tube."
+        },
+        "tolerances": {
+          "title": "Tolerances",
+          "description": "Critical dimensions, general dimensions and the required tolerance values."
+        },
+        "quantity": {
+          "title": "Production Quantity",
+          "description": "Annual consumption volume and the planned order quantity."
+        },
+        "additionalProcesses": {
+          "title": "Additional Processes",
+          "description": "Additional process requirements such as welding, threading, coating or painting."
+        },
+        "packagingDelivery": {
+          "title": "Packaging & Delivery",
+          "description": "Packaging requirements and the location where the products will be delivered."
+        }
+      }
+    },
+    "faq": {
+      "eyebrow": "FREQUENTLY ASKED QUESTIONS",
+      "title": "About our manufacturing capabilities",
+      "description": "Answers to frequently asked questions about our manufacturing processes, technical evaluation, prototyping and complementary processes.",
+      "items": {
+        "customParts": {
+          "question": "Do you manufacture custom parts according to technical drawings?",
+          "answer": "Yes. Manufacturability and pricing can be evaluated based on a technical drawing, sample or application scenario."
+        },
+        "prototype": {
+          "question": "Do you provide prototype and sample production?",
+          "answer": "Yes. Depending on the project geometry, tooling requirements and target quantity, prototype or first-part production can be carried out before serial production."
+        },
+        "weldingThreading": {
+          "question": "Are welding and threading operations performed in-house?",
+          "answer": "Yes. MIG, TIG, spot welding and threading are among our in-house manufacturing capabilities."
+        },
+        "partnerProcesses": {
+          "question": "How are laser cutting, sheet metal processing and spring manufacturing managed?",
+          "answer": "These processes are carried out through our approved solution partners under MBA Metal's project coordination."
+        },
+        "coating": {
+          "question": "Are coating processes performed in-house?",
+          "answer": "No. Coating is not performed in-house. The appropriate surface treatment is coordinated with our solution partners according to project requirements."
+        },
+        "minimumOrder": {
+          "question": "What is the minimum order quantity?",
+          "answer": "The minimum quantity depends on the geometry, tooling requirements, number of processes, material and surface treatment requirements."
+        }
+      }
+    },
+    "finalCta": {
+      "eyebrow": "LET'S EVALUATE YOUR PROJECT",
+      "title": "Get a manufacturability and pricing evaluation for your project",
+      "description": "Share your technical drawing, target quantity, material, tolerances and delivery requirements with us.",
+      "primaryAction": "Send Your Technical Drawing",
+      "secondaryAction": "Contact Us on WhatsApp"
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "eyebrow": "MBA METAL",
+      "title": "Solutions shaped around your wire and metal manufacturing needs.",
+      "description": "From technical drawings to samples, from custom components to repeatable production, we transform diverse industrial requirements into practical manufacturing solutions."
+    },
+    "companyStory": {
+      "eyebrow": "MBA Metal",
+      "title": "A manufacturing-focused partner for wire and metal processing.",
+      "description": "MBA Metal focuses on transforming the wire and metal component requirements of different industries into manufacturable solutions. Our capabilities are not limited to a single product group.",
+      "secondaryDescription": "From automotive and home appliances to retail equipment, industrial transport and storage solutions, we develop manufacturing solutions shaped around the requirements of each application.",
+      "imageAlt": "MBA Metal manufacturing facility",
+      "approach": {
+        "eyebrow": "Our Manufacturing Approach",
+        "projectBased": {
+          "title": "Project-Based",
+          "description": "A manufacturing approach shaped around project requirements."
+        },
+        "flexibleProduction": {
+          "title": "Flexible Manufacturing",
+          "description": "An adaptable process from samples to repeatable production."
+        },
+        "brand": "MBA Metal"
+      },
+      "secondaryStory": {
+        "eyebrow": "How does it start?",
+        "title": "Not every project starts with a technical drawing.",
+        "paragraphs": [
+          "Sometimes a manufacturing request begins with a completed technical drawing. In other cases, we may only have an existing sample, a product image, basic dimensions or an application requirement that needs to be solved.",
+          "We therefore begin by understanding where and how the component will be used. We then evaluate criteria such as geometry, material, manufacturing method and required quantity to determine a practical manufacturing approach."
+        ]
+      },
+      "inputs": {
+        "eyebrow": "To start your project",
+        "items": [
+          "Technical drawing",
+          "Sample",
+          "Product image",
+          "Manufacturing requirement"
+        ]
+      }
+    },
+    "productionApproach": {
+      "eyebrow": "Our Manufacturing Process",
+      "title": "From technical requirements to controlled manufacturing.",
+      "description": "We approach every project as more than a component to be produced. We treat it as an integrated process in which technical requirements must be understood, manufacturability evaluated and production managed in a controlled manner.",
+      "steps": {
+        "technicalNeed": {
+          "title": "Technical Requirement",
+          "description": "Project requirements are identified through technical drawings, samples, product images or information about the intended application."
+        },
+        "projectPlanning": {
+          "title": "Project Planning",
+          "description": "Material, geometry, tolerances, manufacturing methods and target quantities are evaluated to establish a practical production plan."
+        },
+        "production": {
+          "title": "Manufacturing",
+          "description": "Wire, metal and related components are manufactured according to the defined production processes."
+        },
+        "qualityControl": {
+          "title": "Quality Control",
+          "description": "Critical dimensions, visual requirements and project criteria are inspected during and after production."
+        },
+        "shipment": {
+          "title": "Shipment",
+          "description": "Approved products are prepared for shipment according to the required packaging and delivery specifications."
+        }
+      },
+      "bottomMessage": "Our goal is not simply to manufacture a component, but to establish a repeatable and sustainable production process that meets the technical requirements of the project."
+    },
+    "workingApproach": {
+      "eyebrow": "Our Working Approach",
+      "title": "From requirement to repeatable production.",
+      "description": "Not every project starts from the same point. Sometimes we receive a detailed technical drawing, while in other cases we begin with an existing part or a manufacturing requirement that needs to be solved. We approach the process by transforming the available information into a manufacturable and repeatable solution.",
+      "items": {
+        "understandRequirement": {
+          "label": "Understanding the Requirement",
+          "title": "We determine what the component needs to do.",
+          "description": "The process does not have to begin with a technical drawing. We can evaluate a project based on a sample, photograph, approximate dimensions or directly from the intended application.",
+          "details": [
+            "Application",
+            "Part geometry",
+            "Approximate dimensions",
+            "Required quantity"
+          ]
+        },
+        "evaluateManufacturability": {
+          "label": "Evaluating Manufacturability",
+          "title": "We evaluate the idea against real manufacturing conditions.",
+          "description": "Material, geometry, tolerances, joining methods and production quantity are evaluated together to determine a practical manufacturing approach.",
+          "details": [
+            "Material selection",
+            "Manufacturing method",
+            "Geometry evaluation",
+            "Operation planning"
+          ]
+        },
+        "sampleValidation": {
+          "label": "Sample & Validation",
+          "title": "We validate the component before serial production.",
+          "description": "When required, the initial sample or prototype is evaluated for dimensions, form, function and manufacturability. This allows necessary adjustments to be made before serial production.",
+          "details": [
+            "Initial sample",
+            "Dimensional inspection",
+            "Functional inspection",
+            "Revision"
+          ]
+        },
+        "repeatableProduction": {
+          "label": "Repeatable Production",
+          "title": "We turn the approved solution into sustainable production.",
+          "description": "The manufacturing steps of the validated component are defined to maintain the same production logic and quality approach across future orders.",
+          "details": [
+            "Production planning",
+            "Process control",
+            "Quality control",
+            "Repeat production"
+          ]
+        }
+      }
+    },
+    "manufacturingCapabilities": {
+      "eyebrow": "Our Manufacturing Capabilities",
+      "title": "One manufacturing partner for diverse production requirements.",
+      "description": "From forming wire and metal components to joining operations, from initial samples to repeatable production, we evaluate different manufacturing requirements through an integrated approach.",
+      "itemLabel": "Manufacturing Capability",
+      "actionLabel": "Explore Capability",
+      "items": {
+        "wireForming": {
+          "title": "Wire Forming",
+          "description": "Controlled and repeatable manufacturing of wire components for different dimensions, geometries and application requirements.",
+          "imageAlt": "MBA Metal wire forming manufacturing",
+          "tags": [
+            "Wire Bending",
+            "2D / 3D Forming",
+            "Custom Geometry"
+          ]
+        },
+        "metalForming": {
+          "title": "Metal Forming",
+          "description": "Forming custom metal components into geometries suited to their application and technical requirements.",
+          "imageAlt": "MBA Metal metal forming manufacturing",
+          "tags": [
+            "Bending",
+            "Forming",
+            "Custom Manufacturing"
+          ]
+        },
+        "weldingJoining": {
+          "title": "Welding & Joining",
+          "description": "Joining wire and metal components using welding methods selected according to product geometry and operating conditions.",
+          "imageAlt": "MBA Metal welding and joining manufacturing",
+          "tags": [
+            "MIG / TIG",
+            "Spot Welding",
+            "Joining"
+          ]
+        },
+        "prototypeSerialProduction": {
+          "title": "Prototype & Serial Production",
+          "description": "Developing the manufacturing approach from the initial sample through product validation and preparing the process for repeatable serial production.",
+          "imageAlt": "MBA Metal prototype and serial production",
+          "tags": [
+            "Sample",
+            "Prototype",
+            "Serial Production"
+          ]
+        }
+      }
+    },
+    "industriesShowcase": {
+      "eyebrow": "Industries We Serve",
+      "title": "We are not limited to a single product group.",
+      "description": "We adapt our wire and metal processing capabilities to the products, applications and manufacturing requirements of different industries.",
+      "items": {
+        "automotive": {
+          "title": "Automotive",
+          "description": "We develop manufacturing solutions for wire, tube and metal components used in automotive production processes according to project-specific requirements.",
+          "imageAlt": "Metal manufacturing solutions for the automotive industry"
+        },
+        "whiteGoods": {
+          "title": "Home Appliances",
+          "description": "We form wire and metal components used in home appliances and durable consumer products according to different geometries and manufacturing requirements.",
+          "imageAlt": "Metal components for the home appliance industry"
+        },
+        "retail": {
+          "title": "Retail Equipment",
+          "description": "We manufacture wire and metal component solutions for shelves, baskets, stands and similar equipment used in stores, markets and points of sale.",
+          "imageAlt": "Wire and metal products for retail equipment"
+        },
+        "logistics": {
+          "title": "Storage & Logistics",
+          "description": "We provide manufacturing solutions for metal equipment and auxiliary components used in storage, transportation and internal factory logistics operations.",
+          "imageAlt": "Metal equipment for storage and logistics applications"
+        },
+        "industrial": {
+          "title": "Industrial Manufacturing",
+          "description": "We manufacture project-specific wire and metal components required for machinery, equipment and various industrial systems.",
+          "imageAlt": "Custom wire and metal components for industrial manufacturing"
+        }
+      }
+    },
+    "qualityApproach": {
+      "eyebrow": "OUR QUALITY APPROACH",
+      "title": "Manufacturing is not enough. It must be verifiable.",
+      "description": "We do not view the manufacturing process simply as completing a part. By monitoring dimensions, form, surface and production criteria throughout the process, we aim to ensure that each product meets the defined requirements.",
+      "imageAlt": "MBA Metal manufacturing and quality control process",
+      "imageLabel": "MBA METAL · QUALITY CONTROL",
+      "items": {
+        "dimensionalControl": {
+          "title": "Dimensional Control",
+          "description": "We inspect product dimensions according to technical requirements and defined tolerances."
+        },
+        "visualControl": {
+          "title": "Visual Inspection",
+          "description": "We evaluate surfaces, form, welded areas and overall product integrity according to manufacturing criteria."
+        },
+        "processControl": {
+          "title": "Process Control",
+          "description": "Rather than leaving inspection until the finished product, we monitor the process at the necessary stages of manufacturing."
+        },
+        "repeatability": {
+          "title": "Repeatability",
+          "description": "We place importance on ensuring that an approved product can be reproduced in subsequent production runs according to the same criteria."
+        }
+      }
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "eyebrow": "CONTACT",
+      "title": "Let's discuss your project.",
+      "description": "Share your technical drawing, sample or manufacturing requirement with us. Let's evaluate your project together in terms of manufacturability, process and application.",
+      "primaryAction": "Get in Touch",
+      "imageAlt": "MBA Metal industrial metal manufacturing facility"
+    },
+    "details": {
+      "eyebrow": "Contact Us",
+      "title": "Choose the easiest way to reach us.",
+      "description": "Contact our team directly regarding a new manufacturing project, technical evaluation or an existing project.",
+      "phone": {
+        "label": "Phone",
+        "value": "0 530 050 86 58"
+      },
+      "whatsapp": {
+        "label": "WhatsApp",
+        "value": "0 530 050 86 58"
+      },
+      "email": {
+        "label": "Email",
+        "value": "mbametalekipman@gmail.com"
+      },
+      "workingHours": {
+        "eyebrow": "Working Hours",
+        "title": "Contact us regarding your manufacturing and project requirements.",
+        "weekdays": "Monday - Friday",
+        "saturday": "Saturday",
+        "sunday": "Sunday",
+        "closed": "Closed"
+      }
+    },
+    "form": {
+      "eyebrow": "LET'S DISCUSS YOUR PROJECT",
+      "title": "How can we help?",
+      "description": "Share the basic details about the component or project you need manufactured. We will review your request and get in touch.",
+      "imageAlt": "MBA Metal welding and metal manufacturing process",
+      "imageTitle": "Manufacturable solutions for wire, tube and metal components.",
+      "whatsapp": "Talk to us quickly via WhatsApp",
+      "fields": {
+        "fullName": "Full Name",
+        "company": "Company",
+        "phone": "Phone",
+        "email": "Email",
+        "subject": "Subject",
+        "message": "Tell us about your project"
+      },
+      "submit": "Send Message"
+    },
+    "cta": {
+      "eyebrow": "HAVE A TECHNICAL PROJECT?",
+      "title": "Send your technical drawing. Let's build it together.",
+      "description": "Share your material, dimensions, tolerances, quantities and project details to start a manufacturability and quotation review.",
+      "button": "Request a Quote",
+      "imageAlt": "MBA Metal industrial manufacturing and metal processing"
+    },
+    "projectGuide": {
+      "eyebrow": "For a Faster Evaluation",
+      "title": "Share these 4 details in your first message.",
+      "description": "You do not need to prepare a lengthy technical explanation. A few essential details are enough for us to begin the initial manufacturability evaluation of your project.",
+      "helper": "Information needed for the initial review",
+      "items": {
+        "drawing": {
+          "title": "Photo or Drawing",
+          "description": "Share a photo of the product, an existing sample or the technical drawing."
+        },
+        "dimensions": {
+          "title": "Basic Dimensions",
+          "description": "Provide the length, width, wire or tube diameter and any critical dimensions you know."
+        },
+        "quantity": {
+          "title": "Required Quantity",
+          "description": "Share the sample quantity, planned order quantity or estimated annual usage."
+        },
+        "purpose": {
+          "title": "Application",
+          "description": "Briefly explain where the component will be used, in which product or for what purpose."
+        }
+      },
+      "note": "If your technical drawing is not ready yet, that is not a problem. We can begin the preliminary evaluation using photos, approximate dimensions and application details."
+    }
+  },
+  "industriesPage": {
+    "hero": {
+      "eyebrow": "INDUSTRY SOLUTIONS",
+      "title": "Manufacturing solutions tailored to the technical requirements of different industries.",
+      "description": "We develop project-specific solutions for wire, tube and metal components by considering operating conditions, tolerances, quality requirements and production volumes.",
+      "primaryAction": "Explore Industries",
+      "secondaryAction": "Share Your Project"
+    },
+    "showcase": {
+      "eyebrow": "INDUSTRIES WE SERVE",
+      "title": "Different applications. The same manufacturing discipline.",
+      "description": "From technical drawings to custom manufacturing, we approach wire, tube and metal component requirements with manufacturability in mind.",
+      "cardEyebrow": "Industry Manufacturing",
+      "otherIndustries": "Other Application Areas",
+      "items": {
+        "automotive": {
+          "title": "Automotive",
+          "description": "Custom wire, tube and welded metal components for fastening, supporting and material handling applications.",
+          "applications": [
+            "Custom wire formed parts",
+            "Fastening components",
+            "Support components",
+            "Welded subassemblies",
+            "In-plant handling equipment"
+          ]
+        },
+        "whiteGoods": {
+          "title": "Home Appliances & Kitchen",
+          "description": "Wire and metal components for internal carrying, supporting, protection and assembly applications.",
+          "applications": [
+            "Wire racks",
+            "Baskets",
+            "Grills",
+            "Carrier components",
+            "Support components"
+          ]
+        },
+        "retail": {
+          "title": "Retail & Store Equipment",
+          "description": "Wire and metal equipment solutions for retail, supermarket and product display applications.",
+          "applications": [
+            "Wire baskets",
+            "Shelving systems",
+            "Hooks",
+            "Hangers and dividers",
+            "Display equipment"
+          ]
+        },
+        "furniture": {
+          "title": "Furniture",
+          "description": "Functional, structural and decorative wire, tube and metal components for furniture applications.",
+          "applications": [
+            "Metal legs",
+            "Wire supports",
+            "Frames",
+            "Handles",
+            "Assembly components"
+          ]
+        },
+        "logistics": {
+          "title": "Logistics & Warehousing",
+          "description": "Durable wire and metal equipment for storage, handling and in-plant logistics operations.",
+          "applications": [
+            "Handling baskets",
+            "Wire cages",
+            "Metal containers",
+            "Handling carts",
+            "Dividers and guards"
+          ]
+        },
+        "railwayIndustrial": {
+          "title": "Railway & Industrial Equipment",
+          "description": "Custom connection, support and assembly components manufactured according to technical specifications and drawings.",
+          "applications": [
+            "Connection components",
+            "Support parts",
+            "Welded subassemblies",
+            "Protective components",
+            "Custom serial components"
+          ]
+        },
+        "medical": {
+          "title": "Medical & Hygiene Products",
+          "description": "Custom wire and metal components manufactured according to defined material, dimensional and surface requirements.",
+          "applications": [
+            "Stainless wire components",
+            "Wire baskets",
+            "Carrier systems",
+            "Custom racks and supports",
+            "Project-specific components"
+          ]
+        },
+        "agriculture": {
+          "title": "Agriculture & Livestock",
+          "description": "Wire and metal product solutions for protection, handling and equipment applications.",
+          "applications": [
+            "Wire cages",
+            "Protective components",
+            "Handling equipment",
+            "Wire panels",
+            "Custom equipment components"
+          ]
+        },
+        "construction": {
+          "title": "Construction & General Industry",
+          "description": "Drawing-based metal component manufacturing for machinery, equipment, construction and industrial applications.",
+          "applications": [
+            "Custom wire components",
+            "Protective components",
+            "Fastening parts",
+            "Bent metal components",
+            "Project-specific manufacturing"
+          ]
+        }
+      }
+    },
+    "solutions": {
+      "eyebrow": "MANUFACTURING SOLUTIONS",
+      "title": "Connecting industry requirements with our manufacturing capabilities.",
+      "description": "We evaluate projects across different industries not only by their application, but also by part geometry, material, joining method, production volume and repeatability requirements.",
+      "helper": "Project-based manufacturing capabilities",
+      "note": "The manufacturing method is determined for each project by evaluating requirements such as technical drawings, samples, materials, tolerances and target quantities.",
+      "items": {
+        "wireForming": {
+          "label": "Wire Processing",
+          "title": "Wire & Rod Forming",
+          "description": "Controlled manufacturing of wire and rod components in different diameters, geometries and forms according to technical requirements.",
+          "features": [
+            "CNC wire bending",
+            "2D / 3D forming",
+            "Custom geometries"
+          ]
+        },
+        "weldedComponents": {
+          "label": "Joining",
+          "title": "Welded Components",
+          "description": "Joining wire and metal components using welding methods selected according to product geometry and application conditions.",
+          "features": [
+            "MIG / TIG",
+            "Spot welding",
+            "Welded subassemblies"
+          ]
+        },
+        "tubeComponents": {
+          "label": "Tube Processing",
+          "title": "Tube Components",
+          "description": "Forming and preparing tube components according to technical drawings and application requirements.",
+          "features": [
+            "Tube bending",
+            "Custom geometries",
+            "Assembled components"
+          ]
+        },
+        "customProduction": {
+          "label": "Project Specific",
+          "title": "Custom Manufacturing",
+          "description": "Project-specific metal component solutions based on technical drawings, samples or application requirements instead of a standard product approach.",
+          "features": [
+            "Drawing-based",
+            "Sample-based",
+            "Project-specific"
+          ]
+        },
+        "prototypeProduction": {
+          "label": "Validation",
+          "title": "Prototype & Sample Production",
+          "description": "Sample production for evaluating form, dimensions, manufacturability and application requirements before serial production.",
+          "features": [
+            "First sample",
+            "Product validation",
+            "Revision support"
+          ]
+        },
+        "serialProduction": {
+          "label": "Repeatable Manufacturing",
+          "title": "Serial Production",
+          "description": "Transforming an approved manufacturing approach into repeatable and sustainable production through controlled processes.",
+          "features": [
+            "Production planning",
+            "Process control",
+            "Repeat orders"
+          ]
+        }
+      }
+    },
+    "approach": {
+      "eyebrow": "INDUSTRY MANUFACTURING APPROACH",
+      "title": "Every project is different. Our manufacturing approach stays controlled.",
+      "description": "Regardless of industry, we evaluate every component together with its technical requirements, manufacturability, process structure and quality expectations.",
+      "items": {
+        "technicalRequirements": {
+          "title": "Technical Requirements",
+          "description": "Technical drawings, samples, dimensions, tolerances, materials and operating conditions of the component are evaluated together.",
+          "meta": "Technical Data · Tolerance · Material"
+        },
+        "manufacturability": {
+          "title": "Manufacturability",
+          "description": "Part geometry, bending points, joining details and manufacturing constraints are reviewed to determine an applicable production approach.",
+          "meta": "Geometry · DFM · Process"
+        },
+        "processPlanning": {
+          "title": "Process Planning",
+          "description": "Wire or tube forming, welding, secondary operations and required manufacturing steps are planned according to the technical needs of the project.",
+          "meta": "Forming · Welding · Operations"
+        },
+        "qualityControl": {
+          "title": "Quality & Inspection",
+          "description": "Critical dimensions, tolerances and visual requirements are inspected at appropriate stages of production to verify the component.",
+          "meta": "Measurement · Inspection · Validation"
+        },
+        "repeatableProduction": {
+          "title": "Repeatable Production",
+          "description": "The approved sample and process approach are transformed into a controlled structure designed to maintain the same manufacturing standard across repeat orders.",
+          "meta": "Sample · Serial Production · Continuity"
+        },
+        "delivery": {
+          "title": "Packaging & Delivery",
+          "description": "An appropriate packaging and shipment approach is established according to product structure, transportation conditions and customer requirements.",
+          "meta": "Packaging · Shipment · Delivery"
+        }
+      }
+    },
+    "cta": {
+      "eyebrow": "Production for Your Industry",
+      "title": "Let's develop the right manufacturing solution for your project.",
+      "description": "Share your technical drawing, sample or project details with us. Together, we can evaluate manufacturability, process requirements and suitability for repeatable production.",
+      "note": "A manufacturing approach shaped around your project, from custom parts to repeatable production requirements.",
+      "primaryAction": "Discuss Your Project",
+      "secondaryAction": "Explore Our Capabilities"
+    }
+  },
+  "industryDetail": {
+    "automotive": {
+      "name": "Otomotiv",
+      "hero": {
+        "eyebrow": "AUTOMOTIVE INDUSTRY",
+        "title": "Manufacturing solutions for automotive wire, tube and metal components.",
+        "description": "We develop project-specific manufacturing solutions for wire, tube, bent and welded metal components used in automotive applications, with a focus on manufacturability, repeatability and technical requirements.",
+        "primaryAction": "Discuss Your Project",
+        "secondaryAction": "Explore Manufacturing Capabilities",
+        "imageAlt": "MBA Metal automotive wire, tube and metal component manufacturing",
+        "scrollLabel": "Explore Automotive Solutions",
+        "visualLabel": "Manufacturing System",
+        "productionLabel": "Component Manufacturing",
+        "productionMeta": "Wire • Tube • Welding • Forming",
+        "badge": "Automotive Manufacturing"
+      },
+      "overview": {
+        "eyebrow": "Manufacturing for Automotive",
+        "title": "We evaluate the manufacturing requirement, not just the part.",
+        "description": "Manufacturability in automotive projects depends not only on geometry, but also on material, tolerances, application and repeatable production requirements.",
+        "imageAlt": "MBA Metal automotive metal component manufacturing process",
+        "imageCaption": "An approach that considers the complete manufacturing process, from geometry to production.",
+        "statement": "We consider not only the shape of the component, but also the technical requirements that make its production feasible and repeatable.",
+        "inputLabel": "Production evaluation",
+        "inputs": {
+          "technicalDrawing": "Technical drawing",
+          "sample": "Sample / existing part",
+          "material": "Material",
+          "tolerance": "Critical dimensions and tolerances",
+          "quantity": "Production quantity"
+        },
+        "note": "If the technical drawing is not yet complete, an initial manufacturability assessment can also be made using a sample, approximate dimensions and application information."
+      },
+      "applicationsSection": {
+        "eyebrow": "Automotive Applications",
+        "title": "From technical requirements to manufacturable components.",
+        "description": "For automotive projects with different geometries, materials and production requirements, we evaluate wire, tube and metal forming processes according to the needs of the project.",
+        "noteLabel": "Application approach",
+        "note": "The applications shown represent manufacturing capabilities. The final process is determined according to the technical drawing, material, tolerances, production quantity and project requirements."
+      },
+      "applications": {
+        "wireForm": {
+          "title": "Wire Formed Components",
+          "description": "Forming custom geometries for connection, fastening and support applications according to technical requirements."
+        },
+        "weldedComponents": {
+          "title": "Welded Subcomponents",
+          "description": "Combining wire, tube and metal parts into subcomponents according to project requirements."
+        },
+        "bentParts": {
+          "title": "Bent Metal Components",
+          "description": "Metal forming applications performed according to the angles, forms and dimensions defined in the technical drawing."
+        },
+        "tubeParts": {
+          "title": "Tube Components",
+          "description": "Tube parts bent, formed and, where required, joined according to project geometry and application requirements."
+        }
+      },
+      "requirementsSection": {
+        "eyebrow": "Manufacturing Requirements",
+        "title": "In automotive manufacturing, geometry alone is not enough.",
+        "description": "Along with the application of the component, tolerances, process stability and the ability to reproduce the same result must be evaluated together.",
+        "statementLabel": "Manufacturing approach",
+        "statement": "The manufacturing method is evaluated according to technical requirements at the beginning of the project. The objective is not only to manufacture the component, but to maintain the same geometry and quality level throughout production."
+      },
+      "requirements": {
+        "repeatability": {
+          "title": "Repeatability",
+          "description": "In serial or repeat production, the objective is to maintain consistent geometry and manufacturing results across components."
+        },
+        "tolerance": {
+          "title": "Critical Dimensions & Tolerances",
+          "description": "Dimensions and tolerances that affect component functionality are evaluated together with the manufacturing and inspection approach."
+        },
+        "process": {
+          "title": "Process Stability",
+          "description": "Bending, forming and joining operations are planned to be performed in a controlled and sustainable manner."
+        },
+        "quality": {
+          "title": "Quality Control",
+          "description": "Compliance of the manufactured component with technical requirements is evaluated through dimensional and visual inspections."
+        }
+      },
+      "productionSection": {
+        "eyebrow": "Manufacturing Capabilities",
+        "title": "We match component requirements with the appropriate manufacturing process.",
+        "description": "Not every component requires the same manufacturing method. Geometry, material, joining points and production volume are evaluated to determine an appropriate process approach.",
+        "needLabel": "Industry requirement",
+        "solutionLabel": "MBA Metal manufacturing approach",
+        "noteLabel": "Process selection",
+        "note": "The manufacturing method is determined by evaluating the technical drawing, material, tolerances, production volume and application requirements together rather than considering geometry alone."
+      },
+      "production": {
+        "wire": {
+          "need": "Wire geometries",
+          "solution": "2D / 3D wire bending"
+        },
+        "joining": {
+          "need": "Component joining",
+          "solution": "Welding / spot welding"
+        },
+        "forming": {
+          "need": "Metal forming requirements",
+          "solution": "Bending / forming"
+        },
+        "repeat": {
+          "need": "Repeat production",
+          "solution": "Jig & fixture approach"
+        },
+        "control": {
+          "need": "Product verification",
+          "solution": "Dimensional / visual inspection"
+        }
+      }
+    },
+    "whiteGoods": {
+      "name": "Home Appliances",
+      "hero": {
+        "eyebrow": "Home Appliances",
+        "title": "Metal component solutions designed for serial production.",
+        "description": "For home appliance projects, we evaluate wire forming, metal bending, welded subcomponents and custom manufacturing requirements according to technical specifications.",
+        "capabilities": {
+          "wireForm": "Wire Forming",
+          "metalForm": "Metal Bending & Forming",
+          "welding": "Welding & Spot Welding",
+          "repeatProduction": "Repeat Production"
+        },
+        "imageAlt": "Metal component manufacturing for the home appliance industry",
+        "imageCaption": "Metal components designed for serial production"
+      },
+      "overview": {
+        "eyebrow": "Industry Approach",
+        "title": "Consistency and process stability for high-volume production.",
+        "description": "Metal components used in the home appliance industry are evaluated by considering component geometry, assembly requirements, tolerances and production volumes together.",
+        "imageAlt": "Metal component manufacturing application for home appliances",
+        "imageCaption": "A process-driven approach to repeatable manufacturing",
+        "statement": "From technical requirements to serial production, we evaluate the component together with the entire manufacturing process.",
+        "inputLabel": "Manufacturing inputs",
+        "inputs": {
+          "technicalDrawing": "Technical drawing and component geometry",
+          "sample": "Sample or reference component",
+          "material": "Material and surface requirements",
+          "tolerance": "Critical dimensions and tolerances",
+          "quantity": "Production volume and serial production requirements"
+        },
+        "note": "The manufacturing method is determined by evaluating the component application, technical requirements and target production volume together."
+      },
+      "applicationsSection": {
+        "eyebrow": "Home Appliance Applications",
+        "title": "Manufacturable metal components for different product groups.",
+        "description": "Wire forming, welding, bending and metal forming processes are evaluated according to the intended application and technical requirements of the component.",
+        "noteLabel": "Application approach",
+        "note": "The applications shown represent manufacturing capabilities. The final manufacturing method is determined according to the technical drawing, material, tolerances, production volume and project requirements."
+      },
+      "applications": {
+        "wireForm": {
+          "title": "Wire Formed Components",
+          "description": "Forming custom wire geometries according to technical requirements for racks, supports, connections and fastening applications."
+        },
+        "weldedComponents": {
+          "title": "Welded Subcomponents",
+          "description": "Combining multiple metal parts through welding or spot welding operations to create production-ready subcomponents."
+        },
+        "bentParts": {
+          "title": "Bent Metal Components",
+          "description": "Manufacturing metal components according to the angles, forms and dimensions defined in technical drawings through controlled bending and forming processes."
+        },
+        "serialComponents": {
+          "title": "Serial Production Components",
+          "description": "A process approach designed to maintain consistent geometry and manufacturing results in projects requiring repeat production."
+        }
+      },
+      "requirementsSection": {
+        "eyebrow": "Manufacturing Requirements",
+        "title": "In serial production, every component must deliver a consistent result.",
+        "description": "For home appliance components, geometry, dimensional stability, manufacturing repeatability, surface quality and process continuity are evaluated together.",
+        "statementLabel": "Manufacturing approach",
+        "statement": "Every stage of manufacturing, from process selection to inspection methods, is evaluated with the objective of maintaining the same technical requirements across high production volumes."
+      },
+      "requirements": {
+        "repeatability": {
+          "title": "Repeatability",
+          "description": "The objective is to maintain consistent geometry and manufacturing results between components throughout serial production."
+        },
+        "dimensionalStability": {
+          "title": "Dimensional Stability",
+          "description": "Critical dimensions affecting assembly and product functionality are intended to remain within the defined tolerances."
+        },
+        "serialProduction": {
+          "title": "Serial Production Compatibility",
+          "description": "The manufacturing method is evaluated with process stability in mind for repeat and high-volume production requirements."
+        },
+        "surfaceQuality": {
+          "title": "Surface & Visual Quality",
+          "description": "Depending on the application, surface condition, deformation and visual conformity are evaluated as part of the manufacturing process."
+        }
+      },
+      "productionSection": {
+        "eyebrow": "Manufacturing Capabilities",
+        "title": "We match technical requirements with the appropriate manufacturing process.",
+        "description": "Component geometry, joining points, material properties and production volume are evaluated to determine an appropriate manufacturing approach for the project.",
+        "needLabel": "Industry requirement",
+        "solutionLabel": "MBA Metal manufacturing approach",
+        "noteLabel": "Process selection",
+        "note": "The manufacturing method is determined by evaluating the technical drawing, material, tolerances, production volume and application requirements together."
+      },
+      "production": {
+        "wire": {
+          "need": "Wire component geometries",
+          "solution": "2D / 3D wire bending and forming"
+        },
+        "joining": {
+          "need": "Component joining",
+          "solution": "Welding / spot welding applications"
+        },
+        "forming": {
+          "need": "Metal forming requirements",
+          "solution": "Bending / forming"
+        },
+        "repeat": {
+          "need": "High-volume repeat production",
+          "solution": "Jig & fixture supported manufacturing"
+        },
+        "control": {
+          "need": "Manufacturing result verification",
+          "solution": "Dimensional / visual inspection"
+        }
+      }
+    },
+    "retail": {
+      "name": "Retail & Store Fixtures",
+      "hero": {
+        "eyebrow": "Retail & Store Fixtures",
+        "title": "Manufacturable metal solutions for retail and display systems.",
+        "description": "For retail and store fixture projects, we evaluate wire forming, welded components, metal forming and custom manufacturing requirements according to technical specifications.",
+        "capabilities": {
+          "wireForm": "Wire Forming",
+          "metalForm": "Metal Forming",
+          "welding": "Welding & Spot Welding",
+          "repeatProduction": "Serial Production"
+        },
+        "imageAlt": "Metal component solutions for retail and store fixture applications",
+        "imageCaption": "From technical requirements to repeatable store fixture production.",
+        "visualLabel": "Manufacturing System",
+        "productionLabel": "Store Components",
+        "productionMeta": "Wire • Metal • Welding • Forming",
+        "badge": "Retail Manufacturing"
+      },
+      "overview": {
+        "eyebrow": "Industry Approach",
+        "title": "Function, visual quality and repeatable manufacturing together.",
+        "description": "Metal components used in store fixtures, shelving systems and display applications are evaluated together with product geometry, intended use, connection points and production volumes.",
+        "secondaryDescription": "At MBA Metal, we provide a manufacturing approach extending from technical drawings to serial production for wire parts, welded structures and formed metal components.",
+        "highlight": "The objective is to produce components that perform their function in retail environments while maintaining visual consistency and repeatability.",
+        "statement": "The manufacturing approach is determined by considering the product's application, load requirements, connection details, visual expectations and production volume.",
+        "inputLabel": "Project Inputs",
+        "inputs": {
+          "technicalDrawing": "Technical drawing",
+          "sample": "Sample / reference product",
+          "material": "Material information",
+          "tolerance": "Dimensions & tolerances",
+          "quantity": "Production volume"
+        },
+        "note": "Technical data is evaluated for manufacturability to establish the appropriate process, tooling and control approach for the project.",
+        "imageAlt": "Wire and metal component manufacturing for retail applications",
+        "imageCaption": "Repeatable metal component manufacturing for store fixtures"
+      },
+      "applicationsSection": {
+        "eyebrow": "Retail Applications",
+        "title": "Metal components that shape retail environments.",
+        "description": "From shelving and basket systems to product display equipment, we evaluate wire and metal components according to project-specific requirements.",
+        "noteLabel": "Application Approach",
+        "note": "The applications shown represent manufacturing capabilities. The final production method is determined according to technical drawings, material, geometry, surface expectations and production volume."
+      },
+      "applications": {
+        "wireSystems": {
+          "title": "Wire Shelves & Basket Systems",
+          "description": "Forming wire shelves, baskets and similar geometries used for product display, storage and organization applications."
+        },
+        "weldedComponents": {
+          "title": "Welded Wire Components",
+          "description": "Joining wire and metal parts through welding or spot-welding operations to create subcomponents suitable for retail equipment."
+        },
+        "displayComponents": {
+          "title": "Display & Stand Components",
+          "description": "Manufacturing custom wire and metal parts used in product display stands and in-store systems according to project geometry."
+        },
+        "customEquipment": {
+          "title": "Custom Store Equipment",
+          "description": "Project-specific evaluation of store fixture components with non-standard dimensions and geometries according to technical requirements."
+        }
+      },
+      "requirementsSection": {
+        "eyebrow": "Manufacturing Requirements",
+        "title": "Manufacturing consistency matters as much as function in store fixtures.",
+        "description": "Dimensional accuracy, joining quality, visual consistency and repeatable manufacturing are evaluated together for components used in retail applications.",
+        "statementLabel": "Manufacturing Approach",
+        "statement": "Each component is evaluated with suitable processes according to assembly points, operating conditions, visual expectations and production volumes.",
+        "itemLabel": "Technical Requirement"
+      },
+      "requirements": {
+        "dimensionalConsistency": {
+          "title": "Dimensional Consistency",
+          "description": "Critical dimensions are maintained so that shelves, baskets, stands and connection components can fit together correctly during assembly."
+        },
+        "joiningQuality": {
+          "title": "Joining & Welding Quality",
+          "description": "For welded and spot-welded components, connection points are expected to remain consistent and suitable for the intended application."
+        },
+        "visualQuality": {
+          "title": "Visual Quality",
+          "description": "For store equipment directly visible to customers, deformation, surface condition and overall appearance are considered important parts of the manufacturing process."
+        },
+        "repeatProduction": {
+          "title": "Repeatable Manufacturing",
+          "description": "For recurring orders or common store concepts, component geometry and manufacturing results are expected to remain consistent."
+        }
+      },
+      "productionSection": {
+        "eyebrow": "Manufacturing Capabilities",
+        "title": "We connect store fixture requirements with the appropriate manufacturing process.",
+        "description": "Wire geometry, connection points, metal forming requirements and production volume are evaluated to determine the appropriate process combination.",
+        "needLabel": "Industry Requirement",
+        "solutionLabel": "MBA Metal Manufacturing Approach",
+        "noteLabel": "Process Selection",
+        "note": "The manufacturing method is determined by evaluating technical drawings, samples, material, tolerances, surface expectations and order volume together."
+      },
+      "production": {
+        "wire": {
+          "need": "Wire shelves, baskets and custom wire geometries",
+          "solution": "2D / 3D wire bending and forming"
+        },
+        "joining": {
+          "need": "Joining wire and metal components",
+          "solution": "Welding / spot-welding applications"
+        },
+        "forming": {
+          "need": "Bent and formed metal parts",
+          "solution": "Metal bending / forming"
+        },
+        "custom": {
+          "need": "Project-specific store equipment",
+          "solution": "Fixture and tooling-supported custom manufacturing"
+        },
+        "control": {
+          "need": "Repeatable production and product verification",
+          "solution": "Dimensional / visual inspection"
+        }
+      }
+    },
+    "logistics": {
+      "name": "Logistics & Transportation",
+      "hero": {
+        "eyebrow": "Logistics & Transportation",
+        "title": "Durable metal components for transportation and storage systems.",
+        "description": "We evaluate wire, welded and formed metal components used in logistics and transportation applications according to operating conditions, load requirements and technical specifications.",
+        "capabilities": {
+          "wireForm": "Wire Forming",
+          "metalForm": "Metal Bending & Forming",
+          "welding": "Welding & Spot Welding",
+          "repeatProduction": "Serial Production"
+        },
+        "imageAlt": "Metal component manufacturing for logistics and transportation applications",
+        "imageCaption": "Manufacturable metal solutions for transportation and storage applications.",
+        "visualLabel": "Manufacturing System",
+        "productionLabel": "Logistics Components",
+        "productionMeta": "Wire • Metal • Welding • Forming",
+        "badge": "Logistics-Focused Manufacturing"
+      },
+      "overview": {
+        "eyebrow": "Industry Approach",
+        "title": "A manufacturing approach designed for repeated use and operational conditions.",
+        "description": "Metal components used in logistics and transportation systems are evaluated together with product geometry, transportation conditions, load requirements, connection points and production volumes.",
+        "secondaryDescription": "At MBA Metal, we apply our wire forming, metal bending and welded manufacturing capabilities to components used in transportation, storage and material handling applications.",
+        "highlight": "The objective is to manufacture components suitable for their operating conditions while maintaining dimensional consistency and repeatability.",
+        "statement": "The manufacturing approach is determined by evaluating component geometry, operating conditions, load expectations, connection details and production volume together.",
+        "inputLabel": "Project Inputs",
+        "inputs": {
+          "technicalDrawing": "Technical drawing",
+          "sample": "Sample / reference product",
+          "material": "Material information",
+          "tolerance": "Dimensions & tolerances",
+          "quantity": "Production volume"
+        },
+        "note": "Technical data is evaluated for manufacturability to establish the appropriate process, tooling, fixture and inspection approach for the project.",
+        "imageAlt": "Metal component manufacturing for logistics applications",
+        "imageCaption": "Repeatable component manufacturing for transportation and storage systems"
+      },
+      "applicationsSection": {
+        "eyebrow": "Logistics Applications",
+        "title": "Metal components for transportation and storage processes.",
+        "description": "From wire structures to welded transportation components, we evaluate different applications according to operating conditions and project-specific technical requirements.",
+        "noteLabel": "Application Approach",
+        "note": "The applications shown represent manufacturing capabilities. The final production method is determined according to technical drawings, material, geometry, load requirements and production volume."
+      },
+      "applications": {
+        "transportCages": {
+          "title": "Transport Cages & Structures",
+          "description": "Manufacturing wire and metal structures for transportation and storage operations according to project-specific geometries."
+        },
+        "wireComponents": {
+          "title": "Formed Wire Components",
+          "description": "Forming custom wire geometries used for fixing, supporting, separating and transportation systems according to technical requirements."
+        },
+        "bentComponents": {
+          "title": "Bent Metal Components",
+          "description": "Forming metal parts used in transportation and storage equipment according to the angles, shapes and dimensions defined in technical drawings."
+        },
+        "customSolutions": {
+          "title": "Custom Transportation Solutions",
+          "description": "Project-specific evaluation of transportation or storage components with non-standard geometries and operating requirements."
+        }
+      },
+      "requirementsSection": {
+        "eyebrow": "Manufacturing Requirements",
+        "title": "Operational use defines the fundamental requirements of the manufacturing process.",
+        "description": "Load requirements, dimensional consistency, joining quality and repeatable manufacturing are evaluated together for components used in logistics applications.",
+        "statementLabel": "Manufacturing Approach",
+        "statement": "Each component is evaluated with suitable processes according to operating conditions, transportation requirements, connection points and production volumes.",
+        "itemLabel": "Technical Requirement"
+      },
+      "requirements": {
+        "loadResistance": {
+          "title": "Operating & Load Requirements",
+          "description": "Component geometry and the manufacturing approach are evaluated according to the operational and load requirements expected during use."
+        },
+        "dimensionalConsistency": {
+          "title": "Dimensional Consistency",
+          "description": "Critical dimensions affecting assembly, stacking or compatibility within the system are maintained throughout repeat production."
+        },
+        "joiningQuality": {
+          "title": "Joining & Welding Quality",
+          "description": "For welded and spot-welded components, connection points are expected to remain suitable for their intended use and consistent throughout production."
+        },
+        "repeatProduction": {
+          "title": "Repeatable Manufacturing",
+          "description": "Process stability is considered to maintain the same component geometry and manufacturing result across recurring orders."
+        }
+      },
+      "productionSection": {
+        "eyebrow": "Manufacturing Capabilities",
+        "title": "We connect logistics application requirements with the appropriate manufacturing process.",
+        "description": "Component geometry, connection points, metal forming requirements and production volume are evaluated to determine the appropriate process combination.",
+        "needLabel": "Industry Requirement",
+        "solutionLabel": "MBA Metal Manufacturing Approach",
+        "noteLabel": "Process Selection",
+        "note": "The manufacturing method is determined by evaluating technical drawings, samples, material, tolerances, operating conditions and production volume together."
+      },
+      "production": {
+        "wire": {
+          "need": "Custom wire geometries for transportation systems",
+          "solution": "2D / 3D wire bending and forming"
+        },
+        "joining": {
+          "need": "Joining wire and metal structures",
+          "solution": "Welding / spot-welding applications"
+        },
+        "forming": {
+          "need": "Bent and formed metal parts",
+          "solution": "Metal bending / forming"
+        },
+        "custom": {
+          "need": "Project-specific transportation and storage components",
+          "solution": "Fixture and tooling-supported custom manufacturing"
+        },
+        "control": {
+          "need": "Repeatable production and product verification",
+          "solution": "Dimensional / visual inspection"
+        }
+      }
+    },
+    "industrial": {
+      "name": "Industrial Manufacturing",
+      "hero": {
+        "eyebrow": "Industrial Manufacturing",
+        "title": "Metal component manufacturing shaped around technical requirements.",
+        "description": "For industrial projects, we evaluate wire forming, metal bending, welded subcomponents and custom manufacturing requirements according to technical drawings and production specifications.",
+        "capabilities": {
+          "wireForm": "Wire Forming",
+          "metalForm": "Metal Bending & Forming",
+          "welding": "Welding & Spot Welding",
+          "repeatProduction": "Serial Production"
+        },
+        "imageAlt": "Industrial metal component manufacturing",
+        "imageCaption": "From technical requirements to manufacturable and repeatable components.",
+        "visualLabel": "Manufacturing System",
+        "productionLabel": "Industrial Components",
+        "productionMeta": "Wire • Metal • Welding • Forming",
+        "badge": "Industrial Manufacturing"
+      },
+      "overview": {
+        "eyebrow": "Industry Approach",
+        "title": "We transform technical requirements into manufacturable processes.",
+        "description": "Components used in industrial applications are evaluated by considering technical drawings, part geometry, material, tolerances, joining details and production volumes together.",
+        "secondaryDescription": "At MBA Metal, we combine our wire forming, metal bending, welding and custom manufacturing capabilities according to the component requirements of different industrial projects.",
+        "highlight": "The objective is not only to manufacture the part defined in the technical drawing, but also to establish a manufacturable, controllable and repeatable process.",
+        "statement": "Each project is transformed into an appropriate manufacturing process by evaluating geometry, material, tolerances, production volume and application requirements together.",
+        "inputLabel": "Project Inputs",
+        "inputs": {
+          "technicalDrawing": "Technical drawing",
+          "sample": "Sample / reference product",
+          "material": "Material information",
+          "tolerance": "Dimensions & tolerances",
+          "quantity": "Production volume"
+        },
+        "note": "Project inputs are evaluated for manufacturability to determine process, tooling, fixture and inspection requirements.",
+        "imageAlt": "Industrial component manufacturing process",
+        "imageCaption": "Metal component manufacturing planned according to technical requirements"
+      },
+      "applicationsSection": {
+        "eyebrow": "Industrial Applications",
+        "title": "Manufacturable components for different industrial requirements.",
+        "description": "From wire parts and welded subassemblies to custom metal geometries, we evaluate different component requirements according to project specifications.",
+        "noteLabel": "Application Approach",
+        "note": "The applications shown represent manufacturing capabilities. The final process is determined according to technical drawings, material, tolerances, geometry and production volume."
+      },
+      "applications": {
+        "wireComponents": {
+          "title": "Formed Wire Components",
+          "description": "Forming custom wire geometries used in industrial equipment and systems according to technical drawings and project requirements."
+        },
+        "weldedAssemblies": {
+          "title": "Welded Subcomponents",
+          "description": "Joining wire and metal parts through welding or spot-welding operations to create production-ready subcomponents."
+        },
+        "formedParts": {
+          "title": "Bent & Formed Parts",
+          "description": "Manufacturing metal parts through controlled bending and forming processes according to the angles, dimensions and geometries defined in technical drawings."
+        },
+        "customComponents": {
+          "title": "Custom Components",
+          "description": "Evaluating non-standard geometries for manufacturability based on samples or technical drawings."
+        }
+      },
+      "requirementsSection": {
+        "eyebrow": "Manufacturing Requirements",
+        "title": "A reliable component starts with the right process planning.",
+        "description": "Manufacturability, tolerances, process stability and inspection approach are evaluated together in industrial component manufacturing.",
+        "statementLabel": "Manufacturing Approach",
+        "statement": "Technical requirements determine not only the geometry of the part, but also the processes, tooling requirements and inspection methods to be used.",
+        "itemLabel": "Technical Requirement"
+      },
+      "requirements": {
+        "manufacturability": {
+          "title": "Manufacturability",
+          "description": "Part geometry, material and technical requirements are evaluated together to determine suitable manufacturing processes."
+        },
+        "tolerance": {
+          "title": "Dimensions & Tolerance Management",
+          "description": "Critical dimensions affecting product function or assembly compatibility are managed with the objective of maintaining defined tolerances."
+        },
+        "processStability": {
+          "title": "Process Stability",
+          "description": "Process, tooling and fixture approaches are considered together to maintain consistent geometry and manufacturing results throughout repeat production."
+        },
+        "qualityControl": {
+          "title": "Production Inspection",
+          "description": "Manufacturing results are evaluated through dimensional and visual inspections according to project requirements to verify technical expectations."
+        }
+      },
+      "productionSection": {
+        "eyebrow": "Manufacturing Capabilities",
+        "title": "We match technical requirements with the appropriate manufacturing processes.",
+        "description": "Part geometry, joining points, material, tolerances and production volume are evaluated to establish the appropriate process combination for each project.",
+        "needLabel": "Manufacturing Requirement",
+        "solutionLabel": "MBA Metal Manufacturing Approach",
+        "noteLabel": "Process Selection",
+        "note": "The manufacturing method is determined by evaluating technical drawings, samples, material, tolerances, production volume and application requirements together."
+      },
+      "production": {
+        "wire": {
+          "need": "Custom wire geometries",
+          "solution": "2D / 3D wire bending and forming"
+        },
+        "joining": {
+          "need": "Component and subassembly joining",
+          "solution": "Welding / spot-welding applications"
+        },
+        "forming": {
+          "need": "Bent and formed metal parts",
+          "solution": "Metal bending / forming"
+        },
+        "custom": {
+          "need": "Project-specific component manufacturing",
+          "solution": "Fixture and tooling-supported custom manufacturing"
+        },
+        "control": {
+          "need": "Manufacturing result verification",
+          "solution": "Dimensional / visual inspection"
+        }
+      }
+    }
+  }
+}

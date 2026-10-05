@@ -1,0 +1,3 @@
+export {
+    IndustryDetail,
+} from './IndustryDetail';

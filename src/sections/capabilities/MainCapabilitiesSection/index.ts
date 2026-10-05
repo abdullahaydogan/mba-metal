@@ -1,0 +1,1 @@
+export { MainCapabilitiesSection } from './MainCapabilitiesSection';

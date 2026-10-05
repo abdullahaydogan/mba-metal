@@ -1,0 +1,1 @@
+export { CapabilitiesFaqSection } from './CapabilitiesFaqSection';

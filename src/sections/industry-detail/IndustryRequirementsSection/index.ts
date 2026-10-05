@@ -1,0 +1,3 @@
+export {
+    IndustryRequirementsSection,
+} from './IndustryRequirementsSection';
