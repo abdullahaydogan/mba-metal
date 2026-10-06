@@ -22,13 +22,6 @@ import { routes } from '../../../constants/routes';
 
 const MotionBox = motion.create(Box);
 
-const industryKeys = [
-    'automotive',
-    'whiteGoods',
-    'retail',
-    'industrial',
-] as const;
-
 export default function HeroSection() {
     const { t } = useTranslation();
 
@@ -53,8 +46,8 @@ export default function HeroSection() {
                 },
 
                 minHeight: {
-                    xs: 720,
-                    md: 760,
+                    xs: 680,
+                    md: 720,
                 },
 
                 display: 'flex',
@@ -242,10 +235,10 @@ export default function HeroSection() {
                     width: '100%',
 
                     py: {
-                        xs: 11,
-                        sm: 12,
-                        md: 10,
-                        lg: 9,
+                        xs: 10,
+                        sm: 11,
+                        md: 9,
+                        lg: 8,
                     },
                 }}
             >
@@ -253,20 +246,19 @@ export default function HeroSection() {
                     sx={{
                         width: {
                             xs: '100%',
-                            md: '82%',
-                            lg: '62%',
-                            xl: '60%',
+                            md: '78%',
+                            lg: '60%',
+                            xl: '58%',
                         },
 
                         pt: {
-                            xs: 5,
-                            md: 3,
-                            lg: 2,
+                            xs: 4,
+                            md: 2,
                         },
 
                         pb: {
-                            xs: 5,
-                            md: 3,
+                            xs: 4,
+                            md: 2,
                         },
                     }}
                 >
@@ -293,25 +285,25 @@ export default function HeroSection() {
                             component="h1"
                             sx={{
                                 fontSize: {
-                                    xs: 'clamp(2.7rem, 10vw, 4rem)',
-                                    sm: 'clamp(3rem, 8vw, 4.5rem)',
-                                    md: 'clamp(3.5rem, 5.2vw, 5rem)',
-                                    lg: 'clamp(3.8rem, 4.6vw, 5.2rem)',
-                                    xl: '5.4rem',
+                                    xs: 'clamp(2.35rem, 9vw, 3.4rem)',
+                                    sm: 'clamp(2.7rem, 7vw, 3.8rem)',
+                                    md: 'clamp(3rem, 4.5vw, 4.2rem)',
+                                    lg: 'clamp(3.2rem, 3.8vw, 4.4rem)',
+                                    xl: '4.6rem',
                                 },
 
-                                lineHeight: 0.98,
+                                lineHeight: 1,
 
-                                letterSpacing: '-0.045em',
+                                letterSpacing: '-0.04em',
 
                                 fontWeight: 600,
 
                                 color: 'common.white',
 
                                 maxWidth: {
-                                    xs: 650,
-                                    md: 850,
-                                    lg: 1000,
+                                    xs: 620,
+                                    md: 820,
+                                    lg: 940,
                                 },
 
                                 textShadow:
@@ -354,15 +346,15 @@ export default function HeroSection() {
                         <Typography
                             sx={{
                                 mt: {
-                                    xs: 3,
-                                    md: 3.5,
+                                    xs: 2.5,
+                                    md: 3,
                                 },
 
-                                maxWidth: 680,
+                                maxWidth: 650,
 
                                 fontSize: {
-                                    xs: '0.95rem',
-                                    md: '1.05rem',
+                                    xs: '0.9rem',
+                                    md: '0.98rem',
                                 },
 
                                 lineHeight: 1.7,
@@ -403,8 +395,8 @@ export default function HeroSection() {
                             spacing={1.5}
                             sx={{
                                 mt: {
-                                    xs: 3.5,
-                                    md: 4,
+                                    xs: 3,
+                                    md: 3.5,
                                 },
 
                                 alignItems: {
@@ -477,70 +469,6 @@ export default function HeroSection() {
                                     'navigation.capabilities'
                                 )}
                             </Button>
-                        </Stack>
-                    </MotionBox>
-
-                    {/* =====================================================
-                        INDUSTRY LABELS
-                    ===================================================== */}
-
-                    <MotionBox
-                        initial={{
-                            opacity: 0,
-                        }}
-                        animate={{
-                            opacity: 1,
-                        }}
-                        transition={{
-                            duration: 0.8,
-                            delay: 0.62,
-                        }}
-                    >
-                        <Stack
-                            direction="row"
-                            sx={{
-                                mt: {
-                                    xs: 4.5,
-                                    md: 5,
-                                },
-
-                                flexWrap: 'wrap',
-
-                                gap: {
-                                    xs: 2,
-                                    md: 3,
-                                },
-                            }}
-                        >
-                            {industryKeys.map(
-                                (industryKey) => (
-                                    <Typography
-                                        key={
-                                            industryKey
-                                        }
-                                        variant="caption"
-                                        sx={{
-                                            fontWeight: 600,
-
-                                            letterSpacing:
-                                                '0.08em',
-
-                                            textTransform:
-                                                'uppercase',
-
-                                            color:
-                                                'common.white',
-
-                                            textShadow:
-                                                '0 2px 12px rgba(0,0,0,0.32)',
-                                        }}
-                                    >
-                                        {t(
-                                            `home.hero.industries.${industryKey}`
-                                        )}
-                                    </Typography>
-                                )
-                            )}
                         </Stack>
                     </MotionBox>
                 </Box>
