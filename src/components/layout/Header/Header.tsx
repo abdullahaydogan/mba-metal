@@ -148,10 +148,7 @@ export function Header() {
      */
 
     const desktopNavigationItems =
-        navigationItems.filter(
-            (item) =>
-                item.id !== 'home'
-        );
+        navigationItems;
 
     const handleLanguageToggle =
         () => {
@@ -221,13 +218,13 @@ export function Header() {
                                 (theme) =>
                                     theme.palette
                                         .mode ===
-                                    'dark'
+                                        'dark'
                                         ? scrolled
                                             ? 'rgba(255,255,255,0.12)'
                                             : 'rgba(255,255,255,0.09)'
                                         : scrolled
-                                          ? 'rgba(13,52,36,0.13)'
-                                          : 'rgba(13,52,36,0.09)',
+                                            ? 'rgba(13,52,36,0.13)'
+                                            : 'rgba(13,52,36,0.09)',
 
                             borderRadius: {
                                 xs: '12px',
@@ -238,13 +235,13 @@ export function Header() {
                                 (theme) =>
                                     theme.palette
                                         .mode ===
-                                    'dark'
+                                        'dark'
                                         ? scrolled
                                             ? 'rgba(9,16,13,0.94)'
                                             : 'rgba(9,16,13,0.82)'
                                         : scrolled
-                                          ? 'rgba(255,255,255,0.96)'
-                                          : 'rgba(255,255,255,0.88)',
+                                            ? 'rgba(255,255,255,0.96)'
+                                            : 'rgba(255,255,255,0.88)',
 
                             backdropFilter:
                                 'blur(24px) saturate(150%)',
@@ -256,13 +253,13 @@ export function Header() {
                                 (theme) =>
                                     theme.palette
                                         .mode ===
-                                    'dark'
+                                        'dark'
                                         ? scrolled
                                             ? '0 16px 45px rgba(0,0,0,0.28)'
                                             : '0 12px 35px rgba(0,0,0,0.16)'
                                         : scrolled
-                                          ? '0 18px 50px rgba(17,54,39,0.10)'
-                                          : '0 12px 35px rgba(17,54,39,0.06)',
+                                            ? '0 18px 50px rgba(17,54,39,0.10)'
+                                            : '0 12px 35px rgba(17,54,39,0.06)',
 
                             overflow:
                                 'hidden',
@@ -385,7 +382,7 @@ export function Header() {
                                     (theme) =>
                                         theme.palette
                                             .mode ===
-                                        'dark'
+                                            'dark'
                                             ? 'rgba(255,255,255,0.09)'
                                             : 'rgba(17,54,39,0.10)',
                             }}
@@ -399,7 +396,7 @@ export function Header() {
                             component="nav"
                             aria-label={
                                 language ===
-                                'tr'
+                                    'tr'
                                     ? 'Ana navigasyon'
                                     : 'Main navigation'
                             }
@@ -500,10 +497,10 @@ export function Header() {
                                                         'nowrap',
 
                                                     fontSize:
-                                                        {
-                                                            lg: '0.72rem',
-                                                            xl: '0.78rem',
-                                                        },
+                                                    {
+                                                        lg: '0.72rem',
+                                                        xl: '0.78rem',
+                                                    },
 
                                                     fontWeight:
                                                         active
@@ -521,85 +518,85 @@ export function Header() {
                                                      * durum göstergesi.
                                                      */
                                                     '&::before':
-                                                        {
-                                                            content:
-                                                                '""',
+                                                    {
+                                                        content:
+                                                            '""',
 
-                                                            position:
-                                                                'absolute',
+                                                        position:
+                                                            'absolute',
 
-                                                            left:
-                                                                active
-                                                                    ? 10
-                                                                    : 14,
+                                                        left:
+                                                            active
+                                                                ? 10
+                                                                : 14,
 
-                                                            right:
-                                                                active
-                                                                    ? 10
-                                                                    : 'calc(100% - 14px)',
+                                                        right:
+                                                            active
+                                                                ? 10
+                                                                : 'calc(100% - 14px)',
 
-                                                            bottom: 5,
+                                                        bottom: 5,
 
-                                                            height:
-                                                                '1px',
+                                                        height:
+                                                            '1px',
 
-                                                            bgcolor:
-                                                                'primary.main',
+                                                        bgcolor:
+                                                            'primary.main',
 
-                                                            transition:
-                                                                'left 240ms cubic-bezier(0.22, 1, 0.36, 1), right 240ms cubic-bezier(0.22, 1, 0.36, 1)',
-                                                        },
+                                                        transition:
+                                                            'left 240ms cubic-bezier(0.22, 1, 0.36, 1), right 240ms cubic-bezier(0.22, 1, 0.36, 1)',
+                                                    },
 
                                                     /*
                                                      * Aktif linkte küçük
                                                      * endüstriyel marker.
                                                      */
                                                     '&::after':
-                                                        {
-                                                            content:
-                                                                '""',
+                                                    {
+                                                        content:
+                                                            '""',
 
-                                                            position:
-                                                                'absolute',
+                                                        position:
+                                                            'absolute',
 
-                                                            left: 1,
+                                                        left: 1,
 
-                                                            top: '50%',
+                                                        top: '50%',
 
-                                                            width:
-                                                                active
-                                                                    ? 4
-                                                                    : 0,
+                                                        width:
+                                                            active
+                                                                ? 4
+                                                                : 0,
 
-                                                            height:
-                                                                active
-                                                                    ? 4
-                                                                    : 0,
+                                                        height:
+                                                            active
+                                                                ? 4
+                                                                : 0,
 
-                                                            borderRadius:
-                                                                '50%',
+                                                        borderRadius:
+                                                            '50%',
 
-                                                            bgcolor:
-                                                                'primary.main',
+                                                        bgcolor:
+                                                            'primary.main',
 
-                                                            transform:
-                                                                'translateY(-50%)',
+                                                        transform:
+                                                            'translateY(-50%)',
 
-                                                            transition:
-                                                                'width 180ms ease, height 180ms ease',
-                                                        },
+                                                        transition:
+                                                            'width 180ms ease, height 180ms ease',
+                                                    },
 
                                                     '&:hover':
-                                                        {
-                                                            color:
-                                                                'text.primary',
+                                                    {
+                                                        color:
+                                                            'text.primary',
 
-                                                            '&::before':
-                                                                {
-                                                                    left: 10,
-                                                                    right: 10,
-                                                                },
+                                                        '&::before':
+                                                        {
+                                                            left: 10,
+                                                            right: 10,
                                                         },
+                                                    },
                                                 }}
                                             >
                                                 {t(
@@ -641,7 +638,7 @@ export function Header() {
                             <Tooltip
                                 title={
                                     language ===
-                                    'tr'
+                                        'tr'
                                         ? 'English'
                                         : 'Türkçe'
                                 }
@@ -654,7 +651,7 @@ export function Header() {
                                     }
                                     aria-label={
                                         language ===
-                                        'tr'
+                                            'tr'
                                             ? 'Switch to English'
                                             : 'Türkçeye geç'
                                     }
@@ -702,17 +699,17 @@ export function Header() {
                                             'background-color 180ms ease, color 180ms ease',
 
                                         '&:hover':
-                                            {
-                                                bgcolor:
-                                                    'action.hover',
+                                        {
+                                            bgcolor:
+                                                'action.hover',
 
-                                                color:
-                                                    'primary.main',
-                                            },
+                                            color:
+                                                'primary.main',
+                                        },
                                     }}
                                 >
                                     {language ===
-                                    'tr'
+                                        'tr'
                                         ? 'EN'
                                         : 'TR'}
                                 </Box>
@@ -723,15 +720,15 @@ export function Header() {
                             <Tooltip
                                 title={
                                     mode ===
-                                    'dark'
+                                        'dark'
                                         ? language ===
-                                          'tr'
+                                            'tr'
                                             ? 'Açık tema'
                                             : 'Light theme'
                                         : language ===
                                             'tr'
-                                          ? 'Koyu tema'
-                                          : 'Dark theme'
+                                            ? 'Koyu tema'
+                                            : 'Dark theme'
                                 }
                             >
                                 <IconButton
@@ -740,7 +737,7 @@ export function Header() {
                                     }
                                     aria-label={
                                         mode ===
-                                        'dark'
+                                            'dark'
                                             ? 'Light theme'
                                             : 'Dark theme'
                                     }
@@ -758,17 +755,17 @@ export function Header() {
                                             'background-color 180ms ease, color 180ms ease',
 
                                         '&:hover':
-                                            {
-                                                bgcolor:
-                                                    'action.hover',
+                                        {
+                                            bgcolor:
+                                                'action.hover',
 
-                                                color:
-                                                    'text.primary',
-                                            },
+                                            color:
+                                                'text.primary',
+                                        },
                                     }}
                                 >
                                     {mode ===
-                                    'dark' ? (
+                                        'dark' ? (
                                         <Sun
                                             size={
                                                 16
@@ -877,51 +874,51 @@ export function Header() {
                                         'transform 220ms cubic-bezier(0.22, 1, 0.36, 1), box-shadow 220ms ease',
 
                                     '&::before':
-                                        {
-                                            content:
-                                                '""',
+                                    {
+                                        content:
+                                            '""',
 
-                                            position:
-                                                'absolute',
+                                        position:
+                                            'absolute',
 
-                                            inset: 0,
+                                        inset: 0,
 
-                                            background:
-                                                'linear-gradient(110deg, transparent 20%, rgba(255,255,255,0.15) 50%, transparent 80%)',
+                                        background:
+                                            'linear-gradient(110deg, transparent 20%, rgba(255,255,255,0.15) 50%, transparent 80%)',
 
-                                            transform:
-                                                'translateX(-120%)',
+                                        transform:
+                                            'translateX(-120%)',
 
-                                            transition:
-                                                'transform 600ms cubic-bezier(0.22, 1, 0.36, 1)',
-                                        },
+                                        transition:
+                                            'transform 600ms cubic-bezier(0.22, 1, 0.36, 1)',
+                                    },
 
                                     '&:hover':
+                                    {
+                                        transform:
+                                            'translateY(-2px)',
+
+                                        boxShadow:
+                                            '0 14px 34px rgba(16,96,67,0.27)',
+
+                                        '&::before':
                                         {
                                             transform:
-                                                'translateY(-2px)',
-
-                                            boxShadow:
-                                                '0 14px 34px rgba(16,96,67,0.27)',
-
-                                            '&::before':
-                                                {
-                                                    transform:
-                                                        'translateX(120%)',
-                                                },
-
-                                            '& .quote-arrow':
-                                                {
-                                                    transform:
-                                                        'translate(2px, -2px)',
-                                                },
+                                                'translateX(120%)',
                                         },
+
+                                        '& .quote-arrow':
+                                        {
+                                            transform:
+                                                'translate(2px, -2px)',
+                                        },
+                                    },
 
                                     '&:active':
-                                        {
-                                            transform:
-                                                'translateY(0)',
-                                        },
+                                    {
+                                        transform:
+                                            'translateY(0)',
+                                    },
                                 }}
                             >
                                 <Box
@@ -997,7 +994,7 @@ export function Header() {
                                 }
                                 aria-label={
                                     language ===
-                                    'tr'
+                                        'tr'
                                         ? 'Switch to English'
                                         : 'Türkçeye geç'
                                 }
@@ -1051,20 +1048,20 @@ export function Header() {
                                         'color 180ms ease, border-color 180ms ease, background-color 180ms ease',
 
                                     '&:hover':
-                                        {
-                                            color:
-                                                'primary.main',
+                                    {
+                                        color:
+                                            'primary.main',
 
-                                            borderColor:
-                                                'primary.main',
+                                        borderColor:
+                                            'primary.main',
 
-                                            bgcolor:
-                                                'action.hover',
-                                        },
+                                        bgcolor:
+                                            'action.hover',
+                                    },
                                 }}
                             >
                                 {language ===
-                                'tr'
+                                    'tr'
                                     ? 'EN'
                                     : 'TR'}
                             </Box>
@@ -1077,7 +1074,7 @@ export function Header() {
                                 }
                                 aria-label={
                                     language ===
-                                    'tr'
+                                        'tr'
                                         ? 'Menüyü aç'
                                         : 'Open menu'
                                 }
@@ -1104,16 +1101,16 @@ export function Header() {
                                         'border-color 180ms ease, background-color 180ms ease, color 180ms ease',
 
                                     '&:hover':
-                                        {
-                                            borderColor:
-                                                'primary.main',
+                                    {
+                                        borderColor:
+                                            'primary.main',
 
-                                            bgcolor:
-                                                'action.hover',
+                                        bgcolor:
+                                            'action.hover',
 
-                                            color:
-                                                'primary.main',
-                                        },
+                                        color:
+                                            'primary.main',
+                                    },
                                 }}
                             >
                                 <Menu

@@ -47,9 +47,14 @@ export default function HeroSection() {
             sx={{
                 position: 'relative',
 
+                height: {
+                    xs: 'auto',
+                    md: '100svh',
+                },
+
                 minHeight: {
-                    xs: 'calc(100svh - 72px)',
-                    md: 'calc(100svh - 84px)',
+                    xs: 720,
+                    md: 760,
                 },
 
                 display: 'flex',
@@ -67,7 +72,7 @@ export default function HeroSection() {
             <MotionBox
                 initial={{
                     opacity: 0,
-                    scale: 1.05,
+                    scale: 1.03,
                 }}
                 animate={{
                     opacity: 1,
@@ -100,30 +105,30 @@ export default function HeroSection() {
                             xs: `
                                 linear-gradient(
                                     90deg,
-                                    rgba(7, 17, 12, 0.95) 0%,
-                                    rgba(7, 17, 12, 0.86) 55%,
-                                    rgba(7, 17, 12, 0.55) 100%
+                                    rgba(7, 17, 12, 0.94) 0%,
+                                    rgba(7, 17, 12, 0.82) 58%,
+                                    rgba(7, 17, 12, 0.52) 100%
                                 )
                             `,
 
                             md: `
                                 linear-gradient(
                                     90deg,
-                                    rgba(7, 17, 12, 0.96) 0%,
-                                    rgba(7, 17, 12, 0.90) 30%,
-                                    rgba(7, 17, 12, 0.66) 58%,
-                                    rgba(7, 17, 12, 0.28) 100%
+                                    rgba(7, 17, 12, 0.94) 0%,
+                                    rgba(7, 17, 12, 0.84) 30%,
+                                    rgba(7, 17, 12, 0.55) 58%,
+                                    rgba(7, 17, 12, 0.20) 100%
                                 )
                             `,
 
                             lg: `
                                 linear-gradient(
                                     90deg,
-                                    rgba(7, 17, 12, 0.97) 0%,
-                                    rgba(7, 17, 12, 0.91) 28%,
-                                    rgba(7, 17, 12, 0.62) 52%,
-                                    rgba(7, 17, 12, 0.18) 78%,
-                                    rgba(7, 17, 12, 0.08) 100%
+                                    rgba(7, 17, 12, 0.95) 0%,
+                                    rgba(7, 17, 12, 0.86) 25%,
+                                    rgba(7, 17, 12, 0.54) 50%,
+                                    rgba(7, 17, 12, 0.16) 76%,
+                                    rgba(7, 17, 12, 0.05) 100%
                                 )
                             `,
                         },
@@ -140,10 +145,10 @@ export default function HeroSection() {
                         background: `
                             linear-gradient(
                                 180deg,
-                                rgba(0, 0, 0, 0.18) 0%,
-                                rgba(0, 0, 0, 0.03) 42%,
-                                rgba(0, 0, 0, 0.16) 68%,
-                                rgba(0, 0, 0, 0.58) 100%
+                                rgba(0, 0, 0, 0.12) 0%,
+                                rgba(0, 0, 0, 0.02) 40%,
+                                rgba(0, 0, 0, 0.10) 68%,
+                                rgba(0, 0, 0, 0.48) 100%
                             )
                         `,
                     },
@@ -163,8 +168,8 @@ export default function HeroSection() {
                         objectFit: 'cover',
 
                         objectPosition: {
-                            xs: '62% center',
-                            md: '58% center',
+                            xs: '60% center',
+                            md: 'center center',
                             lg: 'center center',
                         },
 
@@ -174,7 +179,7 @@ export default function HeroSection() {
             </MotionBox>
 
             {/* =====================================================
-                SUBTLE TECHNICAL GRID
+                TECHNICAL GRID
             ===================================================== */}
 
             <Box
@@ -188,8 +193,8 @@ export default function HeroSection() {
                     pointerEvents: 'none',
 
                     opacity: {
-                        xs: 0.12,
-                        md: 0.16,
+                        xs: 0.1,
+                        md: 0.14,
                     },
 
                     backgroundImage: `
@@ -228,15 +233,19 @@ export default function HeroSection() {
                 maxWidth="xl"
                 sx={{
                     position: 'relative',
+
                     zIndex: 3,
 
                     display: 'flex',
                     alignItems: 'center',
 
+                    width: '100%',
+
                     py: {
-                        xs: 10,
-                        md: 12,
-                        lg: 14,
+                        xs: 11,
+                        sm: 12,
+                        md: 10,
+                        lg: 9,
                     },
                 }}
             >
@@ -244,62 +253,23 @@ export default function HeroSection() {
                     sx={{
                         width: {
                             xs: '100%',
-                            md: '78%',
-                            lg: '58%',
-                            xl: '54%',
+                            md: '82%',
+                            lg: '62%',
+                            xl: '60%',
+                        },
+
+                        pt: {
+                            xs: 5,
+                            md: 3,
+                            lg: 2,
+                        },
+
+                        pb: {
+                            xs: 5,
+                            md: 3,
                         },
                     }}
                 >
-                    {/* =====================================================
-                        EYEBROW
-                    ===================================================== */}
-
-                    <MotionBox
-                        initial={{
-                            opacity: 0,
-                            y: 18,
-                        }}
-                        animate={{
-                            opacity: 1,
-                            y: 0,
-                        }}
-                        transition={{
-                            duration: 0.65,
-                            delay: 0.15,
-                        }}
-                    >
-                        <Stack
-                            direction="row"
-                            spacing={1.5}
-                            sx={{
-                                alignItems: 'center',
-                                mb: 3,
-                            }}
-                        >
-                            <Box
-                                sx={{
-                                    width: 32,
-                                    height: 2,
-
-                                    bgcolor: 'primary.main',
-                                }}
-                            />
-
-                            <Typography
-                                variant="overline"
-                                sx={{
-                                    color: 'primary.main',
-
-                                    fontWeight: 700,
-
-                                    letterSpacing: '0.16em',
-                                }}
-                            >
-                                MBA METAL
-                            </Typography>
-                        </Stack>
-                    </MotionBox>
-
                     {/* =====================================================
                         TITLE
                     ===================================================== */}
@@ -315,7 +285,7 @@ export default function HeroSection() {
                         }}
                         transition={{
                             duration: 0.8,
-                            delay: 0.25,
+                            delay: 0.2,
                             ease: [0.22, 1, 0.36, 1],
                         }}
                     >
@@ -323,23 +293,29 @@ export default function HeroSection() {
                             component="h1"
                             sx={{
                                 fontSize: {
-                                    xs: 'clamp(3rem, 12vw, 5rem)',
-                                    md: 'clamp(4rem, 7vw, 6.5rem)',
-                                    xl: '7rem',
+                                    xs: 'clamp(2.7rem, 10vw, 4rem)',
+                                    sm: 'clamp(3rem, 8vw, 4.5rem)',
+                                    md: 'clamp(3.5rem, 5.2vw, 5rem)',
+                                    lg: 'clamp(3.8rem, 4.6vw, 5.2rem)',
+                                    xl: '5.4rem',
                                 },
 
-                                lineHeight: 0.93,
+                                lineHeight: 0.98,
 
-                                letterSpacing: '-0.055em',
+                                letterSpacing: '-0.045em',
 
                                 fontWeight: 600,
 
                                 color: 'common.white',
 
-                                maxWidth: 900,
+                                maxWidth: {
+                                    xs: 650,
+                                    md: 850,
+                                    lg: 1000,
+                                },
 
                                 textShadow:
-                                    '0 8px 32px rgba(0,0,0,0.16)',
+                                    '0 8px 32px rgba(0,0,0,0.24)',
                             }}
                         >
                             {t('home.hero.titleLine1')}
@@ -349,7 +325,7 @@ export default function HeroSection() {
                             <Box
                                 component="span"
                                 sx={{
-                                    color: 'primary.main',
+                                    color: 'common.white',
                                 }}
                             >
                                 {t('home.hero.titleLine2')}
@@ -372,30 +348,29 @@ export default function HeroSection() {
                         }}
                         transition={{
                             duration: 0.75,
-                            delay: 0.4,
+                            delay: 0.35,
                         }}
                     >
                         <Typography
                             sx={{
                                 mt: {
                                     xs: 3,
-                                    md: 4,
+                                    md: 3.5,
                                 },
 
-                                maxWidth: 630,
+                                maxWidth: 680,
 
                                 fontSize: {
-                                    xs: '1rem',
-                                    md: '1.12rem',
+                                    xs: '0.95rem',
+                                    md: '1.05rem',
                                 },
 
-                                lineHeight: 1.75,
+                                lineHeight: 1.7,
 
-                                color:
-                                    'rgba(255,255,255,0.78)',
+                                color: 'common.white',
 
                                 textShadow:
-                                    '0 4px 18px rgba(0,0,0,0.18)',
+                                    '0 4px 18px rgba(0,0,0,0.28)',
                             }}
                         >
                             {t('home.hero.description')}
@@ -417,7 +392,7 @@ export default function HeroSection() {
                         }}
                         transition={{
                             duration: 0.75,
-                            delay: 0.52,
+                            delay: 0.48,
                         }}
                     >
                         <Stack
@@ -428,8 +403,8 @@ export default function HeroSection() {
                             spacing={1.5}
                             sx={{
                                 mt: {
-                                    xs: 4,
-                                    md: 5,
+                                    xs: 3.5,
+                                    md: 4,
                                 },
 
                                 alignItems: {
@@ -451,7 +426,7 @@ export default function HeroSection() {
                                 sx={{
                                     px: 3.5,
 
-                                    minHeight: 54,
+                                    minHeight: 52,
 
                                     boxShadow:
                                         '0 12px 32px rgba(0,0,0,0.18)',
@@ -476,10 +451,10 @@ export default function HeroSection() {
                                 sx={{
                                     px: 3.5,
 
-                                    minHeight: 54,
+                                    minHeight: 52,
 
                                     borderColor:
-                                        'rgba(255,255,255,0.34)',
+                                        'rgba(255,255,255,0.42)',
 
                                     color: 'common.white',
 
@@ -491,10 +466,10 @@ export default function HeroSection() {
 
                                     '&:hover': {
                                         borderColor:
-                                            'primary.main',
+                                            'common.white',
 
                                         bgcolor:
-                                            'rgba(255,255,255,0.07)',
+                                            'rgba(255,255,255,0.08)',
                                     },
                                 }}
                             >
@@ -518,15 +493,15 @@ export default function HeroSection() {
                         }}
                         transition={{
                             duration: 0.8,
-                            delay: 0.7,
+                            delay: 0.62,
                         }}
                     >
                         <Stack
                             direction="row"
                             sx={{
                                 mt: {
-                                    xs: 6,
-                                    md: 7,
+                                    xs: 4.5,
+                                    md: 5,
                                 },
 
                                 flexWrap: 'wrap',
@@ -554,7 +529,10 @@ export default function HeroSection() {
                                                 'uppercase',
 
                                             color:
-                                                'rgba(255,255,255,0.62)',
+                                                'common.white',
+
+                                            textShadow:
+                                                '0 2px 12px rgba(0,0,0,0.32)',
                                         }}
                                     >
                                         {t(
@@ -609,7 +587,7 @@ export default function HeroSection() {
 
                     bottom: {
                         xs: 24,
-                        md: 32,
+                        md: 28,
                     },
 
                     right: {
@@ -631,8 +609,8 @@ export default function HeroSection() {
                     sx={{
                         minWidth: 0,
 
-                        width: 48,
-                        height: 48,
+                        width: 46,
+                        height: 46,
 
                         borderRadius: '50%',
 
@@ -653,10 +631,11 @@ export default function HeroSection() {
                             'all 220ms ease',
 
                         '&:hover': {
-                            bgcolor: 'primary.main',
+                            bgcolor:
+                                'rgba(255,255,255,0.12)',
 
                             borderColor:
-                                'primary.main',
+                                'common.white',
 
                             transform:
                                 'translateY(2px)',
