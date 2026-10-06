@@ -80,10 +80,10 @@
   },
   "home": {
     "hero": {
-      "titleLine1": "Metale",
-      "titleLine2": "Form Veriyoruz.",
-      "description": "Tel, çelik çubuk ve metal parçalarda; bükümden kaynağa, özel üretimden seri üretime kadar güvenilir endüstriyel çözümler geliştiriyoruz.",
-      "imageAlt": "MBA Metal endüstriyel üretim tesisi",
+      "titleLine1": "Türkiye’nin Güvenilir",
+      "titleLine2": "Endüstriyel Tel ve Metal Komponent Üreticisi",
+      "description": "MBA Metal olarak Sapanca’daki üretim tesisimizde; tel şekillendirme, metal büküm, kaynak ve projeye özel metal komponent üretimi gerçekleştiriyoruz. Otomotivden beyaz eşyaya, perakendeden endüstriyel üretime kadar farklı sektörlere güvenilir ve sürdürülebilir üretim çözümleri sunuyoruz.",
+      "imageAlt": "MBA Metal Sapanca endüstriyel üretim tesisi",
       "scrollToNext": "Sonraki bölüme git",
       "industries": {
         "automotive": "Otomotiv",
