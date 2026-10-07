@@ -6,13 +6,10 @@ import {
 import {
     Box,
     IconButton,
-    Tooltip,
 } from '@mui/material';
 
 import {
     Menu,
-    Moon,
-    Sun,
 } from 'lucide-react';
 
 import {
@@ -43,10 +40,6 @@ import {
     Navbar,
 } from '../Navbar';
 
-import {
-    useThemeMode,
-} from '../../../hooks/useThemeMode';
-
 /* =========================================================
    HEADER
 ========================================================= */
@@ -58,11 +51,6 @@ export function Header() {
     const {
         t,
     } = useTranslation();
-
-    const {
-        mode,
-        toggleTheme,
-    } = useThemeMode();
 
     const [
         scrolled,
@@ -457,83 +445,6 @@ export function Header() {
                             {/* LANGUAGE */}
 
                             <LanguageSwitcher />
-
-                            {/* THEME */}
-
-                            <Tooltip
-                                title={
-                                    mode ===
-                                    'dark'
-                                        ? t(
-                                              'common.lightTheme'
-                                          )
-                                        : t(
-                                              'common.darkTheme'
-                                          )
-                                }
-                            >
-                                <IconButton
-                                    onClick={
-                                        toggleTheme
-                                    }
-                                    aria-label={
-                                        mode ===
-                                        'dark'
-                                            ? t(
-                                                  'common.lightTheme'
-                                              )
-                                            : t(
-                                                  'common.darkTheme'
-                                              )
-                                    }
-                                    sx={{
-                                        width:
-                                            38,
-
-                                        height:
-                                            38,
-
-                                        borderRadius:
-                                            '7px',
-
-                                        color:
-                                            'text.secondary',
-
-                                        transition:
-                                            'background-color 180ms ease, color 180ms ease',
-
-                                        '&:hover':
-                                            {
-                                                bgcolor:
-                                                    'action.hover',
-
-                                                color:
-                                                    'text.primary',
-                                            },
-                                    }}
-                                >
-                                    {mode ===
-                                    'dark' ? (
-                                        <Sun
-                                            size={
-                                                16
-                                            }
-                                            strokeWidth={
-                                                1.7
-                                            }
-                                        />
-                                    ) : (
-                                        <Moon
-                                            size={
-                                                16
-                                            }
-                                            strokeWidth={
-                                                1.7
-                                            }
-                                        />
-                                    )}
-                                </IconButton>
-                            </Tooltip>
                         </Box>
 
                         {/* =================================================
