@@ -1,4 +1,4 @@
-import aboutImage from '../../assets/images/about/About.jpg';
+import whyUsHeroImage from '../../assets/images/why-us/why-us-hero.jpg';
 
 import wireBendingImage from '../../assets/images/capabilities/wire-bending.jpeg';
 import weldingImage from '../../assets/images/capabilities/welding.jpg';
@@ -69,7 +69,7 @@ export interface QualityApproachData {
 /* -------------------------------------------------------------------------- */
 
 export const companyStoryData: CompanyStoryData = {
-    image: aboutImage,
+    image: whyUsHeroImage,
 };
 
 /* -------------------------------------------------------------------------- */

@@ -1052,13 +1052,14 @@
         },
         "furniture": {
           "title": "Möbel",
-          "description": "Functional, structural and decorative wire, tube and Metallkomponenten for furniture Anwendungen.",
+          "description": "Projektspezifische Fertigung von Draht-, Rohr- und geformten Metallkomponenten für Möbelhersteller.",
           "applications": [
-            "Metal legs",
-            "Wire supports",
-            "Frames",
-            "Handles",
-            "Assembly Komponenten"
+            "Drahtablagen und Korbkomponenten",
+            "Stuhl- und Tischgestelle",
+            "Gebogene Rohrkomponenten",
+            "Metallstützen und Verbindungsteile",
+            "Geschweißte Metallkomponenten",
+            "Projektspezifische Draht- und Metallteile"
           ]
         },
         "logistics": {
@@ -1096,24 +1097,24 @@
         },
         "medical": {
           "title": "Medizin- & Hygieneprodukte",
-          "description": "Custom wire and Metallkomponenten manufactured according to defined Material, Maßal and Oberflächenanforderungen.",
+          "description": "Projektspezifische Fertigung von Draht- und Metallteilen für Medizin- und Hygieneausrüstung.",
           "applications": [
-            "Stainless Drahtkomponenten",
-            "Wire baskets",
-            "Carrier systems",
-            "Kundenspezifische Gestelle und Halterungen",
-            "projektspezifisch Komponenten"
+            "Geformte Drahtteile",
+            "Drahtkörbe und Ablageteile",
+            "Halterungs- und Stützteile",
+            "Metallische Trägerteile",
+            "Projektspezifische Draht- und Metallteile"
           ]
         },
         "agriculture": {
           "title": "Landwirtschaft & Tierhaltung",
-          "description": "Wire and metal product solutions for protection, handling and Ausrüstung Anwendungen.",
+          "description": "Projektspezifische Fertigung von Draht- und Metallteilen für Landmaschinen und Tierhaltungsausrüstung.",
           "applications": [
-            "Wire cages",
-            "Protective Komponenten",
-            "Handling Ausrüstung",
-            "Wire panels",
-            "Custom Ausrüstung Komponenten"
+            "Geformte Drahtteile",
+            "Drahtschutzstrukturen",
+            "Halterungs- und Stützteile",
+            "Teile für Tierhaltungsausrüstung",
+            "Projektspezifische Draht- und Metallteile"
           ]
         },
         "construction": {
@@ -2097,6 +2098,502 @@
         }
       },
       "name": "Schiff, Maritim & Hafen"
+    },
+    "furniture": {
+      "name": "Möbel",
+      "hero": {
+        "eyebrow": "MÖBELINDUSTRIE",
+        "title": "Metallkomponenten für moderne Möbelanwendungen.",
+        "description": "Wir fertigen projektspezifische Draht-, Rohr-, Umform- und Schweißkomponenten für die Möbelindustrie und berücksichtigen dabei Bauteilgeometrie, Montagedetails, optische Anforderungen und die Anforderungen an eine reproduzierbare Fertigung.",
+        "primaryAction": "Projekt besprechen",
+        "secondaryAction": "Fertigungsmöglichkeiten entdecken",
+        "imageAlt": "MBA Metal Fertigung von Draht-, Rohr- und Metallkomponenten für die Möbelindustrie",
+        "scrollLabel": "Möbellösungen entdecken",
+        "visualLabel": "Möbelanwendungen",
+        "productionLabel": "Fertigung von Metallkomponenten",
+        "productionMeta": "Draht • Rohr • Schweißen • Umformen",
+        "badge": "Möbelkomponenten",
+        "imageCaption": "Von technischen Anforderungen zu fertigbaren und reproduzierbaren Möbelkomponenten.",
+        "capabilities": {
+          "wireForm": "Drahtumformung",
+          "metalForm": "Rohr- & Metallumformung",
+          "welding": "Schweißen & Fügen",
+          "repeatProduction": "Serienfertigung"
+        }
+      },
+      "overview": {
+        "eyebrow": "FERTIGUNG FÜR DIE MÖBELINDUSTRIE",
+        "title": "Wir verwandeln Anforderungen an Möbelkomponenten in fertigbare Metalllösungen.",
+        "description": "Metallkomponenten für Möbelanwendungen müssen nicht nur maßliche Anforderungen erfüllen. Auch Montagekompatibilität, Oberflächenqualität, optische Anforderungen und reproduzierbare Fertigung werden gemeinsam berücksichtigt.",
+        "secondaryDescription": "Bei MBA Metal kombinieren wir Drahtumformung, Rohrbiegen, Metallumformung und Schweißverfahren entsprechend den Anforderungen unterschiedlicher Möbelanwendungen.",
+        "highlight": "Unser Schwerpunkt liegt nicht auf der Herstellung kompletter Möbel, sondern auf der zuverlässigen und reproduzierbaren Fertigung von Draht-, Rohr- und Metallkomponenten, die Bestandteil des Endprodukts werden.",
+        "statement": "Jede Komponente wird anhand ihrer Geometrie, ihres Materials, ihrer Verbindungspunkte, der Oberflächenanforderungen und der geplanten Produktionsmenge bewertet, um einen geeigneten Fertigungsprozess festzulegen.",
+        "inputLabel": "Projektangaben",
+        "inputs": {
+          "technicalDrawing": "Technische Zeichnung",
+          "sample": "Muster / Referenzbauteil",
+          "material": "Materialangaben",
+          "tolerance": "Maße & Toleranzen",
+          "quantity": "Produktionsmenge"
+        },
+        "note": "Wenn noch keine vollständige technische Zeichnung vorliegt, kann eine erste Machbarkeitsbewertung anhand eines Musters, ungefährer Abmessungen und Informationen zur Anwendung durchgeführt werden.",
+        "imageAlt": "Fertigung von Metallkomponenten für Möbelanwendungen",
+        "imageCaption": "Projektspezifische Fertigung von Draht-, Rohr- und Metallkomponenten für die Möbelindustrie"
+      },
+      "applicationsSection": {
+        "eyebrow": "MÖBELANWENDUNGEN",
+        "title": "Metallkomponenten abgestimmt auf unterschiedliche Möbelanwendungen.",
+        "description": "Von geformten Drahtteilen über Rohrkonstruktionen bis hin zu geschweißten Metallkomponenten bewerten wir unterschiedliche Anforderungen anhand von Geometrie, Funktion und Fertigungsbedingungen.",
+        "noteLabel": "Anwendungsansatz",
+        "note": "Die dargestellten Anwendungen repräsentieren unsere Fertigungsmöglichkeiten. Das endgültige Fertigungsverfahren wird anhand von technischer Zeichnung, Material, Geometrie, Verbindungsdetails, Oberflächenanforderungen und Produktionsmenge festgelegt."
+      },
+      "applications": {
+        "wireComponents": {
+          "title": "Geformte Drahtkomponenten",
+          "description": "Kundenspezifische Drahtgeometrien für Stützen, Ablagen, Körbe, Rahmen sowie weitere funktionale oder dekorative Möbelanwendungen."
+        },
+        "tubeComponents": {
+          "title": "Rohrkonstruktionen & Komponenten",
+          "description": "Gebogene und geformte Rohrkomponenten für Stuhl- und Tischgestelle, Beine, Stützen und weitere konstruktive Möbelanwendungen."
+        },
+        "metalComponents": {
+          "title": "Metallkomponenten für Möbel",
+          "description": "Fertigung von Stütz-, Verbindungs-, Träger- und Montagekomponenten entsprechend der Geometrie und den technischen Anforderungen des jeweiligen Möbelprojekts."
+        },
+        "customProduction": {
+          "title": "Projektspezifische Komponenten",
+          "description": "Kundenspezifische Draht-, Rohr- und Metallkomponenten auf Basis technischer Zeichnungen, Muster oder projektspezifischer Abmessungen und Geometrien."
+        }
+      },
+      "requirementsSection": {
+        "eyebrow": "FERTIGUNGSANFORDERUNGEN",
+        "title": "Bei Möbelkomponenten sind technische Konsistenz und optische Qualität gleichermaßen wichtig.",
+        "description": "Bei Metallkomponenten für Möbelanwendungen werden Maßhaltigkeit, Oberflächenzustand, Montagekompatibilität und reproduzierbare Fertigung gemeinsam berücksichtigt.",
+        "statementLabel": "Fertigungsansatz",
+        "statement": "Der Fertigungsprozess wird entsprechend der Bauteilgeometrie, den Montagepunkten, den optischen Anforderungen und der Produktionsmenge geplant, um über den gesamten Produktionsprozess konsistente Ergebnisse zu erzielen.",
+        "itemLabel": "Technische Anforderung"
+      },
+      "requirements": {
+        "dimensionalConsistency": {
+          "title": "Maßhaltigkeit",
+          "description": "Kritische Abmessungen werden kontrolliert, damit Metallkomponenten korrekt mit anderen Möbelteilen zusammenpassen und eine zuverlässige Montage ermöglichen."
+        },
+        "surfaceQuality": {
+          "title": "Oberflächen- & Sichtqualität",
+          "description": "Insbesondere bei sichtbaren Komponenten werden Oberflächenzustand, Verformungen und die allgemeine optische Konsistenz als wichtige Bestandteile des Fertigungsprozesses berücksichtigt."
+        },
+        "assemblyCompatibility": {
+          "title": "Montagekompatibilität",
+          "description": "Verbindungspunkte, Lochpositionen, Biegegeometrien und Fügedetails werden so bewertet, dass eine präzise und reproduzierbare Montage unterstützt wird."
+        },
+        "repeatableProduction": {
+          "title": "Reproduzierbare Fertigung",
+          "description": "Bei wiederkehrenden Aufträgen und Serienfertigung wird der Prozess so ausgelegt, dass Bauteilgeometrie und Fertigungsergebnisse konstant gehalten werden können."
+        }
+      },
+      "productionSection": {
+        "eyebrow": "FERTIGUNGSMÖGLICHKEITEN",
+        "title": "Wir verbinden die Anforderungen an Möbelkomponenten mit den passenden Fertigungsverfahren.",
+        "description": "Drahtgeometrien, Rohrkonstruktionen, Anforderungen an die Metallumformung, Verbindungspunkte und Produktionsmengen werden gemeinsam bewertet, um eine geeignete Prozesskombination festzulegen.",
+        "needLabel": "Anforderung der Möbelanwendung",
+        "solutionLabel": "MBA Metal Fertigungsansatz",
+        "noteLabel": "Prozessauswahl",
+        "note": "Das Fertigungsverfahren wird unter gemeinsamer Berücksichtigung von technischen Zeichnungen, Mustern, Material, Abmessungen, Toleranzen, Oberflächenanforderungen und Produktionsmengen festgelegt."
+      },
+      "production": {
+        "wire": {
+          "need": "Drahtstützen, Ablagen, Körbe und kundenspezifische Drahtgeometrien",
+          "solution": "2D- / 3D-Drahtbiegen und -umformen"
+        },
+        "tube": {
+          "need": "Rohrkonstruktionen für Stühle, Tische und weitere Möbelanwendungen",
+          "solution": "Rohrbiegen und -umformen"
+        },
+        "forming": {
+          "need": "Gebogene und geformte Metallkomponenten für Möbel",
+          "solution": "Metallbiegen / Metallumformung"
+        },
+        "joining": {
+          "need": "Fügen von Draht-, Rohr- und Metallkomponenten",
+          "solution": "Schweiß- / Punktschweißanwendungen"
+        },
+        "custom": {
+          "need": "Projektspezifische Möbelkomponenten",
+          "solution": "Kundenspezifische Fertigung mit Vorrichtungen und Werkzeugen"
+        }
+      }
+    },
+    "medical": {
+      "name": "Medizin- & Hygieneprodukte",
+      "hero": {
+        "eyebrow": "MEDIZIN & HYGIENE",
+        "title": "Draht- und Metallteile für Medizin- und Hygieneausrüstung.",
+        "description": "Wir fertigen Draht-, geformte Metall- und Schweißteile für Medizin- und Hygieneausrüstung und berücksichtigen dabei technische Zeichnungen, Bauteilgeometrie, Montagedetails, Oberflächenanforderungen und eine reproduzierbare Fertigung.",
+        "primaryAction": "Projekt besprechen",
+        "secondaryAction": "Fertigungsmöglichkeiten entdecken",
+        "imageAlt": "MBA Metal Fertigung von Draht- und Metallteilen für Medizin- und Hygieneausrüstung",
+        "scrollLabel": "Medizinische Lösungen entdecken",
+        "visualLabel": "Medizin- & Hygieneanwendungen",
+        "productionLabel": "Draht- & Metallteilefertigung",
+        "productionMeta": "Draht • Metall • Schweißen • Umformen",
+        "badge": "Medizin & Hygiene",
+        "imageCaption": "Von technischen Anforderungen zu fertigbaren und reproduzierbaren Metallteilen.",
+        "capabilities": {
+          "wireForm": "Drahtumformung",
+          "metalForm": "Metallumformung",
+          "welding": "Schweißen & Punktschweißen",
+          "repeatProduction": "Serienfertigung"
+        }
+      },
+      "overview": {
+        "eyebrow": "FERTIGUNG FÜR MEDIZIN & HYGIENE",
+        "title": "Wir überführen Anforderungen an Ausrüstungsteile in kontrollierte Fertigungsprozesse.",
+        "description": "Draht- und Metallteile für Medizin- und Hygieneausrüstung werden unter gemeinsamer Berücksichtigung von Bauteilgeometrie, Abmessungen, Verbindungspunkten, Oberflächenanforderungen und Einsatzbedingungen bewertet.",
+        "secondaryDescription": "Bei MBA Metal kombinieren wir Drahtumformung, Metallbiegen, Schweißen und kundenspezifische Fertigung entsprechend den Anforderungen an Körbe, Ablagen, Halterungen, Stützen und weitere Ausrüstungsteile.",
+        "highlight": "Unser Schwerpunkt liegt nicht auf der Herstellung medizinischer Geräte oder Hygieneprodukte selbst, sondern auf der Fertigung von Draht- und Metallteilen, die in solche Systeme und Ausrüstungen integriert werden können.",
+        "statement": "Jedes Teil wird anhand technischer Zeichnungen oder Muster, Material, Geometrie, Verbindungsdetails und Produktionsmenge bewertet, um einen geeigneten Fertigungsansatz festzulegen.",
+        "inputLabel": "Projektangaben",
+        "inputs": {
+          "technicalDrawing": "Technische Zeichnung",
+          "sample": "Muster / Referenzteil",
+          "material": "Materialangaben",
+          "tolerance": "Maße & Toleranzen",
+          "quantity": "Produktionsmenge"
+        },
+        "note": "Wenn noch keine vollständige technische Zeichnung vorliegt, kann eine erste Machbarkeitsbewertung anhand eines Musters, ungefährer Abmessungen und Informationen zur Anwendung durchgeführt werden.",
+        "imageAlt": "Fertigung von Draht- und Metallteilen für Medizin- und Hygieneausrüstung",
+        "imageCaption": "Projektspezifische Draht- und Metalllösungen für Ausrüstungshersteller"
+      },
+      "applicationsSection": {
+        "eyebrow": "MEDIZIN- & HYGIENEANWENDUNGEN",
+        "title": "Fertigbare Metallteile für unterschiedliche Ausrüstungsanforderungen.",
+        "description": "Von geformten Drahtteilen über Korb- und Ablageteile bis hin zu Stützelementen und projektspezifischen Metallteilen bewerten wir unterschiedliche Fertigungsanforderungen anhand der technischen Vorgaben.",
+        "noteLabel": "Anwendungsansatz",
+        "note": "Die dargestellten Anwendungen repräsentieren unsere Fertigungsmöglichkeiten. Das endgültige Fertigungsverfahren wird anhand von technischen Zeichnungen, Mustern, Material, Geometrie, Toleranzen, Oberflächenanforderungen und Produktionsmenge festgelegt."
+      },
+      "applications": {
+        "wireComponents": {
+          "title": "Geformte Drahtteile",
+          "description": "Formung von Halterungen, Stützen, Trennelementen und weiteren kundenspezifischen Drahtgeometrien für Medizin- und Hygieneausrüstung nach technischen Anforderungen."
+        },
+        "wireBaskets": {
+          "title": "Drahtkörbe & Ablageteile",
+          "description": "Fertigung von Drahtkörben, Ablagen und ähnlichen Teilen für Transport, Organisation und die Integration in Ausrüstungssysteme entsprechend der Projektgeometrie."
+        },
+        "supportComponents": {
+          "title": "Stütz- & Trägerteile",
+          "description": "Fertigung von Draht- und Metallteilen für Verbindungs-, Stütz-, Befestigungs- und Trägerfunktionen innerhalb von Ausrüstungssystemen."
+        },
+        "customComponents": {
+          "title": "Projektspezifische Teile",
+          "description": "Bewertung und Fertigung nicht standardisierter Draht- und Metallteile auf Basis technischer Zeichnungen, Muster oder projektspezifischer Abmessungen und Geometrien."
+        }
+      },
+      "requirementsSection": {
+        "eyebrow": "FERTIGUNGSANFORDERUNGEN",
+        "title": "Kontrollierte Teilefertigung erfordert eine gemeinsame Betrachtung der technischen Details.",
+        "description": "Maßhaltigkeit, Oberflächenzustand, Verbindungsqualität und reproduzierbare Fertigung werden bei Teilen für Medizin- und Hygieneausrüstung gemeinsam berücksichtigt.",
+        "statementLabel": "Fertigungsansatz",
+        "statement": "Der vorgesehene Einsatz und die technischen Anforderungen eines Teils dienen als wesentliche Grundlagen für die Auswahl des Fertigungsverfahrens sowie für die Festlegung von Werkzeug-, Vorrichtungs- und Prüfanforderungen.",
+        "itemLabel": "Technische Anforderung"
+      },
+      "requirements": {
+        "dimensionalConsistency": {
+          "title": "Maßhaltigkeit",
+          "description": "Kritische Abmessungen, die Montage und Kompatibilität mit der Ausrüstung beeinflussen, sollen während der Fertigung entsprechend den definierten Anforderungen konstant gehalten werden."
+        },
+        "surfaceQuality": {
+          "title": "Oberflächen- & Sichtqualität",
+          "description": "Oberflächenzustand, Verformungen und die allgemeine optische Beschaffenheit der Teile werden entsprechend den Projekt- und Einsatzanforderungen bewertet."
+        },
+        "joiningQuality": {
+          "title": "Verbindungs- & Schweißqualität",
+          "description": "Bei geschweißten und punktgeschweißten Teilen sollen die Verbindungsstellen kontrolliert, reproduzierbar und entsprechend der definierten Geometrie und Anwendung ausgeführt werden."
+        },
+        "repeatableProduction": {
+          "title": "Reproduzierbare Fertigung",
+          "description": "Bei wiederkehrenden Aufträgen und Serienfertigung wird die Prozessstabilität berücksichtigt, um eine gleichbleibende Bauteilgeometrie und konstante Fertigungsergebnisse zu erreichen."
+        }
+      },
+      "productionSection": {
+        "eyebrow": "FERTIGUNGSMÖGLICHKEITEN",
+        "title": "Wir verbinden Teileanforderungen mit geeigneten Fertigungsverfahren.",
+        "description": "Drahtgeometrie, Bauteilstruktur, Verbindungspunkte, Toleranzen und Produktionsmenge werden gemeinsam bewertet, um einen geeigneten Fertigungsansatz für das Projekt festzulegen.",
+        "needLabel": "Fertigungsanforderung",
+        "solutionLabel": "MBA Metal Fertigungsansatz",
+        "noteLabel": "Prozessauswahl",
+        "note": "Das Fertigungsverfahren wird anhand von technischen Zeichnungen, Mustern, Material, Abmessungen, Toleranzen, Verbindungsanforderungen und Produktionsmenge festgelegt."
+      },
+      "production": {
+        "wire": {
+          "need": "Kundenspezifische Drahtgeometrien, Halterungen und Stützteile",
+          "solution": "2D- / 3D-Drahtbiegen und -umformen"
+        },
+        "basket": {
+          "need": "Drahtkörbe, Ablagen und Trägerteile",
+          "solution": "Drahtumformung und geschweißte Verbindungen"
+        },
+        "joining": {
+          "need": "Verbinden von Draht- und Metallteilen",
+          "solution": "Schweiß- / Punktschweißanwendungen"
+        },
+        "custom": {
+          "need": "Projektspezifische Ausrüstungsteile",
+          "solution": "Kundenspezifische Fertigung mit Werkzeugen und Vorrichtungen"
+        },
+        "control": {
+          "need": "Überprüfung von Fertigungsergebnis und Abmessungen",
+          "solution": "Maßliche / visuelle Prüfung"
+        }
+      }
+    },
+    "agriculture": {
+      "name": "Landwirtschaft & Tierhaltung",
+      "hero": {
+        "eyebrow": "LANDWIRTSCHAFT & TIERHALTUNG",
+        "title": "Draht- und Metallteile für Landwirtschafts- und Tierhaltungsausrüstung.",
+        "description": "Wir fertigen geformte Drahtteile, Schutzgitter, Stütz- und Verbindungsteile für Landmaschinen und Tierhaltungsausrüstung nach technischen Zeichnungen, Bauteilgeometrie, Einsatzbedingungen und Anforderungen an eine reproduzierbare Fertigung.",
+        "primaryAction": "Projekt besprechen",
+        "secondaryAction": "Fertigungsmöglichkeiten entdecken",
+        "imageAlt": "MBA Metal Fertigung von Draht- und Metallteilen für Landwirtschafts- und Tierhaltungsausrüstung",
+        "scrollLabel": "Anwendungen für Landwirtschaft & Tierhaltung entdecken",
+        "visualLabel": "Landwirtschaft & Tierhaltung",
+        "productionLabel": "Draht- & Metallteilefertigung",
+        "productionMeta": "Draht • Metall • Schweißen • Umformen",
+        "badge": "Landwirtschaft & Tierhaltung",
+        "imageCaption": "Von technischen Anforderungen zu fertigbaren und reproduzierbaren Draht- und Metallteilen.",
+        "capabilities": {
+          "wireForm": "Drahtumformung",
+          "metalForm": "Metallumformung",
+          "welding": "Schweißen & Punktschweißen",
+          "repeatProduction": "Serienfertigung"
+        }
+      },
+      "overview": {
+        "eyebrow": "FERTIGUNG FÜR LANDWIRTSCHAFT & TIERHALTUNG",
+        "title": "Wir überführen Anforderungen an Ausrüstungsteile in fertigbare Metalllösungen.",
+        "description": "Draht- und Metallteile für Landmaschinen und Tierhaltungsausrüstung werden unter gemeinsamer Berücksichtigung von Geometrie, Abmessungen, Verbindungspunkten, Einsatzbedingungen und Produktionsmengen bewertet.",
+        "secondaryDescription": "Bei MBA Metal kombinieren wir Drahtumformung, Metallumformung, Schweißen und projektspezifische Fertigung für Schutzgitter, Halterungen, Stützen, Trägerteile und unterschiedliche Ausrüstungsanforderungen.",
+        "highlight": "Unser Schwerpunkt liegt nicht auf der Herstellung von Landmaschinen oder Tierhaltungsausrüstung selbst, sondern auf der Fertigung von Draht- und Metallteilen, die in diesen Maschinen und Ausrüstungen eingesetzt werden können.",
+        "statement": "Jedes Teil wird anhand technischer Zeichnungen oder Muster, Material, Geometrie, Verbindungsdetails, Einsatzbedingungen und Produktionsmenge bewertet, um ein geeignetes Fertigungsverfahren festzulegen.",
+        "inputLabel": "Projektangaben",
+        "inputs": {
+          "technicalDrawing": "Technische Zeichnung",
+          "sample": "Muster / Referenzteil",
+          "material": "Materialangaben",
+          "tolerance": "Maße & Toleranzen",
+          "quantity": "Produktionsmenge"
+        },
+        "note": "Wenn noch keine vollständige technische Zeichnung vorliegt, kann eine erste Machbarkeitsbewertung anhand eines Musters, ungefährer Abmessungen und Informationen zur Anwendung durchgeführt werden.",
+        "imageAlt": "Draht- und Metallteile für Landwirtschafts- und Tierhaltungsausrüstung",
+        "imageCaption": "Projektspezifische Draht- und Metallteile für Ausrüstungshersteller"
+      },
+      "applicationsSection": {
+        "eyebrow": "ANWENDUNGEN IN LANDWIRTSCHAFT & TIERHALTUNG",
+        "title": "Draht- und Metallteile für unterschiedliche Maschinen- und Ausrüstungsanforderungen.",
+        "description": "Von geformten Drahtteilen und Schutzgittern bis hin zu Metallteilen für Tierhaltungsausrüstung und projektspezifischen Lösungen bewerten wir unterschiedliche Fertigungsanforderungen nach technischen Vorgaben.",
+        "noteLabel": "Anwendungsansatz",
+        "note": "Die dargestellten Anwendungen repräsentieren unsere Fertigungsmöglichkeiten. Das endgültige Fertigungsverfahren wird anhand von technischen Zeichnungen, Mustern, Material, Geometrie, Toleranzen, Verbindungsanforderungen und Produktionsmenge festgelegt."
+      },
+      "applications": {
+        "wireParts": {
+          "title": "Geformte Drahtteile",
+          "description": "Formung von Halterungen, Befestigungselementen, Stützen und weiteren kundenspezifischen Drahtgeometrien für Landmaschinen und Ausrüstung nach technischen Anforderungen."
+        },
+        "protectionStructures": {
+          "title": "Drahtschutzstrukturen",
+          "description": "Fertigung von Drahtschutzgittern und ähnlichen Strukturen zum Schutz, zur Trennung oder zur Einfassung von Bereichen an Maschinen und Ausrüstungen entsprechend den Projektanforderungen."
+        },
+        "livestockEquipment": {
+          "title": "Teile für Tierhaltungsausrüstung",
+          "description": "Fertigung von Drahtstrukturen, Stützen und Metallteilen für Fütterungs-, Ordnungs-, Transport- und weitere Anwendungen in der Tierhaltung entsprechend den Projektanforderungen."
+        },
+        "customParts": {
+          "title": "Projektspezifische Teile",
+          "description": "Bewertung und Fertigung nicht standardisierter Draht- und Metallteile auf Basis technischer Zeichnungen, Muster oder projektspezifischer Abmessungen und Geometrien."
+        }
+      },
+      "requirementsSection": {
+        "eyebrow": "FERTIGUNGSANFORDERUNGEN",
+        "title": "Technische Beständigkeit und Belastbarkeit werden bei Teilen für den Feldeinsatz gemeinsam betrachtet.",
+        "description": "Maßhaltigkeit, strukturelle Belastbarkeit, Verbindungsqualität und reproduzierbare Fertigung gehören zu den wesentlichen Anforderungen an Teile für Landwirtschafts- und Tierhaltungsausrüstung.",
+        "statementLabel": "Fertigungsansatz",
+        "statement": "Einsatzort, Geometrie, Verbindungspunkte und Betriebsbedingungen eines Teils werden gemeinsam berücksichtigt, um Fertigungsverfahren, Werkzeug- und Vorrichtungsbedarf sowie den Prüfungsansatz festzulegen.",
+        "itemLabel": "Technische Anforderung"
+      },
+      "requirements": {
+        "dimensionalConsistency": {
+          "title": "Maßhaltigkeit",
+          "description": "Kritische Abmessungen, die Montage und Kompatibilität mit der Ausrüstung beeinflussen, sollen bei wiederholter Fertigung entsprechend den definierten Anforderungen konstant gehalten werden."
+        },
+        "structuralDurability": {
+          "title": "Strukturelle Belastbarkeit",
+          "description": "Bauteilgeometrie und Fertigungsverfahren werden entsprechend den Projektanforderungen unter Berücksichtigung möglicher mechanischer Belastungen und Betriebsbedingungen bewertet."
+        },
+        "joiningQuality": {
+          "title": "Verbindungs- & Schweißqualität",
+          "description": "Bei geschweißten und punktgeschweißten Teilen sollen die Verbindungsstellen kontrolliert und reproduzierbar entsprechend der Bauteilgeometrie und dem vorgesehenen Einsatz ausgeführt werden."
+        },
+        "repeatableProduction": {
+          "title": "Reproduzierbare Fertigung",
+          "description": "Bei wiederkehrenden Aufträgen und Serienfertigung ist die Fertigungsstabilität entscheidend, um eine gleichbleibende Bauteilgeometrie und konstante Ergebnisse zu gewährleisten."
+        }
+      },
+      "productionSection": {
+        "eyebrow": "FERTIGUNGSMÖGLICHKEITEN",
+        "title": "Wir verbinden Teileanforderungen mit geeigneten Fertigungsverfahren.",
+        "description": "Drahtgeometrie, Bauteilstruktur, Verbindungspunkte, Toleranzen, Einsatzbedingungen und Produktionsmenge werden gemeinsam bewertet, um einen geeigneten Fertigungsansatz festzulegen.",
+        "needLabel": "Fertigungsanforderung",
+        "solutionLabel": "MBA Metal Fertigungsansatz",
+        "noteLabel": "Fertigungsverfahren",
+        "note": "Das Fertigungsverfahren wird anhand technischer Zeichnungen, Muster, Material, Abmessungen, Toleranzen, Verbindungsanforderungen und Produktionsmenge festgelegt."
+      },
+      "production": {
+        "wire": {
+          "need": "Spezielle Drahtgeometrien, Halterungen und Stützteile",
+          "solution": "2D- / 3D-Drahtbiegen und -umformen"
+        },
+        "protection": {
+          "need": "Drahtschutzgitter und projektspezifische Drahtstrukturen",
+          "solution": "Drahtumformung und geschweißte Verbindungen"
+        },
+        "joining": {
+          "need": "Verbinden von Draht- und Metallteilen",
+          "solution": "Schweiß- / Punktschweißanwendungen"
+        },
+        "custom": {
+          "need": "Projektspezifische Maschinen- und Ausrüstungsteile",
+          "solution": "Kundenspezifische Fertigung mit Werkzeugen und Vorrichtungen"
+        },
+        "control": {
+          "need": "Überprüfung des Fertigungsergebnisses und kritischer Abmessungen",
+          "solution": "Maßliche / visuelle Prüfung"
+        }
+      }
+    },
+    "construction": {
+      "name": "Bauwesen & Allgemeine Industrie",
+      "hero": {
+        "eyebrow": "BAUWESEN & ALLGEMEINE INDUSTRIE",
+        "title": "Fertigung von Draht- und Metallteilen für Bau- und allgemeine Industrieanwendungen.",
+        "description": "Wir fertigen geformte Drahtteile, Drahtschutzstrukturen, Stütz- und Verbindungsteile für Bausysteme, Industrieanlagen und verschiedene allgemeine Industrieanwendungen nach technischen Anforderungen.",
+        "primaryAction": "Projekt besprechen",
+        "secondaryAction": "Fertigungsmöglichkeiten entdecken",
+        "imageAlt": "MBA Metal Fertigung von Draht- und Metallteilen für Bau- und allgemeine Industrieanwendungen",
+        "scrollLabel": "Anwendungen für Bauwesen & Allgemeine Industrie entdecken",
+        "visualLabel": "Bauwesen & Allgemeine Industrie",
+        "productionLabel": "Draht- & Metallteilefertigung",
+        "productionMeta": "Draht • Metall • Schweißen • Umformen",
+        "badge": "Bauwesen & Allgemeine Industrie",
+        "imageCaption": "Von technischen Anforderungen zu fertigbaren und reproduzierbaren Draht- und Metallteilen.",
+        "capabilities": {
+          "wireForm": "Drahtumformung",
+          "metalForm": "Metallumformung",
+          "welding": "Schweißen & Punktschweißen",
+          "repeatProduction": "Serienfertigung"
+        }
+      },
+      "overview": {
+        "eyebrow": "FERTIGUNG FÜR BAUWESEN & ALLGEMEINE INDUSTRIE",
+        "title": "Wir überführen technische Teileanforderungen in fertigbare Draht- und Metalllösungen.",
+        "description": "Draht- und Metallteile für Bauwesen, Bausysteme und allgemeine Industrieanwendungen werden unter gemeinsamer Berücksichtigung von Geometrie, Abmessungen, Verbindungspunkten, Einsatzbedingungen und Produktionsmengen bewertet.",
+        "secondaryDescription": "Bei MBA Metal kombinieren wir Drahtumformung, Metallumformung, Schweißen und projektspezifische Fertigung für Drahtschutzstrukturen, Halterungen, Stützen, Verbindungsteile und unterschiedliche industrielle Teileanforderungen.",
+        "highlight": "Unser Schwerpunkt liegt nicht auf der Herstellung kompletter Bausysteme oder Industrieanlagen, sondern auf der Fertigung der darin eingesetzten Draht- und Metallteile nach technischen Anforderungen.",
+        "statement": "Jedes Teil wird anhand technischer Zeichnungen oder Muster, Material, Geometrie, Verbindungsdetails, Abmessungen, Toleranzen und der geplanten Produktionsmenge bewertet, um ein geeignetes Fertigungsverfahren festzulegen.",
+        "inputLabel": "Projektangaben",
+        "inputs": {
+          "technicalDrawing": "Technische Zeichnung",
+          "sample": "Muster / Referenzteil",
+          "material": "Materialangaben",
+          "tolerance": "Maße & Toleranzen",
+          "quantity": "Produktionsmenge"
+        },
+        "note": "Wenn noch keine vollständige technische Zeichnung vorliegt, kann eine erste Machbarkeitsbewertung anhand eines Musters, ungefährer Abmessungen und Informationen zur Anwendung durchgeführt werden.",
+        "imageAlt": "Draht- und Metallteile für Bau- und allgemeine Industrieanwendungen",
+        "imageCaption": "Projektspezifische Draht- und Metallteile für Bau- und Industrieanwendungen"
+      },
+      "applicationsSection": {
+        "eyebrow": "ANWENDUNGEN IN BAUWESEN & ALLGEMEINER INDUSTRIE",
+        "title": "Draht- und Metallteile für unterschiedliche Bau- und Industrieanforderungen.",
+        "description": "Von geformten Drahtteilen und Drahtschutzstrukturen bis hin zu Stütz- und Verbindungsteilen sowie projektspezifischen Fertigungen bewerten wir unterschiedliche Teileanforderungen nach technischen Vorgaben.",
+        "noteLabel": "Anwendungsansatz",
+        "note": "Die dargestellten Anwendungen repräsentieren unsere Fertigungsmöglichkeiten. Das endgültige Fertigungsverfahren wird anhand von technischen Zeichnungen, Mustern, Material, Geometrie, Toleranzen, Verbindungsanforderungen und Produktionsmenge festgelegt."
+      },
+      "applications": {
+        "wireParts": {
+          "title": "Geformte Drahtteile",
+          "description": "Formung von Halterungen, Befestigungselementen, Aufhängungen, Stützen und weiteren kundenspezifischen Drahtgeometrien für Bausysteme und Industrieanwendungen nach technischen Anforderungen."
+        },
+        "wireStructures": {
+          "title": "Drahtstrukturen & Schutzgitter",
+          "description": "Fertigung von geschweißten Drahtstrukturen, Drahtkäfigen, Schutzgittern und ähnlichen Teilen zum Schutz, zur Trennung, Einfassung oder Unterstützung entsprechend der Projektgeometrie und den technischen Anforderungen."
+        },
+        "supportParts": {
+          "title": "Stütz- & Verbindungsteile",
+          "description": "Fertigung von Draht- und Metallteilen zur Befestigung, Unterstützung, Aufnahme und Verbindung in Bau- und Industriesystemen entsprechend den Projektanforderungen."
+        },
+        "customParts": {
+          "title": "Projektspezifische Teile",
+          "description": "Bewertung und Fertigung nicht standardisierter Draht- und Metallteile auf Basis technischer Zeichnungen, Muster oder projektspezifischer Abmessungen und Geometrien."
+        }
+      },
+      "requirementsSection": {
+        "eyebrow": "FERTIGUNGSANFORDERUNGEN",
+        "title": "Wir betrachten Maßhaltigkeit, strukturelle Eignung und Verbindungsqualität gemeinsam.",
+        "description": "Bei Teilen für Bau- und allgemeine Industrieanwendungen sind Geometrie, Abmessungen, Verbindungspunkte, Einsatzbedingungen und Anforderungen an eine reproduzierbare Fertigung wesentliche Grundlagen des Fertigungsansatzes.",
+        "statementLabel": "Fertigungsansatz",
+        "statement": "Einsatzbereich und technische Anforderungen eines Teils werden gemeinsam berücksichtigt, um Fertigungsverfahren, Werkzeug- und Vorrichtungsbedarf, Verbindungsmethoden und Prüfungsansatz festzulegen.",
+        "itemLabel": "Technische Anforderung"
+      },
+      "requirements": {
+        "dimensionalConsistency": {
+          "title": "Maßhaltigkeit",
+          "description": "Kritische Abmessungen, die Montage und Systemkompatibilität beeinflussen, sollen bei wiederholter Fertigung entsprechend den definierten Anforderungen konstant gehalten werden."
+        },
+        "structuralSuitability": {
+          "title": "Strukturelle Eignung",
+          "description": "Bauteilgeometrie, Material und Fertigungsverfahren werden unter Berücksichtigung des Einsatzbereichs, der Verbindungsart und der Projektanforderungen bewertet."
+        },
+        "joiningQuality": {
+          "title": "Verbindungs- & Schweißqualität",
+          "description": "Bei geschweißten und punktgeschweißten Teilen sollen die Verbindungsstellen kontrolliert und reproduzierbar entsprechend der definierten Geometrie und dem vorgesehenen Einsatz ausgeführt werden."
+        },
+        "repeatableProduction": {
+          "title": "Reproduzierbare Fertigung",
+          "description": "Bei wiederkehrenden Aufträgen und Serienfertigung ist die Fertigungsstabilität entscheidend, um eine gleichbleibende Bauteilgeometrie und konstante Fertigungsergebnisse zu gewährleisten."
+        }
+      },
+      "productionSection": {
+        "eyebrow": "FERTIGUNGSMÖGLICHKEITEN",
+        "title": "Wir verbinden Teileanforderungen mit geeigneten Fertigungsverfahren.",
+        "description": "Drahtgeometrie, Bauteilstruktur, Verbindungspunkte, Abmessungen, Toleranzen und Produktionsmenge werden gemeinsam bewertet, um einen geeigneten Fertigungsansatz für das Projekt festzulegen.",
+        "needLabel": "Fertigungsanforderung",
+        "solutionLabel": "MBA Metal Fertigungsansatz",
+        "noteLabel": "Fertigungsverfahren",
+        "note": "Das Fertigungsverfahren wird anhand technischer Zeichnungen, Muster, Material, Abmessungen, Toleranzen, Verbindungsanforderungen und Produktionsmenge festgelegt."
+      },
+      "production": {
+        "wire": {
+          "need": "Spezielle Drahtgeometrien, Halterungen, Aufhängungen und Stützteile",
+          "solution": "2D- / 3D-Drahtbiegen und -umformen"
+        },
+        "structures": {
+          "need": "Drahtschutzstrukturen, Käfige und geschweißte Drahtteile",
+          "solution": "Drahtumformung und geschweißte Verbindungen"
+        },
+        "joining": {
+          "need": "Verbinden von Draht- und Metallteilen",
+          "solution": "Schweiß- / Punktschweißanwendungen"
+        },
+        "custom": {
+          "need": "Projektspezifische Bau- und Industrieteile",
+          "solution": "Kundenspezifische Fertigung mit Werkzeugen und Vorrichtungen"
+        },
+        "control": {
+          "need": "Überprüfung des Fertigungsergebnisses und kritischer Abmessungen",
+          "solution": "Maßliche / visuelle Prüfung"
+        }
+      }
     }
   },
   "marketPage": {

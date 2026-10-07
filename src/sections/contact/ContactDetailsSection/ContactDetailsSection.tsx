@@ -14,7 +14,9 @@ import {
     type LucideIcon,
 } from 'lucide-react';
 
-import { useTranslation } from 'react-i18next';
+import {
+    useTranslation,
+} from 'react-i18next';
 
 /* =========================================================
    TYPES
@@ -44,46 +46,24 @@ interface WorkingHourItem {
 const contactItems: ContactItem[] = [
     {
         id: 'phone',
-
-        labelKey:
-            'contactPage.details.phone.label',
-
-        valueKey:
-            'contactPage.details.phone.value',
-
+        labelKey: 'contactPage.details.phone.label',
+        valueKey: 'contactPage.details.phone.value',
         href: 'tel:+905300508658',
-
         icon: Phone,
     },
-
     {
         id: 'whatsapp',
-
-        labelKey:
-            'contactPage.details.whatsapp.label',
-
-        valueKey:
-            'contactPage.details.whatsapp.value',
-
+        labelKey: 'contactPage.details.whatsapp.label',
+        valueKey: 'contactPage.details.whatsapp.value',
         href: 'https://wa.me/905300508658',
-
         icon: MessageCircle,
-
         external: true,
     },
-
     {
         id: 'email',
-
-        labelKey:
-            'contactPage.details.email.label',
-
-        valueKey:
-            'contactPage.details.email.value',
-
-        href:
-            'mailto:mbametalekipman@gmail.com',
-
+        labelKey: 'contactPage.details.email.label',
+        valueKey: 'contactPage.details.email.value',
+        href: 'mailto:mbametalekipman@gmail.com',
         icon: Mail,
     },
 ];
@@ -91,31 +71,18 @@ const contactItems: ContactItem[] = [
 const workingHours: WorkingHourItem[] = [
     {
         id: 'weekdays',
-
-        labelKey:
-            'contactPage.details.workingHours.weekdays',
-
+        labelKey: 'contactPage.details.workingHours.weekdays',
         value: '08:00 - 18:00',
     },
-
     {
         id: 'saturday',
-
-        labelKey:
-            'contactPage.details.workingHours.saturday',
-
+        labelKey: 'contactPage.details.workingHours.saturday',
         value: '08:00 - 13:00',
     },
-
     {
         id: 'sunday',
-
-        labelKey:
-            'contactPage.details.workingHours.sunday',
-
-        valueKey:
-            'contactPage.details.workingHours.closed',
-
+        labelKey: 'contactPage.details.workingHours.sunday',
+        valueKey: 'contactPage.details.workingHours.closed',
         highlight: true,
     },
 ];
@@ -125,15 +92,17 @@ const workingHours: WorkingHourItem[] = [
 ========================================================= */
 
 export function ContactDetailsSection() {
-    const { t } = useTranslation();
+    const {
+        t,
+    } = useTranslation();
 
     return (
         <Box
             component="section"
             sx={{
                 position: 'relative',
-
                 overflow: 'hidden',
+                isolation: 'isolate',
 
                 py: {
                     xs: 9,
@@ -142,70 +111,397 @@ export function ContactDetailsSection() {
                     lg: 16,
                 },
 
-                bgcolor: 'background.default',
+                /*
+                 * MBA Metal dark-green environment.
+                 *
+                 * No grid.
+                 * No square pattern.
+                 * Only depth, light and industrial geometry.
+                 */
+                bgcolor: '#07150f',
 
-                backgroundImage: (theme) => `
-                    linear-gradient(
-                        ${theme.palette.divider} 1px,
-                        transparent 1px
+                background: `
+                    radial-gradient(
+                        ellipse 70% 55% at 88% 8%,
+                        rgba(32, 107, 75, 0.30) 0%,
+                        rgba(19, 72, 50, 0.16) 35%,
+                        transparent 72%
+                    ),
+                    radial-gradient(
+                        ellipse 52% 46% at 4% 94%,
+                        rgba(26, 91, 63, 0.18) 0%,
+                        transparent 68%
                     ),
                     linear-gradient(
-                        90deg,
-                        ${theme.palette.divider} 1px,
-                        transparent 1px
+                        135deg,
+                        #07150f 0%,
+                        #0a1d15 42%,
+                        #0b2118 72%,
+                        #07150f 100%
                     )
                 `,
 
-                backgroundSize: '72px 72px',
-
+                /*
+                 * Very subtle noise-like visual depth
+                 * created without an image asset.
+                 */
                 '&::before': {
                     content: '""',
-
                     position: 'absolute',
-
                     inset: 0,
-
+                    zIndex: 0,
                     pointerEvents: 'none',
 
-                    background: (theme) => `
-                        linear-gradient(
-                            180deg,
-                            ${theme.palette.background.default} 0%,
-                            transparent 16%,
-                            transparent 84%,
-                            ${theme.palette.background.default} 100%
+                    background: `
+                        radial-gradient(
+                            circle at 20% 25%,
+                            rgba(255,255,255,0.025) 0,
+                            transparent 22%
+                        ),
+                        radial-gradient(
+                            circle at 75% 72%,
+                            rgba(255,255,255,0.018) 0,
+                            transparent 28%
                         )
                     `,
                 },
 
+                /*
+                 * Bottom atmospheric fade.
+                 */
                 '&::after': {
                     content: '""',
-
                     position: 'absolute',
-
-                    top: -220,
-                    right: -180,
-
-                    width: 520,
-                    height: 520,
-
+                    left: '10%',
+                    right: '10%',
+                    bottom: -180,
+                    height: 320,
                     borderRadius: '50%',
-
-                    border: '1px solid',
-
-                    borderColor: 'divider',
-
-                    opacity: 0.55,
-
+                    bgcolor: 'rgba(46, 135, 94, 0.10)',
+                    filter: 'blur(100px)',
                     pointerEvents: 'none',
+                    zIndex: 0,
                 },
             }}
         >
+            {/* =========================================================
+                BACKGROUND DECORATION
+            ========================================================= */}
+
+            <Box
+                aria-hidden="true"
+                sx={{
+                    position: 'absolute',
+                    inset: 0,
+                    zIndex: 0,
+                    overflow: 'hidden',
+                    pointerEvents: 'none',
+                }}
+            >
+                {/* LARGE RIGHT RING */}
+
+                <Box
+                    sx={{
+                        position: 'absolute',
+
+                        top: {
+                            xs: -170,
+                            md: -310,
+                        },
+
+                        right: {
+                            xs: -250,
+                            md: -180,
+                        },
+
+                        width: {
+                            xs: 440,
+                            md: 720,
+                        },
+
+                        height: {
+                            xs: 440,
+                            md: 720,
+                        },
+
+                        borderRadius: '50%',
+
+                        border:
+                            '1px solid rgba(123, 188, 155, 0.13)',
+
+                        '&::before': {
+                            content: '""',
+                            position: 'absolute',
+                            inset: 72,
+                            borderRadius: '50%',
+                            border:
+                                '1px solid rgba(123, 188, 155, 0.07)',
+                        },
+
+                        '&::after': {
+                            content: '""',
+                            position: 'absolute',
+                            inset: 150,
+                            borderRadius: '50%',
+                            border:
+                                '1px solid rgba(123, 188, 155, 0.045)',
+                        },
+                    }}
+                />
+
+                {/* LARGE LEFT BOTTOM ARC */}
+
+                <Box
+                    sx={{
+                        position: 'absolute',
+
+                        left: {
+                            xs: -310,
+                            md: -360,
+                        },
+
+                        bottom: {
+                            xs: -220,
+                            md: -310,
+                        },
+
+                        width: {
+                            xs: 500,
+                            md: 720,
+                        },
+
+                        height: {
+                            xs: 500,
+                            md: 720,
+                        },
+
+                        borderRadius: '50%',
+
+                        border:
+                            '1px solid rgba(111, 174, 142, 0.09)',
+
+                        '&::before': {
+                            content: '""',
+                            position: 'absolute',
+                            inset: 88,
+                            borderRadius: '50%',
+                            border:
+                                '1px dashed rgba(111, 174, 142, 0.055)',
+                        },
+                    }}
+                />
+
+                {/* TOP LIGHT BEAM */}
+
+                <Box
+                    sx={{
+                        position: 'absolute',
+
+                        top: {
+                            xs: 100,
+                            md: 130,
+                        },
+
+                        right: {
+                            xs: '8%',
+                            md: '13%',
+                        },
+
+                        width: {
+                            xs: 120,
+                            md: 300,
+                        },
+
+                        height: '1px',
+
+                        background: `
+                            linear-gradient(
+                                90deg,
+                                transparent,
+                                rgba(128, 201, 164, 0.55),
+                                transparent
+                            )
+                        `,
+                    }}
+                />
+
+                {/* LEFT VERTICAL ACCENT */}
+
+                <Box
+                    sx={{
+                        position: 'absolute',
+
+                        top: {
+                            xs: '16%',
+                            md: '18%',
+                        },
+
+                        left: {
+                            xs: 22,
+                            md: '6%',
+                        },
+
+                        width: '1px',
+
+                        height: {
+                            xs: 110,
+                            md: 190,
+                        },
+
+                        background: `
+                            linear-gradient(
+                                180deg,
+                                transparent,
+                                rgba(118, 194, 155, 0.38),
+                                transparent
+                            )
+                        `,
+                    }}
+                />
+
+                {/* RIGHT VERTICAL GUIDE */}
+
+                <Box
+                    sx={{
+                        position: 'absolute',
+
+                        top: '42%',
+
+                        right: {
+                            xs: 22,
+                            md: '5%',
+                        },
+
+                        width: '1px',
+
+                        height: {
+                            xs: 140,
+                            md: 250,
+                        },
+
+                        background: `
+                            linear-gradient(
+                                180deg,
+                                transparent,
+                                rgba(255,255,255,0.10),
+                                transparent
+                            )
+                        `,
+                    }}
+                />
+
+                {/* SMALL CROSS */}
+
+                <Box
+                    sx={{
+                        position: 'absolute',
+
+                        top: {
+                            xs: 65,
+                            md: 100,
+                        },
+
+                        right: {
+                            xs: 26,
+                            md: '15%',
+                        },
+
+                        width: 15,
+                        height: 15,
+                        opacity: 0.42,
+
+                        '&::before': {
+                            content: '""',
+                            position: 'absolute',
+                            top: '50%',
+                            left: 0,
+                            width: '100%',
+                            height: '1px',
+                            bgcolor:
+                                'rgba(130, 204, 166, 0.75)',
+                            transform:
+                                'translateY(-50%)',
+                        },
+
+                        '&::after': {
+                            content: '""',
+                            position: 'absolute',
+                            top: 0,
+                            left: '50%',
+                            width: '1px',
+                            height: '100%',
+                            bgcolor:
+                                'rgba(130, 204, 166, 0.75)',
+                            transform:
+                                'translateX(-50%)',
+                        },
+                    }}
+                />
+
+                {/* AMBIENT LIGHT */}
+
+                <Box
+                    sx={{
+                        position: 'absolute',
+
+                        top: {
+                            xs: 240,
+                            md: 170,
+                        },
+
+                        right: {
+                            xs: -180,
+                            md: '5%',
+                        },
+
+                        width: {
+                            xs: 380,
+                            md: 600,
+                        },
+
+                        height: {
+                            xs: 380,
+                            md: 600,
+                        },
+
+                        borderRadius: '50%',
+
+                        background:
+                            'rgba(37, 120, 82, 0.12)',
+
+                        filter: {
+                            xs: 'blur(90px)',
+                            md: 'blur(140px)',
+                        },
+                    }}
+                />
+
+                {/* MICRO DOT */}
+
+                <Box
+                    sx={{
+                        position: 'absolute',
+                        top: '55%',
+                        left: '50%',
+                        width: 5,
+                        height: 5,
+                        borderRadius: '50%',
+                        bgcolor:
+                            'rgba(133, 210, 170, 0.42)',
+                        boxShadow:
+                            '0 0 24px rgba(78, 167, 119, 0.65)',
+                    }}
+                />
+            </Box>
+
+            {/* =========================================================
+                CONTENT
+            ========================================================= */}
+
             <Container
                 maxWidth="xl"
                 sx={{
                     position: 'relative',
-
                     zIndex: 1,
                 }}
             >
@@ -219,7 +515,6 @@ export function ContactDetailsSection() {
 
                         gridTemplateColumns: {
                             xs: '1fr',
-
                             md:
                                 'minmax(0, 1.1fr) minmax(320px, 0.65fr)',
                         },
@@ -245,11 +540,8 @@ export function ContactDetailsSection() {
                         <Box
                             sx={{
                                 display: 'flex',
-
                                 alignItems: 'center',
-
                                 gap: 1.5,
-
                                 mb: 2.5,
                             }}
                         >
@@ -257,33 +549,23 @@ export function ContactDetailsSection() {
                                 sx={{
                                     width: 7,
                                     height: 7,
-
                                     flexShrink: 0,
+                                    borderRadius: '50%',
+                                    bgcolor: '#68b58c',
 
-                                    borderRadius:
-                                        '50%',
-
-                                    bgcolor:
-                                        'primary.main',
+                                    boxShadow:
+                                        '0 0 0 5px rgba(104,181,140,0.10)',
                                 }}
                             />
 
                             <Typography
                                 sx={{
                                     fontSize: 12,
-
                                     fontWeight: 700,
-
                                     lineHeight: 1,
-
-                                    letterSpacing:
-                                        '0.18em',
-
-                                    textTransform:
-                                        'uppercase',
-
-                                    color:
-                                        'primary.main',
+                                    letterSpacing: '0.18em',
+                                    textTransform: 'uppercase',
+                                    color: '#79bd98',
                                 }}
                             >
                                 {t(
@@ -296,7 +578,6 @@ export function ContactDetailsSection() {
                             component="h2"
                             sx={{
                                 maxWidth: 800,
-
                                 m: 0,
 
                                 fontSize: {
@@ -317,7 +598,7 @@ export function ContactDetailsSection() {
                                 fontWeight: 700,
 
                                 color:
-                                    'text.primary',
+                                    'rgba(255,255,255,0.96)',
                             }}
                         >
                             {t(
@@ -339,15 +620,30 @@ export function ContactDetailsSection() {
                     >
                         <Box
                             sx={{
-                                width: 46,
-                                height: 1,
-
+                                display: 'flex',
+                                alignItems: 'center',
+                                gap: 1.25,
                                 mb: 2.5,
-
-                                bgcolor:
-                                    'primary.main',
                             }}
-                        />
+                        >
+                            <Box
+                                sx={{
+                                    width: 46,
+                                    height: '1px',
+                                    bgcolor: '#68b58c',
+                                }}
+                            />
+
+                            <Box
+                                sx={{
+                                    width: 5,
+                                    height: 5,
+                                    borderRadius: '50%',
+                                    bgcolor: '#68b58c',
+                                    opacity: 0.7,
+                                }}
+                            />
+                        </Box>
 
                         <Typography
                             sx={{
@@ -359,7 +655,7 @@ export function ContactDetailsSection() {
                                 lineHeight: 1.8,
 
                                 color:
-                                    'text.secondary',
+                                    'rgba(226,238,231,0.68)',
                             }}
                         >
                             {t(
@@ -375,18 +671,30 @@ export function ContactDetailsSection() {
 
                 <Box
                     sx={{
-                        borderTop:
-                            '1px solid',
+                        position: 'relative',
 
-                        borderColor:
-                            'divider',
+                        borderTop:
+                            '1px solid rgba(255,255,255,0.13)',
+
+                        '&::before': {
+                            content: '""',
+                            position: 'absolute',
+                            top: -1,
+                            left: 0,
+
+                            width: {
+                                xs: 52,
+                                md: 90,
+                            },
+
+                            height: '1px',
+                            bgcolor: '#68b58c',
+                            zIndex: 2,
+                        },
                     }}
                 >
                     {contactItems.map(
-                        (
-                            item,
-                            index
-                        ) => {
+                        (item) => {
                             const Icon =
                                 item.icon;
 
@@ -422,41 +730,40 @@ export function ContactDetailsSection() {
                                         gridTemplateColumns:
                                             {
                                                 xs:
-                                                    '42px minmax(0, 1fr) 32px',
+                                                    'minmax(0, 1fr) 38px',
 
                                                 sm:
-                                                    '58px 180px minmax(0, 1fr) 42px',
+                                                    '220px minmax(0, 1fr) 44px',
 
                                                 md:
-                                                    '74px 230px minmax(0, 1fr) 48px',
+                                                    '300px minmax(0, 1fr) 48px',
                                             },
 
-                                        columnGap: {
-                                            xs: 1.5,
-                                            sm: 2.5,
-                                            md: 4,
-                                        },
+                                        columnGap:
+                                            {
+                                                xs: 1.5,
+                                                sm: 2.5,
+                                                md: 4,
+                                            },
 
                                         alignItems:
                                             'center',
 
-                                        minHeight: {
-                                            xs: 110,
-                                            sm: 122,
-                                            md: 138,
-                                        },
+                                        minHeight:
+                                            {
+                                                xs: 110,
+                                                sm: 124,
+                                                md: 138,
+                                            },
 
                                         px: {
-                                            xs: 0.5,
-                                            sm: 1,
+                                            xs: 1,
+                                            sm: 1.5,
                                             md: 2,
                                         },
 
                                         borderBottom:
-                                            '1px solid',
-
-                                        borderColor:
-                                            'divider',
+                                            '1px solid rgba(255,255,255,0.11)',
 
                                         textDecoration:
                                             'none',
@@ -470,6 +777,9 @@ export function ContactDetailsSection() {
                                         transition:
                                             'padding 300ms cubic-bezier(0.22, 1, 0.36, 1)',
 
+                                        /*
+                                         * Soft green hover layer.
+                                         */
                                         '&::before':
                                             {
                                                 content:
@@ -481,10 +791,10 @@ export function ContactDetailsSection() {
                                                 inset: 0,
 
                                                 zIndex:
-                                                    -1,
+                                                    -2,
 
-                                                bgcolor:
-                                                    'primary.main',
+                                                background:
+                                                    'linear-gradient(90deg, rgba(47,123,83,0.28), rgba(34,102,69,0.18))',
 
                                                 transform:
                                                     'scaleY(0)',
@@ -496,7 +806,43 @@ export function ContactDetailsSection() {
                                                     'transform 320ms cubic-bezier(0.22, 1, 0.36, 1)',
                                             },
 
+                                        '&::after':
+                                            {
+                                                content:
+                                                    '""',
+
+                                                position:
+                                                    'absolute',
+
+                                                top: 0,
+                                                left: 0,
+                                                bottom: 0,
+
+                                                width: 3,
+
+                                                zIndex:
+                                                    -1,
+
+                                                bgcolor:
+                                                    '#68b58c',
+
+                                                transform:
+                                                    'scaleY(0)',
+
+                                                transformOrigin:
+                                                    'center',
+
+                                                transition:
+                                                    'transform 300ms cubic-bezier(0.22, 1, 0.36, 1)',
+                                            },
+
                                         '&:hover::before':
+                                            {
+                                                transform:
+                                                    'scaleY(1)',
+                                            },
+
+                                        '&:hover::after':
                                             {
                                                 transform:
                                                     'scaleY(1)',
@@ -508,37 +854,22 @@ export function ContactDetailsSection() {
                                                     md: 3,
                                                 },
 
-                                                '& .contact-index':
-                                                    {
-                                                        color:
-                                                            'primary.contrastText',
-
-                                                        opacity:
-                                                            0.55,
-                                                    },
-
                                                 '& .contact-label':
                                                     {
                                                         color:
-                                                            'primary.contrastText',
-
-                                                        opacity:
-                                                            0.72,
+                                                            '#9ed5b7',
                                                     },
 
                                                 '& .contact-mobile-label':
                                                     {
                                                         color:
-                                                            'primary.contrastText',
-
-                                                        opacity:
-                                                            0.72,
+                                                            '#9ed5b7',
                                                     },
 
                                                 '& .contact-value':
                                                     {
                                                         color:
-                                                            'primary.contrastText',
+                                                            '#ffffff',
 
                                                         transform:
                                                             'translateX(10px)',
@@ -547,64 +878,65 @@ export function ContactDetailsSection() {
                                                 '& .contact-icon':
                                                     {
                                                         color:
-                                                            'primary.contrastText',
+                                                            '#ffffff',
 
                                                         borderColor:
-                                                            'rgba(255, 255, 255, 0.35)',
+                                                            'rgba(128,204,165,0.5)',
+
+                                                        bgcolor:
+                                                            'rgba(104,181,140,0.14)',
                                                     },
 
                                                 '& .contact-arrow':
                                                     {
                                                         color:
-                                                            'primary.contrastText',
+                                                            '#9ed5b7',
 
                                                         transform:
                                                             'translate(4px, -4px)',
                                                     },
                                             },
-                                    }}
-                                >
-                                    {/* NUMBER */}
 
-                                    <Typography
-                                        className="contact-index"
-                                        sx={{
-                                            fontSize: {
-                                                xs: 10,
-                                                md: 12,
+                                        '&:focus-visible':
+                                            {
+                                                outline:
+                                                    '2px solid #68b58c',
+
+                                                outlineOffset:
+                                                    -2,
                                             },
 
-                                            fontWeight: 700,
+                                        '@media (prefers-reduced-motion: reduce)':
+                                            {
+                                                transition:
+                                                    'none',
 
-                                            letterSpacing:
-                                                '0.16em',
+                                                '&::before, &::after':
+                                                    {
+                                                        transition:
+                                                            'none',
+                                                    },
 
-                                            color:
-                                                'text.secondary',
-
-                                            opacity: 0.6,
-
-                                            transition:
-                                                'color 220ms ease, opacity 220ms ease',
-                                        }}
-                                    >
-                                        {String(
-                                            index +
-                                                1
-                                        ).padStart(
-                                            2,
-                                            '0'
-                                        )}
-                                    </Typography>
-
+                                                '& .contact-value, & .contact-arrow':
+                                                    {
+                                                        transition:
+                                                            'none',
+                                                    },
+                                            },
+                                    }}
+                                >
                                     {/* TYPE */}
 
                                     <Box
                                         sx={{
-                                            display: {
-                                                xs: 'none',
-                                                sm: 'flex',
-                                            },
+                                            display:
+                                                {
+                                                    xs:
+                                                        'none',
+
+                                                    sm:
+                                                        'flex',
+                                                },
 
                                             alignItems:
                                                 'center',
@@ -627,16 +959,22 @@ export function ContactDetailsSection() {
                                                 flexShrink: 0,
 
                                                 border:
-                                                    '1px solid',
-
-                                                borderColor:
-                                                    'divider',
+                                                    '1px solid rgba(255,255,255,0.15)',
 
                                                 color:
-                                                    'text.secondary',
+                                                    'rgba(216,234,224,0.70)',
+
+                                                bgcolor:
+                                                    'rgba(255,255,255,0.035)',
+
+                                                backdropFilter:
+                                                    'blur(8px)',
+
+                                                WebkitBackdropFilter:
+                                                    'blur(8px)',
 
                                                 transition:
-                                                    'color 220ms ease, border-color 220ms ease',
+                                                    'color 220ms ease, border-color 220ms ease, background-color 220ms ease',
                                             }}
                                         >
                                             <Icon
@@ -655,7 +993,8 @@ export function ContactDetailsSection() {
                                                 fontSize:
                                                     11,
 
-                                                fontWeight: 700,
+                                                fontWeight:
+                                                    700,
 
                                                 letterSpacing:
                                                     '0.15em',
@@ -664,10 +1003,10 @@ export function ContactDetailsSection() {
                                                     'uppercase',
 
                                                 color:
-                                                    'text.secondary',
+                                                    'rgba(211,229,219,0.54)',
 
                                                 transition:
-                                                    'color 220ms ease, opacity 220ms ease',
+                                                    'color 220ms ease',
                                             }}
                                         >
                                             {t(
@@ -680,23 +1019,29 @@ export function ContactDetailsSection() {
 
                                     <Box
                                         sx={{
-                                            minWidth: 0,
+                                            minWidth:
+                                                0,
                                         }}
                                     >
                                         <Typography
                                             className="contact-mobile-label"
                                             sx={{
-                                                display: {
-                                                    xs: 'block',
-                                                    sm: 'none',
-                                                },
+                                                display:
+                                                    {
+                                                        xs:
+                                                            'block',
+
+                                                        sm:
+                                                            'none',
+                                                    },
 
                                                 mb: 0.75,
 
                                                 fontSize:
                                                     10,
 
-                                                fontWeight: 700,
+                                                fontWeight:
+                                                    700,
 
                                                 letterSpacing:
                                                     '0.14em',
@@ -705,10 +1050,10 @@ export function ContactDetailsSection() {
                                                     'uppercase',
 
                                                 color:
-                                                    'text.secondary',
+                                                    'rgba(211,229,219,0.54)',
 
                                                 transition:
-                                                    'color 220ms ease, opacity 220ms ease',
+                                                    'color 220ms ease',
                                             }}
                                         >
                                             {t(
@@ -719,21 +1064,29 @@ export function ContactDetailsSection() {
                                         <Typography
                                             className="contact-value"
                                             sx={{
-                                                fontSize: {
-                                                    xs: 18,
-                                                    sm: 24,
-                                                    md: 30,
-                                                },
+                                                fontSize:
+                                                    {
+                                                        xs:
+                                                            18,
 
-                                                lineHeight: 1.1,
+                                                        sm:
+                                                            24,
 
-                                                fontWeight: 600,
+                                                        md:
+                                                            30,
+                                                    },
+
+                                                lineHeight:
+                                                    1.1,
+
+                                                fontWeight:
+                                                    600,
 
                                                 letterSpacing:
                                                     '-0.035em',
 
                                                 color:
-                                                    'text.primary',
+                                                    'rgba(255,255,255,0.94)',
 
                                                 overflowWrap:
                                                     'anywhere',
@@ -762,8 +1115,18 @@ export function ContactDetailsSection() {
                                             justifySelf:
                                                 'end',
 
+                                            width: {
+                                                xs: 32,
+                                                sm: 38,
+                                            },
+
+                                            height: {
+                                                xs: 32,
+                                                sm: 38,
+                                            },
+
                                             color:
-                                                'text.primary',
+                                                'rgba(229,240,234,0.76)',
 
                                             transition:
                                                 'color 220ms ease, transform 300ms cubic-bezier(0.22, 1, 0.36, 1)',
@@ -790,6 +1153,8 @@ export function ContactDetailsSection() {
 
                 <Box
                     sx={{
+                        position: 'relative',
+
                         mt: {
                             xs: 7,
                             md: 10,
@@ -797,65 +1162,111 @@ export function ContactDetailsSection() {
 
                         display: 'grid',
 
-                        gridTemplateColumns: {
-                            xs: '1fr',
+                        gridTemplateColumns:
+                            {
+                                xs: '1fr',
 
-                            md:
-                                'minmax(0, 0.75fr) minmax(0, 1.25fr)',
+                                md:
+                                    'minmax(0, 0.75fr) minmax(0, 1.25fr)',
+                            },
+
+                        border:
+                            '1px solid rgba(255,255,255,0.11)',
+
+                        bgcolor:
+                            'rgba(255,255,255,0.025)',
+
+                        backdropFilter:
+                            'blur(14px)',
+
+                        WebkitBackdropFilter:
+                            'blur(14px)',
+
+                        overflow: 'hidden',
+
+                        '&::before': {
+                            content: '""',
+                            position: 'absolute',
+                            top: -1,
+                            left: 0,
+                            width: 70,
+                            height: 2,
+                            bgcolor: '#68b58c',
+                            zIndex: 2,
                         },
 
-                        borderTop:
-                            '1px solid',
-
-                        borderBottom:
-                            '1px solid',
-
-                        borderColor:
-                            'divider',
+                        '&::after': {
+                            content: '""',
+                            position: 'absolute',
+                            right: -100,
+                            top: -100,
+                            width: 260,
+                            height: 260,
+                            borderRadius: '50%',
+                            bgcolor:
+                                'rgba(53,132,91,0.08)',
+                            filter:
+                                'blur(50px)',
+                            pointerEvents:
+                                'none',
+                        },
                     }}
                 >
                     {/* WORKING HOURS LEFT */}
 
                     <Box
                         sx={{
+                            position:
+                                'relative',
+
+                            zIndex: 1,
+
                             py: {
                                 xs: 4,
                                 md: 5,
+                            },
+
+                            px: {
+                                xs: 3,
+                                md: 4,
                             },
 
                             pr: {
                                 md: 7,
                             },
 
-                            borderRight: {
-                                xs: 'none',
-                                md: '1px solid',
-                            },
+                            borderRight:
+                                {
+                                    xs:
+                                        'none',
 
-                            borderBottom: {
-                                xs: '1px solid',
-                                md: 'none',
-                            },
+                                    md:
+                                        '1px solid rgba(255,255,255,0.11)',
+                                },
 
-                            borderColor:
-                                'divider',
+                            borderBottom:
+                                {
+                                    xs:
+                                        '1px solid rgba(255,255,255,0.11)',
+
+                                    md:
+                                        'none',
+                                },
                         }}
                     >
                         <Box
                             sx={{
                                 display: 'flex',
-
                                 alignItems:
                                     'center',
-
                                 gap: 2,
-
                                 mb: 2.5,
                             }}
                         >
                             <Box
                                 sx={{
-                                    display: 'grid',
+                                    display:
+                                        'grid',
 
                                     placeItems:
                                         'center',
@@ -866,17 +1277,19 @@ export function ContactDetailsSection() {
                                     flexShrink: 0,
 
                                     border:
-                                        '1px solid',
-
-                                    borderColor:
-                                        'divider',
+                                        '1px solid rgba(255,255,255,0.14)',
 
                                     color:
-                                        'primary.main',
+                                        '#79bd98',
+
+                                    bgcolor:
+                                        'rgba(255,255,255,0.035)',
                                 }}
                             >
                                 <Clock3
-                                    size={19}
+                                    size={
+                                        19
+                                    }
                                     strokeWidth={
                                         1.6
                                     }
@@ -885,9 +1298,11 @@ export function ContactDetailsSection() {
 
                             <Typography
                                 sx={{
-                                    fontSize: 11,
+                                    fontSize:
+                                        11,
 
-                                    fontWeight: 700,
+                                    fontWeight:
+                                        700,
 
                                     letterSpacing:
                                         '0.16em',
@@ -896,7 +1311,7 @@ export function ContactDetailsSection() {
                                         'uppercase',
 
                                     color:
-                                        'text.secondary',
+                                        'rgba(211,229,219,0.55)',
                                 }}
                             >
                                 {t(
@@ -907,22 +1322,25 @@ export function ContactDetailsSection() {
 
                         <Typography
                             sx={{
-                                maxWidth: 390,
+                                maxWidth:
+                                    390,
 
                                 fontSize: {
                                     xs: 24,
                                     md: 30,
                                 },
 
-                                lineHeight: 1.2,
+                                lineHeight:
+                                    1.2,
 
                                 letterSpacing:
                                     '-0.035em',
 
-                                fontWeight: 600,
+                                fontWeight:
+                                    600,
 
                                 color:
-                                    'text.primary',
+                                    'rgba(255,255,255,0.94)',
                             }}
                         >
                             {t(
@@ -935,9 +1353,19 @@ export function ContactDetailsSection() {
 
                     <Box
                         sx={{
+                            position:
+                                'relative',
+
+                            zIndex: 1,
+
                             py: {
                                 xs: 1.5,
                                 md: 2.5,
+                            },
+
+                            px: {
+                                xs: 3,
+                                md: 4,
                             },
 
                             pl: {
@@ -973,22 +1401,23 @@ export function ContactDetailsSection() {
                                             index <
                                             workingHours.length -
                                                 1
-                                                ? '1px solid'
+                                                ? '1px solid rgba(255,255,255,0.09)'
                                                 : 'none',
-
-                                        borderColor:
-                                            'divider',
                                     }}
                                 >
                                     <Typography
                                         sx={{
-                                            fontSize: {
-                                                xs: 13,
-                                                md: 14,
-                                            },
+                                            fontSize:
+                                                {
+                                                    xs:
+                                                        13,
+
+                                                    md:
+                                                        14,
+                                                },
 
                                             color:
-                                                'text.secondary',
+                                                'rgba(211,229,219,0.60)',
                                         }}
                                     >
                                         {t(
@@ -998,17 +1427,22 @@ export function ContactDetailsSection() {
 
                                     <Typography
                                         sx={{
-                                            fontSize: {
-                                                xs: 13,
-                                                md: 14,
-                                            },
+                                            fontSize:
+                                                {
+                                                    xs:
+                                                        13,
 
-                                            fontWeight: 600,
+                                                    md:
+                                                        14,
+                                                },
+
+                                            fontWeight:
+                                                600,
 
                                             color:
                                                 item.highlight
-                                                    ? 'primary.main'
-                                                    : 'text.primary',
+                                                    ? '#79bd98'
+                                                    : 'rgba(255,255,255,0.90)',
                                         }}
                                     >
                                         {item.valueKey
@@ -1030,23 +1464,39 @@ export function ContactDetailsSection() {
                 <Box
                     sx={{
                         display: 'flex',
-
-                        alignItems: 'center',
-
+                        alignItems:
+                            'center',
                         gap: 1.5,
-
                         mt: 3,
                     }}
                 >
-                    <Activity
-                        size={14}
-                        strokeWidth={1.6}
-                    />
+                    <Box
+                        sx={{
+                            display: 'grid',
+                            placeItems:
+                                'center',
+
+                            width: 26,
+                            height: 26,
+
+                            border:
+                                '1px solid rgba(255,255,255,0.12)',
+
+                            color:
+                                '#79bd98',
+                        }}
+                    >
+                        <Activity
+                            size={13}
+                            strokeWidth={
+                                1.6
+                            }
+                        />
+                    </Box>
 
                     <Typography
                         sx={{
                             fontSize: 11,
-
                             fontWeight: 600,
 
                             letterSpacing:
@@ -1056,11 +1506,25 @@ export function ContactDetailsSection() {
                                 'uppercase',
 
                             color:
-                                'text.secondary',
+                                'rgba(211,229,219,0.48)',
                         }}
                     >
                         MBA Metal
                     </Typography>
+
+                    <Box
+                        sx={{
+                            width: {
+                                xs: 30,
+                                sm: 64,
+                            },
+
+                            height: '1px',
+
+                            bgcolor:
+                                'rgba(121,189,152,0.30)',
+                        }}
+                    />
                 </Box>
             </Container>
         </Box>

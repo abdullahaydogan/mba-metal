@@ -1052,13 +1052,14 @@
         },
         "furniture": {
           "title": "Furniture",
-          "description": "Functional, structural and decorative wire, tube and metal components for furniture applications.",
+          "description": "Project-specific manufacturing of wire, tube and formed metal components for furniture manufacturers.",
           "applications": [
-            "Metal legs",
-            "Wire supports",
-            "Frames",
-            "Handles",
-            "Assembly components"
+            "Wire racks and basket components",
+            "Chair and table frames",
+            "Bent tube components",
+            "Metal supports and connection parts",
+            "Welded metal components",
+            "Project-specific wire and metal parts"
           ]
         },
         "logistics": {
@@ -1096,13 +1097,13 @@
         },
         "medical": {
           "title": "Medical & Hygiene Products",
-          "description": "Custom wire and metal components manufactured according to defined material, dimensional and surface requirements.",
+          "description": "Project-specific wire and metal component manufacturing for medical and hygiene equipment applications.",
           "applications": [
-            "Stainless wire components",
-            "Wire baskets",
-            "Carrier systems",
-            "Custom racks and supports",
-            "Project-specific components"
+            "Formed wire components",
+            "Wire baskets and rack components",
+            "Holder and support components",
+            "Metal carrier components",
+            "Project-specific wire and metal parts"
           ]
         },
         "marine": {
@@ -1117,13 +1118,13 @@
         },
         "agriculture": {
           "title": "Agriculture & Livestock",
-          "description": "Wire and metal product solutions for protection, handling and equipment applications.",
+          "description": "Project-specific wire and metal part manufacturing for agricultural machinery and livestock equipment.",
           "applications": [
-            "Wire cages",
-            "Protective components",
-            "Handling equipment",
-            "Wire panels",
-            "Custom equipment components"
+            "Formed wire parts",
+            "Protective wire structures",
+            "Holder and support parts",
+            "Livestock equipment parts",
+            "Project-specific wire and metal parts"
           ]
         },
         "construction": {
@@ -2097,6 +2098,502 @@
         }
       },
       "name": "Ship, Maritime & Port"
+    },
+    "furniture": {
+      "name": "Furniture",
+      "hero": {
+        "eyebrow": "FURNITURE INDUSTRY",
+        "title": "Metal component manufacturing for modern furniture applications.",
+        "description": "We manufacture project-specific wire, tube, formed and welded metal components for furniture applications, evaluating each requirement according to geometry, assembly details, visual expectations and repeatable production needs.",
+        "primaryAction": "Discuss Your Project",
+        "secondaryAction": "Explore Manufacturing Capabilities",
+        "imageAlt": "MBA Metal wire, tube and metal component manufacturing for furniture applications",
+        "scrollLabel": "Explore Furniture Solutions",
+        "visualLabel": "Furniture Manufacturing",
+        "productionLabel": "Metal Component Manufacturing",
+        "productionMeta": "Wire • Tube • Welding • Forming",
+        "badge": "Furniture Components",
+        "imageCaption": "From furniture concepts and technical drawings to manufacturable metal components.",
+        "capabilities": {
+          "wireForm": "Wire Forming",
+          "metalForm": "Tube & Metal Forming",
+          "welding": "Welding & Joining",
+          "repeatProduction": "Serial Production"
+        }
+      },
+      "overview": {
+        "eyebrow": "MANUFACTURING FOR FURNITURE",
+        "title": "We transform furniture component requirements into manufacturable metal solutions.",
+        "description": "Metal components used in furniture applications must meet not only dimensional requirements, but also assembly, surface, visual and repeatability expectations. We evaluate these requirements together when defining the manufacturing approach.",
+        "secondaryDescription": "At MBA Metal, we combine wire forming, tube bending, metal forming and welding capabilities to manufacture components for different furniture applications.",
+        "highlight": "Our focus is not complete furniture production, but the reliable manufacturing of the metal components that become part of the final product.",
+        "statement": "Each component is evaluated according to its geometry, material, connection points, surface expectations and target production quantity.",
+        "inputLabel": "Project Inputs",
+        "inputs": {
+          "technicalDrawing": "Technical drawing",
+          "sample": "Sample / reference component",
+          "material": "Material information",
+          "tolerance": "Dimensions & tolerances",
+          "quantity": "Production quantity"
+        },
+        "note": "If a complete technical drawing is not available, an initial manufacturability assessment can also be made using a sample, approximate dimensions and application information.",
+        "imageAlt": "Metal component manufacturing for furniture applications",
+        "imageCaption": "Project-specific wire, tube and metal component manufacturing for the furniture industry"
+      },
+      "applicationsSection": {
+        "eyebrow": "FURNITURE APPLICATIONS",
+        "title": "Metal components designed around furniture applications.",
+        "description": "From formed wire parts to tube structures and welded metal components, we evaluate different furniture component requirements according to their geometry, function and manufacturing conditions.",
+        "noteLabel": "Application Approach",
+        "note": "The applications shown represent our manufacturing capabilities. The final production method is determined according to technical drawings, material, geometry, connection details, surface requirements and production volume."
+      },
+      "applications": {
+        "wireComponents": {
+          "title": "Formed Wire Components",
+          "description": "Custom wire components for supports, racks, baskets, frames and other functional or decorative furniture applications."
+        },
+        "tubeComponents": {
+          "title": "Tube Structures & Components",
+          "description": "Bent and formed tube components for chair and table frames, legs, supports and other structural furniture applications."
+        },
+        "metalComponents": {
+          "title": "Metal Furniture Components",
+          "description": "Metal support, connection, carrier and assembly components manufactured according to the geometry and technical requirements of the furniture project."
+        },
+        "customProduction": {
+          "title": "Project-Specific Components",
+          "description": "Custom wire, tube and metal components developed according to technical drawings, samples or project-specific dimensions and geometries."
+        }
+      },
+      "requirementsSection": {
+        "eyebrow": "MANUFACTURING REQUIREMENTS",
+        "title": "Furniture components require both technical consistency and visual quality.",
+        "description": "Dimensional consistency, surface condition, assembly compatibility and repeatable manufacturing are evaluated together for metal components used in furniture applications.",
+        "statementLabel": "Manufacturing Approach",
+        "statement": "The manufacturing process is planned according to the component's geometry, assembly points, visual expectations and production volume, with the objective of maintaining consistent results throughout production.",
+        "itemLabel": "Technical Requirement"
+      },
+      "requirements": {
+        "dimensionalConsistency": {
+          "title": "Dimensional Consistency",
+          "description": "Critical dimensions are controlled to support proper assembly and compatibility between metal components and other furniture parts."
+        },
+        "surfaceQuality": {
+          "title": "Surface & Visual Quality",
+          "description": "Surface condition, deformation and overall visual consistency are considered important, especially for components that remain visible in the final furniture product."
+        },
+        "assemblyCompatibility": {
+          "title": "Assembly Compatibility",
+          "description": "Connection points, hole positions, bending geometries and joining details are evaluated to support accurate and repeatable assembly."
+        },
+        "repeatableProduction": {
+          "title": "Repeatable Manufacturing",
+          "description": "For recurring orders and serial production, the manufacturing process is structured to maintain consistent component geometry and production results."
+        }
+      },
+      "productionSection": {
+        "eyebrow": "MANUFACTURING CAPABILITIES",
+        "title": "We match furniture component requirements with the appropriate manufacturing process.",
+        "description": "Wire geometry, tube structures, metal forming requirements, joining points and production volume are evaluated together to determine the appropriate manufacturing process.",
+        "needLabel": "Furniture Requirement",
+        "solutionLabel": "MBA Metal Manufacturing Approach",
+        "noteLabel": "Process Selection",
+        "note": "The manufacturing method is determined by evaluating technical drawings, samples, materials, dimensions, tolerances, surface expectations and production quantities together."
+      },
+      "production": {
+        "wire": {
+          "need": "Wire supports, racks, baskets and custom wire geometries",
+          "solution": "2D / 3D wire bending and forming"
+        },
+        "tube": {
+          "need": "Chair, table and furniture tube structures",
+          "solution": "Tube bending and forming"
+        },
+        "forming": {
+          "need": "Bent and formed metal furniture components",
+          "solution": "Metal bending and forming"
+        },
+        "joining": {
+          "need": "Joining wire, tube and metal components",
+          "solution": "Welding / spot-welding applications"
+        },
+        "custom": {
+          "need": "Project-specific furniture components",
+          "solution": "Fixture and tooling-supported custom manufacturing"
+        }
+      }
+    },
+    "medical": {
+      "name": "Medical & Hygiene Products",
+      "hero": {
+        "eyebrow": "MEDICAL & HYGIENE PRODUCTS",
+        "title": "Wire and metal component manufacturing for medical and hygiene equipment.",
+        "description": "We evaluate wire, formed metal and welded components used in medical and hygiene equipment according to technical drawings, part geometry, assembly details, surface expectations and repeatable production requirements.",
+        "primaryAction": "Discuss Your Project",
+        "secondaryAction": "Explore Manufacturing Capabilities",
+        "imageAlt": "MBA Metal wire and metal component manufacturing for medical and hygiene equipment",
+        "scrollLabel": "Explore Medical Solutions",
+        "visualLabel": "Medical & Hygiene Applications",
+        "productionLabel": "Wire & Metal Component Manufacturing",
+        "productionMeta": "Wire • Metal • Welding • Forming",
+        "badge": "Medical & Hygiene Components",
+        "imageCaption": "From technical requirements to manufacturable and repeatable metal components.",
+        "capabilities": {
+          "wireForm": "Wire Forming",
+          "metalForm": "Metal Forming",
+          "welding": "Welding & Spot Welding",
+          "repeatProduction": "Serial Production"
+        }
+      },
+      "overview": {
+        "eyebrow": "MANUFACTURING FOR MEDICAL & HYGIENE",
+        "title": "We transform equipment component requirements into controlled manufacturing processes.",
+        "description": "Wire and metal components used in medical and hygiene equipment are evaluated by considering part geometry, dimensions, connection points, surface expectations and application requirements together.",
+        "secondaryDescription": "At MBA Metal, we combine our wire forming, metal bending, welding and custom manufacturing capabilities according to the production requirements of baskets, racks, holders, supports and other equipment components.",
+        "highlight": "Our focus is not the manufacture of medical devices or hygiene products themselves, but the production of wire and metal components that can be integrated into these systems and equipment.",
+        "statement": "Each part is evaluated according to technical drawings or samples, material, geometry, connection details and production quantity to determine an appropriate manufacturing approach.",
+        "inputLabel": "Project Inputs",
+        "inputs": {
+          "technicalDrawing": "Technical drawing",
+          "sample": "Sample / reference part",
+          "material": "Material information",
+          "tolerance": "Dimensions & tolerances",
+          "quantity": "Production quantity"
+        },
+        "note": "If a complete technical drawing is not yet available, an initial manufacturability assessment can be made using a sample, approximate dimensions and application information.",
+        "imageAlt": "Wire and metal component manufacturing for medical and hygiene equipment",
+        "imageCaption": "Project-specific wire and metal component solutions for equipment manufacturers"
+      },
+      "applicationsSection": {
+        "eyebrow": "MEDICAL & HYGIENE APPLICATIONS",
+        "title": "Manufacturable metal components for different equipment requirements.",
+        "description": "From formed wire parts and basket or rack components to support elements and project-specific metal parts, we evaluate different manufacturing requirements according to technical specifications.",
+        "noteLabel": "Application Approach",
+        "note": "The applications shown represent our manufacturing capabilities. The final manufacturing method is determined according to technical drawings, samples, material, geometry, tolerances, surface expectations and production quantity."
+      },
+      "applications": {
+        "wireComponents": {
+          "title": "Formed Wire Components",
+          "description": "Forming holders, supports, dividers and other custom wire geometries used in medical and hygiene equipment according to technical requirements."
+        },
+        "wireBaskets": {
+          "title": "Wire Basket & Rack Components",
+          "description": "Manufacturing wire baskets, racks and similar components for handling, organization and equipment-integrated applications according to project geometry."
+        },
+        "supportComponents": {
+          "title": "Support & Carrier Components",
+          "description": "Manufacturing wire and metal components used for connection, support, fixing and carrying functions within equipment systems according to project requirements."
+        },
+        "customComponents": {
+          "title": "Project-Specific Components",
+          "description": "Evaluating and manufacturing non-standard wire and metal parts based on technical drawings, samples or project-specific dimensions and geometries."
+        }
+      },
+      "requirementsSection": {
+        "eyebrow": "MANUFACTURING REQUIREMENTS",
+        "title": "Controlled part manufacturing requires technical details to be evaluated together.",
+        "description": "Dimensional consistency, surface condition, joining quality and repeatable manufacturing are evaluated together for parts intended for medical and hygiene equipment.",
+        "statementLabel": "Manufacturing Approach",
+        "statement": "The intended application and technical requirements of each part are considered fundamental inputs when determining the manufacturing method, tooling and fixture requirements, and inspection approach.",
+        "itemLabel": "Technical Requirement"
+      },
+      "requirements": {
+        "dimensionalConsistency": {
+          "title": "Dimensional Consistency",
+          "description": "Critical dimensions affecting assembly and equipment compatibility are intended to remain consistent with defined requirements throughout production."
+        },
+        "surfaceQuality": {
+          "title": "Surface & Visual Quality",
+          "description": "Surface condition, deformation and overall visual conformity of parts are evaluated according to project and application requirements."
+        },
+        "joiningQuality": {
+          "title": "Joining & Welding Quality",
+          "description": "For welded and spot-welded parts, connection points are intended to remain controlled, repeatable and suitable for the defined geometry and application."
+        },
+        "repeatableProduction": {
+          "title": "Repeatable Manufacturing",
+          "description": "For recurring orders and serial production requirements, process stability is considered to maintain consistent part geometry and manufacturing results."
+        }
+      },
+      "productionSection": {
+        "eyebrow": "MANUFACTURING CAPABILITIES",
+        "title": "We match part requirements with appropriate manufacturing processes.",
+        "description": "Wire geometry, part structure, connection points, tolerances and production quantity are evaluated together to establish a manufacturing approach suitable for the project.",
+        "needLabel": "Manufacturing Requirement",
+        "solutionLabel": "MBA Metal Manufacturing Approach",
+        "noteLabel": "Process Selection",
+        "note": "The manufacturing method is determined by evaluating technical drawings, samples, material, dimensions, tolerances, joining requirements and production quantity together."
+      },
+      "production": {
+        "wire": {
+          "need": "Custom wire geometries, holders and support parts",
+          "solution": "2D / 3D wire bending and forming"
+        },
+        "basket": {
+          "need": "Wire baskets, racks and carrier parts",
+          "solution": "Wire forming and welded joining"
+        },
+        "joining": {
+          "need": "Joining wire and metal parts",
+          "solution": "Welding / spot-welding applications"
+        },
+        "custom": {
+          "need": "Project-specific equipment parts",
+          "solution": "Fixture and tooling-supported custom manufacturing"
+        },
+        "control": {
+          "need": "Verification of manufacturing results and dimensions",
+          "solution": "Dimensional / visual inspection"
+        }
+      }
+    },
+    "agriculture": {
+      "name": "Agriculture & Livestock",
+      "hero": {
+        "eyebrow": "AGRICULTURE & LIVESTOCK",
+        "title": "Wire and metal part manufacturing for agricultural and livestock equipment.",
+        "description": "We manufacture formed wire parts, protective wire structures, support and connection parts used in agricultural machinery and livestock equipment according to technical drawings, part geometry, operating conditions and repeatable production requirements.",
+        "primaryAction": "Discuss Your Project",
+        "secondaryAction": "Explore Manufacturing Capabilities",
+        "imageAlt": "MBA Metal wire and metal part manufacturing for agricultural and livestock equipment",
+        "scrollLabel": "Explore Agriculture & Livestock Applications",
+        "visualLabel": "Agriculture & Livestock Applications",
+        "productionLabel": "Wire & Metal Part Manufacturing",
+        "productionMeta": "Wire • Metal • Welding • Forming",
+        "badge": "Agriculture & Livestock",
+        "imageCaption": "From technical requirements to manufacturable and repeatable wire and metal parts.",
+        "capabilities": {
+          "wireForm": "Wire Forming",
+          "metalForm": "Metal Forming",
+          "welding": "Welding & Spot Welding",
+          "repeatProduction": "Serial Production"
+        }
+      },
+      "overview": {
+        "eyebrow": "MANUFACTURING FOR AGRICULTURE & LIVESTOCK",
+        "title": "We transform equipment part requirements into manufacturable metal solutions.",
+        "description": "Wire and metal parts used in agricultural machinery and livestock equipment are evaluated by considering geometry, dimensions, connection points, operating conditions and production quantities together.",
+        "secondaryDescription": "At MBA Metal, we combine our wire forming, metal forming, welding and project-specific manufacturing capabilities for protective wire structures, holders, supports, carrier parts and various equipment requirements.",
+        "highlight": "Our focus is not the manufacture of agricultural machinery or livestock equipment itself, but the production of wire and metal parts that can be used within these machines and equipment.",
+        "statement": "Each part is evaluated according to technical drawings or samples, material, geometry, connection details, operating conditions and production quantity to determine an appropriate manufacturing method.",
+        "inputLabel": "Project Inputs",
+        "inputs": {
+          "technicalDrawing": "Technical drawing",
+          "sample": "Sample / reference part",
+          "material": "Material information",
+          "tolerance": "Dimensions & tolerances",
+          "quantity": "Production quantity"
+        },
+        "note": "If a complete technical drawing is not yet available, an initial manufacturability assessment can be made using a sample, approximate dimensions and application information.",
+        "imageAlt": "Wire and metal part manufacturing for agricultural and livestock equipment",
+        "imageCaption": "Project-specific wire and metal part solutions for equipment manufacturers"
+      },
+      "applicationsSection": {
+        "eyebrow": "AGRICULTURE & LIVESTOCK APPLICATIONS",
+        "title": "Wire and metal parts for different machinery and equipment requirements.",
+        "description": "From formed wire parts and protective wire structures to metal parts used in livestock equipment and project-specific solutions, we evaluate different manufacturing requirements according to technical specifications.",
+        "noteLabel": "Application Approach",
+        "note": "The applications shown represent our manufacturing capabilities. The final manufacturing method is determined according to technical drawings, samples, material, geometry, tolerances, joining requirements and production quantity."
+      },
+      "applications": {
+        "wireParts": {
+          "title": "Formed Wire Parts",
+          "description": "Forming holders, fixing elements, supports and other custom wire geometries used in agricultural machinery and equipment according to technical requirements."
+        },
+        "protectionStructures": {
+          "title": "Protective Wire Structures",
+          "description": "Manufacturing wire guards, protective structures and similar parts used for protection, separation or enclosure in machinery and equipment according to project requirements."
+        },
+        "livestockEquipment": {
+          "title": "Livestock Equipment Parts",
+          "description": "Manufacturing wire structures, supports and metal parts used in feeding, organization, handling and various livestock equipment according to project requirements."
+        },
+        "customParts": {
+          "title": "Project-Specific Parts",
+          "description": "Evaluating and manufacturing non-standard wire and metal parts based on technical drawings, samples or project-specific dimensions and geometries."
+        }
+      },
+      "requirementsSection": {
+        "eyebrow": "MANUFACTURING REQUIREMENTS",
+        "title": "Technical consistency and durability are evaluated together for parts used under field conditions.",
+        "description": "Dimensional consistency, structural durability, joining quality and repeatable manufacturing are among the key requirements for parts intended for agricultural and livestock equipment.",
+        "statementLabel": "Manufacturing Approach",
+        "statement": "The application, geometry, connection points and operating conditions of each part are evaluated together when determining the manufacturing method, tooling and fixture requirements, and inspection approach.",
+        "itemLabel": "Technical Requirement"
+      },
+      "requirements": {
+        "dimensionalConsistency": {
+          "title": "Dimensional Consistency",
+          "description": "Critical dimensions affecting assembly and equipment compatibility are intended to remain consistent with defined requirements throughout repeat production."
+        },
+        "structuralDurability": {
+          "title": "Structural Durability",
+          "description": "Part geometry and manufacturing methods are evaluated according to project requirements while considering mechanical loads and operating conditions that may occur during use."
+        },
+        "joiningQuality": {
+          "title": "Joining & Welding Quality",
+          "description": "For welded and spot-welded parts, connection points are intended to be formed in a controlled and repeatable manner suitable for the part geometry and intended application."
+        },
+        "repeatableProduction": {
+          "title": "Repeatable Manufacturing",
+          "description": "For recurring orders and serial production requirements, manufacturing stability is considered essential for maintaining consistent part geometry and production results."
+        }
+      },
+      "productionSection": {
+        "eyebrow": "MANUFACTURING CAPABILITIES",
+        "title": "We match part requirements with appropriate manufacturing methods.",
+        "description": "Wire geometry, part structure, connection points, tolerances, operating conditions and production quantity are evaluated together to establish a manufacturing approach suitable for the project.",
+        "needLabel": "Manufacturing Requirement",
+        "solutionLabel": "MBA Metal Manufacturing Approach",
+        "noteLabel": "Manufacturing Method",
+        "note": "The manufacturing method is determined by evaluating technical drawings, samples, material, dimensions, tolerances, joining requirements and production quantity together."
+      },
+      "production": {
+        "wire": {
+          "need": "Custom wire geometries, holders and support parts",
+          "solution": "2D / 3D wire bending and forming"
+        },
+        "protection": {
+          "need": "Protective wire guards and custom wire structures",
+          "solution": "Wire forming and welded joining"
+        },
+        "joining": {
+          "need": "Joining wire and metal parts",
+          "solution": "Welding / spot-welding applications"
+        },
+        "custom": {
+          "need": "Project-specific machinery and equipment parts",
+          "solution": "Fixture and tooling-supported custom manufacturing"
+        },
+        "control": {
+          "need": "Verification of manufacturing results and critical dimensions",
+          "solution": "Dimensional / visual inspection"
+        }
+      }
+    },
+    "construction": {
+      "name": "Construction & General Industry",
+      "hero": {
+        "eyebrow": "CONSTRUCTION & GENERAL INDUSTRY",
+        "title": "Wire and metal part manufacturing for construction and general industrial applications.",
+        "description": "We manufacture formed wire parts, protective wire structures, support parts and connection parts used in building systems, industrial equipment and various general industrial applications according to technical requirements.",
+        "primaryAction": "Discuss Your Project",
+        "secondaryAction": "Explore Manufacturing Capabilities",
+        "imageAlt": "MBA Metal wire and metal part manufacturing for construction and general industrial applications",
+        "scrollLabel": "Explore Construction & General Industry Applications",
+        "visualLabel": "Construction & General Industry",
+        "productionLabel": "Wire & Metal Part Manufacturing",
+        "productionMeta": "Wire • Metal • Welding • Forming",
+        "badge": "Construction & General Industry",
+        "imageCaption": "From technical requirements to manufacturable and repeatable wire and metal parts.",
+        "capabilities": {
+          "wireForm": "Wire Forming",
+          "metalForm": "Metal Forming",
+          "welding": "Welding & Spot Welding",
+          "repeatProduction": "Serial Production"
+        }
+      },
+      "overview": {
+        "eyebrow": "MANUFACTURING FOR CONSTRUCTION & GENERAL INDUSTRY",
+        "title": "We transform technical part requirements into manufacturable wire and metal solutions.",
+        "description": "Wire and metal parts used in construction, building systems and general industrial applications are evaluated by considering geometry, dimensions, connection points, application conditions and production quantities together.",
+        "secondaryDescription": "At MBA Metal, we combine our wire forming, metal forming, welding and project-specific manufacturing capabilities for protective wire structures, holders, supports, connection parts and various industrial part requirements.",
+        "highlight": "Our focus is not on manufacturing complete building systems or industrial equipment, but on producing the wire and metal parts used within these systems according to technical requirements.",
+        "statement": "Each part is evaluated according to technical drawings or samples, material, geometry, connection details, dimensions, tolerances and target production quantity to determine an appropriate manufacturing method.",
+        "inputLabel": "Project Inputs",
+        "inputs": {
+          "technicalDrawing": "Technical drawing",
+          "sample": "Sample / reference part",
+          "material": "Material information",
+          "tolerance": "Dimensions & tolerances",
+          "quantity": "Production quantity"
+        },
+        "note": "If a complete technical drawing is not yet available, an initial manufacturability assessment can be made using a sample, approximate dimensions and application information.",
+        "imageAlt": "Wire and metal part manufacturing for construction and general industrial applications",
+        "imageCaption": "Project-specific wire and metal part solutions for construction and industrial applications"
+      },
+      "applicationsSection": {
+        "eyebrow": "CONSTRUCTION & GENERAL INDUSTRY APPLICATIONS",
+        "title": "Wire and metal parts for different construction and industrial requirements.",
+        "description": "From formed wire parts and protective wire structures to support and connection parts and project-specific manufacturing, we evaluate different part requirements according to technical specifications.",
+        "noteLabel": "Application Approach",
+        "note": "The applications shown represent our manufacturing capabilities. The final manufacturing method is determined according to technical drawings, samples, material, geometry, tolerances, joining requirements and production quantity."
+      },
+      "applications": {
+        "wireParts": {
+          "title": "Formed Wire Parts",
+          "description": "Forming holders, fixing elements, hangers, supports and other custom wire geometries used in building systems and industrial applications according to technical requirements."
+        },
+        "wireStructures": {
+          "title": "Wire Structures & Guards",
+          "description": "Manufacturing welded wire structures, wire cages, guards and similar parts used for protection, separation, enclosure or support according to project geometry and requirements."
+        },
+        "supportParts": {
+          "title": "Support & Connection Parts",
+          "description": "Manufacturing wire and metal parts used for fixing, supporting, carrying and connecting in construction and industrial systems according to project requirements."
+        },
+        "customParts": {
+          "title": "Project-Specific Parts",
+          "description": "Evaluating and manufacturing non-standard wire and metal parts based on technical drawings, samples or project-specific dimensions and geometries."
+        }
+      },
+      "requirementsSection": {
+        "eyebrow": "MANUFACTURING REQUIREMENTS",
+        "title": "We evaluate dimensional consistency, structural suitability and joining quality together.",
+        "description": "For parts intended for construction and general industrial applications, geometry, dimensions, connection points, application conditions and repeatable manufacturing requirements are key inputs to the manufacturing approach.",
+        "statementLabel": "Manufacturing Approach",
+        "statement": "The application and technical requirements of each part are evaluated together when determining the manufacturing method, tooling and fixture requirements, joining methods and inspection approach.",
+        "itemLabel": "Technical Requirement"
+      },
+      "requirements": {
+        "dimensionalConsistency": {
+          "title": "Dimensional Consistency",
+          "description": "Critical dimensions affecting assembly and system compatibility are intended to remain consistent with defined requirements throughout repeat production."
+        },
+        "structuralSuitability": {
+          "title": "Structural Suitability",
+          "description": "Part geometry, material and manufacturing method are evaluated by considering the application, connection method and project requirements."
+        },
+        "joiningQuality": {
+          "title": "Joining & Welding Quality",
+          "description": "For welded and spot-welded parts, connection points are intended to be formed in a controlled and repeatable manner suitable for the defined geometry and intended application."
+        },
+        "repeatableProduction": {
+          "title": "Repeatable Manufacturing",
+          "description": "For recurring orders and serial production requirements, manufacturing stability is considered essential for maintaining consistent part geometry and production results."
+        }
+      },
+      "productionSection": {
+        "eyebrow": "MANUFACTURING CAPABILITIES",
+        "title": "We match part requirements with appropriate manufacturing methods.",
+        "description": "Wire geometry, part structure, connection points, dimensions, tolerances and production quantity are evaluated together to establish a manufacturing approach suitable for the project.",
+        "needLabel": "Manufacturing Requirement",
+        "solutionLabel": "MBA Metal Manufacturing Approach",
+        "noteLabel": "Manufacturing Method",
+        "note": "The manufacturing method is determined by evaluating technical drawings, samples, material, dimensions, tolerances, joining requirements and production quantity together."
+      },
+      "production": {
+        "wire": {
+          "need": "Custom wire geometries, holders, hangers and support parts",
+          "solution": "2D / 3D wire bending and forming"
+        },
+        "structures": {
+          "need": "Protective wire structures, cages and welded wire parts",
+          "solution": "Wire forming and welded joining"
+        },
+        "joining": {
+          "need": "Joining wire and metal parts",
+          "solution": "Welding / spot-welding applications"
+        },
+        "custom": {
+          "need": "Project-specific construction and industrial parts",
+          "solution": "Fixture and tooling-supported custom manufacturing"
+        },
+        "control": {
+          "need": "Verification of manufacturing results and critical dimensions",
+          "solution": "Dimensional / visual inspection"
+        }
+      }
     }
   },
   "marketPage": {

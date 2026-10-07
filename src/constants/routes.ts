@@ -14,5 +14,9 @@ export const routes = {
     marine: '/sektorler/gemi-denizcilik-liman',
     contact: '/iletisim',
     market: '/pazar',
+    furniture: '/sektorler/mobilya',
+    medical: '/sektorler/medikal-hijyen-urunleri',
+    agriculture: '/sektorler/tarim-hayvancilik',
+    construction: '/sektorler/insaat-genel-sanayi',
 
 } as const;

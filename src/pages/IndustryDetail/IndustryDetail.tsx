@@ -1,11 +1,11 @@
 import {
-    Box,
-} from '@mui/material';
-
-import {
     Navigate,
     useParams,
 } from 'react-router-dom';
+
+import {
+    Box,
+} from '@mui/material';
 
 import {
     automotiveIndustry,
@@ -18,6 +18,10 @@ import {
 import {
     retailIndustry,
 } from '../../data/industries/industry-details/retail.data';
+
+import {
+    furnitureIndustry,
+} from '../../data/industries/industry-details/furniture.data';
 
 import {
     logisticsIndustry,
@@ -34,6 +38,18 @@ import {
 import {
     marineIndustry,
 } from '../../data/industries/industry-details/marine.data';
+
+import {
+    medicalIndustry,
+} from '../../data/industries/industry-details/medical.data';
+
+import {
+    agricultureIndustry,
+} from '../../data/industries/industry-details/agriculture.data';
+
+import {
+    constructionIndustry,
+} from '../../data/industries/industry-details/construction.data';
 
 import {
     IndustryDetailHeroSection,
@@ -55,15 +71,14 @@ import {
     IndustryProductionSection,
 } from '../../sections/industry-detail/IndustryProductionSection';
 
-import {
-    routes,
-} from '../../constants/routes';
+import type {
+    IndustryDetail as IndustryDetailType,
+} from '../../types/industry-detail.types';
 
-/* =========================================================
-   INDUSTRIES
-========================================================= */
-
-const industries = {
+const industries: Record<
+    string,
+    IndustryDetailType
+> = {
     otomotiv:
         automotiveIndustry,
 
@@ -72,6 +87,9 @@ const industries = {
 
     'perakende-magazacilik':
         retailIndustry,
+
+    mobilya:
+        furnitureIndustry,
 
     'lojistik-tasima':
         logisticsIndustry,
@@ -84,14 +102,16 @@ const industries = {
 
     'gemi-denizcilik-liman':
         marineIndustry,
-} as const;
 
-type IndustrySlug =
-    keyof typeof industries;
+    'medikal-hijyen-urunleri':
+        medicalIndustry,
 
-/* =========================================================
-   PAGE
-========================================================= */
+    'tarim-hayvancilik':
+        agricultureIndustry,
+
+    'insaat-genel-sanayi':
+        constructionIndustry,
+};
 
 export function IndustryDetail() {
     const {
@@ -103,25 +123,19 @@ export function IndustryDetail() {
     if (!industrySlug) {
         return (
             <Navigate
-                to={
-                    routes.industries
-                }
+                to="/sektorler"
                 replace
             />
         );
     }
 
     const industry =
-        industries[
-            industrySlug as IndustrySlug
-        ];
+        industries[industrySlug];
 
     if (!industry) {
         return (
             <Navigate
-                to={
-                    routes.industries
-                }
+                to="/sektorler"
                 replace
             />
         );
@@ -130,33 +144,23 @@ export function IndustryDetail() {
     return (
         <Box component="main">
             <IndustryDetailHeroSection
-                industry={
-                    industry
-                }
+                industry={industry}
             />
 
             <IndustryOverviewSection
-                industry={
-                    industry
-                }
+                industry={industry}
             />
 
             <IndustryApplicationsSection
-                industry={
-                    industry
-                }
+                industry={industry}
             />
 
             <IndustryRequirementsSection
-                industry={
-                    industry
-                }
+                industry={industry}
             />
 
             <IndustryProductionSection
-                industry={
-                    industry
-                }
+                industry={industry}
             />
         </Box>
     );

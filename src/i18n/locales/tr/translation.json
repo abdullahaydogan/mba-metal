@@ -172,7 +172,7 @@
         },
         "2d-3d-tel-sekillendirme": {
           "title": "2D / 3D Tel Şekillendirme",
-          "description": "Farklı eksenlerde büküm ve karmaşık form gerektiren özel tel komponentlerin teknik gereksinimlere göre şekillendirilmesi.",
+          "description": "Farklı eksenlerde büküm ve karmaşık form gerektiren özel tel parçaların teknik gereksinimlere göre şekillendirilmesi.",
           "features": [
             "Çok eksenli formlar",
             "Özel açı ve radyüsler",
@@ -749,7 +749,7 @@
         },
         "production": {
           "title": "Üretim",
-          "description": "Belirlenen prosesler doğrultusunda tel, metal ve ilgili komponentlerin üretim operasyonları gerçekleştirilir."
+          "description": "Belirlenen prosesler doğrultusunda tel, metal ve ilgili parçaların üretim operasyonları gerçekleştirilir."
         },
         "qualityControl": {
           "title": "Kalite Kontrol",
@@ -1053,13 +1053,14 @@
         },
         "furniture": {
           "title": "Mobilya",
-          "description": "Mobilya ürünlerinde kullanılan fonksiyonel, taşıyıcı ve dekoratif tel, boru ve metal komponentler.",
+          "description": "Mobilya üreticilerine yönelik tel, boru ve şekillendirilmiş metal parçaların projeye özel üretimi.",
           "applications": [
-            "Metal ayaklar",
-            "Tel destekler",
-            "Çerçeveler",
-            "Kulplar",
-            "Montaj parçaları"
+            "Tel raf ve sepet parçaları",
+            "Sandalye ve masa iskeletleri",
+            "Bükülmüş boru parçaları",
+            "Metal destek ve bağlantı parçaları",
+            "Kaynaklı metal komponentler",
+            "Projeye özel tel ve metal parçalar"
           ]
         },
         "logistics": {
@@ -1097,24 +1098,24 @@
         },
         "medical": {
           "title": "Medikal ve Hijyen Ürünleri",
-          "description": "Tanımlanmış malzeme, ölçü, yüzey ve kullanım gereksinimlerine göre özel tel ve metal parçalar.",
+          "description": "Medikal ve hijyen ekipmanlarına yönelik projeye özel tel ve metal parça üretimi.",
           "applications": [
-            "Paslanmaz tel parçalar",
-            "Tel sepetler",
-            "Taşıyıcı sistemler",
-            "Özel raf ve destekler",
-            "Proje bazlı komponentler"
+            "Şekillendirilmiş tel parçalar",
+            "Tel sepet ve raf parçaları",
+            "Tutucu ve destek parçaları",
+            "Taşıyıcı metal parçalar",
+            "Projeye özel tel ve metal parçalar"
           ]
         },
         "agriculture": {
           "title": "Tarım ve Hayvancılık",
-          "description": "Koruma, taşıma ve ekipman uygulamalarına yönelik tel ve metal ürün çözümleri.",
+          "description": "Tarım makineleri ve hayvancılık ekipmanlarına yönelik projeye özel tel ve metal parça üretimi.",
           "applications": [
-            "Tel kafesler",
-            "Koruyucu parçalar",
-            "Taşıma ekipmanları",
-            "Tel paneller",
-            "Özel ekipman komponentleri"
+            "Şekillendirilmiş tel parçalar",
+            "Koruyucu tel yapılar",
+            "Tutucu ve destek parçaları",
+            "Hayvancılık ekipmanı parçaları",
+            "Projeye özel tel ve metal parçalar"
           ]
         },
         "construction": {
@@ -1150,7 +1151,7 @@
         "wireForming": {
           "label": "Tel İşleme",
           "title": "Tel ve Çubuk Şekillendirme",
-          "description": "Teknik gereksinimlere göre farklı çap, geometri ve formlarda tel ve çubuk komponentlerin kontrollü üretimi.",
+          "description": "Teknik gereksinimlere göre farklı çap, geometri ve formlarda tel ve çubuk parçaların kontrollü üretimi.",
           "features": [
             "CNC tel bükme",
             "2D / 3D şekillendirme",
@@ -1437,7 +1438,7 @@
       "requirementsSection": {
         "eyebrow": "Üretim Gereksinimleri",
         "title": "Seri üretimde her parçanın aynı sonucu vermesi gerekir.",
-        "description": "Beyaz eşya komponentlerinde yalnızca parçanın geometrisi değil; ölçüsel kararlılık, üretim tekrarlanabilirliği, yüzey kalitesi ve proses sürekliliği birlikte değerlendirilir.",
+        "description": "Beyaz eşya parçalarınde yalnızca parçanın geometrisi değil; ölçüsel kararlılık, üretim tekrarlanabilirliği, yüzey kalitesi ve proses sürekliliği birlikte değerlendirilir.",
         "statementLabel": "Üretim yaklaşımı",
         "statement": "Proses seçiminden kontrol yöntemine kadar üretimin her aşaması, yüksek adetlerde aynı teknik gereksinimlerin sürdürülebilmesi hedefiyle değerlendirilir."
       },
@@ -2098,6 +2099,502 @@
         }
       },
       "name": "Gemi, Denizcilik ve Liman"
+    },
+    "furniture": {
+      "name": "Mobilya",
+      "hero": {
+        "eyebrow": "MOBİLYA SEKTÖRÜ",
+        "title": "Mobilya uygulamalarına yönelik metal parça üretimi.",
+        "description": "Mobilya sektöründe kullanılan tel, boru, bükümlü ve kaynaklı metal parçaları; parça geometrisi, montaj detayları, görsel beklentiler ve tekrarlanabilir üretim gereksinimleri doğrultusunda projeye özel olarak üretiyoruz.",
+        "primaryAction": "Projenizi Görüşelim",
+        "secondaryAction": "Üretim Kabiliyetlerini İncele",
+        "imageAlt": "MBA Metal mobilya sektörü için tel, boru ve metal parçaların üretimi",
+        "scrollLabel": "Mobilya Çözümlerini İncele",
+        "visualLabel": "Mobilya Uygulamaları",
+        "productionLabel": "Metal Parça Üretimi",
+        "productionMeta": "Tel • Boru • Kaynak • Şekillendirme",
+        "badge": "Mobilya Parçaları",
+        "imageCaption": "Teknik gereksinimlerden üretilebilir ve tekrarlanabilir mobilya parçalarına.",
+        "capabilities": {
+          "wireForm": "Tel Şekillendirme",
+          "metalForm": "Boru & Metal Şekillendirme",
+          "welding": "Kaynak & Birleştirme",
+          "repeatProduction": "Seri Üretim"
+        }
+      },
+      "overview": {
+        "eyebrow": "MOBİLYA İÇİN ÜRETİM",
+        "title": "Mobilya parça ihtiyaçlarını üretilebilir metal çözümlere dönüştürüyoruz.",
+        "description": "Mobilya uygulamalarında kullanılan metal parçalar yalnızca ölçüsel gereksinimlere göre değil; montaj uyumu, yüzey kalitesi, görsel beklentiler ve tekrarlanabilir üretim gereksinimleriyle birlikte değerlendirilir.",
+        "secondaryDescription": "MBA Metal olarak tel şekillendirme, boru bükme, metal şekillendirme ve kaynak kabiliyetlerimizi farklı mobilya uygulamalarının parça ihtiyaçlarına göre bir araya getiriyoruz.",
+        "highlight": "Odağımız komple mobilya üretmek değil; nihai ürünün bir parçası olacak tel, boru ve metal parçaları güvenilir ve tekrarlanabilir şekilde üretmektir.",
+        "statement": "Her parça; geometrisi, malzemesi, bağlantı noktaları, yüzey beklentileri ve hedef üretim miktarı birlikte değerlendirilerek uygun üretim prosesine dönüştürülür.",
+        "inputLabel": "Proje Girdileri",
+        "inputs": {
+          "technicalDrawing": "Teknik resim",
+          "sample": "Numune / referans parça",
+          "material": "Malzeme bilgisi",
+          "tolerance": "Ölçü & toleranslar",
+          "quantity": "Üretim miktarı"
+        },
+        "note": "Teknik resmin henüz tamamlanmadığı projelerde numune, yaklaşık ölçüler ve uygulama bilgileri üzerinden ilk üretilebilirlik değerlendirmesi yapılabilir.",
+        "imageAlt": "Mobilya uygulamaları için metal parça üretimi",
+        "imageCaption": "Mobilya sektörü için projeye özel tel, boru ve metal parça üretimi"
+      },
+      "applicationsSection": {
+        "eyebrow": "MOBİLYA UYGULAMALARI",
+        "title": "Mobilya uygulamalarına göre şekillendirilen metal parçalar.",
+        "description": "Şekillendirilmiş tel parçalardan boru konstrüksiyonlarına ve kaynaklı metal parçalara kadar farklı mobilya ihtiyaçlarını geometri, fonksiyon ve üretim gereksinimlerine göre değerlendiriyoruz.",
+        "noteLabel": "Uygulama Yaklaşımı",
+        "note": "Gösterilen uygulamalar üretim kabiliyetlerimizi temsil eder. Nihai üretim yöntemi; teknik resim, malzeme, geometri, bağlantı detayları, yüzey gereksinimleri ve üretim miktarına göre belirlenir."
+      },
+      "applications": {
+        "wireComponents": {
+          "title": "Şekillendirilmiş Tel Parçalar",
+          "description": "Destek, raf, sepet, çerçeve ve farklı fonksiyonel veya dekoratif mobilya uygulamalarında kullanılan özel tel geometrilerinin teknik gereksinimlere göre şekillendirilmesi."
+        },
+        "tubeComponents": {
+          "title": "Boru Konstrüksiyonları & Parçalar",
+          "description": "Sandalye ve masa iskeletleri, ayaklar, destekler ve farklı yapısal mobilya uygulamalarında kullanılan boru parçaların projeye uygun olarak bükülmesi ve şekillendirilmesi."
+        },
+        "metalComponents": {
+          "title": "Metal Mobilya Parçaları",
+          "description": "Mobilya projesinin geometrisi ve teknik gereksinimleri doğrultusunda destek, bağlantı, taşıyıcı ve montaj amaçlı metal parçaların üretilmesi."
+        },
+        "customProduction": {
+          "title": "Projeye Özel Parçalar",
+          "description": "Standart geometrilerin dışında kalan tel, boru ve metal parçaların teknik resim, numune veya projeye özel ölçüler üzerinden üretilebilirlik açısından değerlendirilmesi ve üretilmesi."
+        }
+      },
+      "requirementsSection": {
+        "eyebrow": "ÜRETİM GEREKSİNİMLERİ",
+        "title": "Mobilya parçalarında teknik tutarlılık kadar görsel kalite de önemlidir.",
+        "description": "Mobilya uygulamalarında kullanılan metal parçalarda ölçüsel tutarlılık, yüzey durumu, montaj uyumu ve tekrarlanabilir üretim birlikte değerlendirilir.",
+        "statementLabel": "Üretim Yaklaşımı",
+        "statement": "Üretim prosesi; parça geometrisi, montaj noktaları, görsel beklentiler ve üretim miktarı doğrultusunda planlanarak üretim boyunca tutarlı sonuçların korunması hedeflenir.",
+        "itemLabel": "Teknik Gereksinim"
+      },
+      "requirements": {
+        "dimensionalConsistency": {
+          "title": "Ölçüsel Tutarlılık",
+          "description": "Metal parçaların diğer mobilya parçalarıyla doğru şekilde birleşebilmesi ve montaj uyumunun korunabilmesi için kritik ölçülerin üretim boyunca tutarlı olması hedeflenir."
+        },
+        "surfaceQuality": {
+          "title": "Yüzey & Görsel Kalite",
+          "description": "Özellikle nihai mobilya üzerinde görünür durumda kalan parçalarda yüzey durumu, deformasyon ve genel görsel tutarlılık üretim sürecinin önemli bir parçası olarak değerlendirilir."
+        },
+        "assemblyCompatibility": {
+          "title": "Montaj Uyumu",
+          "description": "Bağlantı noktaları, delik konumları, büküm geometrileri ve birleştirme detayları; parçaların doğru ve tekrarlanabilir şekilde monte edilebilmesini destekleyecek biçimde değerlendirilir."
+        },
+        "repeatableProduction": {
+          "title": "Tekrarlanabilir Üretim",
+          "description": "Tekrarlı sipariş ve seri üretim gereksinimlerinde parçaların geometrisinin ve üretim sonucunun aynı standartta sürdürülebilmesi için proses kararlılığı esas alınır."
+        }
+      },
+      "productionSection": {
+        "eyebrow": "ÜRETİM KABİLİYETLERİ",
+        "title": "Mobilya parçalarının ihtiyaçlarını uygun üretim prosesleriyle eşleştiriyoruz.",
+        "description": "Tel geometrileri, boru konstrüksiyonları, metal şekillendirme ihtiyaçları, bağlantı noktaları ve üretim miktarı birlikte değerlendirilerek projeye uygun proses kombinasyonu oluşturulur.",
+        "needLabel": "Mobilya İhtiyacı",
+        "solutionLabel": "MBA Metal Üretim Yaklaşımı",
+        "noteLabel": "Proses Seçimi",
+        "note": "Üretim yöntemi; teknik resim, numune, malzeme, ölçüler, toleranslar, yüzey beklentileri ve üretim miktarı birlikte değerlendirilerek belirlenir."
+      },
+      "production": {
+        "wire": {
+          "need": "Tel destekler, raflar, sepetler ve özel tel geometrileri",
+          "solution": "2D / 3D tel büküm ve şekillendirme"
+        },
+        "tube": {
+          "need": "Sandalye, masa ve mobilya boru konstrüksiyonları",
+          "solution": "Boru büküm ve şekillendirme"
+        },
+        "forming": {
+          "need": "Bükümlü ve şekillendirilmiş metal mobilya parçaları",
+          "solution": "Metal büküm / şekillendirme"
+        },
+        "joining": {
+          "need": "Tel, boru ve metal parçaların birleştirilmesi",
+          "solution": "Kaynak / punta uygulamaları"
+        },
+        "custom": {
+          "need": "Projeye özel mobilya parçaları",
+          "solution": "Aparat & fikstür destekli özel üretim"
+        }
+      }
+    },
+    "medical": {
+      "name": "Medikal ve Hijyen Ürünleri",
+      "hero": {
+        "eyebrow": "MEDİKAL & HİJYEN ÜRÜNLERİ",
+        "title": "Medikal ve hijyen ekipmanlarına yönelik tel ve metal parça üretimi.",
+        "description": "Medikal ve hijyen ekipmanlarında kullanılan tel, şekillendirilmiş metal ve kaynaklı parçaları; teknik resim, parça geometrisi, montaj detayları, yüzey beklentileri ve tekrarlanabilir üretim gereksinimleri doğrultusunda değerlendiriyoruz.",
+        "primaryAction": "Projenizi Görüşelim",
+        "secondaryAction": "Üretim Kabiliyetlerini İncele",
+        "imageAlt": "MBA Metal medikal ve hijyen ekipmanları için tel ve metal parça üretimi",
+        "scrollLabel": "Medikal Çözümleri İncele",
+        "visualLabel": "Medikal & Hijyen Uygulamaları",
+        "productionLabel": "Tel & Metal Parça Üretimi",
+        "productionMeta": "Tel • Metal • Kaynak • Şekillendirme",
+        "badge": "Medikal & Hijyen Parçaları",
+        "imageCaption": "Teknik gereksinimlerden üretilebilir ve tekrarlanabilir metal parçalara.",
+        "capabilities": {
+          "wireForm": "Tel Şekillendirme",
+          "metalForm": "Metal Şekillendirme",
+          "welding": "Kaynak & Punta",
+          "repeatProduction": "Seri Üretim"
+        }
+      },
+      "overview": {
+        "eyebrow": "MEDİKAL & HİJYEN İÇİN ÜRETİM",
+        "title": "Ekipman parça ihtiyaçlarını kontrollü üretim süreçlerine dönüştürüyoruz.",
+        "description": "Medikal ve hijyen ekipmanlarında kullanılan tel ve metal parçalar; parça geometrisi, ölçüler, bağlantı noktaları, yüzey beklentileri ve kullanım gereksinimleri birlikte değerlendirilerek ele alınır.",
+        "secondaryDescription": "MBA Metal olarak tel şekillendirme, metal büküm, kaynak ve projeye özel üretim kabiliyetlerimizi; sepet, raf, tutucu, destek ve farklı ekipman parçalarının üretim ihtiyaçlarına göre bir araya getiriyoruz.",
+        "highlight": "Odağımız medikal cihaz veya hijyen ürünü üretmek değil; bu sistem ve ekipmanlarda kullanılabilecek tel ve metal parçaları teknik gereksinimlere göre üretmektir.",
+        "statement": "Her parça; teknik resim veya numune, malzeme, geometri, bağlantı detayları ve üretim miktarı birlikte değerlendirilerek uygun üretim sürecine dönüştürülür.",
+        "inputLabel": "Proje Girdileri",
+        "inputs": {
+          "technicalDrawing": "Teknik resim",
+          "sample": "Numune / referans parça",
+          "material": "Malzeme bilgisi",
+          "tolerance": "Ölçü & toleranslar",
+          "quantity": "Üretim miktarı"
+        },
+        "note": "Teknik resmin henüz tamamlanmadığı projelerde numune, yaklaşık ölçüler ve kullanım bilgileri üzerinden ilk üretilebilirlik değerlendirmesi yapılabilir.",
+        "imageAlt": "Medikal ve hijyen ekipmanlarına yönelik tel ve metal parça üretimi",
+        "imageCaption": "Ekipman üreticilerine yönelik projeye özel tel ve metal parça çözümleri"
+      },
+      "applicationsSection": {
+        "eyebrow": "MEDİKAL & HİJYEN UYGULAMALARI",
+        "title": "Farklı ekipman ihtiyaçlarına yönelik üretilebilir metal parçalar.",
+        "description": "Şekillendirilmiş tel parçalardan sepet ve raf parçalarına, destek elemanlarından projeye özel metal parçalara kadar farklı üretim ihtiyaçlarını teknik gereksinimlere göre değerlendiriyoruz.",
+        "noteLabel": "Uygulama Yaklaşımı",
+        "note": "Gösterilen uygulamalar üretim kabiliyetlerimizi temsil eder. Nihai üretim yöntemi; teknik resim, numune, malzeme, geometri, toleranslar, yüzey beklentileri ve üretim miktarına göre belirlenir."
+      },
+      "applications": {
+        "wireComponents": {
+          "title": "Şekillendirilmiş Tel Parçalar",
+          "description": "Medikal ve hijyen ekipmanlarında kullanılan tutucu, destek, ayırıcı ve farklı özel tel geometrilerinin teknik gereksinimlere göre şekillendirilmesi."
+        },
+        "wireBaskets": {
+          "title": "Tel Sepet & Raf Parçaları",
+          "description": "Taşıma, düzenleme ve ekipman içi kullanım ihtiyaçlarına yönelik tel sepet, raf ve benzeri parçaların proje geometrisine göre üretilmesi."
+        },
+        "supportComponents": {
+          "title": "Destek & Taşıyıcı Parçalar",
+          "description": "Ekipman sistemlerinde bağlantı, destekleme, sabitleme ve taşıma amacıyla kullanılan tel ve metal parçaların projeye göre üretilmesi."
+        },
+        "customComponents": {
+          "title": "Projeye Özel Parçalar",
+          "description": "Standart geometrilerin dışında kalan tel ve metal parçaların teknik resim, numune veya projeye özel ölçüler üzerinden üretilebilirlik açısından değerlendirilmesi ve üretilmesi."
+        }
+      },
+      "requirementsSection": {
+        "eyebrow": "ÜRETİM GEREKSİNİMLERİ",
+        "title": "Kontrollü parça üretimi, detayların birlikte değerlendirilmesini gerektirir.",
+        "description": "Medikal ve hijyen ekipmanlarına yönelik parçalarda ölçüsel tutarlılık, yüzey durumu, birleştirme kalitesi ve tekrarlanabilir üretim birlikte ele alınır.",
+        "statementLabel": "Üretim Yaklaşımı",
+        "statement": "Parçanın kullanım amacı ve teknik gereksinimleri; üretim sürecinin, aparat ve fikstür ihtiyaçlarının ve kontrol yaklaşımının belirlenmesinde temel girdiler olarak değerlendirilir.",
+        "itemLabel": "Teknik Gereksinim"
+      },
+      "requirements": {
+        "dimensionalConsistency": {
+          "title": "Ölçüsel Tutarlılık",
+          "description": "Montaj ve ekipman uyumunu etkileyen kritik ölçülerin tanımlanan gereksinimler doğrultusunda üretim boyunca tutarlı olması hedeflenir."
+        },
+        "surfaceQuality": {
+          "title": "Yüzey & Görsel Kalite",
+          "description": "Parçaların yüzey durumu, deformasyon ve genel görsel uygunluğu proje ve kullanım gereksinimleri doğrultusunda değerlendirilir."
+        },
+        "joiningQuality": {
+          "title": "Birleştirme & Kaynak Kalitesi",
+          "description": "Kaynaklı ve puntalı parçalarda bağlantı noktalarının geometriye ve kullanım amacına uygun, kontrollü ve tekrarlanabilir şekilde oluşturulması hedeflenir."
+        },
+        "repeatableProduction": {
+          "title": "Tekrarlanabilir Üretim",
+          "description": "Tekrarlı sipariş ve seri üretim gereksinimlerinde parça geometrisinin ve üretim sonucunun aynı standartta sürdürülebilmesi için süreç kararlılığı esas alınır."
+        }
+      },
+      "productionSection": {
+        "eyebrow": "ÜRETİM KABİLİYETLERİ",
+        "title": "Parça ihtiyaçlarını uygun üretim yöntemleriyle eşleştiriyoruz.",
+        "description": "Tel geometrisi, parça yapısı, bağlantı noktaları, toleranslar ve üretim miktarı birlikte değerlendirilerek projeye uygun üretim yaklaşımı oluşturulur.",
+        "needLabel": "Üretim İhtiyacı",
+        "solutionLabel": "MBA Metal Üretim Yaklaşımı",
+        "noteLabel": "Üretim Yöntemi",
+        "note": "Üretim yöntemi; teknik resim, numune, malzeme, ölçüler, toleranslar, bağlantı gereksinimleri ve üretim miktarı birlikte değerlendirilerek belirlenir."
+      },
+      "production": {
+        "wire": {
+          "need": "Özel tel geometrileri, tutucular ve destek parçaları",
+          "solution": "2D / 3D tel büküm ve şekillendirme"
+        },
+        "basket": {
+          "need": "Tel sepet, raf ve taşıyıcı parçalar",
+          "solution": "Tel şekillendirme ve kaynaklı birleştirme"
+        },
+        "joining": {
+          "need": "Tel ve metal parçaların birleştirilmesi",
+          "solution": "Kaynak / punta uygulamaları"
+        },
+        "custom": {
+          "need": "Projeye özel ekipman parçaları",
+          "solution": "Aparat & fikstür destekli özel üretim"
+        },
+        "control": {
+          "need": "Üretim sonucu ve ölçülerin doğrulanması",
+          "solution": "Ölçüsel / görsel kontrol"
+        }
+      }
+    },
+    "agriculture": {
+      "name": "Tarım ve Hayvancılık",
+      "hero": {
+        "eyebrow": "TARIM & HAYVANCILIK",
+        "title": "Tarım ve hayvancılık ekipmanlarına yönelik tel ve metal parça üretimi.",
+        "description": "Tarım makineleri ve hayvancılık ekipmanlarında kullanılan şekillendirilmiş tel parçaları, koruyucu tel yapıları, destek ve bağlantı parçalarını; teknik resim, parça geometrisi, kullanım koşulları ve tekrarlanabilir üretim gereksinimleri doğrultusunda değerlendiriyoruz.",
+        "primaryAction": "Projenizi Görüşelim",
+        "secondaryAction": "Üretim Kabiliyetlerini İncele",
+        "imageAlt": "MBA Metal tarım ve hayvancılık ekipmanları için tel ve metal parça üretimi",
+        "scrollLabel": "Tarım ve Hayvancılık Uygulamalarını İncele",
+        "visualLabel": "Tarım & Hayvancılık Uygulamaları",
+        "productionLabel": "Tel & Metal Parça Üretimi",
+        "productionMeta": "Tel • Metal • Kaynak • Şekillendirme",
+        "badge": "Tarım & Hayvancılık",
+        "imageCaption": "Teknik gereksinimlerden üretilebilir ve tekrarlanabilir tel ve metal parçalara.",
+        "capabilities": {
+          "wireForm": "Tel Şekillendirme",
+          "metalForm": "Metal Şekillendirme",
+          "welding": "Kaynak & Punta",
+          "repeatProduction": "Seri Üretim"
+        }
+      },
+      "overview": {
+        "eyebrow": "TARIM & HAYVANCILIK İÇİN ÜRETİM",
+        "title": "Ekipman parça ihtiyaçlarını üretilebilir metal çözümlere dönüştürüyoruz.",
+        "description": "Tarım makineleri ve hayvancılık ekipmanlarında kullanılan tel ve metal parçalar; geometri, ölçüler, bağlantı noktaları, kullanım koşulları ve üretim miktarı birlikte değerlendirilerek ele alınır.",
+        "secondaryDescription": "MBA Metal olarak tel şekillendirme, metal şekillendirme, kaynak ve projeye özel üretim kabiliyetlerimizi; koruyucu tel yapılar, tutucular, destekler, taşıyıcı parçalar ve farklı ekipman ihtiyaçları doğrultusunda bir araya getiriyoruz.",
+        "highlight": "Odağımız tarım makinesi veya hayvancılık ekipmanı üretmek değil; bu makine ve ekipmanlarda kullanılabilecek tel ve metal parçaları teknik gereksinimlere göre üretmektir.",
+        "statement": "Her parça; teknik resim veya numune, malzeme, geometri, bağlantı detayları, kullanım koşulları ve üretim miktarı birlikte değerlendirilerek uygun üretim yöntemine dönüştürülür.",
+        "inputLabel": "Proje Girdileri",
+        "inputs": {
+          "technicalDrawing": "Teknik resim",
+          "sample": "Numune / referans parça",
+          "material": "Malzeme bilgisi",
+          "tolerance": "Ölçü & toleranslar",
+          "quantity": "Üretim miktarı"
+        },
+        "note": "Teknik resmin henüz tamamlanmadığı projelerde numune, yaklaşık ölçüler ve kullanım bilgileri üzerinden ilk üretilebilirlik değerlendirmesi yapılabilir.",
+        "imageAlt": "Tarım ve hayvancılık ekipmanlarına yönelik tel ve metal parça üretimi",
+        "imageCaption": "Ekipman üreticilerine yönelik projeye özel tel ve metal parça çözümleri"
+      },
+      "applicationsSection": {
+        "eyebrow": "TARIM & HAYVANCILIK UYGULAMALARI",
+        "title": "Farklı makine ve ekipman ihtiyaçlarına yönelik tel ve metal parçalar.",
+        "description": "Şekillendirilmiş tel parçalardan koruyucu tel yapılara, hayvancılık ekipmanlarında kullanılan metal parçalardan projeye özel çözümlere kadar farklı üretim ihtiyaçlarını teknik gereksinimlere göre değerlendiriyoruz.",
+        "noteLabel": "Uygulama Yaklaşımı",
+        "note": "Gösterilen uygulamalar üretim kabiliyetlerimizi temsil eder. Nihai üretim yöntemi; teknik resim, numune, malzeme, geometri, toleranslar, bağlantı gereksinimleri ve üretim miktarına göre belirlenir."
+      },
+      "applications": {
+        "wireParts": {
+          "title": "Şekillendirilmiş Tel Parçalar",
+          "description": "Tarım makineleri ve ekipmanlarında kullanılan tutucu, sabitleyici, destekleyici ve farklı özel tel geometrilerinin teknik gereksinimlere göre şekillendirilmesi."
+        },
+        "protectionStructures": {
+          "title": "Koruyucu Tel Yapılar",
+          "description": "Makine ve ekipmanlarda koruma, ayırma veya çevreleme amacıyla kullanılan tel kafes, koruyucu yapı ve benzeri parçaların projeye göre üretilmesi."
+        },
+        "livestockEquipment": {
+          "title": "Hayvancılık Ekipmanı Parçaları",
+          "description": "Yemleme, düzenleme, taşıma ve farklı hayvancılık ekipmanlarında kullanılan tel yapılar, destekler ve metal parçaların proje gereksinimlerine göre üretilmesi."
+        },
+        "customParts": {
+          "title": "Projeye Özel Parçalar",
+          "description": "Standart geometrilerin dışında kalan tel ve metal parçaların teknik resim, numune veya projeye özel ölçüler üzerinden üretilebilirlik açısından değerlendirilmesi ve üretilmesi."
+        }
+      },
+      "requirementsSection": {
+        "eyebrow": "ÜRETİM GEREKSİNİMLERİ",
+        "title": "Saha koşullarına uygun parça üretiminde teknik tutarlılık ve dayanım birlikte değerlendirilir.",
+        "description": "Tarım ve hayvancılık ekipmanlarına yönelik parçalarda ölçüsel tutarlılık, yapısal dayanım, birleştirme kalitesi ve tekrarlanabilir üretim temel gereksinimler arasında yer alır.",
+        "statementLabel": "Üretim Yaklaşımı",
+        "statement": "Parçanın kullanım yeri, geometrisi, bağlantı noktaları ve maruz kalacağı çalışma koşulları; üretim yönteminin, aparat ve fikstür ihtiyaçlarının ve kontrol yaklaşımının belirlenmesinde birlikte değerlendirilir.",
+        "itemLabel": "Teknik Gereksinim"
+      },
+      "requirements": {
+        "dimensionalConsistency": {
+          "title": "Ölçüsel Tutarlılık",
+          "description": "Montaj ve ekipman uyumunu etkileyen kritik ölçülerin tekrarlı üretim boyunca tanımlanan gereksinimlere uygun şekilde korunması hedeflenir."
+        },
+        "structuralDurability": {
+          "title": "Yapısal Dayanım",
+          "description": "Parça geometrisi ve üretim yöntemi; kullanım sırasında oluşabilecek mekanik yükler ve çalışma koşulları dikkate alınarak proje gereksinimleri doğrultusunda değerlendirilir."
+        },
+        "joiningQuality": {
+          "title": "Birleştirme & Kaynak Kalitesi",
+          "description": "Kaynaklı ve puntalı parçalarda bağlantı noktalarının parça geometrisine ve kullanım amacına uygun, kontrollü ve tekrarlanabilir şekilde oluşturulması hedeflenir."
+        },
+        "repeatableProduction": {
+          "title": "Tekrarlanabilir Üretim",
+          "description": "Tekrarlı sipariş ve seri üretim gereksinimlerinde parça geometrisinin ve üretim sonucunun tutarlı şekilde sürdürülebilmesi için üretim kararlılığı esas alınır."
+        }
+      },
+      "productionSection": {
+        "eyebrow": "ÜRETİM KABİLİYETLERİ",
+        "title": "Parça gereksinimlerini uygun üretim yöntemleriyle eşleştiriyoruz.",
+        "description": "Tel geometrisi, parça yapısı, bağlantı noktaları, toleranslar, kullanım koşulları ve üretim miktarı birlikte değerlendirilerek projeye uygun üretim yaklaşımı oluşturulur.",
+        "needLabel": "Üretim İhtiyacı",
+        "solutionLabel": "MBA Metal Üretim Yaklaşımı",
+        "noteLabel": "Üretim Yöntemi",
+        "note": "Üretim yöntemi; teknik resim, numune, malzeme, ölçüler, toleranslar, bağlantı gereksinimleri ve üretim miktarı birlikte değerlendirilerek belirlenir."
+      },
+      "production": {
+        "wire": {
+          "need": "Özel tel geometrileri, tutucular ve destek parçaları",
+          "solution": "2D / 3D tel büküm ve şekillendirme"
+        },
+        "protection": {
+          "need": "Koruyucu tel kafesler ve özel tel yapılar",
+          "solution": "Tel şekillendirme ve kaynaklı birleştirme"
+        },
+        "joining": {
+          "need": "Tel ve metal parçaların birleştirilmesi",
+          "solution": "Kaynak / punta uygulamaları"
+        },
+        "custom": {
+          "need": "Projeye özel makine ve ekipman parçaları",
+          "solution": "Aparat & fikstür destekli özel üretim"
+        },
+        "control": {
+          "need": "Üretim sonucu ve kritik ölçülerin doğrulanması",
+          "solution": "Ölçüsel / görsel kontrol"
+        }
+      }
+    },
+    "construction": {
+      "name": "İnşaat ve Genel Sanayi",
+      "hero": {
+        "eyebrow": "İNŞAAT & GENEL SANAYİ",
+        "title": "İnşaat ve genel sanayi uygulamalarına yönelik tel ve metal parça üretimi.",
+        "description": "Yapı sistemleri, endüstriyel ekipmanlar ve farklı genel sanayi uygulamalarında kullanılan şekillendirilmiş tel parçaları, koruyucu tel yapıları, destek ve bağlantı parçalarını teknik gereksinimlere göre üretiyoruz.",
+        "primaryAction": "Projenizi Görüşelim",
+        "secondaryAction": "Üretim Kabiliyetlerini İncele",
+        "imageAlt": "MBA Metal inşaat ve genel sanayi uygulamalarına yönelik tel ve metal parça üretimi",
+        "scrollLabel": "İnşaat ve Genel Sanayi Uygulamalarını İncele",
+        "visualLabel": "İnşaat & Genel Sanayi",
+        "productionLabel": "Tel & Metal Parça Üretimi",
+        "productionMeta": "Tel • Metal • Kaynak • Şekillendirme",
+        "badge": "İnşaat & Genel Sanayi",
+        "imageCaption": "Teknik gereksinimlerden üretilebilir ve tekrarlanabilir tel ve metal parçalara.",
+        "capabilities": {
+          "wireForm": "Tel Şekillendirme",
+          "metalForm": "Metal Şekillendirme",
+          "welding": "Kaynak & Punta",
+          "repeatProduction": "Seri Üretim"
+        }
+      },
+      "overview": {
+        "eyebrow": "İNŞAAT & GENEL SANAYİ İÇİN ÜRETİM",
+        "title": "Teknik parça ihtiyaçlarını üretilebilir tel ve metal çözümlere dönüştürüyoruz.",
+        "description": "İnşaat, yapı sistemleri ve genel endüstriyel uygulamalarda kullanılan tel ve metal parçalar; geometri, ölçüler, bağlantı noktaları, kullanım yeri ve üretim miktarı birlikte değerlendirilerek ele alınır.",
+        "secondaryDescription": "MBA Metal olarak tel şekillendirme, metal şekillendirme, kaynak ve projeye özel üretim kabiliyetlerimizi; koruyucu tel yapılar, tutucular, destekler, bağlantı parçaları ve farklı endüstriyel parça ihtiyaçları için bir araya getiriyoruz.",
+        "highlight": "Odağımız yapı veya endüstriyel ekipmanın tamamını üretmek değil; bu sistemlerde kullanılan tel ve metal parçaları teknik gereksinimlere göre üretmektir.",
+        "statement": "Her parça; teknik resim veya numune, malzeme, geometri, bağlantı detayları, ölçü ve toleranslar ile hedef üretim miktarı birlikte değerlendirilerek uygun üretim yöntemine dönüştürülür.",
+        "inputLabel": "Proje Girdileri",
+        "inputs": {
+          "technicalDrawing": "Teknik resim",
+          "sample": "Numune / referans parça",
+          "material": "Malzeme bilgisi",
+          "tolerance": "Ölçü & toleranslar",
+          "quantity": "Üretim miktarı"
+        },
+        "note": "Teknik resmin henüz tamamlanmadığı projelerde numune, yaklaşık ölçüler ve kullanım bilgileri üzerinden ilk üretilebilirlik değerlendirmesi yapılabilir.",
+        "imageAlt": "İnşaat ve genel sanayi uygulamalarına yönelik tel ve metal parça üretimi",
+        "imageCaption": "Yapı ve endüstriyel uygulamalara yönelik projeye özel tel ve metal parça çözümleri"
+      },
+      "applicationsSection": {
+        "eyebrow": "İNŞAAT & GENEL SANAYİ UYGULAMALARI",
+        "title": "Farklı yapı ve endüstriyel ihtiyaçlara yönelik tel ve metal parçalar.",
+        "description": "Şekillendirilmiş tel parçalardan koruyucu tel yapılara, destek ve bağlantı parçalarından projeye özel üretimlere kadar farklı parça ihtiyaçlarını teknik gereksinimlere göre değerlendiriyoruz.",
+        "noteLabel": "Uygulama Yaklaşımı",
+        "note": "Gösterilen uygulamalar üretim kabiliyetlerimizi temsil eder. Nihai üretim yöntemi; teknik resim, numune, malzeme, geometri, toleranslar, bağlantı gereksinimleri ve üretim miktarına göre belirlenir."
+      },
+      "applications": {
+        "wireParts": {
+          "title": "Şekillendirilmiş Tel Parçalar",
+          "description": "Yapı sistemleri ve endüstriyel uygulamalarda kullanılan tutucu, sabitleyici, askı, destek ve farklı özel tel geometrilerinin teknik gereksinimlere göre şekillendirilmesi."
+        },
+        "wireStructures": {
+          "title": "Tel Yapılar & Koruyucular",
+          "description": "Koruma, ayırma, çevreleme veya destekleme amacıyla kullanılan kaynaklı tel yapılar, tel kafesler, koruyucular ve benzeri parçaların proje geometrisine göre üretilmesi."
+        },
+        "supportParts": {
+          "title": "Destek & Bağlantı Parçaları",
+          "description": "Yapı ve endüstriyel sistemlerde kullanılan sabitleme, destekleme, taşıma ve bağlantı amaçlı tel ve metal parçaların proje gereksinimlerine göre üretilmesi."
+        },
+        "customParts": {
+          "title": "Projeye Özel Parçalar",
+          "description": "Standart dışı tel ve metal parçaların teknik resim, numune veya projeye özel ölçü ve geometriler üzerinden üretilebilirlik açısından değerlendirilmesi ve üretilmesi."
+        }
+      },
+      "requirementsSection": {
+        "eyebrow": "ÜRETİM GEREKSİNİMLERİ",
+        "title": "Ölçüsel tutarlılık, yapısal uygunluk ve birleştirme kalitesini birlikte değerlendiriyoruz.",
+        "description": "İnşaat ve genel sanayi uygulamalarına yönelik parçalarda geometri, ölçüler, bağlantı noktaları, kullanım koşulları ve tekrarlanabilir üretim gereksinimleri üretim yaklaşımının temel girdileridir.",
+        "statementLabel": "Üretim Yaklaşımı",
+        "statement": "Parçanın kullanım yeri ve teknik gereksinimleri; üretim yönteminin, aparat ve fikstür ihtiyaçlarının, bağlantı yöntemlerinin ve kontrol yaklaşımının belirlenmesinde birlikte değerlendirilir.",
+        "itemLabel": "Teknik Gereksinim"
+      },
+      "requirements": {
+        "dimensionalConsistency": {
+          "title": "Ölçüsel Tutarlılık",
+          "description": "Montaj ve sistem uyumunu etkileyen kritik ölçülerin tanımlanan gereksinimler doğrultusunda tekrarlı üretim boyunca tutarlı olması hedeflenir."
+        },
+        "structuralSuitability": {
+          "title": "Yapısal Uygunluk",
+          "description": "Parça geometrisi, malzeme ve üretim yöntemi; kullanım yeri, bağlantı biçimi ve proje gereksinimleri dikkate alınarak değerlendirilir."
+        },
+        "joiningQuality": {
+          "title": "Birleştirme & Kaynak Kalitesi",
+          "description": "Kaynaklı ve puntalı parçalarda bağlantı noktalarının tanımlanan geometriye ve kullanım amacına uygun, kontrollü ve tekrarlanabilir şekilde oluşturulması hedeflenir."
+        },
+        "repeatableProduction": {
+          "title": "Tekrarlanabilir Üretim",
+          "description": "Tekrarlı sipariş ve seri üretim gereksinimlerinde parça geometrisinin ve üretim sonucunun tutarlı şekilde sürdürülebilmesi için üretim kararlılığı esas alınır."
+        }
+      },
+      "productionSection": {
+        "eyebrow": "ÜRETİM KABİLİYETLERİ",
+        "title": "Parça ihtiyaçlarını uygun üretim yöntemleriyle eşleştiriyoruz.",
+        "description": "Tel geometrisi, parça yapısı, bağlantı noktaları, ölçüler, toleranslar ve üretim miktarı birlikte değerlendirilerek projeye uygun üretim yaklaşımı oluşturulur.",
+        "needLabel": "Üretim İhtiyacı",
+        "solutionLabel": "MBA Metal Üretim Yaklaşımı",
+        "noteLabel": "Üretim Yöntemi",
+        "note": "Üretim yöntemi; teknik resim, numune, malzeme, ölçüler, toleranslar, bağlantı gereksinimleri ve üretim miktarı birlikte değerlendirilerek belirlenir."
+      },
+      "production": {
+        "wire": {
+          "need": "Özel tel geometrileri, tutucular, askılar ve destek parçaları",
+          "solution": "2D / 3D tel büküm ve şekillendirme"
+        },
+        "structures": {
+          "need": "Koruyucu tel yapılar, kafesler ve kaynaklı tel parçalar",
+          "solution": "Tel şekillendirme ve kaynaklı birleştirme"
+        },
+        "joining": {
+          "need": "Tel ve metal parçaların birleştirilmesi",
+          "solution": "Kaynak / punta uygulamaları"
+        },
+        "custom": {
+          "need": "Projeye özel yapı ve endüstriyel parçalar",
+          "solution": "Aparat & fikstür destekli özel üretim"
+        },
+        "control": {
+          "need": "Üretim sonucu ve kritik ölçülerin doğrulanması",
+          "solution": "Ölçüsel / görsel kontrol"
+        }
+      }
     }
   },
   "marketPage": {
@@ -2180,7 +2677,7 @@
         },
         "production": {
           "title": "Üretim",
-          "description": "Belirlenen proses planına göre metal komponentlerin üretimini proje gereksinimleri doğrultusunda gerçekleştiriyoruz."
+          "description": "Belirlenen proses planına göre metal parçaların üretimini proje gereksinimleri doğrultusunda gerçekleştiriyoruz."
         },
         "qualityControl": {
           "title": "Kalite Kontrol",

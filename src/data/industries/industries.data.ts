@@ -11,6 +11,9 @@ import whiteGoodsImage
 import retailImage
     from '../../assets/images/industries/retail.jpg';
 
+import furnitureImage
+    from '../../assets/images/industries/furniture/furniture-hero.png';
+
 import logisticsImage
     from '../../assets/images/industries/logistics.jpg';
 
@@ -22,6 +25,15 @@ import defenseAerospaceSecurityImage
 
 import marineImage
     from '../../assets/images/industries/marine/marine-hero.jpg';
+
+import medicalImage
+    from '../../assets/images/industries/medical/medical-hero.png';
+
+import agricultureImage
+    from '../../assets/images/industries/agriculture/agriculture-hero.png';
+
+import constructionImage
+    from '../../assets/images/industries/construction/construction-hero.png';
 
 /* =========================================================
    ROUTES
@@ -137,6 +149,12 @@ export const industriesPageData = {
             {
                 id:
                     'furniture',
+
+                image:
+                    furnitureImage,
+
+                href:
+                    routes.furniture,
             },
 
             {
@@ -184,18 +202,21 @@ export const industriesPageData = {
             },
 
             {
-                id:
-                    'medical',
+                id: 'medical',
+                image: medicalImage,
+                href: routes.medical,
             },
 
             {
-                id:
-                    'agriculture',
+                id: 'agriculture',
+                image: agricultureImage,
+                href: routes.agriculture,
             },
 
             {
-                id:
-                    'construction',
+                id: 'construction',
+                image: constructionImage,
+                href: routes.construction,
             },
         ] satisfies IndustryItem[],
     },
