@@ -2127,8 +2127,8 @@
         "machineryEquipment": {
           "eyebrow": "PAZAR",
           "title": "Makine ve Ekipman Üreticileri",
-          "description": "Makine ve ekipman üreticilerinin farklı geometrilere, malzemelere ve üretim adetlerine sahip metal komponent ihtiyaçlarını; tel şekillendirme, boru bükme, metal şekillendirme ve kaynak kabiliyetlerimizle değerlendiriyoruz.",
-          "imageAlt": "Makine ve ekipman üretimine yönelik metal komponent üretimi",
+          "description": "Makine ve ekipman üreticilerinin farklı geometrilere, malzemelere ve üretim adetlerine sahip metal parça ihtiyaçlarını; tel şekillendirme, boru bükme, metal şekillendirme ve kaynak kabiliyetlerimizle değerlendiriyoruz.",
+          "imageAlt": "Makine ve ekipman üretimine yönelik metal parça üretimi",
           "imageLabel": "Makine • Ekipman • Endüstriyel Üretim",
           "applications": {
             "agricultureConstructionMachinery": "Tarım ve iş makineleri üreticileri",
