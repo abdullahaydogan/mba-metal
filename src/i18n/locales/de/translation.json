@@ -120,319 +120,364 @@
       }
     }
   },
-  "capabilitiesPage": {
-    "hero": {
-      "eyebrow": "FERWIGUNGSKOMPETENZEN",
-      "title": "Manufacturable solutions for wire, tube and Metallkomponenten.",
-      "description": "From technische Zeichnungen and Musters to Prototyps and Serienfertigung, we evaluate wire, tube and metal Komponente Projekts in terms of Fertigbarkeit, Prozess, Qualität and Lieferung.",
-      "primaryAction": "Projekt anfragen",
-      "secondaryAction": "Explore Our Capabilities",
-      "imageAlt": "MBA Metal wire, tube and metal Komponente Fertigung facility",
-      "explore": "Explore"
-    },
-    "productionApproach": {
-      "eyebrow": "UNSER FERWIGUNGSANSATZ",
-      "title": "From technische Anforderungen to wiederholbar Serienfertigung.",
-      "items": {
-        "cad": "Fertigung based on CAD and technische Zeichnungen",
-        "dfm": "DFM and Fertigbarkeit assessment",
-        "prototype": "Prototyp, Muster and Serienfertigung",
-        "processes": "Wire, tube, Schweißen and Gewindeherstellung Prozesses",
-        "stainless": "Stainless and galvanized wire Prozessing",
-        "management": "Integrated Projekt management with a single point of contact"
-      }
-    },
-    "mainCapabilities": {
-      "eyebrow": "IN EIGENER FERWIGUNG",
-      "title": "Our core Fertigung capabilities",
-      "description": "We manage the core Fertigungsprozesse for wire, tube and metal Komponente Projekts within our own Fertigung infrastructure. From technische Anforderungen to Musters and Serienfertigung, we evaluate Fertigbarkeit, Prozess consistency and Qualitätsanforderungen together.",
-      "processLabel": "Fertigungsprozess",
-      "items": {
-        "tel-cekme": {
-          "title": "Drahtziehen",
-          "description": "Controlled cold drawing of wire rod to achieve the required diameter and Oberfläche characteristics.",
-          "features": [
-            "Diameter control",
-            "Oberfläche monitoring",
-            "Coiled or straightened wire"
-          ],
-          "actionLabel": "View Details",
-          "imageAlt": "MBA Metal industrial wire Fertigung and Prozessing"
-        },
-        "cnc-tel-bukme": {
-          "title": "CNC-Drahtbiegen",
-          "description": "Precise and wiederholbar Serienfertigung of 2D and 3D Drahtkomponenten according to technische Zeichnungen.",
-          "features": [
-            "Custom geometries",
-            "Serial Fertigung",
-            "Maßal inspection"
-          ],
-          "actionLabel": "View Details",
-          "imageAlt": "MBA Metal CNC Drahtbiegen Fertigungsprozess"
-        },
-        "2d-3d-tel-sekillendirme": {
-          "title": "2D / 3D Drahtumformung",
-          "description": "Forming custom Drahtkomponenten requiring multi-axis bends and complex geometries gemäß den technischen Anforderungen.",
-          "features": [
-            "Multi-axis forms",
-            "Custom angles and radii",
-            "OEM Anwendungen"
-          ],
-          "actionLabel": "View Details",
-          "imageAlt": "MBA Metal 2D and 3D Drahtumformung Anwendung"
-        },
-        "mig-tig-kaynak": {
-          "title": "MIG-/WIG-Schweißen",
-          "description": "Controlled joining of wire, tube and Metallkomponenten using Schweißen methods selected gemäß den Projektanforderungen.",
-          "features": [
-            "MIG-Schweißen",
-            "WIG-Schweißen",
-            "Schweißbaugruppen"
-          ],
-          "actionLabel": "Projekt anfragen",
-          "imageAlt": "MBA Metal MIG and WIG-Schweißen Fertigungsprozess"
-        },
-        "puntali-kaynak": {
-          "title": "Punktschweißen",
-          "description": "wiederholbar and controlled Punktschweißen Anwendungen for wire baskets, panels, grids and similar products.",
-          "features": [
-            "Wire-to-wire joining",
-            "Panels and grids",
-            "Serial Fertigung"
-          ],
-          "actionLabel": "View Details",
-          "imageAlt": "MBA Metal Punktschweißen Fertigungsprozess"
-        },
-        "dis-acma": {
-          "title": "Gewindeherstellung",
-          "description": "Creating threaded ends and connection areas using Gewinderollen or Gewindeschneiden methods gemäß den Projektanforderungen.",
-          "features": [
-            "Thread rolling",
-            "Thread cutting",
-            "Custom connection Komponenten"
-          ],
-          "actionLabel": "Send Technische Anforderungen",
-          "imageAlt": "MBA Metal custom metal Komponente and fastener Fertigung"
-        },
-        "boru-bukme": {
-          "title": "Rohrbiegen",
-          "description": "Tube forming, Schweißen and assembled Komponente Fertigung according to technische Zeichnungen.",
-          "features": [
-            "Custom tube geometries",
-            "Assembled Komponenten",
-            "Muster and Serienfertigung"
-          ],
-          "actionLabel": "Rohrprojekt anfragen",
-          "imageAlt": "MBA Metal tube and Metallbiegen Fertigungsprozess"
-        },
-        "paslanmaz-celik-isleme": {
-          "title": "Edelstahlbearbeitung",
-          "description": "Bending, Schweißen, forming and assembly Prozesses for Edelstahl wire and Metallkomponenten.",
-          "features": [
-            "Edelstahl wire",
-            "Welded products",
-            "Custom OEM Komponenten"
-          ],
-          "actionLabel": "Angebot anfordern",
-          "imageAlt": "MBA Metal Edelstahl and metal Prozessing"
-        },
-        "prototip-seri-uretim": {
-          "title": "Prototyp & Serienfertigung",
-          "description": "Managing the Fertigungsprozess from Muster validation and first article approval to wiederholbar Serienfertigung and shipment planning.",
-          "features": [
-            "Prototyp",
-            "First article approval",
-            "Serial Fertigung planning"
-          ],
-          "actionLabel": "Fertigbarkeitsprüfung anfragen",
-          "imageAlt": "MBA Metal Prototyp and Serienfertigung Prozess"
-        }
-      }
-    },
-    "partnerProcesses": {
-      "eyebrow": "APPROVED SOLUTION PARTNERS",
-      "title": "We coordinate complementary Prozesses under a single Projekt management structure.",
-      "description": "While carrying out our core Fertigung operations in-house, we coordinate complementary Fertigung and Oberflächenbehandlung Prozesses through our approved solution partners.",
-      "note": "These Prozesses are not carried out within MBA Metal. They are planned with suitable solution partners gemäß den technischen Anforderungen, monitored throughout the Prozess and managed to maintain Projekt integrity.",
-      "imageAlt": "MBA Metal complementary Fertigungsprozesse and solution partners",
-      "groups": {
-        "manufacturing": {
-          "title": "Complementary Fertigungsprozesses",
-          "description": "Special Fertigungsanforderungen that complement the core Fertigungsprozess are coordinated with approved Fertigung partners gemäß den Projektanforderungen.",
-          "items": [
-            "Upsetting / End forming",
-            "Laser cutting",
-            "Sheet metal Prozessing",
-            "Spring Fertigung"
-          ]
-        },
-        "surface": {
-          "title": "Oberflächenbehandlungs & Complementary Operations",
-          "description": "Oberfläche and complementary operations required by the technical specifications of the product are coordinated with approved solution partners.",
-          "items": [
-            "Powder coating",
-            "Coating coordination",
-            "Custom Verpackung"
-          ]
-        }
-      },
-      "coordination": {
-        "eyebrow": "PROJEKTKOORDINATION",
-        "title": "Single point of contact, controlled Prozesses, integrated Lieferung.",
-        "description": "For Projekts requiring partner Prozesses, we manage the entire workflow from transferring technische Anforderungen and Prozess monitoring to product inspection and shipment preparation.",
-        "steps": {
-          "technicalSpecification": {
-            "title": "Technische Spezifikation",
-            "description": "Product and Prozessanforderungen are clarified."
-          },
-          "partnerProcess": {
-            "title": "Partner Prozess",
-            "description": "The appropriate solution partner and Fertigung method are determined."
-          },
-          "processTracking": {
-            "title": "Prozess Monitoring",
-            "description": "Complementary operations are monitored according to Projekt criteria."
-          },
-          "qualityControl": {
-            "title": "Qualitätskontrolle",
-            "description": "Product requirements are verified after the Prozess."
-          },
-          "shipping": {
-            "title": "Versand",
-            "description": "Completed products are prepared according to the Lieferung plan."
-          }
-        }
-      }
-    },
-    "projectFlow": {
-      "eyebrow": "PROJEKTABLAUF",
-      "title": "Von der technischen Anfrage bis zur Serienfertigung",
-      "description": "We manage every Projekt stage from receiving the initial request through Fertigung and shipment gemäß den technischen Anforderungen.",
-      "completedLabel": "Prozess completed",
-      "items": {
-        "technicalRequest": {
-          "title": "Technical Request",
-          "description": "Drawings, Musters, quantities, Materials and operating conditions are collected."
-        },
-        "dfmReview": {
-          "title": "DFM Review",
-          "description": "Geometrie, Toleranzen, Prozess sequence and Fertigbarkeit are evaluated."
-        },
-        "quoteSample": {
-          "title": "Quotation & Muster",
-          "description": "Pricing, lead time, tooling and Muster requirements are clarified."
-        },
-        "serialProduction": {
-          "title": "Serienfertigung",
-          "description": "The Fertigung plan is executed according to approved technical specifications."
-        },
-        "inspectionShipping": {
-          "title": "Inspection & Versand",
-          "description": "Maßal inspection, Verpackung and Lieferung Prozesses are completed."
-        }
-      }
-    },
-    "oemProduction": {
-      "eyebrow": "OEM- & LOHNFERWIGUNG",
-      "title": "Fertigung based on technische Zeichnungen, Musters or Anwendung requirements.",
-      "description": "Wir bewerten more than just the Geometrie of the part. Materialauswahl, wire or tube Abmessungen, Biegeradien, Toleranzen, Schweißen areas, Gewindeherstellung requirements, Oberflächenanforderungen, Verpackung and annual demand are considered gemeinsam.",
-      "evaluation": {
-        "eyebrow": "PROJEKTBEWERTUNG",
-        "title": "Fertigung is about more than part Geometrie.",
-        "items": [
-          "Materialauswahl",
-          "Wire or tube Abmessungen",
-          "Biegeradien",
-          "Abmessungen and Toleranzen",
-          "Schweißen areas",
-          "Gewindeherstellung requirements",
-          "Oberflächenanforderungen",
-          "Verpackung",
-          "Annual demand"
-        ]
-      },
-      "withoutDrawing": {
-        "eyebrow": "NO TECHNICAL DRAWING?",
-        "title": "We can start with a Muster and Anwendung details.",
-        "description": "A preliminary evaluation can be made using an existing Muster, product photographs, approximate Abmessungen and intended Anwendung. kritische Maße and technische Anforderungen are finalized before Serienfertigung.",
-        "inputs": [
-          "Existing product or Muster",
-          "Product photographs",
-          "Approximate Abmessungen",
-          "Intended Anwendung"
-        ]
-      }
-    },
-    "quoteRequirements": {
-      "eyebrow": "ANGEBOTSERSTELLUNG",
-      "title": "Information required for an accurate quotation.",
-      "description": "Sharing the essential technical information at the beginning of the Projekt enables a more accurate evaluation of Fertigbarkeit, Prozessanforderungen, cost and lead time.",
-      "items": {
-        "technicalDocument": {
-          "title": "Technische Dokumentationation",
-          "description": "Technische Zeichnungen in PDF, DWG or STEP format, or an existing product Muster."
-        },
-        "materialDimensions": {
-          "title": "Material & Abmessungen",
-          "description": "Material specification together with the diameter and Abmessungen of the wire or tube."
-        },
-        "tolerances": {
-          "title": "Toleranzen",
-          "description": "kritische Maße, general Abmessungen and the required Toleranz values."
-        },
-        "quantity": {
-          "title": "Fertigungsmenge",
-          "description": "Jahresbedarf volume and the planned order quantity."
-        },
-        "additionalProcesses": {
-          "title": "Zusätzliche Prozesse",
-          "description": "Additional Prozessanforderungen such as Schweißen, Gewindeherstellung, coating or painting."
-        },
-        "packagingDelivery": {
-          "title": "Verpackung & Lieferung",
-          "description": "Verpackung requirements and the location where the products will be delivered."
-        }
-      }
-    },
-    "faq": {
-      "eyebrow": "HÄUFIG GESTELLTE FRAGEN",
-      "title": "Über unsere Fertigungskompetenzen",
-      "description": "Answers to frequently asked questions about our Fertigungsprozesse, technische Bewertung, prototyping and complementary Prozesses.",
-      "items": {
-        "customParts": {
-          "question": "Do you manufacture custom parts according to technische Zeichnungen?",
-          "answer": "Yes. Fertigbarkeit and pricing can be evaluated based on a technische Zeichnung, Muster or Anwendung scenario."
-        },
-        "prototype": {
-          "question": "Do you provide Prototyp and Muster Fertigung?",
-          "answer": "Yes. Depending on the Projekt Geometrie, tooling requirements and target quantity, Prototyp or first-part Fertigung can be carried out before Serienfertigung."
-        },
-        "weldingThreading": {
-          "question": "Are Schweißen and Gewindeherstellung operations performed in-house?",
-          "answer": "Yes. MIG, WIG, Punktschweißen and Gewindeherstellung are among our in-house Fertigung capabilities."
-        },
-        "partnerProcesses": {
-          "question": "How are Laserschneiden, Blechbearbeitung and Federfertigung managed?",
-          "answer": "These Prozesses are carried out through our approved solution partners under MBA Metal's Projekt coordination."
-        },
-        "coating": {
-          "question": "Are coating Prozesses performed in-house?",
-          "answer": "No. Coating is not performed in-house. The appropriate Oberflächenbehandlung is coordinated with our solution partners gemäß den Projektanforderungen."
-        },
-        "minimumOrder": {
-          "question": "What is the minimum order quantity?",
-          "answer": "The minimum quantity depends on the Geometrie, tooling requirements, number of Prozesses, Material and Oberflächenbehandlung requirements."
-        }
-      }
-    },
-    "finalCta": {
-      "eyebrow": "LET'S EVALUATE YOUR Projekt",
-      "title": "Get a Fertigbarkeit and pricing evaluation for your Projekt",
-      "description": "Share your technische Zeichnung, target quantity, Material, Toleranzen and Lieferung requirements with us.",
-      "primaryAction": "Send Your Technische Zeichnung",
-      "secondaryAction": "Kontaktieren Sie uns on WhatsApp"
+"capabilitiesPage": {
+  "hero": {
+    "eyebrow": "FERTIGUNGSMÖGLICHKEITEN",
+    "title": "Fertigbare Lösungen für Draht-, Rohr- und Metallteile.",
+    "description": "Von der technischen Zeichnung und dem Muster über den Prototyp bis zur Serienfertigung betrachten wir Projekte für Draht-, Rohr- und Metallteile ganzheitlich hinsichtlich Fertigbarkeit, Prozess, Qualität und Lieferung.",
+    "primaryAction": "Projekt anfragen",
+    "secondaryAction": "Fertigungsmöglichkeiten entdecken",
+    "imageAlt": "MBA Metal Produktionsstätte für Draht-, Rohr- und Metallteile",
+    "explore": "Entdecken"
+  },
+
+  "productionApproach": {
+    "eyebrow": "UNSER FERTIGUNGSANSATZ",
+    "title": "Von der technischen Anforderung zur reproduzierbaren Serienfertigung.",
+    "items": {
+      "cad": "Fertigung auf Grundlage von CAD-Daten und technischen Zeichnungen",
+      "dfm": "DFM- und Fertigbarkeitsbewertung",
+      "prototype": "Prototypen-, Muster- und Serienfertigung",
+      "processes": "Draht-, Rohr-, Schweiß- und Gewindebearbeitung",
+      "stainless": "Verarbeitung von Edelstahl- und verzinktem Draht",
+      "management": "Integriertes Projektmanagement mit einem zentralen Ansprechpartner"
     }
   },
+
+  "mainCapabilities": {
+    "eyebrow": "EIGENE FERTIGUNG",
+    "title": "Unsere zentralen Fertigungsmöglichkeiten",
+    "description": "Die wesentlichen Fertigungsprozesse für Draht-, Rohr- und Metallteilprojekte führen wir in unserer eigenen Produktionsumgebung durch. Von der technischen Anfrage über die Musterfertigung bis zur Serienproduktion betrachten wir Fertigbarkeit, Prozessstabilität und Qualitätsanforderungen ganzheitlich.",
+    "processLabel": "Fertigungsprozess",
+
+    "items": {
+      "tel-cekme": {
+        "title": "Drahtziehen",
+        "description": "Kontrolliertes Kaltziehen von Walzdraht entsprechend dem gewünschten Durchmesser und den geforderten Oberflächeneigenschaften.",
+        "features": [
+          "Durchmesserkontrolle",
+          "Oberflächenüberwachung",
+          "Coil oder gerichteter Draht"
+        ],
+        "actionLabel": "Details ansehen",
+        "imageAlt": "MBA Metal industrieller Drahtfertigungs- und Verarbeitungsprozess"
+      },
+
+      "cnc-tel-bukme": {
+        "title": "CNC-Drahtbiegen",
+        "description": "Präzise und reproduzierbare Serienfertigung von 2D- / 3D-Drahtteilen nach technischer Zeichnung.",
+        "features": [
+          "Kundenspezifische Geometrien",
+          "Serienfertigung",
+          "Technische Maßkontrolle"
+        ],
+        "actionLabel": "Details ansehen",
+        "imageAlt": "MBA Metal CNC-Drahtbiegeprozess"
+      },
+
+      "2d-3d-tel-sekillendirme": {
+        "title": "2D- / 3D-Drahtumformung",
+        "description": "Umformung kundenspezifischer Drahtteile mit mehrachsigen Biegungen und komplexen Geometrien entsprechend den technischen Anforderungen.",
+        "features": [
+          "Mehrachsige Geometrien",
+          "Kundenspezifische Winkel und Radien",
+          "OEM-Anwendungen"
+        ],
+        "actionLabel": "Details ansehen",
+        "imageAlt": "MBA Metal Anwendung für 2D- und 3D-Drahtumformung"
+      },
+
+      "mig-tig-kaynak": {
+        "title": "MIG- / WIG-Schweißen",
+        "description": "Kontrolliertes Fügen von Draht-, Rohr- und Metallteilen mit Schweißverfahren, die auf die jeweiligen Projektanforderungen abgestimmt sind.",
+        "features": [
+          "MIG-Schweißen",
+          "WIG-Schweißen",
+          "Geschweißte Baugruppen"
+        ],
+        "actionLabel": "Projekt anfragen",
+        "imageAlt": "MBA Metal MIG- und WIG-Schweißprozess"
+      },
+
+      "puntali-kaynak": {
+        "title": "Punktschweißen",
+        "description": "Reproduzierbare und kontrollierte Punktschweißverfahren für Drahtkörbe, Paneele, Gitter und vergleichbare Produkte.",
+        "features": [
+          "Draht-Draht-Verbindungen",
+          "Paneele und Gitter",
+          "Serienfertigung"
+        ],
+        "actionLabel": "Details ansehen",
+        "imageAlt": "MBA Metal Punktschweißprozess"
+      },
+
+      "dis-acma": {
+        "title": "Gewindeherstellung",
+        "description": "Herstellung von Gewindeenden und Verbindungsbereichen durch Gewinderollen oder Gewindeschneiden entsprechend den Projektanforderungen.",
+        "features": [
+          "Gewinderollen",
+          "Gewindeschneiden",
+          "Kundenspezifische Verbindungsteile"
+        ],
+        "actionLabel": "Technische Anfrage senden",
+        "imageAlt": "MBA Metal Fertigung kundenspezifischer Metall- und Verbindungsteile"
+      },
+
+      "boru-bukme": {
+        "title": "Rohrbiegen",
+        "description": "Rohrumformung sowie Fertigung geschweißter und montierter Bauteile nach technischer Zeichnung.",
+        "features": [
+          "Kundenspezifische Rohrgeometrien",
+          "Montierte Baugruppen",
+          "Muster- und Serienfertigung"
+        ],
+        "actionLabel": "Rohrprojekt anfragen",
+        "imageAlt": "MBA Metal Rohrbiege- und Metallumformungsprozess"
+      },
+
+      "paslanmaz-celik-isleme": {
+        "title": "Edelstahlverarbeitung",
+        "description": "Biegen, Schweißen, Umformen und Montieren von Edelstahldraht und Metallteilen.",
+        "features": [
+          "Edelstahldraht",
+          "Geschweißte Produkte",
+          "Kundenspezifische OEM-Teile"
+        ],
+        "actionLabel": "Angebot anfordern",
+        "imageAlt": "MBA Metal Edelstahl- und Metallverarbeitung"
+      },
+
+      "prototip-seri-uretim": {
+        "title": "Prototypen- & Serienfertigung",
+        "description": "Steuerung des Fertigungsprozesses von der Mustervalidierung und Erstteilfreigabe über die reproduzierbare Serienfertigung bis zur Versandplanung.",
+        "features": [
+          "Prototyp",
+          "Erstteilfreigabe",
+          "Serienfertigungsplanung"
+        ],
+        "actionLabel": "Fertigbarkeit bewerten lassen",
+        "imageAlt": "MBA Metal Prototypen- und Serienfertigungsprozess"
+      }
+    }
+  },
+
+  "partnerProcesses": {
+    "eyebrow": "KOOPERIERENDE FERTIGUNGSPARTNER",
+    "title": "Ergänzende Prozesse koordinieren wir im Rahmen eines zentralen Projektmanagements.",
+    "description": "Während wir unsere Kernfertigungsprozesse im eigenen Haus durchführen, koordinieren wir ergänzende Fertigungs- und Oberflächenprozesse über unsere kooperierenden Fertigungspartner.",
+    "note": "Diese Prozesse werden nicht bei MBA Metal selbst durchgeführt. Sie werden entsprechend den technischen Anforderungen mit geeigneten Fertigungspartnern geplant, überwacht und in den gesamten Projektablauf integriert.",
+    "imageAlt": "MBA Metal ergänzende Fertigungsprozesse und Partnernetzwerk",
+    "imageLabel": "Partnernetzwerk",
+
+    "groups": {
+      "manufacturing": {
+        "title": "Ergänzende Fertigungsverfahren",
+        "description": "Spezielle Fertigungsanforderungen, die unsere Kernprozesse ergänzen, werden entsprechend den Projektanforderungen mit unseren Fertigungspartnern koordiniert.",
+        "items": [
+          "Stauchen / Endenaufweitung",
+          "Laserschneiden",
+          "Blechbearbeitung",
+          "Federfertigung"
+        ]
+      },
+
+      "surface": {
+        "title": "Oberflächenbehandlung & ergänzende Prozesse",
+        "description": "Erforderliche Oberflächenbehandlungen und ergänzende Arbeitsschritte werden entsprechend den technischen Anforderungen des Produkts mit unseren Fertigungspartnern koordiniert.",
+        "items": [
+          "Pulverbeschichtung",
+          "Koordination von Beschichtungsverfahren",
+          "Sonderverpackung"
+        ]
+      }
+    },
+
+    "coordination": {
+      "eyebrow": "PROJEKTKOORDINATION",
+      "title": "Ein Ansprechpartner, kontrollierte Prozesse, ganzheitliche Lieferung.",
+      "description": "Bei Projekten mit externen Fertigungsprozessen steuern wir den gesamten Ablauf – von der Übermittlung der technischen Anforderungen über die Prozessüberwachung und Produktkontrolle bis zur Versandvorbereitung.",
+
+      "steps": {
+        "technicalSpecification": {
+          "title": "Technische Spezifikation",
+          "description": "Produkt- und Prozessanforderungen werden eindeutig definiert."
+        },
+
+        "partnerProcess": {
+          "title": "Partnerprozess",
+          "description": "Der geeignete Fertigungspartner und das passende Fertigungsverfahren werden festgelegt."
+        },
+
+        "processTracking": {
+          "title": "Prozessüberwachung",
+          "description": "Der ergänzende Fertigungsprozess wird entsprechend den Projektkriterien überwacht."
+        },
+
+        "qualityControl": {
+          "title": "Qualitätskontrolle",
+          "description": "Nach Abschluss des Prozesses wird die Erfüllung der Produktanforderungen überprüft."
+        },
+
+        "shipping": {
+          "title": "Versand",
+          "description": "Das fertige Produkt wird entsprechend dem vereinbarten Lieferplan vorbereitet."
+        }
+      }
+    }
+  },
+
+  "projectFlow": {
+    "eyebrow": "PROJEKTABLAUF",
+    "title": "Von der technischen Anfrage zur Serienfertigung",
+    "description": "Von der Aufnahme der Anfrage bis zur Fertigung und Auslieferung steuern wir die einzelnen Projektschritte entsprechend den technischen Anforderungen.",
+    "completedLabel": "Prozess abgeschlossen",
+
+    "items": {
+      "technicalRequest": {
+        "title": "Technische Anfrage",
+        "description": "Zeichnungen, Muster, Stückzahl, Material und Einsatzbedingungen werden aufgenommen."
+      },
+
+      "dfmReview": {
+        "title": "DFM-Prüfung",
+        "description": "Geometrie, Toleranzen, Prozessfolge und Fertigbarkeit werden bewertet."
+      },
+
+      "quoteSample": {
+        "title": "Angebot & Muster",
+        "description": "Preis, Lieferzeit, Werkzeugbedarf und Anforderungen an die Musterfertigung werden abgestimmt."
+      },
+
+      "serialProduction": {
+        "title": "Serienfertigung",
+        "description": "Der Fertigungsplan wird entsprechend den freigegebenen technischen Spezifikationen umgesetzt."
+      },
+
+      "inspectionShipping": {
+        "title": "Prüfung & Versand",
+        "description": "Maßkontrolle, Verpackung und Lieferung werden abgeschlossen."
+      }
+    }
+  },
+
+  "oemProduction": {
+    "eyebrow": "OEM- & LOHNFERTIGUNG",
+    "title": "Fertigung nach technischer Zeichnung, Muster oder Anwendungsszenario.",
+    "description": "Bei der Projektbewertung betrachten wir nicht nur die Geometrie des Bauteils. Materialauswahl, Draht- oder Rohrabmessungen, Biegeradien, Toleranzen, Schweißbereiche, Gewindeanforderungen, Oberflächenanforderungen, Verpackung und Jahresbedarf werden gemeinsam bewertet.",
+
+    "evaluation": {
+      "eyebrow": "PROJEKTBEWERTUNG",
+      "title": "Fertigung umfasst mehr als nur die Geometrie eines Bauteils.",
+      "items": [
+        "Materialauswahl",
+        "Draht- oder Rohrabmessungen",
+        "Biegeradien",
+        "Maße und Toleranzen",
+        "Schweißbereiche",
+        "Gewindeanforderungen",
+        "Oberflächenanforderungen",
+        "Verpackung",
+        "Jahresbedarf"
+      ]
+    },
+
+    "withoutDrawing": {
+      "eyebrow": "WENN KEINE TECHNISCHE ZEICHNUNG VORLIEGT",
+      "title": "Wir können mit einem Muster und Informationen zur Anwendung beginnen.",
+      "description": "Eine erste Bewertung kann anhand eines vorhandenen Musters, von Produktfotos, ungefähren Abmessungen und dem vorgesehenen Einsatzzweck erfolgen. Vor Beginn der Serienfertigung werden kritische Maße und technische Anforderungen eindeutig festgelegt.",
+      "inputs": [
+        "Vorhandenes Produkt oder Muster",
+        "Produktfotos",
+        "Ungefähre Abmessungen",
+        "Einsatzzweck"
+      ]
+    }
+  },
+
+  "quoteRequirements": {
+    "eyebrow": "ANGEBOTSVORBEREITUNG",
+    "title": "Die erforderlichen Informationen für ein präzises Angebot.",
+    "description": "Damit Fertigbarkeit, Prozesse, Kosten und Lieferzeit zuverlässig bewertet werden können, sollten zu Projektbeginn die grundlegenden technischen Informationen bereitgestellt werden.",
+
+    "items": {
+      "technicalDocument": {
+        "title": "Technische Unterlagen",
+        "description": "Technische Zeichnung im PDF-, DWG- oder STEP-Format oder ein vorhandenes Produktmuster."
+      },
+
+      "materialDimensions": {
+        "title": "Material & Abmessungen",
+        "description": "Angaben zum vorgesehenen Material sowie zu Durchmesser und Abmessungen des Drahts oder Rohrs."
+      },
+
+      "tolerances": {
+        "title": "Toleranzen",
+        "description": "Kritische Maße, allgemeine Abmessungen und einzuhaltende Toleranzwerte."
+      },
+
+      "quantity": {
+        "title": "Produktionsmenge",
+        "description": "Jahresbedarf und geplante Bestellmenge."
+      },
+
+      "additionalProcesses": {
+        "title": "Zusätzliche Prozesse",
+        "description": "Zusätzliche Anforderungen wie Schweißen, Gewindebearbeitung, Beschichtung oder Lackierung."
+      },
+
+      "packagingDelivery": {
+        "title": "Verpackung & Lieferung",
+        "description": "Anforderungen an die Verpackung und Angaben zum vorgesehenen Lieferort."
+      }
+    }
+  },
+
+  "faq": {
+    "eyebrow": "HÄUFIG GESTELLTE FRAGEN",
+    "title": "Über unsere Fertigungsmöglichkeiten",
+    "description": "Häufig gestellte Fragen zu unseren Fertigungsprozessen, technischen Bewertungen, Prototypenarbeiten und ergänzenden Fertigungsverfahren.",
+
+    "items": {
+      "customParts": {
+        "question": "Fertigen Sie kundenspezifische Teile nach technischer Zeichnung?",
+        "answer": "Ja. Die Fertigbarkeit und Preisgestaltung können anhand einer technischen Zeichnung, eines Musters oder des vorgesehenen Anwendungsszenarios bewertet werden."
+      },
+
+      "prototype": {
+        "question": "Bieten Sie Prototypen- und Musterfertigung an?",
+        "answer": "Ja. Abhängig von der Geometrie des Projekts, dem Werkzeugbedarf und der geplanten Stückzahl kann vor der Serienfertigung ein Prototyp oder Erstteil gefertigt werden."
+      },
+
+      "weldingThreading": {
+        "question": "Führen Sie Schweiß- und Gewindearbeiten im eigenen Haus durch?",
+        "answer": "Ja. MIG-, WIG- und Punktschweißen sowie die Gewindeherstellung gehören zu unseren eigenen Fertigungsmöglichkeiten."
+      },
+
+      "partnerProcesses": {
+        "question": "Wie werden Laserschneiden, Blechbearbeitung und Federfertigung abgewickelt?",
+        "answer": "Diese Prozesse werden gemeinsam mit unseren kooperierenden Fertigungspartnern unter der Projektkoordination von MBA Metal durchgeführt."
+      },
+
+      "coating": {
+        "question": "Werden Beschichtungen im eigenen Haus durchgeführt?",
+        "answer": "Nein. Beschichtungen werden nicht bei MBA Metal selbst durchgeführt. Die für das jeweilige Projekt geeignete Oberflächenbehandlung wird mit unseren kooperierenden Fertigungspartnern koordiniert."
+      },
+
+      "minimumOrder": {
+        "question": "Wie hoch ist die Mindestbestellmenge?",
+        "answer": "Die Mindestmenge hängt von der Geometrie, dem Werkzeugbedarf, der Anzahl der Fertigungsschritte, dem Material und der erforderlichen Oberflächenbehandlung ab."
+      }
+    }
+  },
+
+  "finalCta": {
+    "eyebrow": "LASSEN SIE UNS IHR PROJEKT GEMEINSAM BEWERTEN",
+    "title": "Lassen Sie Fertigbarkeit und Kosten Ihres Projekts bewerten",
+    "description": "Senden Sie uns Ihre technische Zeichnung sowie Angaben zu Zielstückzahl, Material, Toleranzen und Lieferanforderungen.",
+    "primaryAction": "Technische Zeichnung senden",
+    "secondaryAction": "Über WhatsApp kontaktieren"
+  }
+},
 "whyUsPage": {
   "hero": {
     "eyebrow": "WARUM MBA METAL?",
