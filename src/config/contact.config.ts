@@ -1,6 +1,6 @@
 export const contactConfig = {
   phone: {
-    display: '0 530 050 86 58',
+    display: '+90 530 050 86 58',
     value: '+905300508658',
   },
 
@@ -9,7 +9,7 @@ export const contactConfig = {
     value: '+905300508658',
   },
 
-  email: ' mbametalekipman@gmail.com',
+  email: 'mbametalekipman@gmail.com',
 
   address: {
     line1: 'Organize Sanayi Bölgesi',

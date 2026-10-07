@@ -7,7 +7,11 @@
     "getQuote": "Hızlı Teklif Al",
     "sendMessage": "Mesaj Gönder",
     "whatsapp": "WhatsApp",
-    "readMore": "Devamını Oku"
+    "readMore": "Devamını Oku",
+    "mainNavigation": "Ana navigasyon",
+    "openMenu": "Menüyü aç",
+    "lightTheme": "Açık tema",
+    "darkTheme": "Koyu tema"
   },
   "navigation": {
     "home": "Ana Sayfa",
@@ -18,7 +22,8 @@
     "industries": "Sektörler",
     "quality": "Kalite",
     "projects": "Projeler",
-    "contact": "İletişim"
+    "contact": "İletişim",
+    "market": "Pazar"
   },
   "hero": {
     "eyebrow": "Endüstriyel Metal Üretimi",
@@ -60,29 +65,27 @@
     "button": "Hızlı Teklif Al"
   },
   "footer": {
-    "eyebrow": "PROJENİZİ KONUŞALIM",
-    "ctaTitle": "Teknik ihtiyacınızı birlikte üretilebilir bir çözüme dönüştürelim.",
-    "ctaDescription": "Teknik çiziminizi veya proje detaylarınızı iletin. İhtiyacınızı üretilebilirlik odağında değerlendirelim.",
-    "description": "Tel, boru ve metal parçalarda endüstriyel üretim çözümleri.",
+    "company": {
+      "title": "MBA Metal",
+      "description": "MBA Metal, düşük karbonlu çelik tel, endüstriyel tel şekillendirme ve toptan inşaat çivisi üretimi alanında faaliyet gösteren Sakarya merkezli bir üretim firmasıdır.",
+      "sectors": "Otomotiv, beyaz eşya, raf sistemleri, market ekipmanları, yapı ve sanayi sektörlerine çözümler sunuyoruz."
+    },
     "corporate": "Kurumsal",
     "production": "Üretim",
-    "quickLinks": "Hızlı Bağlantılar",
     "contact": "İletişim",
     "capabilities": "Üretim Kabiliyetleri",
     "industries": "Sektörler",
-    "quality": "Kalite",
-    "projects": "Projeler",
     "phone": "Telefon",
     "email": "E-posta",
-    "whatsapp": "WhatsApp ile Görüşün",
+    "whatsapp": "WhatsApp ile İletişim",
     "copyright": "Tüm hakları saklıdır.",
-    "tagline": "Endüstriyel Metal Üretimi"
+    "signature": "MBA Metal • Türkiye"
   },
   "home": {
     "hero": {
       "titleLine1": "Metale Şekil Endüstriye Güç Katıyoruz",
       "titleLine2": "Metal ve Endüstride Yeni Nesil Çözüm Ortağı",
-      "description": "MBA Metal olarak Sapanca’daki üretim tesisimizde; tel şekillendirme, metal büküm, kaynak ve projeye özel metal elemanları üretimi gerçekleştiriyoruz. Otomotivden beyaz eşyaya, perakendeden endüstriyel üretime kadar farklı sektörlere güvenilir ve sürdürülebilir üretim çözümleri sunuyoruz.",
+      "description": "Metal ve Endüstride Yeni Nesil Çözüm Ortağınız MBA Metal olarak Sapanca’daki üretim tesisimizde; tel şekillendirme, metal büküm, kaynak ve projeye özel metal elemanları üretimi gerçekleştiriyoruz. Otomotivden beyaz eşyaya, perakendeden endüstriyel üretime kadar farklı sektörlere güvenilir ve sürdürülebilir üretim çözümleri sunuyoruz.",
       "imageAlt": "MBA Metal Sapanca endüstriyel üretim tesisi",
       "scrollToNext": "Sonraki bölüme git",
       "industries": {
@@ -429,6 +432,264 @@
       "description": "Teknik çiziminizi, hedef adedi, malzeme, tolerans ve teslimat beklentinizi paylaşın.",
       "primaryAction": "Teknik Çizim Gönderin",
       "secondaryAction": "WhatsApp ile Görüşün"
+    }
+  },
+  "whyUsPage": {
+    "hero": {
+      "eyebrow": "NEDEN MBA METAL?",
+      "title": "Sadece ürün değil üretilebilir çözüm arayan firmalar için.",
+      "description": "Tel veya metal bir parçanın üretimini yalnızca makine ve operasyon açısından değerlendirmiyoruz. Parçanın geometrisini, kullanım amacını, malzemesini, üretim adedini, toleranslarını ve ihtiyaç duyduğu operasyon sırasını birlikte ele alarak uygulanabilir bir üretim yaklaşımı oluşturuyoruz.",
+      "primaryAction": "Projenizi Paylaşın",
+      "secondaryAction": "MBA Metal’i Tanıyın",
+      "startingPoints": {
+        "technicalDrawing": {
+          "title": "Teknik Resim",
+          "description": "Teknik çizim ve ölçüler üzerinden üretilebilirlik değerlendirmesi."
+        },
+        "sample": {
+          "title": "Numune",
+          "description": "Mevcut parçayı referans alarak ölçü, geometri ve üretim yönteminin incelenmesi."
+        },
+        "photoMeasurement": {
+          "title": "Fotoğraf & Ölçü",
+          "description": "Teknik adı veya çizimi bulunmayan parçalar için görsel ve temel ölçüler üzerinden başlangıç."
+        },
+        "prototypeToSerial": {
+          "title": "Prototip → Seri Üretim",
+          "description": "İlk ürün ve numune aşamasından tekrarlanabilir üretim sürecine kadar proje desteği."
+        }
+      }
+    },
+    "principles": {
+      "eyebrow": "ÜRETİM PARTNERİNİZİ SEÇERKEN",
+      "title": "MBA Metal’i farklılaştıran çalışma yaklaşımı.",
+      "description": "Bir üretim partnerini yalnızca sahip olduğu makinelerle değerlendirmek yeterli değildir. Projeyi anlaması, üretilebilirliği sorgulaması, doğru operasyonları belirlemesi ve ihtiyaca uygun bir üretim yolu oluşturması da önemlidir.",
+      "approachLabel": "Çalışma yaklaşımımız",
+      "items": {
+        "projectFocus": {
+          "category": "PROJE ODAĞI",
+          "title": "Önce İhtiyacı Anlıyoruz",
+          "description": "Parçanın yalnızca şeklini ve ölçülerini değil; nerede kullanılacağını, hangi fonksiyonu yerine getireceğini ve kullanım sırasında hangi koşullara maruz kalacağını anlamaya çalışıyoruz."
+        },
+        "flexibleStart": {
+          "category": "ESNEK BAŞLANGIÇ",
+          "title": "Teknik Resim Şart Değil",
+          "description": "Teknik çizim önemli bir veri kaynağıdır ancak her proje hazır bir teknik resimle başlamaz. Numune, fotoğraf, temel ölçüler veya çözülmesi gereken kullanım problemi üzerinden de ilk değerlendirmeyi başlatabiliriz."
+        },
+        "manufacturability": {
+          "category": "ÜRETİLEBİLİRLİK",
+          "title": "Her Çizimi Doğrudan Üretime Almıyoruz",
+          "description": "Geometriyi, malzemeyi, toleransları, operasyon sırasını ve üretim miktarını birlikte değerlendiriyoruz. Gerektiğinde parçanın daha uygulanabilir veya tekrarlanabilir şekilde üretilebilmesi için alternatifler üzerinde çalışıyoruz."
+        },
+        "multiCapability": {
+          "category": "ÇOKLU KABİLİYET",
+          "title": "Tek Operasyonla Sınırlı Kalmıyoruz",
+          "description": "Tel şekillendirme, metal büküm, kaynak ve projenin gerektirdiği tamamlayıcı operasyonları birbirinden bağımsız işlemler olarak değil, ürünün bütün üretim sürecinin parçaları olarak ele alıyoruz."
+        },
+        "projectScale": {
+          "category": "ÖLÇEK",
+          "title": "Farklı Ölçeklerdeki Projeleri Değerlendiriyoruz",
+          "description": "Üretilebilirlik ve proses uygunluğu sağlandığında yalnızca yüksek hacimli projelere değil; küçük ve orta ölçekli ticari üretim ihtiyaçlarına da proje bazında yaklaşabiliyoruz."
+        },
+        "continuity": {
+          "category": "DEVAMLILIK",
+          "title": "Prototipten Tekrarlı Üretime",
+          "description": "Uygun projelerde ilk numune veya ilk ürün doğrulamasından sonra üretim parametrelerini netleştirerek süreci daha düzenli, kontrollü ve tekrarlanabilir bir üretim yapısına taşıyoruz."
+        }
+      }
+    },
+    "exploreSolutions": {
+      "eyebrow": "MBA METAL EKOSİSTEMİ",
+      "title": "İhtiyacınıza göre doğru çözüm alanından devam edin.",
+      "description": "İster özel bir tel parça ister endüstriyel ekipman veya mağaza çözümü arayın; ilgili üretim ve uygulama alanlarımız üzerinden projenize en yakın başlığa ulaşabilirsiniz.",
+      "items": {
+        "cncWireBending": {
+          "category": "ÜRETİM",
+          "title": "CNC Tel Bükme",
+          "description": "Teknik resim veya numuneye göre özel tel parça ve form çözümleri."
+        },
+        "industrialWireForming": {
+          "category": "ÜRETİM",
+          "title": "Endüstriyel Tel Şekillendirme",
+          "description": "Sanayi, ekipman ve özel uygulamalar için tel şekillendirme çözümleri."
+        },
+        "shelfHooks": {
+          "category": "MAĞAZA",
+          "title": "Raf Kancaları",
+          "description": "Tel pano, raf ve ürün teşhir sistemleri için farklı geometrilerde askı elemanları."
+        },
+        "wireShelfSystems": {
+          "category": "MAĞAZA",
+          "title": "Tel Raf Sistemleri",
+          "description": "Market ve ticari satış alanlarında kullanılabilecek tel ve metal raf çözümleri."
+        },
+        "marketWireBaskets": {
+          "category": "MAĞAZA",
+          "title": "Market Tel Sepetleri",
+          "description": "Ürün teşhiri, kampanya alanları, taşıma ve mağaza kullanımı için tel sepet çözümleri."
+        },
+        "aboutMbaMetal": {
+          "category": "KURUMSAL",
+          "title": "MBA Metal Hakkında",
+          "description": "Üretim yaklaşımımızı, çalışma alanlarımızı ve MBA Metal’i daha yakından inceleyin."
+        }
+      }
+    },
+    "flexibleStart": {
+      "eyebrow": "PARÇANIN ADINI BİLMENİZ GEREKMİYOR",
+      "title": "“Buna benzer bir şey lazım” diyerek de başlayabilirsiniz.",
+      "paragraphs": {
+        "paragraph1": "Sanayide, üretim tesislerinde veya mağaza ekipmanlarında kullanılan her parçanın teknik adı kullanıcı tarafından bilinmeyebilir. Bir parçanın adını bilmiyor olmanız, üretim ihtiyacınızı bizimle değerlendirmenize engel değildir.",
+        "paragraph2": "Aynı ürün farklı firmalar veya sektörler tarafından farklı isimlerle tanımlanabilir. Önemli olan parçanın nasıl adlandırıldığı değil; geometrisinin, kullanım amacının, ölçülerinin ve beklenen fonksiyonunun anlaşılmasıdır.",
+        "paragraph3": "Bu nedenle fotoğraf, fiziksel numune, temel ölçüler, kullanım yeri ve ihtiyaç miktarı birçok projede teknik değerlendirmeyi başlatmak için yeterli bir başlangıç noktası oluşturabilir."
+      },
+      "namingExample": {
+        "eyebrow": "AYNI PARÇA, FARKLI İSİMLER",
+        "titleLine1": "İsim değişebilir.",
+        "titleLine2": "İhtiyaç aynı kalır.",
+        "description": "Örneğin ürün teşhirinde kullanılan aynı veya benzer bir tel parça farklı kullanıcılar tarafından şu isimlerle tarif edilebilir:",
+        "items": {
+          "shelfHook": "Raf kancası",
+          "wireHanger": "Tel askı",
+          "panelHook": "Pano kancası",
+          "productHangerRod": "Ürün askı çubuğu"
+        }
+      },
+      "existingProduct": {
+        "eyebrow": "MEVCUT ÜRÜNDEN BAŞLAYABİLİRİZ",
+        "title": "Elinizde benzer bir ürün varsa bize gösterin.",
+        "description": "Mevcut parçanın fotoğrafını veya fiziksel numunesini paylaşabilirsiniz. Ardından temel ölçüler, malzeme beklentisi, kullanım koşulları ve ihtiyaç adedi üzerinden üretilebilirliği birlikte değerlendirebiliriz.",
+        "checklist": {
+          "photo": "Ürün veya numune fotoğrafı",
+          "dimensions": "Temel ölçüler",
+          "usage": "Kullanım amacı",
+          "material": "Malzeme bilgisi varsa malzeme türü",
+          "quantity": "Tahmini üretim veya sipariş adedi",
+          "tolerances": "Varsa kritik ölçü ve toleranslar"
+        }
+      },
+      "relatedCapabilitiesTitle": "Bu tür projelerde ilgili üretim kabiliyetlerimizi de inceleyebilirsiniz.",
+      "relatedCapabilities": {
+        "cncWireBending": {
+          "title": "CNC Tel Bükme",
+          "description": "Teknik resim veya numuneye göre farklı geometrilerde özel tel parçaların değerlendirilmesi."
+        },
+        "industrialWireForming": {
+          "title": "Endüstriyel Tel Şekillendirme",
+          "description": "Sanayi, ekipman ve özel uygulamalar için tel form ve parça üretim çözümleri."
+        }
+      }
+    },
+    "projectFlow": {
+      "eyebrow": "BİZİMLE ÇALIŞMAK",
+      "title": "Talebi üretime dönüştüren anlaşılır bir süreç.",
+      "description": "Projenin kapsamı ve teknik karmaşıklığı değişebilir. Ancak doğru bir ilk değerlendirme için ihtiyaç duyulan temel bilgiler çoğu projede benzerdir.",
+      "items": {
+        "shareRequest": {
+          "title": "Talebinizi Paylaşın",
+          "description": "Teknik resim, fotoğraf, numune veya kullanım ihtiyacınızı bizimle paylaşın.",
+          "detail": "Varsa malzeme, ölçü, tolerans, ihtiyaç adedi ve parçanın kullanım koşulları gibi ek bilgiler ilk değerlendirmeyi hızlandırır."
+        },
+        "manufacturability": {
+          "title": "Üretilebilirliği İnceleyelim",
+          "description": "Geometri, operasyon, malzeme, tolerans ve adet yapısını birlikte değerlendirelim.",
+          "detail": "Parçanın hangi operasyonlardan geçeceği, üretim sırasında dikkat edilmesi gereken noktalar ve uygulanabilir proses yaklaşımı belirlenir."
+        },
+        "sampleFirstProduct": {
+          "title": "Numune / İlk Ürün",
+          "description": "Gerekli projelerde ilk parça veya numune üzerinden üretim yaklaşımını doğrulayalım.",
+          "detail": "Ölçüler, form, bağlantı noktaları ve kullanım açısından kritik özellikler ilk ürün üzerinden kontrol edilerek gerekli düzenlemeler yapılabilir."
+        },
+        "productionPlan": {
+          "title": "Üretim Planı",
+          "description": "Onaylanan proje için uygun ve tekrarlanabilir üretim akışını oluşturalım.",
+          "detail": "Operasyon sırası, üretim kontrol noktaları ve proje gereksinimleri netleştirilerek üretim süreci planlanır."
+        }
+      },
+      "footer": {
+        "eyebrow": "KONTROLLÜ ÜRETİM",
+        "description": "Amaç yalnızca ilk parçayı üretebilmek değil; uygun projelerde aynı üretim yaklaşımını kontrollü ve tekrarlanabilir şekilde sürdürebilmektir."
+      }
+    },
+    "solutionExamples": {
+      "eyebrow": "ÇÖZÜM ÖRNEKLERİ",
+      "title": "Farklı ihtiyaçlara, üretilebilir metal çözümleri.",
+      "description": "İhtiyaç yalnızca bir parçanın üretilmesi olmayabilir. Ürün geliştirme, mevcut parçanın yeniden üretilmesi, seri üretime geçiş veya operasyonel ihtiyaçlar için farklı başlangıç noktalarından ilerleyebiliriz.",
+      "examples": {
+        "customProduction": {
+          "eyebrow": "ÖZEL ÜRETİM",
+          "title": "Teknik ihtiyaca özel parça üretimi",
+          "description": "Teknik resim, ölçü, numune veya kullanım senaryosu üzerinden ihtiyacı değerlendirerek üretilebilir bir metal parça çözümüne dönüştürüyoruz.",
+          "details": {
+            "detail1": "Teknik resim üzerinden değerlendirme",
+            "detail2": "Ölçü ve tolerans kontrolü",
+            "detail3": "Malzeme ve üretim yöntemi değerlendirmesi",
+            "detail4": "Prototip veya seri üretim planlaması"
+          }
+        },
+        "existingProduct": {
+          "eyebrow": "MEVCUT ÜRÜN",
+          "title": "Elinizdeki parçadan yeniden üretim",
+          "description": "Teknik dokümanı bulunmayan mevcut parçalar için numune, fotoğraf ve temel ölçüler üzerinden üretim yaklaşımı oluşturabiliriz.",
+          "details": {
+            "detail1": "Numune üzerinden inceleme",
+            "detail2": "Temel ölçülerin değerlendirilmesi",
+            "detail3": "Kullanım amacının anlaşılması",
+            "detail4": "Tekrarlanabilir üretim yapısının oluşturulması"
+          }
+        },
+        "prototypeToSerial": {
+          "eyebrow": "PROTOTİP → SERİ",
+          "title": "Deneme üretiminden tekrarlı siparişe",
+          "description": "Yeni geliştirilen ürünlerde ilk numune ve prototip çalışmalarından başlayarak uygun projelerde tekrarlı üretim sürecine geçişi destekliyoruz.",
+          "details": {
+            "detail1": "İlk numune üretimi",
+            "detail2": "Ürün ve proses doğrulaması",
+            "detail3": "Revizyonların değerlendirilmesi",
+            "detail4": "Seri üretime geçiş planlaması"
+          }
+        },
+        "industryAndProduction": {
+          "eyebrow": "SANAYİ VE ÜRETİM",
+          "title": "Makine ve üretim hatlarına yönelik parçalar",
+          "description": "Makine, ekipman, üretim hattı ve yardımcı sistemlerde kullanılan tel ve metal parçalar için proje bazlı üretim çözümleri geliştiriyoruz.",
+          "details": {
+            "detail1": "Makine ve ekipman parçaları",
+            "detail2": "Bağlantı ve sabitleme elemanları",
+            "detail3": "Tel ve metal komponentler",
+            "detail4": "Proje bazlı özel üretimler"
+          }
+        },
+        "retailAndDisplay": {
+          "eyebrow": "MAĞAZACILIK VE TEŞHİR",
+          "title": "Raf, askı ve teşhir sistemleri için çözümler",
+          "description": "Perakende ve mağazacılık uygulamalarında kullanılan tel ürünler, askılar, kancalar ve teşhir elemanları için ihtiyaca özel üretim gerçekleştiriyoruz.",
+          "details": {
+            "detail1": "Raf ve pano kancaları",
+            "detail2": "Ürün askı elemanları",
+            "detail3": "Tel teşhir parçaları",
+            "detail4": "Özel ölçülü mağaza ekipmanları"
+          }
+        },
+        "logisticsAndOperations": {
+          "eyebrow": "LOJİSTİK VE OPERASYON",
+          "title": "Taşıma, depolama ve operasyon ekipmanları",
+          "description": "Depolama, taşıma ve operasyon süreçlerinde ihtiyaç duyulan metal ve tel komponentleri kullanım koşullarına göre değerlendirerek üretime hazırlıyoruz.",
+          "details": {
+            "detail1": "Taşıma ekipmanı parçaları",
+            "detail2": "Depolama sistemi komponentleri",
+            "detail3": "Koruyucu ve sabitleyici parçalar",
+            "detail4": "Operasyonel özel çözümler"
+          }
+        }
+      }
+    },
+    "cta": {
+      "eyebrow": "BİZE BİR PARÇA GÖSTERİN",
+      "title": "Üretilebilir mi? Önce onu birlikte değerlendirelim.",
+      "description": "Teknik çiziminiz varsa paylaşın. Yoksa numune, fotoğraf veya temel ölçülerle başlayabiliriz. Parçanın kullanım amacını, malzemesini, kritik ölçülerini ve ihtiyaç adedini birlikte değerlendirerek uygulanabilir üretim yaklaşımını belirleyelim.",
+      "primaryAction": "Projenizi Paylaşın",
+      "secondaryAction": "İletişime Geçin"
     }
   },
   "aboutPage": {
@@ -823,6 +1084,17 @@
             "Özel seri üretim komponentleri"
           ]
         },
+        "defenseAerospaceSecurity": {
+          "title": "Savunma, Havacılık ve Güvenlik",
+          "description": "Savunma, havacılık ve güvenlik uygulamalarına yönelik teknik gereksinimlere göre özel tel, boru, bükümlü ve kaynaklı metal komponentler.",
+          "applications": [
+            "Özel tel form parçaları",
+            "Hassas bükümlü metal komponentler",
+            "Kaynaklı alt montajlar",
+            "Koruyucu ve taşıyıcı parçalar",
+            "Projeye özel metal komponentler"
+          ]
+        },
         "medical": {
           "title": "Medikal ve Hijyen Ürünleri",
           "description": "Tanımlanmış malzeme, ölçü, yüzey ve kullanım gereksinimlerine göre özel tel ve metal parçalar.",
@@ -854,6 +1126,16 @@
             "Bağlantı elemanları",
             "Bükümlü metal parçalar",
             "Proje bazlı özel üretim"
+          ]
+        },
+        "marine": {
+          "title": "Gemi, Denizcilik ve Liman",
+          "description": "Gemi, denizcilik ve liman uygulamalarına yönelik tel, boru, bükümlü ve kaynaklı metal komponent üretim çözümleri.",
+          "applications": [
+            "Gemi ve güverte komponentleri",
+            "Kaynaklı metal parçalar",
+            "Liman ve terminal ekipman komponentleri",
+            "Özel metal parçalar"
           ]
         }
       }
@@ -991,7 +1273,10 @@
           "metalForm": "Metal Form",
           "welding": "Kaynak",
           "repeatProduction": "Seri Üretim"
-        }
+        },
+        "primaryAction": "Projenizi Konuşalım",
+        "secondaryAction": "Üretim Kabiliyetlerini İncele",
+        "scrollLabel": "Otomotiv Çözümlerini Keşfedin"
       },
       "overview": {
         "eyebrow": "Otomotiv İçin Üretim",
@@ -1568,6 +1853,351 @@
           "solution": "Ölçüsel / görsel kontrol"
         }
       }
+    },
+    "defenseAerospaceSecurity": {
+      "name": "Savunma, Havacılık ve Güvenlik",
+      "hero": {
+        "eyebrow": "SAVUNMA • HAVACILIK • GÜVENLİK",
+        "title": "Kritik uygulamalar için hassas ve tekrarlanabilir metal komponent üretimi.",
+        "description": "Savunma, havacılık ve güvenlik uygulamalarında kullanılan tel, bükümlü metal ve kaynaklı komponentleri; teknik resim, malzeme, tolerans ve proje gereksinimleri doğrultusunda üretilebilirlik odağında değerlendiriyoruz.",
+        "capabilities": {
+          "wireForm": "Tel Şekillendirme",
+          "metalForm": "Hassas Metal Büküm",
+          "welding": "Kaynaklı Birleştirme",
+          "repeatProduction": "Tekrarlanabilir Üretim"
+        },
+        "imageAlt": "MBA Metal savunma havacılık ve güvenlik uygulamalarına yönelik metal komponent üretimi",
+        "imageCaption": "Teknik gereksinimlerden kontrollü ve tekrarlanabilir komponent üretimine.",
+        "visualLabel": "Üretim Sistemi",
+        "productionLabel": "Hassas Komponent Üretimi",
+        "productionMeta": "Tel • Metal • Kaynak • Büküm",
+        "badge": "Savunma & Havacılık Üretimi"
+      },
+      "overview": {
+        "eyebrow": "Sektörel Yaklaşım",
+        "title": "Kritik teknik gereksinimleri üretilebilir çözümlere dönüştürüyoruz.",
+        "description": "Savunma, havacılık ve güvenlik projelerinde komponent geometrisi; malzeme özellikleri, kritik ölçüler, toleranslar, bağlantı noktaları ve üretim tekrarlanabilirliği ile birlikte değerlendirilir.",
+        "secondaryDescription": "MBA Metal olarak tel şekillendirme, metal büküm ve kaynak kabiliyetlerimizi projeye özel teknik gereksinimlerle bir araya getirerek kontrollü üretim çözümleri geliştiriyoruz.",
+        "highlight": "Amaç; teknik gereksinimleri karşılayan, kontrol edilebilir ve tekrarlanabilir komponentler üretmektir.",
+        "statement": "Üretim yaklaşımı; teknik resim, malzeme özellikleri, kritik toleranslar, kullanım koşulları ve hedef üretim miktarları birlikte değerlendirilerek belirlenir.",
+        "inputLabel": "Proje Girdileri",
+        "inputs": {
+          "technicalDrawing": "Teknik resim ve şartname",
+          "sample": "Numune / referans komponent",
+          "material": "Malzeme ve yüzey gereksinimleri",
+          "tolerance": "Kritik ölçüler ve toleranslar",
+          "quantity": "Prototip / seri üretim adedi"
+        },
+        "note": "Proje girdileri üretilebilirlik açısından değerlendirilerek uygun proses, aparat, kontrol ve üretim yaklaşımı belirlenir.",
+        "imageAlt": "Savunma havacılık ve güvenlik uygulamaları için hassas metal komponent üretimi",
+        "imageCaption": "Kritik uygulamalar için kontrollü metal komponent üretimi"
+      },
+      "applicationsSection": {
+        "eyebrow": "Sektörel Uygulamalar",
+        "title": "Teknik gereksinimlere göre şekillenen metal komponentler.",
+        "description": "Tel şekillendirmeden hassas bükümlü parçalara, kaynaklı alt komponentlerden projeye özel üretime kadar farklı ihtiyaçları teknik gereksinimlere göre değerlendiriyoruz.",
+        "noteLabel": "Uygulama Yaklaşımı",
+        "note": "Gösterilen uygulamalar üretim kabiliyetlerini temsil eder. Nihai üretim yöntemi; teknik resim, malzeme, tolerans, kullanım koşulları ve üretim miktarlarına göre belirlenir."
+      },
+      "applications": {
+        "wireComponents": {
+          "title": "Özel Tel Komponentler",
+          "description": "Bağlantı, sabitleme, taşıma ve destek uygulamalarına yönelik özel tel geometrilerinin teknik gereksinimlere göre şekillendirilmesi."
+        },
+        "weldedComponents": {
+          "title": "Kaynaklı Alt Komponentler",
+          "description": "Tel ve metal parçaların proje gereksinimine uygun kaynak yöntemleriyle birleştirilerek kontrollü alt komponentler haline getirilmesi."
+        },
+        "bentComponents": {
+          "title": "Hassas Bükümlü Metal Komponentler",
+          "description": "Teknik resimde tanımlanan açı, form, ölçü ve toleranslara göre metal komponentlerin kontrollü büküm ve şekillendirme prosesleriyle üretilmesi."
+        },
+        "customComponents": {
+          "title": "Projeye Özel Komponentler",
+          "description": "Standart dışı geometrilere ve teknik gereksinimlere sahip metal komponentlerin proje girdileri ve üretilebilirlik kriterlerine göre değerlendirilmesi ve üretilmesi."
+        }
+      },
+      "requirementsSection": {
+        "eyebrow": "Üretim Gereksinimleri",
+        "title": "Kritik uygulamalar kontrollü ve tekrarlanabilir üretim gerektirir.",
+        "description": "Hassasiyet, proses kararlılığı, süreç takibi ve kalite gereksinimleri savunma, havacılık ve güvenlik uygulamalarına yönelik üretim yaklaşımının temel unsurlarıdır.",
+        "statementLabel": "Üretim Yaklaşımı",
+        "statement": "Bir komponent yalnızca geometrisiyle değil; kritik ölçüleri, malzemesi, proses adımları ve kontrol gereksinimleriyle birlikte değerlendirilir.",
+        "itemLabel": "Teknik Gereksinim"
+      },
+      "requirements": {
+        "precision": {
+          "title": "Hassasiyet & Tolerans",
+          "description": "Fonksiyon ve montajı etkileyen kritik ölçüler, tanımlanan toleranslar içerisinde üretilebilir ve kontrol edilebilir olacak şekilde değerlendirilir."
+        },
+        "repeatability": {
+          "title": "Tekrarlanabilirlik",
+          "description": "Prototipten seri üretime kadar onaylanan geometri ve üretim sonucunun sonraki üretimlerde tutarlı biçimde korunması hedeflenir."
+        },
+        "traceability": {
+          "title": "Süreç Takibi",
+          "description": "Üretim adımları proje gereksinimlerine göre tanımlanır ve kritik operasyonlar kontrollü bir üretim yaklaşımıyla yönetilir."
+        },
+        "quality": {
+          "title": "Kalite Kontrol",
+          "description": "Üretilen komponentler kritik ölçüler, form, kaynak bölgeleri ve görsel gereksinimler açısından proje kriterlerine göre değerlendirilir."
+        }
+      },
+      "productionSection": {
+        "eyebrow": "Üretim Kabiliyetleri",
+        "title": "Teknik gereksinimleri uygun üretim prosesiyle eşleştiriyoruz.",
+        "description": "Komponent geometrisi, malzeme, toleranslar, bağlantı noktaları ve üretim miktarları birlikte değerlendirilerek uygun üretim yaklaşımı oluşturulur.",
+        "needLabel": "Teknik Gereksinim",
+        "solutionLabel": "MBA Metal Üretim Yaklaşımı",
+        "noteLabel": "Proses Seçimi",
+        "note": "Üretim yöntemi yalnızca geometriye göre değil; teknik resim, malzeme, toleranslar, birleştirme gereksinimleri, kontrol kriterleri ve üretim miktarları birlikte değerlendirilerek belirlenir."
+      },
+      "production": {
+        "wire": {
+          "need": "Özel tel geometrileri",
+          "solution": "2D / 3D tel büküm ve şekillendirme"
+        },
+        "forming": {
+          "need": "Hassas metal şekillendirme",
+          "solution": "Kontrollü büküm ve şekillendirme"
+        },
+        "joining": {
+          "need": "Komponent birleştirme",
+          "solution": "MIG / TIG / punta kaynak uygulamaları"
+        },
+        "repeat": {
+          "need": "Tekrarlanabilir üretim",
+          "solution": "Aparat ve fikstür destekli üretim"
+        },
+        "control": {
+          "need": "Teknik uygunluk doğrulaması",
+          "solution": "Ölçüsel ve görsel kontrol"
+        }
+      }
+    },
+    "marine": {
+      "hero": {
+        "eyebrow": "GEMİ • DENİZCİLİK • LİMAN",
+        "title": "Denizcilik Uygulamaları İçin Metal Komponent Üretimi",
+        "description": "Gemi, denizcilik ve liman uygulamalarının farklı ihtiyaçlarına yönelik tel şekillendirme, boru bükme, metal şekillendirme, kaynak ve özel komponent üretim kabiliyetleri sunuyoruz.",
+        "primaryAction": "Projenizi Paylaşın",
+        "secondaryAction": "Üretim Kabiliyetlerimiz",
+        "scrollLabel": "Keşfet",
+        "imageCaption": "Denizcilik ve liman uygulamalarına yönelik metal üretim çözümleri",
+        "imageAlt": "MBA Metal gemi, denizcilik ve liman uygulamalarına yönelik metal komponent üretimi",
+        "visualLabel": "Denizcilik Uygulamaları",
+        "productionLabel": "Metal Komponent Üretimi",
+        "productionMeta": "Tel • Boru • Kaynak • Şekillendirme",
+        "badge": "Gemi • Denizcilik • Liman",
+        "capabilities": {
+          "wireForm": "Tel Şekillendirme",
+          "metalForm": "Metal Şekillendirme",
+          "welding": "Kaynaklı Birleştirme",
+          "repeatProduction": "Tekrarlanabilir Üretim"
+        }
+      },
+      "overview": {
+        "eyebrow": "SEKTÖREL ÜRETİM YAKLAŞIMI",
+        "title": "Zorlu Denizcilik Koşullarına Uygun Üretim Yaklaşımı",
+        "description": "Denizcilik ve liman uygulamalarında kullanılan metal komponentler; çevresel koşullar, mekanik yükler, korozyon riski ve uzun süreli kullanım gereksinimleri dikkate alınarak değerlendirilmelidir. MBA Metal olarak teknik resim ve proje gereksinimlerine göre üretilebilirliği değerlendiriyor, uygun üretim yöntemlerini belirliyor ve tekrarlanabilir üretim süreçleri oluşturuyoruz.",
+        "highlight": "Teknik gereksinimlerden üretime kadar kontrollü ve sürdürülebilir metal komponent çözümleri.",
+        "imageLabel": "DENİZCİLİK UYGULAMALARI",
+        "statement": "Denizcilik ve liman projelerinde teknik gereksinimleri; malzeme, geometri, kullanım koşulları ve üretim miktarıyla birlikte değerlendirerek üretilebilir çözümlere dönüştürüyoruz.",
+        "inputLabel": "Proje Girdileri",
+        "inputs": {
+          "technicalDrawing": "Teknik resim ve şartname",
+          "sample": "Numune / referans komponent",
+          "material": "Malzeme ve yüzey gereksinimleri",
+          "tolerance": "Kritik ölçüler ve toleranslar",
+          "quantity": "Prototip / seri üretim adedi"
+        },
+        "note": "Proje girdileri üretilebilirlik açısından değerlendirilerek uygun şekillendirme, kaynak, aparat, kontrol ve üretim yaklaşımı belirlenir.",
+        "imageAlt": "Gemi, denizcilik ve liman uygulamaları için metal komponent üretimi",
+        "imageCaption": "Denizcilik uygulamaları için kontrollü metal komponent üretimi"
+      },
+      "applicationsSection": {
+        "eyebrow": "UYGULAMA ALANLARI",
+        "title": "Gemi, Denizcilik ve Liman Uygulamaları",
+        "description": "Metal şekillendirme ve kaynak kabiliyetlerimizi farklı denizcilik ve liman uygulamalarının komponent ihtiyaçlarına uyarlıyoruz.",
+        "noteLabel": "Uygulama Yaklaşımı",
+        "note": "Gösterilen uygulamalar üretim kabiliyetlerini temsil eder. Nihai üretim yöntemi; teknik resim, malzeme, tolerans, kullanım koşulları ve üretim miktarına göre belirlenir."
+      },
+      "applications": {
+        "metalComponents": {
+          "title": "Gemi ve Güverte Metal Komponentleri",
+          "description": "Güverte sistemleri, koruyucu yapılar, bağlantı elemanları ve farklı gemi ekipmanlarında kullanılabilecek teknik resme özel bükümlü, şekillendirilmiş ve kaynaklı metal komponentlerin üretimi."
+        },
+        "weldedComponents": {
+          "title": "Kaynaklı Metal Komponentler",
+          "description": "Denizcilik uygulamalarında kullanılan metal parçalar için MIG/TIG ve uygun kaynak yöntemleriyle gerçekleştirilen kaynaklı komponent ve alt montaj üretimi."
+        },
+        "portEquipment": {
+          "title": "Liman ve Terminal Ekipman Komponentleri",
+          "description": "Liman, terminal, yükleme ve taşıma sistemlerinde kullanılabilecek koruyucu, taşıyıcı ve yardımcı ekipmanlara yönelik metal komponent üretimi."
+        },
+        "customComponents": {
+          "title": "Projeye Özel Metal Parçalar",
+          "description": "Standart dışı ölçü, geometri ve kullanım gereksinimlerine sahip denizcilik projeleri için teknik resim veya numuneye göre özel metal komponent üretimi."
+        }
+      },
+      "requirementsSection": {
+        "eyebrow": "TEKNİK GEREKSİNİMLER",
+        "title": "Denizcilik Uygulamalarında Üretim Gereksinimleri",
+        "description": "Deniz ortamında kullanılacak metal komponentlerde malzeme seçimi, dayanım, ölçüsel tutarlılık ve üretim kalitesi birlikte değerlendirilmelidir.",
+        "statementLabel": "ÜRETİM YAKLAŞIMIMIZ",
+        "statement": "Her projeyi teknik gereksinimleri doğrultusunda değerlendiriyor; malzeme, geometri, üretim yöntemi ve kalite kontrol adımlarını kullanım koşullarına göre planlıyoruz.",
+        "itemLabel": "Teknik Gereksinim"
+      },
+      "requirements": {
+        "corrosionResistance": {
+          "title": "Korozyon ve Malzeme Gereksinimleri",
+          "description": "Deniz ortamındaki nem, tuz ve çevresel etkiler göz önünde bulundurularak projeye uygun malzeme ve yüzey gereksinimlerinin değerlendirilmesi."
+        },
+        "durability": {
+          "title": "Mekanik Dayanım ve Uzun Ömür",
+          "description": "Kullanım koşullarına bağlı mekanik yükler ve uzun süreli çalışma gereksinimleri doğrultusunda komponent geometrisinin ve üretim yönteminin değerlendirilmesi."
+        },
+        "dimensionalConsistency": {
+          "title": "Ölçüsel Tutarlılık",
+          "description": "Montaj ve kullanım performansını desteklemek için teknik resimde tanımlanan ölçü ve toleransların kontrollü üretim süreçleriyle korunması."
+        },
+        "productionQuality": {
+          "title": "Üretim ve Kaynak Kalitesi",
+          "description": "Şekillendirme, büküm ve kaynak operasyonlarının tanımlı prosesler doğrultusunda yürütülmesi ve üretim sonuçlarının kalite kontrol adımlarıyla doğrulanması."
+        }
+      },
+      "productionSection": {
+        "eyebrow": "ÜRETİM KABİLİYETLERİ",
+        "title": "İhtiyaçtan Üretim Çözümüne",
+        "description": "Denizcilik ve liman projelerindeki farklı komponent ihtiyaçlarını mevcut metal işleme kabiliyetlerimizle üretilebilir çözümlere dönüştürüyoruz.",
+        "needLabel": "İHTİYAÇ",
+        "solutionLabel": "ÜRETİM ÇÖZÜMÜ",
+        "noteLabel": "Proses Seçimi",
+        "note": "Üretim yöntemi; teknik resim, malzeme, toleranslar, birleştirme gereksinimleri, kontrol kriterleri ve üretim miktarı birlikte değerlendirilerek belirlenir."
+      },
+      "production": {
+        "wire": {
+          "need": "Tel formunda koruyucu, taşıyıcı veya bağlantı komponentleri",
+          "solution": "CNC tel bükme ve tel şekillendirme"
+        },
+        "forming": {
+          "need": "Farklı geometrilere sahip boru ve metal parçalar",
+          "solution": "Boru bükme ve metal şekillendirme"
+        },
+        "joining": {
+          "need": "Birden fazla parçadan oluşan kaynaklı komponentler",
+          "solution": "MIG/TIG, punta kaynak ve kaynaklı alt montaj"
+        },
+        "custom": {
+          "need": "Projeye veya teknik resme özel komponentler",
+          "solution": "Numune ve teknik resme göre özel üretim"
+        },
+        "control": {
+          "need": "Tekrarlanabilir ölçü ve üretim kalitesi",
+          "solution": "Proses kontrolü ve kalite doğrulama"
+        }
+      },
+      "name": "Gemi, Denizcilik ve Liman"
+    }
+  },
+  "marketPage": {
+    "hero": {
+      "eyebrow": "PAZAR • ÜRETİM ÇÖZÜMLERİ",
+      "title": "Üretim kabiliyetlerimizi farklı pazarların teknik ihtiyaçlarıyla buluşturuyoruz.",
+      "description": "Makine ve ekipman üreticilerinden enerji, elektrik ve iklimlendirme uygulamalarına kadar farklı müşteri gruplarının tel, boru ve metal komponent ihtiyaçlarını projeye özel üretim yaklaşımıyla değerlendiriyoruz.",
+      "primaryAction": "Pazarları Keşfet",
+      "secondaryAction": "Projenizi Paylaşın",
+      "panel": {
+        "eyebrow": "PAZAR KAPSAMI",
+        "title": "Hedef Üretim Alanları",
+        "marketGroups": "Ana Pazar Grubu",
+        "applicationAreas": "Uygulama Alanı"
+      },
+      "bottom": {
+        "primary": "Makine & Ekipman • Enerji • Elektrik • HVAC",
+        "secondary": "Proje Odaklı Metal Üretimi"
+      }
+    },
+    "segments": {
+      "eyebrow": "HEDEF PAZARLAR",
+      "title": "Farklı üretim alanları. Ortak bir ihtiyaç: güvenilir metal komponent üretimi.",
+      "description": "Üretim kabiliyetlerimizi farklı makine, ekipman, enerji ve altyapı uygulamalarının teknik gereksinimlerine göre uyarlıyoruz.",
+      "applicationLabel": "Uygulama ve Müşteri Grupları",
+      "items": {
+        "machineryEquipment": {
+          "eyebrow": "PAZAR",
+          "title": "Makine ve Ekipman Üreticileri",
+          "description": "Makine ve ekipman üreticilerinin farklı geometrilere, malzemelere ve üretim adetlerine sahip metal komponent ihtiyaçlarını; tel şekillendirme, boru bükme, metal şekillendirme ve kaynak kabiliyetlerimizle değerlendiriyoruz.",
+          "imageAlt": "Makine ve ekipman üretimine yönelik metal komponent üretimi",
+          "imageLabel": "Makine • Ekipman • Endüstriyel Üretim",
+          "applications": {
+            "agricultureConstructionMachinery": "Tarım ve iş makineleri üreticileri",
+            "foodProcessingPackaging": "Gıda işleme ve paketleme makinesi üreticileri",
+            "textileMachinery": "Tekstil makinesi üreticileri",
+            "plasticInjectionPackaging": "Plastik enjeksiyon ve ambalaj makineleri üreticileri",
+            "conveyorElevatorLifting": "Konveyör, asansör ve kaldırma ekipmanı üreticileri",
+            "compressorPumpGeneratorMotor": "Kompresör, pompa, jeneratör ve motor üreticileri",
+            "industrialOvenBoilerHeating": "Endüstriyel fırın, kazan ve ısıtma ekipmanı üreticileri",
+            "warehouseLogisticsEquipment": "Depo rafı, istifleme ve lojistik ekipmanı üreticileri",
+            "machineryMaintenance": "Makine revizyonu ve bakım firmaları"
+          }
+        },
+        "energyElectricalHvac": {
+          "eyebrow": "PAZAR",
+          "title": "Enerji, Elektrik ve İklimlendirme",
+          "description": "Enerji üretimi, elektrik altyapısı ve iklimlendirme sistemlerinde kullanılan metal komponent ihtiyaçlarını proje gereksinimlerine göre değerlendiriyor; şekillendirme, büküm, kaynak ve özel üretim kabiliyetlerimizi uygulamaya uyarlıyoruz.",
+          "imageAlt": "Enerji, elektrik ve iklimlendirme uygulamalarına yönelik metal komponent üretimi",
+          "imageLabel": "Enerji • Elektrik • HVAC • Altyapı",
+          "applications": {
+            "solarEnergy": "Güneş enerjisi taşıyıcı konstrüksiyon üreticileri",
+            "windEnergy": "Rüzgar enerjisi ekipman ve bakım firmaları",
+            "electricalPanels": "Elektrik panosu ve kabin üreticileri",
+            "generatorTransformer": "Jeneratör ve trafo üreticileri",
+            "hvac": "HVAC, havalandırma kanalı ve klima ekipmanı üreticileri",
+            "boilerPressureVesselPiping": "Kazan, basınçlı kap ve borulama firmaları",
+            "dataCenterTelecom": "Veri merkezi ve telekom altyapısı kuran firmalar",
+            "electricalDistribution": "Elektrik dağıtım şirketlerinin yüklenicileri"
+          }
+        }
+      }
+    },
+    "approach": {
+      "eyebrow": "PROJE YAKLAŞIMIMIZ",
+      "title": "Teknik ihtiyaçtan kontrollü üretime uzanan bir süreç.",
+      "description": "Her projeyi teknik gereksinimleri anlayarak ele alıyor, üretilebilirlik değerlendirmesinden proses planlamasına ve kalite kontrolüne kadar üretim sürecini sistematik bir yaklaşımla yönetiyoruz.",
+      "items": {
+        "technicalRequirement": {
+          "title": "Teknik Gereksinim",
+          "description": "Parça geometrisi, malzeme, tolerans, kullanım alanı ve üretim beklentilerini değerlendirerek projenin teknik çerçevesini oluşturuyoruz."
+        },
+        "manufacturability": {
+          "title": "Üretilebilirlik",
+          "description": "Teknik gereksinimleri mevcut üretim kabiliyetleri, proses seçenekleri ve uygulanabilir üretim yöntemleri açısından değerlendiriyoruz."
+        },
+        "processPlanning": {
+          "title": "Proses Planlama",
+          "description": "Parçanın üretimi için gerekli şekillendirme, büküm, kaynak ve diğer operasyonların uygun proses akışını planlıyoruz."
+        },
+        "production": {
+          "title": "Üretim",
+          "description": "Belirlenen proses planına göre metal komponentlerin üretimini proje gereksinimleri doğrultusunda gerçekleştiriyoruz."
+        },
+        "qualityControl": {
+          "title": "Kalite Kontrol",
+          "description": "Üretilen parçaları teknik gereksinimler ve belirlenen kontrol kriterleri doğrultusunda değerlendirerek üretim sürecini tamamlıyoruz."
+        }
+      }
+    },
+    "cta": {
+      "eyebrow": "PROJENİZİ KONUŞALIM",
+      "title": "Üretim ihtiyacınızı birlikte değerlendirelim.",
+      "description": "Teknik çiziminizi, parça bilgilerinizi veya üretim ihtiyacınızı bizimle paylaşın. Projenizi üretilebilirlik, proses ve üretim gereksinimleri açısından değerlendirelim.",
+      "primaryEyebrow": "PROJENİZ HAZIRSA",
+      "primaryAction": "Hızlı Teklif Al",
+      "secondaryEyebrow": "ÖNCE KONUŞMAK İSTERSENİZ",
+      "secondaryAction": "Bizimle İletişime Geçin",
+      "bottomPrimary": "Tel • Boru • Metal Şekillendirme • Kaynak",
+      "bottomSecondary": "Proje Odaklı Üretim"
     }
   }
 }

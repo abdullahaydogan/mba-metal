@@ -9,26 +9,35 @@ import {
     MessageCircle,
 } from 'lucide-react';
 
-import { motion } from 'motion/react';
-
-import { Link } from 'react-router-dom';
-
-import { Container } from '../../../components/common/Container';
+import {
+    motion,
+} from 'motion/react';
 
 import {
-    whyUsCtaData,
+    Link,
+} from 'react-router-dom';
+
+import {
+    useTranslation,
+} from 'react-i18next';
+
+import {
+    Container,
+} from '../../../components/common/Container';
+
+import {
+    whyUsPageData,
 } from '../../../data/why-us/why-us.data';
 
 const MotionDiv = motion.div;
 
 export function WhyUsCtaSection() {
+    const { t } = useTranslation();
+
     const {
-        eyebrow,
-        title,
-        description,
-        primaryAction,
-        secondaryAction,
-    } = whyUsCtaData;
+        primaryActionHref,
+        secondaryActionHref,
+    } = whyUsPageData.cta;
 
     return (
         <Box
@@ -60,7 +69,12 @@ export function WhyUsCtaSection() {
                     }}
                     transition={{
                         duration: 0.75,
-                        ease: [0.22, 1, 0.36, 1],
+                        ease: [
+                            0.22,
+                            1,
+                            0.36,
+                            1,
+                        ],
                     }}
                 >
                     <Typography
@@ -68,10 +82,13 @@ export function WhyUsCtaSection() {
                         sx={{
                             display: 'block',
                             mb: 3,
-                            color: 'primary.light',
+                            color:
+                                'primary.light',
                         }}
                     >
-                        {eyebrow}
+                        {t(
+                            'whyUsPage.cta.eyebrow'
+                        )}
                     </Typography>
 
                     <Box
@@ -80,7 +97,8 @@ export function WhyUsCtaSection() {
 
                             gridTemplateColumns: {
                                 xs: '1fr',
-                                lg: '1.2fr 0.8fr',
+                                lg:
+                                    '1.2fr 0.8fr',
                             },
 
                             gap: {
@@ -104,12 +122,16 @@ export function WhyUsCtaSection() {
                                 },
 
                                 fontWeight: 700,
+
                                 lineHeight: 0.94,
+
                                 letterSpacing:
                                     '-0.06em',
                             }}
                         >
-                            {title}
+                            {t(
+                                'whyUsPage.cta.title'
+                            )}
                         </Typography>
 
                         <Box>
@@ -128,26 +150,33 @@ export function WhyUsCtaSection() {
                                     lineHeight: 1.8,
                                 }}
                             >
-                                {description}
+                                {t(
+                                    'whyUsPage.cta.description'
+                                )}
                             </Typography>
 
                             <Box
                                 sx={{
                                     display: 'flex',
-                                    flexWrap: 'wrap',
+                                    flexWrap:
+                                        'wrap',
                                     gap: 1.5,
                                     mt: 4,
                                 }}
                             >
                                 <Button
-                                    component={Link}
+                                    component={
+                                        Link
+                                    }
                                     to={
-                                        primaryAction.href
+                                        primaryActionHref
                                     }
                                     variant="contained"
                                     endIcon={
                                         <ArrowRight
-                                            size={18}
+                                            size={
+                                                18
+                                            }
                                         />
                                     }
                                     sx={{
@@ -160,23 +189,28 @@ export function WhyUsCtaSection() {
                                         textTransform:
                                             'none',
 
-                                        fontWeight: 600,
+                                        fontWeight:
+                                            600,
                                     }}
                                 >
-                                    {
-                                        primaryAction.label
-                                    }
+                                    {t(
+                                        'whyUsPage.cta.primaryAction'
+                                    )}
                                 </Button>
 
                                 <Button
-                                    component={Link}
+                                    component={
+                                        Link
+                                    }
                                     to={
-                                        secondaryAction.href
+                                        secondaryActionHref
                                     }
                                     variant="outlined"
                                     startIcon={
                                         <MessageCircle
-                                            size={18}
+                                            size={
+                                                18
+                                            }
                                         />
                                     }
                                     sx={{
@@ -189,9 +223,11 @@ export function WhyUsCtaSection() {
                                         textTransform:
                                             'none',
 
-                                        fontWeight: 600,
+                                        fontWeight:
+                                            600,
 
-                                        color: '#fff',
+                                        color:
+                                            '#fff',
 
                                         borderColor:
                                             'rgba(255,255,255,0.28)',
@@ -205,9 +241,9 @@ export function WhyUsCtaSection() {
                                         },
                                     }}
                                 >
-                                    {
-                                        secondaryAction.label
-                                    }
+                                    {t(
+                                        'whyUsPage.cta.secondaryAction'
+                                    )}
                                 </Button>
                             </Box>
                         </Box>

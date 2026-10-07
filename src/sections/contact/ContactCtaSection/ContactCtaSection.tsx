@@ -1,34 +1,42 @@
 import {
     Box,
-    Button,
     Typography,
 } from '@mui/material';
 
 import {
-    ArrowUpRight,
-} from 'lucide-react';
+    useTranslation,
+} from 'react-i18next';
 
-import { Link } from 'react-router-dom';
+import {
+    Container,
+} from '../../../components/common/Container';
 
-import { useTranslation } from 'react-i18next';
+import {
+    contactPageData,
+} from '../../../data/contact/contact.data';
 
-import { Container } from '../../../components/common/Container';
-
-import { routes } from '../../../constants/routes';
-
-import { contactPageData } from '../../../data/contact/contact.data';
+/* =========================================================
+   CONTACT CTA SECTION
+========================================================= */
 
 export function ContactCtaSection() {
-    const { t } = useTranslation();
+    const {
+        t,
+    } = useTranslation();
 
     return (
         <Box
             component="section"
             sx={{
                 py: {
-                    xs: 8,
-                    md: 11,
-                    lg: 13,
+                    xs:
+                        8,
+
+                    md:
+                        11,
+
+                    lg:
+                        13,
                 },
 
                 bgcolor:
@@ -38,29 +46,39 @@ export function ContactCtaSection() {
             <Container>
                 <Box
                     sx={{
-                        position: 'relative',
+                        position:
+                            'relative',
 
                         minHeight: {
-                            xs: 520,
-                            md: 570,
+                            xs:
+                                520,
+
+                            md:
+                                570,
                         },
 
-                        display: 'flex',
+                        display:
+                            'flex',
 
                         alignItems:
                             'flex-end',
 
-                        overflow: 'hidden',
+                        overflow:
+                            'hidden',
 
-                        bgcolor: '#07100c',
+                        bgcolor:
+                            '#07100c',
                     }}
                 >
-                    {/* IMAGE */}
+                    {/* =================================================
+                        IMAGE
+                    ================================================= */}
 
                     <Box
                         component="img"
                         src={
-                            contactPageData.cta
+                            contactPageData
+                                .cta
                                 .image
                         }
                         alt={t(
@@ -70,10 +88,14 @@ export function ContactCtaSection() {
                             position:
                                 'absolute',
 
-                            inset: 0,
+                            inset:
+                                0,
 
-                            width: '100%',
-                            height: '100%',
+                            width:
+                                '100%',
+
+                            height:
+                                '100%',
 
                             objectFit:
                                 'cover',
@@ -83,14 +105,18 @@ export function ContactCtaSection() {
                         }}
                     />
 
-                    {/* OVERLAY */}
+                    {/* =================================================
+                        PRIMARY OVERLAY
+                    ================================================= */}
 
                     <Box
+                        aria-hidden="true"
                         sx={{
                             position:
                                 'absolute',
 
-                            inset: 0,
+                            inset:
+                                0,
 
                             background: `
                                 linear-gradient(
@@ -103,41 +129,60 @@ export function ContactCtaSection() {
                         }}
                     />
 
+                    {/* =================================================
+                        BOTTOM OVERLAY
+                    ================================================= */}
+
                     <Box
+                        aria-hidden="true"
                         sx={{
                             position:
                                 'absolute',
 
-                            inset: 0,
+                            inset:
+                                0,
 
                             background:
                                 'linear-gradient(180deg, transparent 35%, rgba(0,0,0,0.55) 100%)',
                         }}
                     />
 
-                    {/* CONTENT */}
+                    {/* =================================================
+                        CONTENT
+                    ================================================= */}
 
                     <Box
                         sx={{
                             position:
                                 'relative',
 
-                            zIndex: 1,
+                            zIndex:
+                                1,
 
-                            width: '100%',
+                            width:
+                                '100%',
 
                             p: {
-                                xs: 4,
-                                sm: 6,
-                                md: 8,
+                                xs:
+                                    4,
+
+                                sm:
+                                    6,
+
+                                md:
+                                    8,
                             },
 
-                            color: '#fff',
+                            color:
+                                '#ffffff',
                         }}
                     >
+                        {/* EYEBROW */}
+
                         <Typography
                             sx={{
-                                mb: 2,
+                                mb:
+                                    2,
 
                                 color:
                                     'primary.light',
@@ -160,20 +205,30 @@ export function ContactCtaSection() {
                             )}
                         </Typography>
 
+                        {/* TITLE */}
+
                         <Typography
                             component="h2"
                             sx={{
-                                maxWidth: 800,
+                                maxWidth:
+                                    800,
 
                                 fontSize: {
-                                    xs: '2.8rem',
-                                    sm: '3.8rem',
-                                    md: '5rem',
+                                    xs:
+                                        '2.8rem',
+
+                                    sm:
+                                        '3.8rem',
+
+                                    md:
+                                        '5rem',
                                 },
 
-                                fontWeight: 700,
+                                fontWeight:
+                                    700,
 
-                                lineHeight: 0.98,
+                                lineHeight:
+                                    0.98,
 
                                 letterSpacing:
                                     '-0.06em',
@@ -184,61 +239,35 @@ export function ContactCtaSection() {
                             )}
                         </Typography>
 
+                        {/* DESCRIPTION */}
+
                         <Typography
                             sx={{
-                                maxWidth: 620,
+                                maxWidth:
+                                    620,
 
-                                mt: 3,
+                                mt:
+                                    3,
 
                                 color:
                                     'rgba(255,255,255,0.7)',
 
                                 fontSize: {
-                                    xs: '0.95rem',
-                                    md: '1.05rem',
+                                    xs:
+                                        '0.95rem',
+
+                                    md:
+                                        '1.05rem',
                                 },
 
-                                lineHeight: 1.8,
+                                lineHeight:
+                                    1.8,
                             }}
                         >
                             {t(
                                 'contactPage.cta.description'
                             )}
                         </Typography>
-
-                        <Button
-                            component={Link}
-                            to={routes.quote}
-                            variant="contained"
-                            endIcon={
-                                <ArrowUpRight
-                                    size={17}
-                                />
-                            }
-                            sx={{
-                                mt: 4.5,
-
-                                minHeight: 54,
-
-                                px: 3.5,
-
-                                borderRadius:
-                                    '4px',
-
-                                boxShadow:
-                                    'none',
-
-                                fontWeight:
-                                    700,
-
-                                textTransform:
-                                    'none',
-                            }}
-                        >
-                            {t(
-                                'contactPage.cta.button'
-                            )}
-                        </Button>
                     </Box>
                 </Box>
             </Container>

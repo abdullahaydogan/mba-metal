@@ -1,6 +1,8 @@
 import {
   useCallback,
+  useEffect,
   useMemo,
+  useState,
   type PropsWithChildren,
 } from 'react';
 
@@ -10,6 +12,8 @@ import {
 
 import i18n, {
   LANGUAGE_STORAGE_KEY,
+  SUPPORTED_LANGUAGES,
+  type SupportedLanguage,
 } from '../../i18n';
 
 import {
@@ -18,13 +22,37 @@ import {
   type LanguageContextValue,
 } from '../../features/language/LanguageContext';
 
+const getCurrentLanguage =
+  (): Language => {
+    const currentLanguage =
+      i18n.resolvedLanguage ??
+      i18n.language ??
+      'tr';
+
+    const normalizedLanguage =
+      currentLanguage
+        .split('-')[0] as SupportedLanguage;
+
+    if (
+      SUPPORTED_LANGUAGES.includes(
+        normalizedLanguage
+      )
+    ) {
+      return normalizedLanguage;
+    }
+
+    return 'tr';
+  };
+
 export function AppI18nProvider({
   children,
 }: PropsWithChildren) {
-  const language: Language =
-    i18n.language.startsWith('en')
-      ? 'en'
-      : 'tr';
+  const [
+    language,
+    setCurrentLanguage,
+  ] = useState<Language>(
+    getCurrentLanguage
+  );
 
   const setLanguage =
     useCallback(
@@ -35,45 +63,45 @@ export function AppI18nProvider({
           newLanguage
         );
 
-        window.localStorage.setItem(
-          LANGUAGE_STORAGE_KEY,
+        if (
+          typeof window !==
+          'undefined'
+        ) {
+          window.localStorage.setItem(
+            LANGUAGE_STORAGE_KEY,
+            newLanguage
+          );
+        }
+
+        if (
+          typeof document !==
+          'undefined'
+        ) {
+          document.documentElement.lang =
+            newLanguage;
+        }
+
+        setCurrentLanguage(
           newLanguage
         );
-
-        document.documentElement.lang =
-          newLanguage;
       },
       []
     );
 
-  const toggleLanguage =
-    useCallback(
-      async (): Promise<void> => {
-        const newLanguage: Language =
-          i18n.language.startsWith(
-            'tr'
-          )
-            ? 'en'
-            : 'tr';
-
-        await setLanguage(
-          newLanguage
-        );
-      },
-      [setLanguage]
-    );
+  useEffect(() => {
+    document.documentElement.lang =
+      language;
+  }, [language]);
 
   const value =
     useMemo<LanguageContextValue>(
       () => ({
         language,
         setLanguage,
-        toggleLanguage,
       }),
       [
         language,
         setLanguage,
-        toggleLanguage,
       ]
     );
 

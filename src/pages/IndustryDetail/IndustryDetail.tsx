@@ -20,6 +20,22 @@ import {
 } from '../../data/industries/industry-details/retail.data';
 
 import {
+    logisticsIndustry,
+} from '../../data/industries/industry-details/logistics.data';
+
+import {
+    industrialIndustry,
+} from '../../data/industries/industry-details/industrial.data';
+
+import {
+    defenseAerospaceSecurityIndustry,
+} from '../../data/industries/industry-details/defenseAerospaceSecurity.data';
+
+import {
+    marineIndustry,
+} from '../../data/industries/industry-details/marine.data';
+
+import {
     IndustryDetailHeroSection,
 } from '../../sections/industry-detail/IndustryDetailHeroSection';
 
@@ -38,14 +54,6 @@ import {
 import {
     IndustryProductionSection,
 } from '../../sections/industry-detail/IndustryProductionSection';
-
-import {
-    logisticsIndustry,
-} from '../../data/industries/industry-details/logistics.data';
-
-import {
-    industrialIndustry,
-} from '../../data/industries/industry-details/industrial.data';
 
 import {
     routes,
@@ -70,6 +78,12 @@ const industries = {
 
     'endustriyel-uretim':
         industrialIndustry,
+
+    'savunma-havacilik-guvenlik':
+        defenseAerospaceSecurityIndustry,
+
+    'gemi-denizcilik-liman':
+        marineIndustry,
 } as const;
 
 type IndustrySlug =

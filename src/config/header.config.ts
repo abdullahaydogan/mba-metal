@@ -37,24 +37,10 @@ export const headerRouteConfig:
         },
 
         {
-            path: routes.quality,
-            variant: 'dark',
-        },
-
-        {
-            path: routes.projects,
-            variant: 'dark',
-        },
-
-        {
             path: routes.contact,
             variant: 'light',
         },
 
-        {
-            path: routes.quote,
-            variant: 'light',
-        },
     ];
 
 export function getHeaderVariant(

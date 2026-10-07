@@ -8,23 +8,30 @@ import {
     Check,
 } from 'lucide-react';
 
-import { motion } from 'motion/react';
-
-import { Container } from '../../../components/common/Container';
+import {
+    motion,
+} from 'motion/react';
 
 import {
-    projectFlowData,
+    useTranslation,
+} from 'react-i18next';
+
+import {
+    Container,
+} from '../../../components/common/Container';
+
+import {
+    whyUsPageData,
 } from '../../../data/why-us/why-us.data';
 
 const MotionBox = motion.create(Box);
 
 export function ProjectFlowSection() {
+    const { t } = useTranslation();
+
     const {
-        eyebrow,
-        title,
-        description,
         items,
-    } = projectFlowData;
+    } = whyUsPageData.projectFlow;
 
     return (
         <Box
@@ -42,7 +49,10 @@ export function ProjectFlowSection() {
                 },
             }}
         >
-            {/* Decorative background */}
+            {/* ================================================= */}
+            {/* DECORATIVE BACKGROUND */}
+            {/* ================================================= */}
+
             <Box
                 sx={{
                     position: 'absolute',
@@ -125,7 +135,9 @@ export function ProjectFlowSection() {
 
                         gridTemplateColumns: {
                             xs: '1fr',
-                            lg: '1.15fr 0.65fr',
+
+                            lg:
+                                'minmax(0, 1.05fr) minmax(320px, 0.65fr)',
                         },
 
                         gap: {
@@ -134,10 +146,40 @@ export function ProjectFlowSection() {
                         },
 
                         alignItems: 'end',
+
+                        mb: {
+                            xs: 8,
+                            md: 11,
+                            lg: 13,
+                        },
                     }}
                 >
                     {/* LEFT */}
-                    <Box>
+
+                    <MotionBox
+                        initial={{
+                            opacity: 0,
+                            y: 30,
+                        }}
+                        whileInView={{
+                            opacity: 1,
+                            y: 0,
+                        }}
+                        viewport={{
+                            once: true,
+                            amount: 0.3,
+                        }}
+                        transition={{
+                            duration: 0.7,
+
+                            ease: [
+                                0.22,
+                                1,
+                                0.36,
+                                1,
+                            ],
+                        }}
+                    >
                         <Box
                             sx={{
                                 display: 'flex',
@@ -148,10 +190,13 @@ export function ProjectFlowSection() {
                         >
                             <Box
                                 sx={{
-                                    width: 7,
-                                    height: 7,
+                                    width: 8,
+                                    height: 8,
 
-                                    borderRadius: '50%',
+                                    flexShrink: 0,
+
+                                    borderRadius:
+                                        '50%',
 
                                     bgcolor:
                                         'primary.main',
@@ -170,20 +215,25 @@ export function ProjectFlowSection() {
                                         '0.16em',
                                 }}
                             >
-                                {eyebrow}
+                                {t(
+                                    'whyUsPage.projectFlow.eyebrow'
+                                )}
                             </Typography>
                         </Box>
 
                         <Typography
                             component="h2"
                             sx={{
-                                maxWidth: 780,
+                                maxWidth: 820,
+
+                                color:
+                                    '#111714',
 
                                 fontSize: {
                                     xs: '2.8rem',
-                                    sm: '3.5rem',
-                                    md: '4.2rem',
-                                    lg: '4.7rem',
+                                    sm: '3.6rem',
+                                    md: '4.4rem',
+                                    lg: '4.9rem',
                                 },
 
                                 fontWeight: 700,
@@ -192,37 +242,59 @@ export function ProjectFlowSection() {
 
                                 letterSpacing:
                                     '-0.055em',
-
-                                color: '#111714',
                             }}
                         >
-                            {title}
+                            {t(
+                                'whyUsPage.projectFlow.title'
+                            )}
                         </Typography>
-                    </Box>
+                    </MotionBox>
 
                     {/* RIGHT */}
-                    <Typography
-                        sx={{
-                            maxWidth: 500,
 
-                            justifySelf: {
-                                xs: 'start',
-                                lg: 'end',
-                            },
-
-                            color:
-                                'rgba(17, 23, 20, 0.60)',
-
-                            fontSize: {
-                                xs: '0.96rem',
-                                md: '1rem',
-                            },
-
-                            lineHeight: 1.85,
+                    <MotionBox
+                        initial={{
+                            opacity: 0,
+                            y: 24,
+                        }}
+                        whileInView={{
+                            opacity: 1,
+                            y: 0,
+                        }}
+                        viewport={{
+                            once: true,
+                            amount: 0.3,
+                        }}
+                        transition={{
+                            duration: 0.7,
+                            delay: 0.1,
                         }}
                     >
-                        {description}
-                    </Typography>
+                        <Typography
+                            sx={{
+                                maxWidth: 520,
+
+                                justifySelf: {
+                                    xs: 'start',
+                                    lg: 'end',
+                                },
+
+                                color:
+                                    'rgba(17,23,20,0.62)',
+
+                                fontSize: {
+                                    xs: '0.96rem',
+                                    md: '1rem',
+                                },
+
+                                lineHeight: 1.85,
+                            }}
+                        >
+                            {t(
+                                'whyUsPage.projectFlow.description'
+                            )}
+                        </Typography>
+                    </MotionBox>
                 </Box>
 
                 {/* ================================================= */}
@@ -233,124 +305,53 @@ export function ProjectFlowSection() {
                     sx={{
                         position: 'relative',
 
-                        mt: {
-                            xs: 8,
-                            md: 11,
-                            lg: 13,
+                        display: 'grid',
+
+                        gridTemplateColumns: {
+                            xs: '1fr',
+
+                            md:
+                                'repeat(2, minmax(0, 1fr))',
+
+                            lg:
+                                'repeat(4, minmax(0, 1fr))',
+                        },
+
+                        borderTop:
+                            '1px solid rgba(17,23,20,0.12)',
+
+                        borderLeft: {
+                            xs: 'none',
+
+                            md:
+                                '1px solid rgba(17,23,20,0.12)',
                         },
                     }}
                 >
-                    {/* DESKTOP MAIN LINE */}
-                    <Box
-                        sx={{
-                            display: {
-                                xs: 'none',
-                                lg: 'block',
-                            },
+                    {items.map(
+                        (item, index) => {
+                            const Icon =
+                                item.icon;
 
-                            position: 'absolute',
+                            const basePath =
+                                `whyUsPage.projectFlow.items.${item.id}`;
 
-                            top: 30,
+                            const number =
+                                String(
+                                    index + 1
+                                ).padStart(
+                                    2,
+                                    '0'
+                                );
 
-                            left: 30,
-                            right: 30,
-
-                            height: '1px',
-
-                            bgcolor:
-                                'rgba(17, 23, 20, 0.16)',
-                        }}
-                    />
-
-                    {/* Animated progress line */}
-                    <MotionBox
-                        initial={{
-                            scaleX: 0,
-                        }}
-                        whileInView={{
-                            scaleX: 1,
-                        }}
-                        viewport={{
-                            once: true,
-                            amount: 0.4,
-                        }}
-                        transition={{
-                            duration: 1.4,
-                            ease: [
-                                0.22,
-                                1,
-                                0.36,
-                                1,
-                            ],
-                        }}
-                        sx={{
-                            display: {
-                                xs: 'none',
-                                lg: 'block',
-                            },
-
-                            position: 'absolute',
-
-                            top: 30,
-
-                            left: 30,
-                            right: 30,
-
-                            height: '1px',
-
-                            bgcolor:
-                                'primary.main',
-
-                            transformOrigin: 'left',
-
-                            zIndex: 1,
-                        }}
-                    />
-
-                    {/* MOBILE VERTICAL LINE */}
-                    <Box
-                        sx={{
-                            display: {
-                                xs: 'block',
-                                lg: 'none',
-                            },
-
-                            position: 'absolute',
-
-                            top: 30,
-                            bottom: 30,
-                            left: 29,
-
-                            width: '1px',
-
-                            bgcolor:
-                                'rgba(17, 23, 20, 0.14)',
-                        }}
-                    />
-
-                    {/* ITEMS */}
-                    <Box
-                        sx={{
-                            display: 'grid',
-
-                            gridTemplateColumns: {
-                                xs: '1fr',
-                                lg: `repeat(${items.length}, minmax(0, 1fr))`,
-                            },
-
-                            gap: {
-                                xs: 0,
-                                lg: 0,
-                            },
-                        }}
-                    >
-                        {items.map(
-                            (item, index) => (
+                            return (
                                 <MotionBox
-                                    key={item.title}
+                                    key={
+                                        item.id
+                                    }
                                     initial={{
                                         opacity: 0,
-                                        y: 35,
+                                        y: 30,
                                     }}
                                     whileInView={{
                                         opacity: 1,
@@ -358,14 +359,14 @@ export function ProjectFlowSection() {
                                     }}
                                     viewport={{
                                         once: true,
-                                        amount: 0.25,
+                                        amount: 0.2,
                                     }}
                                     transition={{
                                         duration: 0.65,
 
                                         delay:
                                             index *
-                                            0.1,
+                                            0.07,
 
                                         ease: [
                                             0.22,
@@ -378,185 +379,38 @@ export function ProjectFlowSection() {
                                         position:
                                             'relative',
 
-                                        display: {
-                                            xs: 'grid',
-                                            lg: 'block',
+                                        minHeight: {
+                                            xs: 390,
+                                            md: 430,
+                                            lg: 500,
                                         },
 
-                                        gridTemplateColumns:
-                                            {
-                                                xs:
-                                                    '60px 1fr',
-                                                lg: '1fr',
-                                            },
+                                        display:
+                                            'flex',
 
-                                        gap: {
-                                            xs: 3,
-                                            lg: 0,
+                                        flexDirection:
+                                            'column',
+
+                                        p: {
+                                            xs: 4,
+                                            sm: 5,
+                                            lg: 4.5,
+                                            xl: 5,
                                         },
 
-                                        pb: {
-                                            xs: 6,
-                                            lg: 0,
-                                        },
+                                        borderRight:
+                                            '1px solid rgba(17,23,20,0.12)',
 
-                                        pr: {
-                                            lg:
-                                                index ===
-                                                items.length -
-                                                    1
-                                                    ? 0
-                                                    : 3,
-                                        },
+                                        borderBottom:
+                                            '1px solid rgba(17,23,20,0.12)',
 
-                                        '&:hover .flow-node':
+                                        transition:
+                                            'background-color 280ms ease',
+
+                                        '&::before':
                                             {
-                                                bgcolor:
-                                                    'primary.main',
-
-                                                borderColor:
-                                                    'primary.main',
-
-                                                transform:
-                                                    'scale(1.08)',
-                                            },
-
-                                        '&:hover .flow-node-dot':
-                                            {
-                                                bgcolor:
-                                                    '#fff',
-
-                                                transform:
-                                                    'scale(0.75)',
-                                            },
-
-                                        '&:hover .flow-card':
-                                            {
-                                                transform:
-                                                    'translateY(-8px)',
-
-                                                borderColor:
-                                                    'rgba(22, 91, 65, 0.25)',
-
-                                                boxShadow:
-                                                    '0 22px 60px rgba(17, 23, 20, 0.08)',
-                                            },
-
-                                        '&:hover .flow-arrow':
-                                            {
-                                                transform:
-                                                    'translateX(5px)',
-
-                                                color:
-                                                    'primary.main',
-                                            },
-                                    }}
-                                >
-                                    {/* ========================= */}
-                                    {/* NODE */}
-                                    {/* ========================= */}
-
-                                    <Box
-                                        className="flow-node"
-                                        sx={{
-                                            position:
-                                                'relative',
-
-                                            zIndex: 3,
-
-                                            width: 60,
-                                            height: 60,
-
-                                            display:
-                                                'flex',
-
-                                            alignItems:
-                                                'center',
-
-                                            justifyContent:
-                                                'center',
-
-                                            borderRadius:
-                                                '50%',
-
-                                            bgcolor:
-                                                '#f5f7f5',
-
-                                            border:
-                                                '1px solid rgba(22, 91, 65, 0.45)',
-
-                                            transition:
-                                                'all 300ms ease',
-                                        }}
-                                    >
-                                        <Box
-                                            className="flow-node-dot"
-                                            sx={{
-                                                width: 9,
-                                                height: 9,
-
-                                                borderRadius:
-                                                    '50%',
-
-                                                bgcolor:
-                                                    'primary.main',
-
-                                                transition:
-                                                    'all 300ms ease',
-                                            }}
-                                        />
-                                    </Box>
-
-                                    {/* ========================= */}
-                                    {/* CONTENT CARD */}
-                                    {/* ========================= */}
-
-                                    <Box
-                                        className="flow-card"
-                                        sx={{
-                                            position:
-                                                'relative',
-
-                                            mt: {
-                                                xs: 0,
-                                                lg: 5,
-                                            },
-
-                                            minHeight: {
-                                                xs: 'auto',
-                                                lg: 330,
-                                            },
-
-                                            p: {
-                                                xs:
-                                                    '0 0 0 0',
-                                                lg: 4,
-                                            },
-
-                                            bgcolor: {
-                                                xs:
-                                                    'transparent',
-                                                lg: '#fff',
-                                            },
-
-                                            border: {
-                                                xs: 'none',
-                                                lg:
-                                                    '1px solid rgba(17, 23, 20, 0.10)',
-                                            },
-
-                                            transition:
-                                                'transform 300ms ease, border-color 300ms ease, box-shadow 300ms ease',
-                                        }}
-                                    >
-                                        {/* small accent */}
-                                        <Box
-                                            sx={{
-                                                display: {
-                                                    xs: 'none',
-                                                    lg:
-                                                        'block',
-                                                },
+                                                content:
+                                                    '""',
 
                                                 position:
                                                     'absolute',
@@ -564,160 +418,380 @@ export function ProjectFlowSection() {
                                                 top: 0,
                                                 left: 0,
 
-                                                width: 46,
+                                                width:
+                                                    '100%',
+
                                                 height: 2,
 
                                                 bgcolor:
                                                     'primary.main',
-                                            }}
-                                        />
 
-                                        <Typography
-                                            component="h3"
-                                            sx={{
-                                                mb: 2.5,
+                                                transform:
+                                                    'scaleX(0)',
 
-                                                color:
-                                                    '#111714',
+                                                transformOrigin:
+                                                    'left',
 
-                                                fontSize: {
-                                                    xs:
-                                                        '1.5rem',
-                                                    md:
-                                                        '1.65rem',
-                                                },
+                                                transition:
+                                                    'transform 320ms ease',
+                                            },
 
-                                                fontWeight: 650,
-
-                                                lineHeight: 1.15,
-
-                                                letterSpacing:
-                                                    '-0.035em',
-                                            }}
-                                        >
-                                            {item.title}
-                                        </Typography>
-
-                                        <Typography
-                                            sx={{
-                                                maxWidth: 300,
-
-                                                color:
-                                                    'rgba(17, 23, 20, 0.60)',
-
-                                                fontSize:
-                                                    '0.94rem',
-
-                                                lineHeight: 1.75,
-                                            }}
-                                        >
+                                        '&:hover':
                                             {
-                                                item.description
-                                            }
-                                        </Typography>
+                                                bgcolor:
+                                                    '#ffffff',
+                                            },
 
-                                        {/* BOTTOM */}
+                                        '&:hover::before':
+                                            {
+                                                transform:
+                                                    'scaleX(1)',
+                                            },
+
+                                        '&:hover .flow-icon':
+                                            {
+                                                bgcolor:
+                                                    'primary.main',
+
+                                                borderColor:
+                                                    'primary.main',
+
+                                                color:
+                                                    '#fff',
+
+                                                transform:
+                                                    'translateY(-4px)',
+                                            },
+                                    }}
+                                >
+                                    {/* ================================= */}
+                                    {/* TOP */}
+                                    {/* ================================= */}
+
+                                    <Box
+                                        sx={{
+                                            display:
+                                                'flex',
+
+                                            alignItems:
+                                                'flex-start',
+
+                                            justifyContent:
+                                                'space-between',
+
+                                            gap: 2,
+
+                                            mb: {
+                                                xs: 5,
+                                                lg: 7,
+                                            },
+                                        }}
+                                    >
                                         <Box
+                                            className="flow-icon"
                                             sx={{
-                                                display: {
-                                                    xs: 'none',
-                                                    lg:
-                                                        'flex',
-                                                },
+                                                width: 52,
+                                                height: 52,
 
-                                                position:
-                                                    'absolute',
-
-                                                left: 32,
-                                                right: 32,
-                                                bottom: 30,
+                                                display:
+                                                    'flex',
 
                                                 alignItems:
                                                     'center',
 
                                                 justifyContent:
-                                                    'space-between',
+                                                    'center',
 
-                                                pt: 2.5,
+                                                borderRadius:
+                                                    '50%',
+
+                                                border:
+                                                    '1px solid rgba(22,91,65,0.25)',
+
+                                                color:
+                                                    'primary.main',
+
+                                                transition:
+                                                    'all 280ms ease',
+                                            }}
+                                        >
+                                            <Icon
+                                                size={
+                                                    20
+                                                }
+                                                strokeWidth={
+                                                    1.6
+                                                }
+                                            />
+                                        </Box>
+
+                                        <Typography
+                                            sx={{
+                                                color:
+                                                    'rgba(17,23,20,0.22)',
+
+                                                fontSize:
+                                                    '0.78rem',
+
+                                                fontWeight:
+                                                    700,
+
+                                                letterSpacing:
+                                                    '0.14em',
+                                            }}
+                                        >
+                                            {number}
+                                        </Typography>
+                                    </Box>
+
+                                    {/* ================================= */}
+                                    {/* TITLE */}
+                                    {/* ================================= */}
+
+                                    <Typography
+                                        component="h3"
+                                        sx={{
+                                            mb: 2.5,
+
+                                            color:
+                                                '#111714',
+
+                                            fontSize: {
+                                                xs:
+                                                    '1.55rem',
+
+                                                md:
+                                                    '1.7rem',
+
+                                                lg:
+                                                    '1.55rem',
+
+                                                xl:
+                                                    '1.7rem',
+                                            },
+
+                                            fontWeight:
+                                                650,
+
+                                            lineHeight:
+                                                1.12,
+
+                                            letterSpacing:
+                                                '-0.035em',
+                                        }}
+                                    >
+                                        {t(
+                                            `${basePath}.title`
+                                        )}
+                                    </Typography>
+
+                                    {/* ================================= */}
+                                    {/* DESCRIPTION */}
+                                    {/* ================================= */}
+
+                                    <Typography
+                                        sx={{
+                                            color:
+                                                'rgba(17,23,20,0.64)',
+
+                                            fontSize:
+                                                '0.93rem',
+
+                                            lineHeight:
+                                                1.75,
+                                        }}
+                                    >
+                                        {t(
+                                            `${basePath}.description`
+                                        )}
+                                    </Typography>
+
+                                    {/* ================================= */}
+                                    {/* DETAIL */}
+                                    {/* ================================= */}
+
+                                    <Box
+                                        sx={{
+                                            mt: 'auto',
+                                            pt: 5,
+                                        }}
+                                    >
+                                        <Box
+                                            sx={{
+                                                display:
+                                                    'flex',
+
+                                                alignItems:
+                                                    'flex-start',
+
+                                                gap: 1.5,
+
+                                                pt: 3,
 
                                                 borderTop:
-                                                    '1px solid rgba(17, 23, 20, 0.08)',
+                                                    '1px solid rgba(17,23,20,0.1)',
                                             }}
                                         >
                                             <Box
                                                 sx={{
+                                                    width: 24,
+                                                    height: 24,
+
+                                                    flexShrink: 0,
+
+                                                    mt: 0.1,
+
                                                     display:
                                                         'flex',
 
                                                     alignItems:
                                                         'center',
 
-                                                    gap: 1,
+                                                    justifyContent:
+                                                        'center',
+
+                                                    borderRadius:
+                                                        '50%',
+
+                                                    bgcolor:
+                                                        'rgba(22,91,65,0.08)',
+
+                                                    color:
+                                                        'primary.main',
                                                 }}
                                             >
                                                 <Check
                                                     size={
-                                                        15
+                                                        13
                                                     }
                                                     strokeWidth={
-                                                        1.8
+                                                        2
                                                     }
                                                 />
-
-                                                <Typography
-                                                    sx={{
-                                                        fontSize:
-                                                            '0.76rem',
-
-                                                        fontWeight: 600,
-
-                                                        letterSpacing:
-                                                            '0.04em',
-
-                                                        color:
-                                                            'rgba(17, 23, 20, 0.55)',
-                                                    }}
-                                                >
-                                                    Süreç
-                                                    adımı
-                                                </Typography>
                                             </Box>
 
-                                            {index <
-                                                items.length -
-                                                    1 && (
-                                                <ArrowRight
-                                                    className="flow-arrow"
-                                                    size={
-                                                        18
-                                                    }
-                                                    strokeWidth={
-                                                        1.5
-                                                    }
-                                                    style={{
-                                                        transition:
-                                                            'all 250ms ease',
-                                                    }}
-                                                />
-                                            )}
+                                            <Typography
+                                                sx={{
+                                                    color:
+                                                        'rgba(17,23,20,0.58)',
+
+                                                    fontSize:
+                                                        '0.84rem',
+
+                                                    lineHeight:
+                                                        1.65,
+                                                }}
+                                            >
+                                                {t(
+                                                    `${basePath}.detail`
+                                                )}
+                                            </Typography>
                                         </Box>
                                     </Box>
+
+                                    {/* ================================= */}
+                                    {/* CONNECTOR */}
+                                    {/* ================================= */}
+
+                                    {index <
+                                        items.length -
+                                            1 && (
+                                        <Box
+                                            sx={{
+                                                position:
+                                                    'absolute',
+
+                                                display:
+                                                    {
+                                                        xs:
+                                                            'none',
+
+                                                        lg:
+                                                            'flex',
+                                                    },
+
+                                                alignItems:
+                                                    'center',
+
+                                                justifyContent:
+                                                    'center',
+
+                                                width: 34,
+                                                height: 34,
+
+                                                borderRadius:
+                                                    '50%',
+
+                                                bgcolor:
+                                                    '#f5f7f5',
+
+                                                border:
+                                                    '1px solid rgba(17,23,20,0.12)',
+
+                                                color:
+                                                    'primary.main',
+
+                                                top: 90,
+                                                right:
+                                                    -17,
+
+                                                zIndex: 3,
+                                            }}
+                                        >
+                                            <ArrowRight
+                                                size={
+                                                    15
+                                                }
+                                                strokeWidth={
+                                                    1.6
+                                                }
+                                            />
+                                        </Box>
+                                    )}
                                 </MotionBox>
-                            )
-                        )}
-                    </Box>
+                            );
+                        }
+                    )}
                 </Box>
 
                 {/* ================================================= */}
-                {/* BOTTOM STATEMENT */}
+                {/* FOOTER */}
                 {/* ================================================= */}
 
-                <Box
+                <MotionBox
+                    initial={{
+                        opacity: 0,
+                        y: 25,
+                    }}
+                    whileInView={{
+                        opacity: 1,
+                        y: 0,
+                    }}
+                    viewport={{
+                        once: true,
+                        amount: 0.4,
+                    }}
+                    transition={{
+                        duration: 0.7,
+                    }}
                     sx={{
+                        display: 'grid',
+
+                        gridTemplateColumns: {
+                            xs: '1fr',
+
+                            md:
+                                'minmax(180px, 0.35fr) minmax(0, 1fr)',
+                        },
+
+                        gap: {
+                            xs: 2,
+                            md: 6,
+                        },
+
                         mt: {
-                            xs: 7,
-                            md: 10,
-                            lg: 12,
+                            xs: 6,
+                            md: 8,
                         },
 
                         pt: {
@@ -726,100 +800,46 @@ export function ProjectFlowSection() {
                         },
 
                         borderTop:
-                            '1px solid rgba(17, 23, 20, 0.12)',
-
-                        display: 'grid',
-
-                        gridTemplateColumns: {
-                            xs: '1fr',
-                            md:
-                                'auto minmax(0, 1fr)',
-                        },
-
-                        gap: {
-                            xs: 2,
-                            md: 5,
-                        },
-
-                        alignItems: 'center',
+                            '1px solid rgba(17,23,20,0.12)',
                     }}
                 >
-                    <Box
+                    <Typography
+                        variant="overline"
                         sx={{
-                            display: 'flex',
-                            alignItems: 'center',
-                            gap: 1.5,
+                            color:
+                                'primary.main',
+
+                            fontWeight: 700,
+
+                            letterSpacing:
+                                '0.15em',
                         }}
                     >
-                        <Box
-                            sx={{
-                                width: 34,
-                                height: 34,
-
-                                display: 'flex',
-                                alignItems:
-                                    'center',
-                                justifyContent:
-                                    'center',
-
-                                borderRadius: '50%',
-
-                                bgcolor:
-                                    'primary.main',
-
-                                color: '#fff',
-                            }}
-                        >
-                            <Check
-                                size={16}
-                                strokeWidth={2}
-                            />
-                        </Box>
-
-                        <Typography
-                            sx={{
-                                fontSize:
-                                    '0.82rem',
-
-                                fontWeight: 700,
-
-                                letterSpacing:
-                                    '0.08em',
-
-                                textTransform:
-                                    'uppercase',
-
-                                color:
-                                    'primary.main',
-
-                                whiteSpace:
-                                    'nowrap',
-                            }}
-                        >
-                            Kontrollü üretim
-                        </Typography>
-                    </Box>
+                        {t(
+                            'whyUsPage.projectFlow.footer.eyebrow'
+                        )}
+                    </Typography>
 
                     <Typography
                         sx={{
-                            maxWidth: 700,
+                            maxWidth: 760,
 
                             color:
-                                'rgba(17, 23, 20, 0.55)',
+                                'rgba(17,23,20,0.62)',
 
-                            fontSize:
-                                '0.92rem',
+                            fontSize: {
+                                xs: '0.95rem',
+                                md: '1rem',
+                            },
 
-                            lineHeight: 1.7,
+                            lineHeight: 1.85,
                         }}
                     >
-                        Her proje kendi teknik
-                        gereksinimleri doğrultusunda
-                        değerlendirilir ve üretimin
-                        her aşaması kontrollü bir
-                        süreç içerisinde ilerletilir.
+                        {t(
+                            'whyUsPage.projectFlow.footer.description'
+                        )}
                     </Typography>
-                </Box>
+                </MotionBox>
             </Container>
         </Box>
     );

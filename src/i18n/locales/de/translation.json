@@ -1,0 +1,2202 @@
+{
+  "common": {
+    "learnMore": "Mehr erfahren",
+    "discover": "Entdecken",
+    "viewAll": "Alle anzeigen",
+    "contactUs": "Kontaktieren Sie uns",
+    "getQuote": "Schnellangebot anfordern",
+    "sendMessage": "Nachricht senden",
+    "whatsapp": "WhatsApp",
+    "readMore": "Mehr lesen",
+    "mainNavigation": "Hauptnavigation",
+    "openMenu": "Menü öffnen",
+    "lightTheme": "Helles Design",
+    "darkTheme": "Dunkles Design"
+  },
+  "navigation": {
+    "home": "Startseite",
+    "corporate": "Unternehmen",
+    "about": "Über uns",
+    "whyUs": "Warum MBA Metal",
+    "capabilities": "Fertigungskompetenzen",
+    "industries": "Branchen",
+    "quality": "Qualität",
+    "projects": "Projekte",
+    "contact": "Kontakt",
+    "market": "Märkte"
+  },
+  "hero": {
+    "eyebrow": "Industrielle Metallfertigung",
+    "title": "Wir verwandeln Ihre Ideen in Realität.",
+    "description": "Wir verwandeln Ihre technischen Anforderungen an Draht-, Rohr- und Metallteile in herstellbare, zuverlässige und nachhaltige Lösungen.",
+    "primaryAction": "Fertigungskompetenzen",
+    "secondaryAction": "Schnellangebot anfordern"
+  },
+  "about": {
+    "eyebrow": "Über uns",
+    "title": "Wir schaffen Verlässlichkeit",
+    "description1": "Bei MBA Metal bieten wir mit erfahrenen Fachkräften und umfassendem Know-how nicht nur Metallteile, sondern auch Verlässlichkeit, Servicequalität und hochwertige Verarbeitung.",
+    "description2": "Als industrieller Lösungspartner für das Formen, Verbinden und die Fertigungsvorbereitung verschiedenster Draht- und Metallteile verwandelt MBA Metal unterschiedliche B2B-Anforderungen – von Sonderteilen bis zur wiederkehrenden Serienfertigung – in herstellbare Lösungen."
+  },
+  "capabilities": {
+    "eyebrow": "Unsere Fertigungskompetenzen",
+    "title": "Fertigungskompetenzen für Rohr-, Draht- und Metallteile",
+    "description": "MBA Metal bietet Lösungen für unterschiedliche Fertigungsanforderungen – von OEM-Komponenten über Schweißen und Gewindeherstellung bis zur Edelstahlbearbeitung sowie Rohr- und Drahtumformung. Vom technischen Zeichnungssatz über den Prototyp bis zur wiederkehrenden Fertigung steht die Fertigbarkeit im Mittelpunkt."
+  },
+  "industries": {
+    "eyebrow": "Branchen",
+    "title": "Fertigungslösungen für unterschiedliche Branchen",
+    "description": "Wir entwickeln Fertigungslösungen für Draht-, Rohr- und Metallteile entsprechend den technischen Anforderungen unterschiedlicher Branchen."
+  },
+  "process": {
+    "eyebrow": "Unser Fertigungsprozess",
+    "title": "Von der technischen Anfrage bis zur Fertigung",
+    "description": "Wir bearbeiten jedes Projekt, indem wir die technischen Anforderungen verifizieren, die Fertigbarkeit bewerten und einen kontrollierten Fertigungsprozess sicherstellen."
+  },
+  "quality": {
+    "eyebrow": "Qualität",
+    "title": "Qualität in jeder Phase der Fertigung",
+    "description": "Von den technischen Anforderungen bis zur Endkontrolle hat Qualität in jeder Phase unseres Fertigungsprozesses Priorität."
+  },
+  "quote": {
+    "eyebrow": "Lassen Sie uns über Ihr Projekt sprechen",
+    "title": "Senden Sie uns Ihre technische Zeichnung – wir fertigen gemeinsam.",
+    "description": "Senden Sie uns die technische Zeichnung oder die Projektdetails des gewünschten Bauteils. Wir prüfen Ihre Anforderungen und setzen uns mit Ihnen in Verbindung.",
+    "button": "Schnellangebot anfordern"
+  },
+  "footer": {
+    "company": {
+      "title": "MBA Metal",
+      "description": "MBA Metal ist ein Produktionsunternehmen mit Sitz in Sakarya, das auf kohlenstoffarmen Stahldraht, industrielle Drahtumformung und die Großhandelsproduktion von Bau-Nägeln spezialisiert ist.",
+      "sectors": "Wir bieten Lösungen für die Automobilindustrie, Haushaltsgeräte, Regalsysteme, Ladenausstattung, Bauwesen und Industrie."
+    },
+    "corporate": "Unternehmen",
+    "production": "Fertigung",
+    "contact": "Kontakt",
+    "capabilities": "Fertigungsmöglichkeiten",
+    "industries": "Branchen",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "whatsapp": "Kontakt über WhatsApp",
+    "copyright": "Alle Rechte vorbehalten.",
+    "signature": "MBA Metal • Türkiye"
+  },
+  "home": {
+    "hero": {
+      "titleLine1": "Türkiye's Trusted",
+      "titleLine2": "Industrie Wire & Metal Komponente Manufacturer",
+      "description": "At MBA Metal, we manufacture wire-formed, bent, welded and custom Metallkomponenten at our Fertigung facility in Sapanca. From automotive and home appliances to retail and industrial Anwendungen, we deliver zuverlässig and nachhaltig Fertigungslösungen for a wide range of Branchen.",
+      "imageAlt": "MBA Metal industrial Fertigung facility in Sapanca",
+      "scrollToNext": "Go to the next section",
+      "industries": {
+        "automotive": "Automobilindustrie",
+        "whiteGoods": "Haushaltsgeräte",
+        "retail": "Einzelhandel",
+        "industrial": "Industrie"
+      }
+    },
+    "about": {
+      "eyebrow": "Our Fertigungsansatz",
+      "titleLine1": "We don't just",
+      "titleLine2": "shape metal.",
+      "imageAlt": "MBA Metal Fertigung facility",
+      "imageLabel": "Fertigung • Technology • Experience",
+      "lead": "We turn metal Komponente requirements into zuverlässig Fertigungslösungen.",
+      "description": "From wire and steel rod forming to Schweißbaugruppen, from custom Komponenten to wiederholbar Fertigung, we develop Fertigungslösungen for the requirements of different Branchen.",
+      "discover": "Entdecken MBA Metal",
+      "capabilities": {
+        "wire": {
+          "title": "Wire & Rod",
+          "description": "Forming"
+        },
+        "welding": {
+          "title": "Schweißen",
+          "description": "Joining"
+        },
+        "oem": {
+          "title": "OEM",
+          "description": "Sonderfertigung"
+        }
+      }
+    }
+  },
+  "capabilitiesPage": {
+    "hero": {
+      "eyebrow": "FERWIGUNGSKOMPETENZEN",
+      "title": "Manufacturable solutions for wire, tube and Metallkomponenten.",
+      "description": "From technische Zeichnungen and Musters to Prototyps and Serienfertigung, we evaluate wire, tube and metal Komponente Projekts in terms of Fertigbarkeit, Prozess, Qualität and Lieferung.",
+      "primaryAction": "Projekt anfragen",
+      "secondaryAction": "Explore Our Capabilities",
+      "imageAlt": "MBA Metal wire, tube and metal Komponente Fertigung facility",
+      "explore": "Explore"
+    },
+    "productionApproach": {
+      "eyebrow": "UNSER FERWIGUNGSANSATZ",
+      "title": "From technische Anforderungen to wiederholbar Serienfertigung.",
+      "items": {
+        "cad": "Fertigung based on CAD and technische Zeichnungen",
+        "dfm": "DFM and Fertigbarkeit assessment",
+        "prototype": "Prototyp, Muster and Serienfertigung",
+        "processes": "Wire, tube, Schweißen and Gewindeherstellung Prozesses",
+        "stainless": "Stainless and galvanized wire Prozessing",
+        "management": "Integrated Projekt management with a single point of contact"
+      }
+    },
+    "mainCapabilities": {
+      "eyebrow": "IN EIGENER FERWIGUNG",
+      "title": "Our core Fertigung capabilities",
+      "description": "We manage the core Fertigungsprozesse for wire, tube and metal Komponente Projekts within our own Fertigung infrastructure. From technische Anforderungen to Musters and Serienfertigung, we evaluate Fertigbarkeit, Prozess consistency and Qualitätsanforderungen together.",
+      "processLabel": "Fertigungsprozess",
+      "items": {
+        "tel-cekme": {
+          "title": "Drahtziehen",
+          "description": "Controlled cold drawing of wire rod to achieve the required diameter and Oberfläche characteristics.",
+          "features": [
+            "Diameter control",
+            "Oberfläche monitoring",
+            "Coiled or straightened wire"
+          ],
+          "actionLabel": "View Details",
+          "imageAlt": "MBA Metal industrial wire Fertigung and Prozessing"
+        },
+        "cnc-tel-bukme": {
+          "title": "CNC-Drahtbiegen",
+          "description": "Precise and wiederholbar Serienfertigung of 2D and 3D Drahtkomponenten according to technische Zeichnungen.",
+          "features": [
+            "Custom geometries",
+            "Serial Fertigung",
+            "Maßal inspection"
+          ],
+          "actionLabel": "View Details",
+          "imageAlt": "MBA Metal CNC Drahtbiegen Fertigungsprozess"
+        },
+        "2d-3d-tel-sekillendirme": {
+          "title": "2D / 3D Drahtumformung",
+          "description": "Forming custom Drahtkomponenten requiring multi-axis bends and complex geometries gemäß den technischen Anforderungen.",
+          "features": [
+            "Multi-axis forms",
+            "Custom angles and radii",
+            "OEM Anwendungen"
+          ],
+          "actionLabel": "View Details",
+          "imageAlt": "MBA Metal 2D and 3D Drahtumformung Anwendung"
+        },
+        "mig-tig-kaynak": {
+          "title": "MIG-/WIG-Schweißen",
+          "description": "Controlled joining of wire, tube and Metallkomponenten using Schweißen methods selected gemäß den Projektanforderungen.",
+          "features": [
+            "MIG-Schweißen",
+            "WIG-Schweißen",
+            "Schweißbaugruppen"
+          ],
+          "actionLabel": "Projekt anfragen",
+          "imageAlt": "MBA Metal MIG and WIG-Schweißen Fertigungsprozess"
+        },
+        "puntali-kaynak": {
+          "title": "Punktschweißen",
+          "description": "wiederholbar and controlled Punktschweißen Anwendungen for wire baskets, panels, grids and similar products.",
+          "features": [
+            "Wire-to-wire joining",
+            "Panels and grids",
+            "Serial Fertigung"
+          ],
+          "actionLabel": "View Details",
+          "imageAlt": "MBA Metal Punktschweißen Fertigungsprozess"
+        },
+        "dis-acma": {
+          "title": "Gewindeherstellung",
+          "description": "Creating threaded ends and connection areas using Gewinderollen or Gewindeschneiden methods gemäß den Projektanforderungen.",
+          "features": [
+            "Thread rolling",
+            "Thread cutting",
+            "Custom connection Komponenten"
+          ],
+          "actionLabel": "Send Technische Anforderungen",
+          "imageAlt": "MBA Metal custom metal Komponente and fastener Fertigung"
+        },
+        "boru-bukme": {
+          "title": "Rohrbiegen",
+          "description": "Tube forming, Schweißen and assembled Komponente Fertigung according to technische Zeichnungen.",
+          "features": [
+            "Custom tube geometries",
+            "Assembled Komponenten",
+            "Muster and Serienfertigung"
+          ],
+          "actionLabel": "Rohrprojekt anfragen",
+          "imageAlt": "MBA Metal tube and Metallbiegen Fertigungsprozess"
+        },
+        "paslanmaz-celik-isleme": {
+          "title": "Edelstahlbearbeitung",
+          "description": "Bending, Schweißen, forming and assembly Prozesses for Edelstahl wire and Metallkomponenten.",
+          "features": [
+            "Edelstahl wire",
+            "Welded products",
+            "Custom OEM Komponenten"
+          ],
+          "actionLabel": "Angebot anfordern",
+          "imageAlt": "MBA Metal Edelstahl and metal Prozessing"
+        },
+        "prototip-seri-uretim": {
+          "title": "Prototyp & Serienfertigung",
+          "description": "Managing the Fertigungsprozess from Muster validation and first article approval to wiederholbar Serienfertigung and shipment planning.",
+          "features": [
+            "Prototyp",
+            "First article approval",
+            "Serial Fertigung planning"
+          ],
+          "actionLabel": "Fertigbarkeitsprüfung anfragen",
+          "imageAlt": "MBA Metal Prototyp and Serienfertigung Prozess"
+        }
+      }
+    },
+    "partnerProcesses": {
+      "eyebrow": "APPROVED SOLUTION PARTNERS",
+      "title": "We coordinate complementary Prozesses under a single Projekt management structure.",
+      "description": "While carrying out our core Fertigung operations in-house, we coordinate complementary Fertigung and Oberflächenbehandlung Prozesses through our approved solution partners.",
+      "note": "These Prozesses are not carried out within MBA Metal. They are planned with suitable solution partners gemäß den technischen Anforderungen, monitored throughout the Prozess and managed to maintain Projekt integrity.",
+      "imageAlt": "MBA Metal complementary Fertigungsprozesse and solution partners",
+      "groups": {
+        "manufacturing": {
+          "title": "Complementary Fertigungsprozesses",
+          "description": "Special Fertigungsanforderungen that complement the core Fertigungsprozess are coordinated with approved Fertigung partners gemäß den Projektanforderungen.",
+          "items": [
+            "Upsetting / End forming",
+            "Laser cutting",
+            "Sheet metal Prozessing",
+            "Spring Fertigung"
+          ]
+        },
+        "surface": {
+          "title": "Oberflächenbehandlungs & Complementary Operations",
+          "description": "Oberfläche and complementary operations required by the technical specifications of the product are coordinated with approved solution partners.",
+          "items": [
+            "Powder coating",
+            "Coating coordination",
+            "Custom Verpackung"
+          ]
+        }
+      },
+      "coordination": {
+        "eyebrow": "PROJEKTKOORDINATION",
+        "title": "Single point of contact, controlled Prozesses, integrated Lieferung.",
+        "description": "For Projekts requiring partner Prozesses, we manage the entire workflow from transferring technische Anforderungen and Prozess monitoring to product inspection and shipment preparation.",
+        "steps": {
+          "technicalSpecification": {
+            "title": "Technische Spezifikation",
+            "description": "Product and Prozessanforderungen are clarified."
+          },
+          "partnerProcess": {
+            "title": "Partner Prozess",
+            "description": "The appropriate solution partner and Fertigung method are determined."
+          },
+          "processTracking": {
+            "title": "Prozess Monitoring",
+            "description": "Complementary operations are monitored according to Projekt criteria."
+          },
+          "qualityControl": {
+            "title": "Qualitätskontrolle",
+            "description": "Product requirements are verified after the Prozess."
+          },
+          "shipping": {
+            "title": "Versand",
+            "description": "Completed products are prepared according to the Lieferung plan."
+          }
+        }
+      }
+    },
+    "projectFlow": {
+      "eyebrow": "PROJEKTABLAUF",
+      "title": "Von der technischen Anfrage bis zur Serienfertigung",
+      "description": "We manage every Projekt stage from receiving the initial request through Fertigung and shipment gemäß den technischen Anforderungen.",
+      "completedLabel": "Prozess completed",
+      "items": {
+        "technicalRequest": {
+          "title": "Technical Request",
+          "description": "Drawings, Musters, quantities, Materials and operating conditions are collected."
+        },
+        "dfmReview": {
+          "title": "DFM Review",
+          "description": "Geometrie, Toleranzen, Prozess sequence and Fertigbarkeit are evaluated."
+        },
+        "quoteSample": {
+          "title": "Quotation & Muster",
+          "description": "Pricing, lead time, tooling and Muster requirements are clarified."
+        },
+        "serialProduction": {
+          "title": "Serienfertigung",
+          "description": "The Fertigung plan is executed according to approved technical specifications."
+        },
+        "inspectionShipping": {
+          "title": "Inspection & Versand",
+          "description": "Maßal inspection, Verpackung and Lieferung Prozesses are completed."
+        }
+      }
+    },
+    "oemProduction": {
+      "eyebrow": "OEM- & LOHNFERWIGUNG",
+      "title": "Fertigung based on technische Zeichnungen, Musters or Anwendung requirements.",
+      "description": "Wir bewerten more than just the Geometrie of the part. Materialauswahl, wire or tube Abmessungen, Biegeradien, Toleranzen, Schweißen areas, Gewindeherstellung requirements, Oberflächenanforderungen, Verpackung and annual demand are considered gemeinsam.",
+      "evaluation": {
+        "eyebrow": "PROJEKTBEWERTUNG",
+        "title": "Fertigung is about more than part Geometrie.",
+        "items": [
+          "Materialauswahl",
+          "Wire or tube Abmessungen",
+          "Biegeradien",
+          "Abmessungen and Toleranzen",
+          "Schweißen areas",
+          "Gewindeherstellung requirements",
+          "Oberflächenanforderungen",
+          "Verpackung",
+          "Annual demand"
+        ]
+      },
+      "withoutDrawing": {
+        "eyebrow": "NO TECHNICAL DRAWING?",
+        "title": "We can start with a Muster and Anwendung details.",
+        "description": "A preliminary evaluation can be made using an existing Muster, product photographs, approximate Abmessungen and intended Anwendung. kritische Maße and technische Anforderungen are finalized before Serienfertigung.",
+        "inputs": [
+          "Existing product or Muster",
+          "Product photographs",
+          "Approximate Abmessungen",
+          "Intended Anwendung"
+        ]
+      }
+    },
+    "quoteRequirements": {
+      "eyebrow": "ANGEBOTSERSTELLUNG",
+      "title": "Information required for an accurate quotation.",
+      "description": "Sharing the essential technical information at the beginning of the Projekt enables a more accurate evaluation of Fertigbarkeit, Prozessanforderungen, cost and lead time.",
+      "items": {
+        "technicalDocument": {
+          "title": "Technische Dokumentationation",
+          "description": "Technische Zeichnungen in PDF, DWG or STEP format, or an existing product Muster."
+        },
+        "materialDimensions": {
+          "title": "Material & Abmessungen",
+          "description": "Material specification together with the diameter and Abmessungen of the wire or tube."
+        },
+        "tolerances": {
+          "title": "Toleranzen",
+          "description": "kritische Maße, general Abmessungen and the required Toleranz values."
+        },
+        "quantity": {
+          "title": "Fertigungsmenge",
+          "description": "Jahresbedarf volume and the planned order quantity."
+        },
+        "additionalProcesses": {
+          "title": "Zusätzliche Prozesse",
+          "description": "Additional Prozessanforderungen such as Schweißen, Gewindeherstellung, coating or painting."
+        },
+        "packagingDelivery": {
+          "title": "Verpackung & Lieferung",
+          "description": "Verpackung requirements and the location where the products will be delivered."
+        }
+      }
+    },
+    "faq": {
+      "eyebrow": "HÄUFIG GESTELLTE FRAGEN",
+      "title": "Über unsere Fertigungskompetenzen",
+      "description": "Answers to frequently asked questions about our Fertigungsprozesse, technische Bewertung, prototyping and complementary Prozesses.",
+      "items": {
+        "customParts": {
+          "question": "Do you manufacture custom parts according to technische Zeichnungen?",
+          "answer": "Yes. Fertigbarkeit and pricing can be evaluated based on a technische Zeichnung, Muster or Anwendung scenario."
+        },
+        "prototype": {
+          "question": "Do you provide Prototyp and Muster Fertigung?",
+          "answer": "Yes. Depending on the Projekt Geometrie, tooling requirements and target quantity, Prototyp or first-part Fertigung can be carried out before Serienfertigung."
+        },
+        "weldingThreading": {
+          "question": "Are Schweißen and Gewindeherstellung operations performed in-house?",
+          "answer": "Yes. MIG, WIG, Punktschweißen and Gewindeherstellung are among our in-house Fertigung capabilities."
+        },
+        "partnerProcesses": {
+          "question": "How are Laserschneiden, Blechbearbeitung and Federfertigung managed?",
+          "answer": "These Prozesses are carried out through our approved solution partners under MBA Metal's Projekt coordination."
+        },
+        "coating": {
+          "question": "Are coating Prozesses performed in-house?",
+          "answer": "No. Coating is not performed in-house. The appropriate Oberflächenbehandlung is coordinated with our solution partners gemäß den Projektanforderungen."
+        },
+        "minimumOrder": {
+          "question": "What is the minimum order quantity?",
+          "answer": "The minimum quantity depends on the Geometrie, tooling requirements, number of Prozesses, Material and Oberflächenbehandlung requirements."
+        }
+      }
+    },
+    "finalCta": {
+      "eyebrow": "LET'S EVALUATE YOUR Projekt",
+      "title": "Get a Fertigbarkeit and pricing evaluation for your Projekt",
+      "description": "Share your technische Zeichnung, target quantity, Material, Toleranzen and Lieferung requirements with us.",
+      "primaryAction": "Send Your Technische Zeichnung",
+      "secondaryAction": "Kontaktieren Sie uns on WhatsApp"
+    }
+  },
+  "whyUsPage": {
+    "hero": {
+      "eyebrow": "WARUM MBA METAL?",
+      "title": "For companies looking for manufacturable solutions, not just products.",
+      "description": "We do not evaluate the Fertigung of a wire or metal Komponente solely in terms of machines and individual operations. We consider its Geometrie, intended use, Material, Fertigung volume, Toleranzen and required Prozess sequence together to develop a practical Fertigung approach.",
+      "primaryAction": "Projekt anfragen",
+      "secondaryAction": "Entdecken MBA Metal",
+      "startingPoints": {
+        "technicalDrawing": {
+          "title": "Technische Zeichnung",
+          "description": "Fertigbarkeit assessment based on technische Zeichnungen and Abmessungen."
+        },
+        "sample": {
+          "title": "Muster",
+          "description": "Evaluation of Abmessungen, Geometrie and Fertigung methods using an existing Komponente as reference."
+        },
+        "photoMeasurement": {
+          "title": "Photo & Abmessungen",
+          "description": "A starting point based on visuals and basic Abmessungen for Komponenten without a technische Zeichnung."
+        },
+        "prototypeToSerial": {
+          "title": "Prototyp → Serienfertigung",
+          "description": "Projekt support from the initial product and Muster stage through wiederholbar Fertigung."
+        }
+      }
+    },
+    "principles": {
+      "eyebrow": "WHEN CHOOSING YOUR Fertigung PARTNER",
+      "title": "The working approach that sets MBA Metal apart.",
+      "description": "A Fertigung partner should not be evaluated solely by the machines it operates. Understanding the Projekt, assessing Fertigbarkeit, identifying the right operations and developing a Fertigung approach suited to the requirement are equally important.",
+      "approachLabel": "Our working approach",
+      "items": {
+        "projectFocus": {
+          "category": "PROJEKTFOKUS",
+          "title": "We Start by Understanding the Requirement",
+          "description": "We look beyond the shape and Abmessungen of the Komponente. We aim to understand where it will be used, what function it needs to perform and the conditions it will be exposed to during use."
+        },
+        "flexibleStart": {
+          "category": "FLEXIBLER START",
+          "title": "A Technische Zeichnung Is Not Required to Start",
+          "description": "A technische Zeichnung is an important source of information, but not every Projekt begins with one. We can also start the initial evaluation using a Muster, photographs, basic Abmessungen or the Anwendung problem that needs to be solved."
+        },
+        "manufacturability": {
+          "category": "MANUFACTURABILITY",
+          "title": "We Do Not Send Every Drawing Straight to Fertigung",
+          "description": "We evaluate Geometrie, Material, Toleranzen, Prozess sequence and Fertigung volume together. When necessary, we work on alternatives that can make the Komponente more practical and wiederholbar to manufacture."
+        },
+        "multiCapability": {
+          "category": "MULTI-Prozess CAPABILITY",
+          "title": "We Are Not Limited to a Single Operation",
+          "description": "We approach Drahtumformung, Metallbiegen, Schweißen and any complementary operations required by the Projekt not as isolated Prozesses, but as parts of the complete Fertigungsprozess."
+        },
+        "projectScale": {
+          "category": "SKALIERBARKEIT",
+          "title": "We Evaluate Projekte at Different Fertigung Scales",
+          "description": "When Fertigbarkeit and Prozess suitability are achieved, we can evaluate not only high-volume Projekts but also small and medium-scale commercial Fertigungsanforderungen on a Projekt basis."
+        },
+        "continuity": {
+          "category": "KONTINUITÄT",
+          "title": "From Prototyp to wiederholbar Fertigung",
+          "description": "For suitable Projekts, after the initial Muster or first-product validation, we define the Fertigung parameters and move the Prozess toward a more structured, controlled and wiederholbar Fertigung setup."
+        }
+      }
+    },
+    "exploreSolutions": {
+      "eyebrow": "MBA METAL ÖKOSYSTEM",
+      "title": "Continue with the solution area that best fits your needs.",
+      "description": "Whether you are looking for a custom wire Komponente, industrial Ausrüstung or a retail solution, you can explore the Fertigung and Anwendung areas most relevant to your Projekt.",
+      "items": {
+        "cncWireBending": {
+          "category": "Fertigung",
+          "title": "CNC-Drahtbiegen",
+          "description": "Custom Drahtkomponenten and forming solutions based on technische Zeichnungen or Musters."
+        },
+        "industrialWireForming": {
+          "category": "Fertigung",
+          "title": "Industrielle Drahtumformung",
+          "description": "Wire forming solutions for industrial, Ausrüstung and custom Anwendungen."
+        },
+        "shelfHooks": {
+          "category": "RETAIL",
+          "title": "Regalhaken",
+          "description": "Hanging Komponenten in different geometries for wire panels, shelving and product display systems."
+        },
+        "wireShelfSystems": {
+          "category": "RETAIL",
+          "title": "Drahtregalsysteme",
+          "description": "Wire and metal shelving solutions for markets and commercial retail spaces."
+        },
+        "marketWireBaskets": {
+          "category": "RETAIL",
+          "title": "Einzelhandel Drahtkörbe",
+          "description": "Wire basket solutions for product display, promotional areas, transport and retail use."
+        },
+        "aboutMbaMetal": {
+          "category": "CORPORATE",
+          "title": "About MBA Metal",
+          "description": "Learn more about our Fertigung approach, areas of expertise and MBA Metal."
+        }
+      }
+    },
+    "flexibleStart": {
+      "eyebrow": "YOU DON'T NEED TO KNOW THE NAME OF THE PART",
+      "title": "You can also start by saying, “I need something like this.”",
+      "paragraphs": {
+        "paragraph1": "The technical name of every Komponente used in Branche, Fertigung facilities or retail Ausrüstung may not be known by the user. Not knowing the name of a part does not prevent us from evaluating your Fertigung requirement.",
+        "paragraph2": "The same product may be described by different names across companies or Branchen. What matters is not what the part is called, but understanding its Geometrie, intended use, Abmessungen and expected function.",
+        "paragraph3": "For this reason, a photograph, physical Muster, basic Abmessungen, Anwendung area and required quantity can often provide enough information to begin the technische Bewertung."
+      },
+      "namingExample": {
+        "eyebrow": "SAME PART, DIFFERENT NAMES",
+        "titleLine1": "The name may change.",
+        "titleLine2": "The requirement stays the same.",
+        "description": "For example, the same or a similar wire Komponente used for product display may be described by different users with names such as:",
+        "items": {
+          "shelfHook": "Shelf hook",
+          "wireHanger": "Wire hanger",
+          "panelHook": "Panel hook",
+          "productHangerRod": "Product hanging rod"
+        }
+      },
+      "existingProduct": {
+        "eyebrow": "WE CAN START FROM AN EXISTING PRODUCT",
+        "title": "If you have a similar product, show it to us.",
+        "description": "You can share photographs or a physical Muster of the existing Komponente. We can then evaluate Fertigbarkeit based on its basic Abmessungen, Material expectations, operating conditions and required quantity.",
+        "checklist": {
+          "photo": "Product or Muster photograph",
+          "dimensions": "Basic Abmessungen",
+          "usage": "Intended use",
+          "material": "Material type, if known",
+          "quantity": "Estimated Fertigung or order quantity",
+          "tolerances": "kritische Maße and Toleranzen, if applicable"
+        }
+      },
+      "relatedCapabilitiesTitle": "You can also explore our related Fertigung capabilities for Projekts of this type.",
+      "relatedCapabilities": {
+        "cncWireBending": {
+          "title": "CNC-Drahtbiegen",
+          "description": "Evaluation of custom Drahtkomponenten in different geometries based on technische Zeichnungen or Musters."
+        },
+        "industrialWireForming": {
+          "title": "Industrielle Drahtumformung",
+          "description": "Wire forming and Komponente Fertigungslösungen for industrial, Ausrüstung and custom Anwendungen."
+        }
+      }
+    },
+    "projectFlow": {
+      "eyebrow": "WORKING WITH US",
+      "title": "A clear Prozess that turns requirements into Fertigung.",
+      "description": "The scope and technical complexity of each Projekt may vary. However, the basic information required for an effective initial evaluation is similar across most Projekts.",
+      "items": {
+        "shareRequest": {
+          "title": "Share Your Requirement",
+          "description": "Share your technische Zeichnung, photograph, Muster or Anwendung requirement with us.",
+          "detail": "Additional information such as Material, Abmessungen, Toleranzen, required quantity and operating conditions can help accelerate the initial evaluation."
+        },
+        "manufacturability": {
+          "title": "Let's Review Fertigbarkeit",
+          "description": "Let's evaluate the Geometrie, operations, Material, Toleranzen and Fertigung volume together.",
+          "detail": "We determine the required operations, critical Fertigung considerations and an applicable Prozess approach for the Komponente."
+        },
+        "sampleFirstProduct": {
+          "title": "Muster / First Product",
+          "description": "For Projekts that require it, we can validate the Fertigung approach through an initial Komponente or Muster.",
+          "detail": "Abmessungen, form, connection points and critical Anwendung characteristics can be checked on the first product and adjusted where necessary."
+        },
+        "productionPlan": {
+          "title": "Fertigung Plan",
+          "description": "Let's establish a suitable and wiederholbar Fertigung flow for the approved Projekt.",
+          "detail": "The operation sequence, Fertigung control points and Projektanforderungen are defined to establish the Fertigungsprozess."
+        }
+      },
+      "footer": {
+        "eyebrow": "kontrollierte Fertigung",
+        "description": "The objective is not simply to manufacture the first Komponente, but to maintain the same Fertigung approach in a controlled and wiederholbar way for suitable Projekts."
+      }
+    },
+    "solutionExamples": {
+      "eyebrow": "SOLUTION EXAMPLES",
+      "title": "Manufacturable metal solutions for different requirements.",
+      "description": "The requirement may involve more than simply Fertigung a Komponente. We can approach Projekts from different starting points, including product development, reproducing an existing Komponente, transitioning to Serienfertigung or addressing operational needs.",
+      "examples": {
+        "customProduction": {
+          "eyebrow": "CUSTOM Fertigung",
+          "title": "Custom Komponente Fertigung for technische Anforderungen",
+          "description": "We evaluate the requirement using technische Zeichnungen, Abmessungen, Musters or the intended use and transform it into a manufacturable metal Komponente solution.",
+          "details": {
+            "detail1": "Evaluation based on technische Zeichnungen",
+            "detail2": "Maß and Toleranz checks",
+            "detail3": "Material and Fertigung method evaluation",
+            "detail4": "Prototyp or Serienfertigung planning"
+          }
+        },
+        "existingProduct": {
+          "eyebrow": "EXISTING PRODUCT",
+          "title": "ReFertigung from an existing Komponente",
+          "description": "For existing Komponenten without technical documentation, we can develop a Fertigung approach based on a Muster, photographs and basic Abmessungen.",
+          "details": {
+            "detail1": "Muster-based evaluation",
+            "detail2": "Assessment of basic Abmessungen",
+            "detail3": "Understanding the intended use",
+            "detail4": "Development of a wiederholbar Fertigungsprozess"
+          }
+        },
+        "prototypeToSerial": {
+          "eyebrow": "PROTOTYPE → SERIAL",
+          "title": "From trial Fertigung to repeat orders",
+          "description": "For newly developed products, we support the transition from initial Musters and Prototyp work to wiederholbar Fertigung for suitable Projekts.",
+          "details": {
+            "detail1": "Initial Muster Fertigung",
+            "detail2": "Product and Prozess validation",
+            "detail3": "Evaluation of revisions",
+            "detail4": "Serial Fertigung planning"
+          }
+        },
+        "industryAndProduction": {
+          "eyebrow": "Branche & Fertigung",
+          "title": "Komponenten for machinery and Fertigung lines",
+          "description": "We develop Projekt-based Fertigungslösungen for wire and Metallkomponenten used in machinery, Ausrüstung, Fertigung lines and auxiliary systems.",
+          "details": {
+            "detail1": "Machinery and Ausrüstung Komponenten",
+            "detail2": "Connection and fastening elements",
+            "detail3": "Wire and Metallkomponenten",
+            "detail4": "Projekt-based custom Fertigung"
+          }
+        },
+        "retailAndDisplay": {
+          "eyebrow": "RETAIL & DISPLAY",
+          "title": "Solutions for shelving, hanging and display systems",
+          "description": "We manufacture custom wire products, hangers, hooks and display Komponenten used in retail and store Anwendungen.",
+          "details": {
+            "detail1": "Shelf and panel hooks",
+            "detail2": "Product hanging elements",
+            "detail3": "Wire display Komponenten",
+            "detail4": "Custom-sized retail Ausrüstung"
+          }
+        },
+        "logisticsAndOperations": {
+          "eyebrow": "LOGISTICS & OPERATIONS",
+          "title": "Transport, storage and operational Ausrüstung",
+          "description": "We evaluate metal and Drahtkomponenten required for storage, transport and operational Prozesses according to their operating conditions and prepare them for Fertigung.",
+          "details": {
+            "detail1": "Transport Ausrüstung Komponenten",
+            "detail2": "Storage system Komponenten",
+            "detail3": "Protective and fastening Komponenten",
+            "detail4": "Custom operational solutions"
+          }
+        }
+      }
+    },
+    "cta": {
+      "eyebrow": "SHOW US A Komponente",
+      "title": "Can it be manufactured? Let's evaluate that first.",
+      "description": "If you have a technische Zeichnung, share it with us. If not, we can start with a Muster, photograph or basic Abmessungen. Together, we can evaluate the Komponente's intended use, Material, kritische Maße and required quantity to determine a practical Fertigung approach.",
+      "primaryAction": "Projekt anfragen",
+      "secondaryAction": "Kontaktieren Sie uns"
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "eyebrow": "MBA METAL",
+      "title": "Solutions shaped around your wire and metal Fertigung needs.",
+      "description": "From technische Zeichnungen to Musters, from custom Komponenten to wiederholbar Fertigung, we transform diverse industrial requirements into practical Fertigungslösungen."
+    },
+    "companyStory": {
+      "eyebrow": "MBA Metal",
+      "title": "A Fertigung-focused partner for wire and metal Prozessing.",
+      "description": "MBA Metal focuses on transforming the wire and metal Komponente requirements of different Branchen into manufacturable solutions. Our capabilities are not limited to a single product group.",
+      "secondaryDescription": "From automotive and home appliances to retail Ausrüstung, industrial transport and storage solutions, we develop Fertigungslösungen shaped around the requirements of each Anwendung.",
+      "imageAlt": "MBA Metal Fertigung facility",
+      "approach": {
+        "eyebrow": "Our Fertigungsansatz",
+        "projectBased": {
+          "title": "Projekt-Based",
+          "description": "A Fertigung approach shaped around Projektanforderungen."
+        },
+        "flexibleProduction": {
+          "title": "Flexible Fertigung",
+          "description": "An adaptable Prozess from Musters to wiederholbar Fertigung."
+        },
+        "brand": "MBA Metal"
+      },
+      "secondaryStory": {
+        "eyebrow": "How does it start?",
+        "title": "Not every Projekt starts with a technische Zeichnung.",
+        "paragraphs": [
+          "Sometimes a Fertigung request begins with a completed technische Zeichnung. In other cases, we may only have an existing Muster, a product image, basic Abmessungen or an Anwendung requirement that needs to be solved.",
+          "We therefore begin by understanding where and how the Komponente will be used. We then evaluate criteria such as Geometrie, Material, Fertigung method and required quantity to determine a practical Fertigung approach."
+        ]
+      },
+      "inputs": {
+        "eyebrow": "To start your Projekt",
+        "items": [
+          "Technical drawing",
+          "Muster",
+          "Product image",
+          "Fertigung requirement"
+        ]
+      }
+    },
+    "productionApproach": {
+      "eyebrow": "Our Fertigungsprozess",
+      "title": "From technische Anforderungen to kontrollierte Fertigung.",
+      "description": "We approach every Projekt as more than a Komponente to be produced. We treat it as an integrated Prozess in which technische Anforderungen must be understood, Fertigbarkeit evaluated and Fertigung managed in a controlled manner.",
+      "steps": {
+        "technicalNeed": {
+          "title": "Technische Anforderung",
+          "description": "Projektanforderungen are identified through technische Zeichnungen, Musters, product images or information about the intended Anwendung."
+        },
+        "projectPlanning": {
+          "title": "Projekt Planning",
+          "description": "Material, Geometrie, Toleranzen, Fertigung methods and target quantities are evaluated to establish a practical Fertigung plan."
+        },
+        "production": {
+          "title": "Fertigung",
+          "description": "Wire, metal and related Komponenten are manufactured according to the defined Fertigungsprozesse."
+        },
+        "qualityControl": {
+          "title": "Qualitätskontrolle",
+          "description": "kritische Maße, visual requirements and Projekt criteria are inspected during and after Fertigung."
+        },
+        "shipment": {
+          "title": "Shipment",
+          "description": "Approved products are prepared for shipment according to the required Verpackung and Lieferung specifications."
+        }
+      },
+      "bottomMessage": "Our goal is not simply to manufacture a Komponente, but to establish a wiederholbar and nachhaltig Fertigungsprozess that meets the technische Anforderungen of the Projekt."
+    },
+    "workingApproach": {
+      "eyebrow": "Our Working Approach",
+      "title": "From requirement to wiederholbar Fertigung.",
+      "description": "Not every Projekt starts from the same point. Sometimes we receive a detailed technische Zeichnung, while in other cases we begin with an existing part or a Fertigung requirement that needs to be solved. We approach the Prozess by transforming the available information into a manufacturable and wiederholbar solution.",
+      "items": {
+        "understandRequirement": {
+          "label": "Understanding the Requirement",
+          "title": "We determine what the Komponente needs to do.",
+          "description": "The Prozess does not have to begin with a technische Zeichnung. We can evaluate a Projekt based on a Muster, photograph, approximate Abmessungen or directly from the intended Anwendung.",
+          "details": [
+            "Anwendung",
+            "Part Geometrie",
+            "Approximate Abmessungen",
+            "Required quantity"
+          ]
+        },
+        "evaluateManufacturability": {
+          "label": "Evaluating Fertigbarkeit",
+          "title": "We evaluate the idea against real Fertigung conditions.",
+          "description": "Material, Geometrie, Toleranzen, joining methods and Fertigungsmenge are evaluated together to determine a practical Fertigung approach.",
+          "details": [
+            "Materialauswahl",
+            "Fertigung method",
+            "Geometrie evaluation",
+            "Operation planning"
+          ]
+        },
+        "sampleValidation": {
+          "label": "Muster & Validation",
+          "title": "We validate the Komponente before Serienfertigung.",
+          "description": "When required, the initial Muster or Prototyp is evaluated for Abmessungen, form, function and Fertigbarkeit. This allows necessary adjustments to be made before Serienfertigung.",
+          "details": [
+            "Initial Muster",
+            "Maßal inspection",
+            "Functional inspection",
+            "Revision"
+          ]
+        },
+        "repeatableProduction": {
+          "label": "wiederholbar Fertigung",
+          "title": "We turn the approved solution into nachhaltig Fertigung.",
+          "description": "The Fertigung steps of the validated Komponente are defined to maintain the same Fertigung logic and Qualität approach across future orders.",
+          "details": [
+            "Fertigung planning",
+            "Prozess control",
+            "Qualität control",
+            "Repeat Fertigung"
+          ]
+        }
+      }
+    },
+    "manufacturingCapabilities": {
+      "eyebrow": "Our Fertigungskompetenzen",
+      "title": "One Fertigung partner for diverse Fertigungsanforderungen.",
+      "description": "From forming wire and Metallkomponenten to joining operations, from initial Musters to wiederholbar Fertigung, we evaluate different Fertigungsanforderungen through an integrated approach.",
+      "itemLabel": "Fertigung Capability",
+      "actionLabel": "Explore Capability",
+      "items": {
+        "wireForming": {
+          "title": "Drahtumformung",
+          "description": "Controlled and wiederholbar Fertigung of Drahtkomponenten for different Abmessungen, geometries and Anwendung requirements.",
+          "imageAlt": "MBA Metal Drahtumformung Fertigung",
+          "tags": [
+            "Drahtbiegen",
+            "2D / 3D Forming",
+            "Custom Geometrie"
+          ]
+        },
+        "metalForming": {
+          "title": "Metallumformung",
+          "description": "Forming custom Metallkomponenten into geometries suited to their Anwendung and technische Anforderungen.",
+          "imageAlt": "MBA Metal Metallumformung Fertigung",
+          "tags": [
+            "Bending",
+            "Forming",
+            "Sonderfertigung"
+          ]
+        },
+        "weldingJoining": {
+          "title": "Schweißen & Joining",
+          "description": "Joining wire and Metallkomponenten using Schweißen methods selected according to product Geometrie and operating conditions.",
+          "imageAlt": "MBA Metal Schweißen and joining Fertigung",
+          "tags": [
+            "MIG / WIG",
+            "Punktschweißen",
+            "Joining"
+          ]
+        },
+        "prototypeSerialProduction": {
+          "title": "Prototyp & Serienfertigung",
+          "description": "Developing the Fertigung approach from the initial Muster through product validation and preparing the Prozess for wiederholbar Serienfertigung.",
+          "imageAlt": "MBA Metal Prototyp and Serienfertigung",
+          "tags": [
+            "Muster",
+            "Prototyp",
+            "Serienfertigung"
+          ]
+        }
+      }
+    },
+    "industriesShowcase": {
+      "eyebrow": "Branchen We Serve",
+      "title": "We are not limited to a single product group.",
+      "description": "We adapt our wire and metal Prozessing capabilities to the products, Anwendungen and Fertigungsanforderungen of different Branchen.",
+      "items": {
+        "automotive": {
+          "title": "Automobilindustrie",
+          "description": "We develop Fertigungslösungen for wire, tube and Metallkomponenten used in automotive Fertigungsprozesse according to projektspezifisch requirements.",
+          "imageAlt": "Metal Fertigungslösungen for the automotive Branche"
+        },
+        "whiteGoods": {
+          "title": "Haushaltsgeräte",
+          "description": "We form wire and Metallkomponenten used in home appliances and durable consumer products according to different geometries and Fertigungsanforderungen.",
+          "imageAlt": "Metallkomponenten for the home appliance Branche"
+        },
+        "retail": {
+          "title": "Ladeneinrichtungen",
+          "description": "Wir fertigen wire and metal Komponente solutions für shelves, baskets, stands and similar Ausrüstung used in stores, markets and points of sale.",
+          "imageAlt": "Wire and metal products for retail Ausrüstung"
+        },
+        "logistics": {
+          "title": "Lagerung & Logistik",
+          "description": "We provide Fertigungslösungen for metal Ausrüstung and auxiliary Komponenten used in storage, transportation and internal factory logistics operations.",
+          "imageAlt": "Metal Ausrüstung for storage and logistics Anwendungen"
+        },
+        "industrial": {
+          "title": "Industrielle Fertigung",
+          "description": "Wir fertigen projektspezifisch wire and Metallkomponenten required für machinery, Ausrüstung and various industrial systems.",
+          "imageAlt": "Custom wire and Metallkomponenten for industrial Fertigung"
+        }
+      }
+    },
+    "qualityApproach": {
+      "eyebrow": "UNSER QUALITÄTSANSPRUCH",
+      "title": "Fertigung allein reicht nicht. Sie muss überprüfbar sein.",
+      "description": "We do not view the Fertigungsprozess simply as completing a part. By monitoring Abmessungen, form, Oberfläche and Fertigung criteria throughout the Prozess, we aim to ensure that each product meets the defined requirements.",
+      "imageAlt": "MBA Metal Fertigung and Qualitätskontrolle Prozess",
+      "imageLabel": "MBA METAL · Qualität CONTROL",
+      "items": {
+        "dimensionalControl": {
+          "title": "Maßkontrolle",
+          "description": "We inspect product Abmessungen gemäß den technischen Anforderungen and defined Toleranzen."
+        },
+        "visualControl": {
+          "title": "Sichtprüfung",
+          "description": "We evaluate Oberfläches, form, welded areas and overall product integrity according to Fertigung criteria."
+        },
+        "processControl": {
+          "title": "Prozesskontrolle",
+          "description": "Rather than leaving inspection until the finished product, we monitor the Prozess at the necessary stages of Fertigung."
+        },
+        "repeatability": {
+          "title": "Wiederholgenauigkeit",
+          "description": "We place importance on ensuring that an approved product can be reproduced in subsequent Fertigung runs according to the same criteria."
+        }
+      }
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "eyebrow": "KONTAKT",
+      "title": "Lassen Sie uns über Ihr Projekt sprechen.",
+      "description": "Share your technische Zeichnung, Muster or Fertigung requirement with us. Let's evaluate your Projekt together in terms of Fertigbarkeit, Prozess and Anwendung.",
+      "primaryAction": "Kontakt aufnehmen",
+      "imageAlt": "MBA Metal industrial metal Fertigung facility"
+    },
+    "details": {
+      "eyebrow": "Kontaktieren Sie uns",
+      "title": "Choose the easiest way to reach us.",
+      "description": "Kontakt our team directly regarding a new Fertigung Projekt, technische Bewertung or an existing Projekt.",
+      "phone": {
+        "label": "Telefon",
+        "value": "0 530 050 86 58"
+      },
+      "whatsapp": {
+        "label": "WhatsApp",
+        "value": "0 530 050 86 58"
+      },
+      "email": {
+        "label": "E-Mail",
+        "value": "mbametalekipman@gmail.com"
+      },
+      "workingHours": {
+        "eyebrow": "Working Hours",
+        "title": "Kontakt us regarding your Fertigung and Projektanforderungen.",
+        "weekdays": "Monday - Friday",
+        "saturday": "Saturday",
+        "sunday": "Sunday",
+        "closed": "Closed"
+      }
+    },
+    "form": {
+      "eyebrow": "LET'S DISCUSS YOUR Projekt",
+      "title": "How can we help?",
+      "description": "Share the basic details about the Komponente or Projekt you need manufactured. We will review your request and get in touch.",
+      "imageAlt": "MBA Metal Schweißen and metal Fertigungsprozess",
+      "imageTitle": "Manufacturable solutions for wire, tube and Metallkomponenten.",
+      "whatsapp": "Talk to us quickly via WhatsApp",
+      "fields": {
+        "fullName": "Full Name",
+        "company": "Company",
+        "phone": "Telefon",
+        "email": "E-Mail",
+        "subject": "Subject",
+        "message": "Tell us about your Projekt"
+      },
+      "submit": "Nachricht senden"
+    },
+    "cta": {
+      "eyebrow": "HAVE A TECHNICAL Projekt?",
+      "title": "Send your technische Zeichnung. Let's build it together.",
+      "description": "Share your Material, Abmessungen, Toleranzen, quantities and Projekt details to start a Fertigbarkeit and quotation review.",
+      "button": "Angebot anfordern",
+      "imageAlt": "MBA Metal industrial Fertigung and metal Prozessing"
+    },
+    "projectGuide": {
+      "eyebrow": "For a Faster Evaluation",
+      "title": "Share these 4 details in your first message.",
+      "description": "You do not need to prepare a lengthy technical explanation. A few essential details are enough for us to begin the initial Fertigbarkeit evaluation of your Projekt.",
+      "helper": "Information needed for the initial review",
+      "items": {
+        "drawing": {
+          "title": "Photo or Drawing",
+          "description": "Share a photo of the product, an existing Muster or the technische Zeichnung."
+        },
+        "dimensions": {
+          "title": "Basic Abmessungen",
+          "description": "Provide the length, width, wire or tube diameter and any kritische Maße you know."
+        },
+        "quantity": {
+          "title": "Required Quantity",
+          "description": "Share the Muster quantity, planned order quantity or estimated annual usage."
+        },
+        "purpose": {
+          "title": "Anwendung",
+          "description": "Briefly explain where the Komponente will be used, in which product or for what purpose."
+        }
+      },
+      "note": "If your technische Zeichnung is not ready yet, that is not a problem. We can begin the preliminary evaluation using photos, approximate Abmessungen and Anwendung details."
+    }
+  },
+  "industriesPage": {
+    "hero": {
+      "eyebrow": "Branche SOLUTIONS",
+      "title": "Fertigungslösungen tailored to the technische Anforderungen of different Branchen.",
+      "description": "Wir entwickeln projektspezifischlösungen für wire, tube and Metallkomponenten by considering operating conditions, Toleranzen, Qualitätsanforderungen and Fertigung volumes.",
+      "primaryAction": "Explore Branchen",
+      "secondaryAction": "Projekt anfragen"
+    },
+    "showcase": {
+      "eyebrow": "BRANCHEN WE SERVE",
+      "title": "Different Anwendungen. The same Fertigung discipline.",
+      "description": "From technische Zeichnungen to Sonderfertigung, we approach wire, tube and metal Komponente requirements with Fertigbarkeit in mind.",
+      "cardEyebrow": "Branche Fertigung",
+      "otherIndustries": "Other Anwendung Areas",
+      "items": {
+        "automotive": {
+          "title": "Automobilindustrie",
+          "description": "Custom wire, tube and welded Metallkomponenten for fastening, supporting and Material handling Anwendungen.",
+          "applications": [
+            "Custom wire Formteile",
+            "Fastening Komponenten",
+            "Support Komponenten",
+            "Geschweißte Unterbaugruppen",
+            "In-plant handling Ausrüstung"
+          ]
+        },
+        "whiteGoods": {
+          "title": "Haushaltsgeräte & Küche",
+          "description": "Wire and Metallkomponenten for internal carrying, supporting, protection and assembly Anwendungen.",
+          "applications": [
+            "Wire racks",
+            "Baskets",
+            "Grills",
+            "Carrier Komponenten",
+            "Support Komponenten"
+          ]
+        },
+        "retail": {
+          "title": "Einzelhandel & Ladeneinrichtungen",
+          "description": "Wire and metal Ausrüstung solutions for retail, supermarket and product display Anwendungen.",
+          "applications": [
+            "Wire baskets",
+            "Shelving systems",
+            "Hooks",
+            "Hangers and dividers",
+            "Display Ausrüstung"
+          ]
+        },
+        "furniture": {
+          "title": "Möbel",
+          "description": "Functional, structural and decorative wire, tube and Metallkomponenten for furniture Anwendungen.",
+          "applications": [
+            "Metal legs",
+            "Wire supports",
+            "Frames",
+            "Handles",
+            "Assembly Komponenten"
+          ]
+        },
+        "logistics": {
+          "title": "Logistik & Lagerung",
+          "description": "Durable wire and metal Ausrüstung for storage, handling and in-plant logistics operations.",
+          "applications": [
+            "Handling baskets",
+            "Wire cages",
+            "Metal containers",
+            "Handling carts",
+            "Dividers and guards"
+          ]
+        },
+        "railwayIndustrial": {
+          "title": "Bahn- & Industrieausrüstung",
+          "description": "Custom connection, support and assembly Komponenten manufactured according to technical specifications and drawings.",
+          "applications": [
+            "Connection Komponenten",
+            "Support parts",
+            "Geschweißte Unterbaugruppen",
+            "Protective Komponenten",
+            "Custom serial Komponenten"
+          ]
+        },
+        "defenseAerospaceSecurity": {
+          "title": "Verteidigung, Luft- und Raumfahrt & Sicherheit",
+          "description": "Custom wire, tube, bent and welded Metallkomponenten manufactured gemäß den technischen Anforderungen for defense, aerospace and security Anwendungen.",
+          "applications": [
+            "Kundenspezifische Drahtformteile",
+            "Precision bent Metallkomponenten",
+            "Geschweißte Unterbaugruppen",
+            "Schutz- und Strukturkomponenten",
+            "Projektspezifische Metallkomponenten"
+          ]
+        },
+        "medical": {
+          "title": "Medizin- & Hygieneprodukte",
+          "description": "Custom wire and Metallkomponenten manufactured according to defined Material, Maßal and Oberflächenanforderungen.",
+          "applications": [
+            "Stainless Drahtkomponenten",
+            "Wire baskets",
+            "Carrier systems",
+            "Kundenspezifische Gestelle und Halterungen",
+            "projektspezifisch Komponenten"
+          ]
+        },
+        "agriculture": {
+          "title": "Landwirtschaft & Tierhaltung",
+          "description": "Wire and metal product solutions for protection, handling and Ausrüstung Anwendungen.",
+          "applications": [
+            "Wire cages",
+            "Protective Komponenten",
+            "Handling Ausrüstung",
+            "Wire panels",
+            "Custom Ausrüstung Komponenten"
+          ]
+        },
+        "construction": {
+          "title": "Bauwesen & allgemeine Industrie",
+          "description": "Drawing-based metal Komponente Fertigung for machinery, Ausrüstung, construction and industrial Anwendungen.",
+          "applications": [
+            "Custom Drahtkomponenten",
+            "Protective Komponenten",
+            "Fastening parts",
+            "Bent Metallkomponenten",
+            "projektspezifisch Fertigung"
+          ]
+        },
+        "marine": {
+          "title": "Schiff, Maritim & Hafen",
+          "description": "Fertigungslösungen für Draht-, Rohr-, Umform- und Schweißkomponenten für Schiffs-, maritime und Hafenanwendungen.",
+          "applications": [
+            "Schiffs- und Deckkomponenten",
+            "Geschweißte Metallkomponenten",
+            "Komponenten für Hafen- und Terminalausrüstung",
+            "Kundenspezifische Metallkomponenten"
+          ]
+        }
+      }
+    },
+    "solutions": {
+      "eyebrow": "Fertigungslösungen",
+      "title": "Connecting Branche requirements with our Fertigung capabilities.",
+      "description": "We evaluate Projekts across different Branchen not only by their Anwendung, but also by part Geometrie, Material, joining method, Fertigung volume and Wiederholgenauigkeit requirements.",
+      "helper": "Projekt-based Fertigung capabilities",
+      "note": "The Fertigung method is determined for each Projekt by evaluating requirements such as technische Zeichnungen, Musters, Materials, Toleranzen and target quantities.",
+      "items": {
+        "wireForming": {
+          "label": "Wire Prozessing",
+          "title": "Wire & Rod Forming",
+          "description": "kontrollierte Fertigung of wire and rod Komponenten in different diameters, geometries and forms gemäß den technischen Anforderungen.",
+          "features": [
+            "CNC Drahtbiegen",
+            "2D / 3D forming",
+            "Custom geometries"
+          ]
+        },
+        "weldedComponents": {
+          "label": "Joining",
+          "title": "Geschweißte Komponenten",
+          "description": "Joining wire and Metallkomponenten using Schweißen methods selected according to product Geometrie and Anwendung conditions.",
+          "features": [
+            "MIG / WIG",
+            "Spot Schweißen",
+            "Geschweißte Unterbaugruppen"
+          ]
+        },
+        "tubeComponents": {
+          "label": "Tube Prozessing",
+          "title": "Rohrkomponenten",
+          "description": "Forming and preparing Rohrkomponenten according to technische Zeichnungen and Anwendung requirements.",
+          "features": [
+            "Tube bending",
+            "Custom geometries",
+            "Assembled Komponenten"
+          ]
+        },
+        "customProduction": {
+          "label": "Projekt Specific",
+          "title": "Sonderfertigung",
+          "description": "projektspezifisch metal Komponente solutions based on technische Zeichnungen, Musters or Anwendung requirements instead of a standard product approach.",
+          "features": [
+            "Drawing-based",
+            "Muster-based",
+            "projektspezifisch"
+          ]
+        },
+        "prototypeProduction": {
+          "label": "Validation",
+          "title": "Prototyp & Muster Fertigung",
+          "description": "Muster Fertigung for evaluating form, Abmessungen, Fertigbarkeit and Anwendung requirements before Serienfertigung.",
+          "features": [
+            "First Muster",
+            "Product validation",
+            "Revision support"
+          ]
+        },
+        "serialProduction": {
+          "label": "wiederholbar Fertigung",
+          "title": "Serienfertigung",
+          "description": "Transforming an approved Fertigung approach into wiederholbar and nachhaltig Fertigung through controlled Prozesses.",
+          "features": [
+            "Fertigung planning",
+            "Prozess control",
+            "Repeat orders"
+          ]
+        }
+      }
+    },
+    "approach": {
+      "eyebrow": "Branche Fertigung APPROACH",
+      "title": "Every Projekt is different. Our Fertigung approach stays controlled.",
+      "description": "Regardless of Branche, we evaluate every Komponente together with its technische Anforderungen, Fertigbarkeit, Prozess structure and Qualität expectations.",
+      "items": {
+        "technicalRequirements": {
+          "title": "Technische Anforderungen",
+          "description": "Technische Zeichnungen, Musters, Abmessungen, Toleranzen, Materials and operating conditions of the Komponente are evaluated together.",
+          "meta": "Technical Data · Toleranz · Material"
+        },
+        "manufacturability": {
+          "title": "Fertigbarkeit",
+          "description": "Part Geometrie, bending points, joining details and Fertigung constraints are reviewed to determine an applicable Fertigung approach.",
+          "meta": "Geometrie · DFM · Prozess"
+        },
+        "processPlanning": {
+          "title": "Prozess Planning",
+          "description": "Wire or tube forming, Schweißen, secondary operations and required Fertigung steps are planned according to the technical needs of the Projekt.",
+          "meta": "Forming · Schweißen · Operations"
+        },
+        "qualityControl": {
+          "title": "Qualität & Inspection",
+          "description": "kritische Maße, Toleranzen and visual requirements are inspected at appropriate stages of Fertigung to verify the Komponente.",
+          "meta": "Measurement · Inspection · Validation"
+        },
+        "repeatableProduction": {
+          "title": "wiederholbar Fertigung",
+          "description": "The approved Muster and Prozess approach are transformed into a controlled structure designed to maintain the same Fertigung standard across repeat orders.",
+          "meta": "Muster · Serienfertigung · Continuity"
+        },
+        "delivery": {
+          "title": "Verpackung & Lieferung",
+          "description": "An appropriate Verpackung and shipment approach is established according to product structure, transportation conditions and customer requirements.",
+          "meta": "Verpackung · Shipment · Lieferung"
+        }
+      }
+    },
+    "cta": {
+      "eyebrow": "Fertigung for Your Branche",
+      "title": "Let's develop the right Fertigung solution for your Projekt.",
+      "description": "Share your technische Zeichnung, Muster or Projekt details with us. Together, we can evaluate Fertigbarkeit, Prozessanforderungen and suitability for wiederholbar Fertigung.",
+      "note": "A Fertigung approach shaped around your Projekt, from custom parts to wiederholbar Fertigungsanforderungen.",
+      "primaryAction": "Discuss Your Projekt",
+      "secondaryAction": "Explore Our Capabilities"
+    }
+  },
+  "industryDetail": {
+    "automotive": {
+      "name": "Otomotiv",
+      "hero": {
+        "eyebrow": "AUTOMOTIVE Branche",
+        "title": "Fertigungslösungen for automotive wire, tube and Metallkomponenten.",
+        "description": "We develop projektspezifisch Fertigungslösungen for wire, tube, bent and welded Metallkomponenten used in automotive Anwendungen, with a focus on Fertigbarkeit, Wiederholgenauigkeit and technische Anforderungen.",
+        "primaryAction": "Discuss Your Projekt",
+        "secondaryAction": "Fertigungskompetenzen entdecken",
+        "imageAlt": "MBA Metal automotive wire, tube and metal Komponente Fertigung",
+        "scrollLabel": "Explore Automobilindustrie Solutions",
+        "visualLabel": "Fertigungssystem",
+        "productionLabel": "Komponente Fertigung",
+        "productionMeta": "Wire • Tube • Schweißen • Forming",
+        "badge": "Automobilindustrie Fertigung",
+        "imageCaption": "Von technischen Anforderungen zur wiederholbaren Fertigung.",
+        "capabilities": {
+          "wireForm": "Drahtformung",
+          "metalForm": "Metallumformung",
+          "welding": "Schweißen",
+          "repeatProduction": "Serienfertigung"
+        }
+      },
+      "overview": {
+        "eyebrow": "Fertigung for Automobilindustrie",
+        "title": "We evaluate the Fertigung requirement, not just the part.",
+        "description": "Fertigbarkeit in automotive Projekts depends not only on Geometrie, but also on Material, Toleranzen, Anwendung and wiederholbar Fertigungsanforderungen.",
+        "imageAlt": "MBA Metal automotive metal Komponente Fertigungsprozess",
+        "imageCaption": "An approach that considers the complete Fertigungsprozess, from Geometrie to Fertigung.",
+        "statement": "We consider not only the shape of the Komponente, but also the technische Anforderungen that make its Fertigung feasible and wiederholbar.",
+        "inputLabel": "Fertigung evaluation",
+        "inputs": {
+          "technicalDrawing": "Technical drawing",
+          "sample": "Muster / existing part",
+          "material": "Material",
+          "tolerance": "kritische Maße and Toleranzen",
+          "quantity": "Fertigung quantity"
+        },
+        "note": "If the technische Zeichnung is not yet complete, an initial Fertigbarkeit assessment can also be made using a Muster, approximate Abmessungen and Anwendung information."
+      },
+      "applicationsSection": {
+        "eyebrow": "Automobilindustrie Anwendungen",
+        "title": "From technische Anforderungen to manufacturable Komponenten.",
+        "description": "For automotive Projekts with different geometries, Materials and Fertigungsanforderungen, we evaluate wire, tube and Metallumformung Prozesses according to the needs of the Projekt.",
+        "noteLabel": "Anwendung approach",
+        "note": "Die Anwendungen shown represent Fertigung capabilities. The final Prozess wird anhand von the technische Zeichnung, Material, Toleranzen, Fertigungsmenge and Projektanforderungen festgelegt."
+      },
+      "applications": {
+        "wireForm": {
+          "title": "Wire Formed Komponenten",
+          "description": "Forming custom geometries for connection, fastening and support Anwendungen gemäß den technischen Anforderungen."
+        },
+        "weldedComponents": {
+          "title": "Geschweißte Unterbaugruppen",
+          "description": "Combining wire, tube and Metallteile into subKomponenten gemäß den Projektanforderungen."
+        },
+        "bentParts": {
+          "title": "Gebogene Metallkomponenten",
+          "description": "Metal forming Anwendungen performed according to the angles, forms and Abmessungen defined in the technische Zeichnung."
+        },
+        "tubeParts": {
+          "title": "Rohrkomponenten",
+          "description": "Tube parts bent, formed and, where required, joined according to Projekt Geometrie and Anwendung requirements."
+        }
+      },
+      "requirementsSection": {
+        "eyebrow": "Fertigungsanforderungen",
+        "title": "In automotive Fertigung, Geometrie alone is not enough.",
+        "description": "Along with the Anwendung of the Komponente, Toleranzen, Prozessstabilität and the ability to reproduce the same result must be evaluated together.",
+        "statementLabel": "Fertigung approach",
+        "statement": "The Fertigung method is evaluated gemäß den technischen Anforderungen at the beginning of the Projekt. The objective is not only to manufacture the Komponente, but to maintain the same Geometrie and Qualität level throughout Fertigung."
+      },
+      "requirements": {
+        "repeatability": {
+          "title": "Wiederholgenauigkeit",
+          "description": "In serial or Wiederholfertigung, the objective is to maintain consistent Geometrie and Fertigung results across Komponenten."
+        },
+        "tolerance": {
+          "title": "kritische Maße & Toleranzen",
+          "description": "Abmessungen and Toleranzen that affect Komponente functionality are evaluated together with the Fertigung and inspection approach."
+        },
+        "process": {
+          "title": "Prozessstabilität",
+          "description": "Bending, forming and joining operations are planned to be performed in a controlled and nachhaltig manner."
+        },
+        "quality": {
+          "title": "Qualitätskontrolle",
+          "description": "Compliance of the manufactured Komponente with technische Anforderungen is evaluated through Maßal and visual inspections."
+        }
+      },
+      "productionSection": {
+        "eyebrow": "Fertigungskompetenzen",
+        "title": "We match Komponente requirements with the appropriate Fertigungsprozess.",
+        "description": "Not every Komponente requires the same Fertigung method. Geometrie, Material, joining points and Fertigung volume are evaluated to determine an appropriate Prozess approach.",
+        "needLabel": "Branche requirement",
+        "solutionLabel": "MBA Metal Fertigung approach",
+        "noteLabel": "Prozess selection",
+        "note": "The Fertigung method is determined by evaluating the technische Zeichnung, Material, Toleranzen, Fertigung volume and Anwendung requirements together rather than considering Geometrie alone."
+      },
+      "production": {
+        "wire": {
+          "need": "Wire geometries",
+          "solution": "2D / 3D Drahtbiegen"
+        },
+        "joining": {
+          "need": "Komponente joining",
+          "solution": "Schweißen / Punktschweißen"
+        },
+        "forming": {
+          "need": "Metal forming requirements",
+          "solution": "Bending / forming"
+        },
+        "repeat": {
+          "need": "Repeat Fertigung",
+          "solution": "Jig & fixture approach"
+        },
+        "control": {
+          "need": "Product verification",
+          "solution": "Maßal / visual inspection"
+        }
+      }
+    },
+    "whiteGoods": {
+      "name": "Haushaltsgeräte",
+      "hero": {
+        "eyebrow": "Haushaltsgeräte",
+        "title": "Metal Komponente solutions designed for Serienfertigung.",
+        "description": "For home appliance Projekts, we evaluate Drahtumformung, Metallbiegen, welded subKomponenten and custom Fertigungsanforderungen according to technical specifications.",
+        "capabilities": {
+          "wireForm": "Drahtumformung",
+          "metalForm": "Metallbiegen & Forming",
+          "welding": "Schweißen & Punktschweißen",
+          "repeatProduction": "Wiederholfertigung"
+        },
+        "imageAlt": "Metal Komponente Fertigung for the home appliance Branche",
+        "imageCaption": "Metallkomponenten designed for Serienfertigung"
+      },
+      "overview": {
+        "eyebrow": "Branchenansatz",
+        "title": "Consistency and Prozessstabilität for high-volume Fertigung.",
+        "description": "Metallkomponenten used in the home appliance Branche are evaluated by considering Komponente Geometrie, assembly requirements, Toleranzen and Fertigung volumes together.",
+        "imageAlt": "Metal Komponente Fertigung Anwendung for home appliances",
+        "imageCaption": "A Prozess-driven approach to wiederholbar Fertigung",
+        "statement": "From technische Anforderungen to Serienfertigung, we evaluate the Komponente together with the entire Fertigungsprozess.",
+        "inputLabel": "Fertigung inputs",
+        "inputs": {
+          "technicalDrawing": "Technical drawing and Komponente Geometrie",
+          "sample": "Muster or reference Komponente",
+          "material": "Material and Oberflächenanforderungen",
+          "tolerance": "kritische Maße and Toleranzen",
+          "quantity": "Fertigung volume and Serienfertigung requirements"
+        },
+        "note": "The Fertigung method is determined by evaluating the Komponente Anwendung, technische Anforderungen and target Fertigung volume together."
+      },
+      "applicationsSection": {
+        "eyebrow": "Startseite Appliance Anwendungen",
+        "title": "Manufacturable Metallkomponenten for different product groups.",
+        "description": "Wire forming, Schweißen, bending and Metallumformung Prozesses are evaluated according to the intended Anwendung and technische Anforderungen of the Komponente.",
+        "noteLabel": "Anwendung approach",
+        "note": "Die Anwendungen shown represent Fertigung capabilities. The final Fertigung method wird anhand von the technische Zeichnung, Material, Toleranzen, Fertigung volume and Projektanforderungen festgelegt."
+      },
+      "applications": {
+        "wireForm": {
+          "title": "Wire Formed Komponenten",
+          "description": "Forming custom wire geometries gemäß den technischen Anforderungen for racks, supports, connections and fastening Anwendungen."
+        },
+        "weldedComponents": {
+          "title": "Geschweißte Unterbaugruppen",
+          "description": "Combining multiple Metallteile through Schweißen or Punktschweißen operations to create Fertigung-ready subKomponenten."
+        },
+        "bentParts": {
+          "title": "Gebogene Metallkomponenten",
+          "description": "Fertigung Metallkomponenten according to the angles, forms and Abmessungen defined in technische Zeichnungen through controlled bending and forming Prozesses."
+        },
+        "serialComponents": {
+          "title": "Serienfertigung Komponenten",
+          "description": "A Prozess approach designed to maintain consistent Geometrie and Fertigung results in Projekts requiring Wiederholfertigung."
+        }
+      },
+      "requirementsSection": {
+        "eyebrow": "Fertigungsanforderungen",
+        "title": "In Serienfertigung, every Komponente must deliver a consistent result.",
+        "description": "For home appliance Komponenten, Geometrie, Maßal stability, Fertigung Wiederholgenauigkeit, Oberflächenqualität and Prozess continuity are evaluated together.",
+        "statementLabel": "Fertigung approach",
+        "statement": "Every stage of Fertigung, from Prozess selection to inspection methods, is evaluated with the objective of maintaining the same technische Anforderungen across high Fertigung volumes."
+      },
+      "requirements": {
+        "repeatability": {
+          "title": "Wiederholgenauigkeit",
+          "description": "The objective is to maintain consistent Geometrie and Fertigung results between Komponenten throughout Serienfertigung."
+        },
+        "dimensionalStability": {
+          "title": "Maßal Stability",
+          "description": "kritische Maße affecting assembly and product functionality are intended to remain within the defined Toleranzen."
+        },
+        "serialProduction": {
+          "title": "Serienfertigung Compatibility",
+          "description": "The Fertigung method is evaluated with Prozessstabilität in mind for repeat and high-volume Fertigungsanforderungen."
+        },
+        "surfaceQuality": {
+          "title": "Oberfläche & Visual Qualität",
+          "description": "Depending on the Anwendung, Oberfläche condition, deformation and visual conformity are evaluated as part of the Fertigungsprozess."
+        }
+      },
+      "productionSection": {
+        "eyebrow": "Fertigungskompetenzen",
+        "title": "We match technische Anforderungen with the appropriate Fertigungsprozess.",
+        "description": "Komponente Geometrie, joining points, Material properties and Fertigung volume are evaluated to determine an appropriate Fertigung approach for the Projekt.",
+        "needLabel": "Branche requirement",
+        "solutionLabel": "MBA Metal Fertigung approach",
+        "noteLabel": "Prozess selection",
+        "note": "The Fertigung method is determined by evaluating the technische Zeichnung, Material, Toleranzen, Fertigung volume and Anwendung requirements together."
+      },
+      "production": {
+        "wire": {
+          "need": "Wire Komponente geometries",
+          "solution": "2D / 3D Drahtbiegen and forming"
+        },
+        "joining": {
+          "need": "Komponente joining",
+          "solution": "Schweißen / Punktschweißen Anwendungen"
+        },
+        "forming": {
+          "need": "Metal forming requirements",
+          "solution": "Bending / forming"
+        },
+        "repeat": {
+          "need": "High-volume Wiederholfertigung",
+          "solution": "Jig & fixture supported Fertigung"
+        },
+        "control": {
+          "need": "Fertigung result verification",
+          "solution": "Maßal / visual inspection"
+        }
+      }
+    },
+    "retail": {
+      "name": "Einzelhandel & Store Fixtures",
+      "hero": {
+        "eyebrow": "Einzelhandel & Store Fixtures",
+        "title": "Manufacturable metal solutions for retail and display systems.",
+        "description": "For retail and store fixture Projekts, we evaluate Drahtumformung, geschweißte Komponenten, Metallumformung and custom Fertigungsanforderungen according to technical specifications.",
+        "capabilities": {
+          "wireForm": "Drahtumformung",
+          "metalForm": "Metallumformung",
+          "welding": "Schweißen & Punktschweißen",
+          "repeatProduction": "Serienfertigung"
+        },
+        "imageAlt": "Metal Komponente solutions for retail and store fixture Anwendungen",
+        "imageCaption": "From technische Anforderungen to wiederholbar store fixture Fertigung.",
+        "visualLabel": "Fertigungssystem",
+        "productionLabel": "Store Komponenten",
+        "productionMeta": "Wire • Metal • Schweißen • Forming",
+        "badge": "Einzelhandel Fertigung"
+      },
+      "overview": {
+        "eyebrow": "Branchenansatz",
+        "title": "Function, visual Qualität and wiederholbar Fertigung together.",
+        "description": "Metallkomponenten used in store fixtures, shelving systems and display Anwendungen are evaluated together with product Geometrie, intended use, connection points and Fertigung volumes.",
+        "secondaryDescription": "At MBA Metal, we provide a Fertigung approach extending from technische Zeichnungen to Serienfertigung for Drahtteile, welded structures and formed Metallkomponenten.",
+        "highlight": "The objective is to produce Komponenten that perform their function in retail environments while maintaining visual consistency and Wiederholgenauigkeit.",
+        "statement": "The Fertigung approach is determined by considering the product's Anwendung, load requirements, connection details, visual expectations and Fertigung volume.",
+        "inputLabel": "Projektgrundlagen",
+        "inputs": {
+          "technicalDrawing": "Technical drawing",
+          "sample": "Muster / reference product",
+          "material": "Material information",
+          "tolerance": "Abmessungen & Toleranzen",
+          "quantity": "Fertigung volume"
+        },
+        "note": "Technical data is evaluated for Fertigbarkeit to establish the appropriate Prozess, tooling and control approach for the Projekt.",
+        "imageAlt": "Wire and metal Komponente Fertigung for retail Anwendungen",
+        "imageCaption": "wiederholbar metal Komponente Fertigung for store fixtures"
+      },
+      "applicationsSection": {
+        "eyebrow": "Einzelhandel Anwendungen",
+        "title": "Metallkomponenten that shape retail environments.",
+        "description": "From shelving and basket systems to product display Ausrüstung, we evaluate wire and Metallkomponenten according to projektspezifisch requirements.",
+        "noteLabel": "Anwendungsansatz",
+        "note": "Die Anwendungen shown represent Fertigung capabilities. The final Fertigung method wird anhand von technische Zeichnungen, Material, Geometrie, Oberflächenanforderungen and Fertigung volume festgelegt."
+      },
+      "applications": {
+        "wireSystems": {
+          "title": "Wire Shelves & Basket Systems",
+          "description": "Forming wire shelves, baskets and similar geometries used for product display, storage and organization Anwendungen."
+        },
+        "weldedComponents": {
+          "title": "Welded Drahtkomponenten",
+          "description": "Joining wire and Metallteile through Schweißen or spot-Schweißen operations to create subKomponenten suitable for retail Ausrüstung."
+        },
+        "displayComponents": {
+          "title": "Display & Stand Komponenten",
+          "description": "Fertigung custom wire and Metallteile used in product display stands and in-store systems according to Projekt Geometrie."
+        },
+        "customEquipment": {
+          "title": "Custom Store Ausrüstung",
+          "description": "projektspezifisch evaluation of store fixture Komponenten with non-standard Abmessungen and geometries gemäß den technischen Anforderungen."
+        }
+      },
+      "requirementsSection": {
+        "eyebrow": "Fertigungsanforderungen",
+        "title": "Fertigung consistency matters as much as function in store fixtures.",
+        "description": "Maßal accuracy, joining Qualität, visual consistency and wiederholbar Fertigung are evaluated together for Komponenten used in retail Anwendungen.",
+        "statementLabel": "Fertigungsansatz",
+        "statement": "Each Komponente is evaluated with suitable Prozesses according to assembly points, operating conditions, visual expectations and Fertigung volumes.",
+        "itemLabel": "Technische Anforderung"
+      },
+      "requirements": {
+        "dimensionalConsistency": {
+          "title": "Maßhaltigkeit",
+          "description": "kritische Maße are maintained so that shelves, baskets, stands and connection Komponenten can fit together correctly during assembly."
+        },
+        "joiningQuality": {
+          "title": "Joining & Schweißqualität",
+          "description": "For welded and spot-geschweißte Komponenten, connection points are expected to remain consistent and suitable for the intended Anwendung."
+        },
+        "visualQuality": {
+          "title": "Visual Qualität",
+          "description": "For store Ausrüstung directly visible to customers, deformation, Oberfläche condition and overall appearance are considered important parts of the Fertigungsprozess."
+        },
+        "repeatProduction": {
+          "title": "wiederholbar Fertigung",
+          "description": "For recurring orders or common store concepts, Komponente Geometrie and Fertigung results are expected to remain consistent."
+        }
+      },
+      "productionSection": {
+        "eyebrow": "Fertigungskompetenzen",
+        "title": "We connect store fixture requirements with the appropriate Fertigungsprozess.",
+        "description": "Wire Geometrie, connection points, Metallumformung requirements and Fertigung volume are evaluated to determine the appropriate Prozess combination.",
+        "needLabel": "Branche Requirement",
+        "solutionLabel": "Fertigungsansatz von MBA Metal",
+        "noteLabel": "Prozessauswahl",
+        "note": "The Fertigung method is determined by evaluating technische Zeichnungen, Musters, Material, Toleranzen, Oberflächenanforderungen and order volume together."
+      },
+      "production": {
+        "wire": {
+          "need": "Wire shelves, baskets and custom wire geometries",
+          "solution": "2D / 3D Drahtbiegen and forming"
+        },
+        "joining": {
+          "need": "Joining wire and Metallkomponenten",
+          "solution": "Schweißen / spot-Schweißen Anwendungen"
+        },
+        "forming": {
+          "need": "Bent and formed Metallteile",
+          "solution": "Metal bending / forming"
+        },
+        "custom": {
+          "need": "projektspezifisch store Ausrüstung",
+          "solution": "Fixture and tooling-supported Sonderfertigung"
+        },
+        "control": {
+          "need": "wiederholbar Fertigung and product verification",
+          "solution": "Maßal / visual inspection"
+        }
+      }
+    },
+    "logistics": {
+      "name": "Logistics & Transportation",
+      "hero": {
+        "eyebrow": "Logistics & Transportation",
+        "title": "Durable Metallkomponenten for transportation and storage systems.",
+        "description": "We evaluate wire, welded and formed Metallkomponenten used in logistics and transportation Anwendungen according to operating conditions, load requirements and technical specifications.",
+        "capabilities": {
+          "wireForm": "Drahtumformung",
+          "metalForm": "Metallbiegen & Forming",
+          "welding": "Schweißen & Punktschweißen",
+          "repeatProduction": "Serienfertigung"
+        },
+        "imageAlt": "Metal Komponente Fertigung for logistics and transportation Anwendungen",
+        "imageCaption": "Manufacturable metal solutions for transportation and storage Anwendungen.",
+        "visualLabel": "Fertigungssystem",
+        "productionLabel": "Logistics Komponenten",
+        "productionMeta": "Wire • Metal • Schweißen • Forming",
+        "badge": "Logistics-Focused Fertigung"
+      },
+      "overview": {
+        "eyebrow": "Branchenansatz",
+        "title": "A Fertigung approach designed for repeated use and operational conditions.",
+        "description": "Metallkomponenten used in logistics and transportation systems are evaluated together with product Geometrie, transportation conditions, load requirements, connection points and Fertigung volumes.",
+        "secondaryDescription": "At MBA Metal, we apply our Drahtumformung, Metallbiegen and welded Fertigung capabilities to Komponenten used in transportation, storage and Material handling Anwendungen.",
+        "highlight": "The objective is to manufacture Komponenten suitable for their operating conditions while maintaining Maßhaltigkeit and Wiederholgenauigkeit.",
+        "statement": "The Fertigung approach is determined by evaluating Komponente Geometrie, operating conditions, load expectations, connection details and Fertigung volume together.",
+        "inputLabel": "Projektgrundlagen",
+        "inputs": {
+          "technicalDrawing": "Technical drawing",
+          "sample": "Muster / reference product",
+          "material": "Material information",
+          "tolerance": "Abmessungen & Toleranzen",
+          "quantity": "Fertigung volume"
+        },
+        "note": "Technical data is evaluated for Fertigbarkeit to establish the appropriate Prozess, tooling, fixture and inspection approach for the Projekt.",
+        "imageAlt": "Metal Komponente Fertigung for logistics Anwendungen",
+        "imageCaption": "wiederholbar Komponente Fertigung for transportation and storage systems"
+      },
+      "applicationsSection": {
+        "eyebrow": "Logistics Anwendungen",
+        "title": "Metallkomponenten for transportation and storage Prozesses.",
+        "description": "From wire structures to welded transportation Komponenten, we evaluate different Anwendungen according to operating conditions and projektspezifisch technische Anforderungen.",
+        "noteLabel": "Anwendungsansatz",
+        "note": "Die Anwendungen shown represent Fertigung capabilities. The final Fertigung method wird anhand von technische Zeichnungen, Material, Geometrie, load requirements and Fertigung volume festgelegt."
+      },
+      "applications": {
+        "transportCages": {
+          "title": "Transportkäfige & Konstruktionen",
+          "description": "Fertigung wire and metal structures for transportation and storage operations according to projektspezifisch geometries."
+        },
+        "wireComponents": {
+          "title": "Geformte Drahtkomponenten",
+          "description": "Forming custom wire geometries used for fixing, supporting, separating and transportation systems gemäß den technischen Anforderungen."
+        },
+        "bentComponents": {
+          "title": "Gebogene Metallkomponenten",
+          "description": "Forming Metallteile used in transportation and storage Ausrüstung according to the angles, shapes and Abmessungen defined in technische Zeichnungen."
+        },
+        "customSolutions": {
+          "title": "Custom Transportation Solutions",
+          "description": "projektspezifisch evaluation of transportation or storage Komponenten with non-standard geometries and operating requirements."
+        }
+      },
+      "requirementsSection": {
+        "eyebrow": "Fertigungsanforderungen",
+        "title": "Operational use defines the fundamental requirements of the Fertigungsprozess.",
+        "description": "Load requirements, Maßhaltigkeit, joining Qualität and wiederholbar Fertigung are evaluated together for Komponenten used in logistics Anwendungen.",
+        "statementLabel": "Fertigungsansatz",
+        "statement": "Each Komponente is evaluated with suitable Prozesses according to operating conditions, transportation requirements, connection points and Fertigung volumes.",
+        "itemLabel": "Technische Anforderung"
+      },
+      "requirements": {
+        "loadResistance": {
+          "title": "Operating & Load Requirements",
+          "description": "Komponente Geometrie and the Fertigung approach are evaluated according to the operational and load requirements expected during use."
+        },
+        "dimensionalConsistency": {
+          "title": "Maßhaltigkeit",
+          "description": "kritische Maße affecting assembly, stacking or compatibility within the system are maintained throughout Wiederholfertigung."
+        },
+        "joiningQuality": {
+          "title": "Joining & Schweißqualität",
+          "description": "For welded and spot-geschweißte Komponenten, connection points are expected to remain suitable for their intended use and consistent throughout Fertigung."
+        },
+        "repeatProduction": {
+          "title": "wiederholbar Fertigung",
+          "description": "Prozess stability is considered to maintain the same Komponente Geometrie and Fertigung result across recurring orders."
+        }
+      },
+      "productionSection": {
+        "eyebrow": "Fertigungskompetenzen",
+        "title": "We connect logistics Anwendung requirements with the appropriate Fertigungsprozess.",
+        "description": "Komponente Geometrie, connection points, Metallumformung requirements and Fertigung volume are evaluated to determine the appropriate Prozess combination.",
+        "needLabel": "Branche Requirement",
+        "solutionLabel": "Fertigungsansatz von MBA Metal",
+        "noteLabel": "Prozessauswahl",
+        "note": "The Fertigung method is determined by evaluating technische Zeichnungen, Musters, Material, Toleranzen, operating conditions and Fertigung volume together."
+      },
+      "production": {
+        "wire": {
+          "need": "Custom wire geometries for transportation systems",
+          "solution": "2D / 3D Drahtbiegen and forming"
+        },
+        "joining": {
+          "need": "Joining wire and metal structures",
+          "solution": "Schweißen / spot-Schweißen Anwendungen"
+        },
+        "forming": {
+          "need": "Bent and formed Metallteile",
+          "solution": "Metal bending / forming"
+        },
+        "custom": {
+          "need": "projektspezifisch transportation and storage Komponenten",
+          "solution": "Fixture and tooling-supported Sonderfertigung"
+        },
+        "control": {
+          "need": "wiederholbar Fertigung and product verification",
+          "solution": "Maßal / visual inspection"
+        }
+      }
+    },
+    "industrial": {
+      "name": "Endüstriyel Üretim",
+      "hero": {
+        "eyebrow": "Endüstriyel Üretim",
+        "title": "Teknik gereksinimlere göre şekillenen metal komponent üretimi.",
+        "description": "Endüstriyel projelerde tel şekillendirme, metal büküm, kaynaklı alt komponent ve projeye özel üretim ihtiyaçlarını teknik resim ve üretim gereksinimleri doğrultusunda değerlendiriyoruz.",
+        "capabilities": {
+          "wireForm": "Tel Şekillendirme",
+          "metalForm": "Metal Büküm & Form",
+          "welding": "Kaynak & Punta",
+          "repeatProduction": "Seri Üretim"
+        },
+        "imageAlt": "Endüstriyel metal komponent üretimi",
+        "imageCaption": "Teknik gereksinimden üretilebilir ve tekrarlanabilir komponentlere.",
+        "visualLabel": "Üretim Sistemi",
+        "productionLabel": "Endüstriyel Komponentler",
+        "productionMeta": "Tel • Metal • Kaynak • Şekillendirme",
+        "badge": "Endüstriyel Üretim"
+      },
+      "overview": {
+        "eyebrow": "Sektörel Yaklaşım",
+        "title": "Teknik gereksinimleri üretilebilir proseslere dönüştürüyoruz.",
+        "description": "Endüstriyel uygulamalarda kullanılan komponentler; teknik resim, parça geometrisi, malzeme, toleranslar, bağlantı detayları ve üretim miktarları birlikte değerlendirilerek ele alınır.",
+        "secondaryDescription": "MBA Metal olarak tel şekillendirme, metal büküm, kaynak ve özel üretim kabiliyetlerimizi farklı endüstriyel projelerin komponent ihtiyaçlarına göre bir araya getiriyoruz.",
+        "highlight": "Amaç yalnızca teknik resimdeki parçayı üretmek değil; üretilebilir, kontrol edilebilir ve tekrarlanabilir bir proses oluşturmaktır.",
+        "statement": "Her proje; geometri, malzeme, tolerans, üretim adedi ve kullanım gereksinimleri birlikte değerlendirilerek uygun üretim prosesine dönüştürülür.",
+        "inputLabel": "Proje Girdileri",
+        "inputs": {
+          "technicalDrawing": "Teknik resim",
+          "sample": "Numune / referans ürün",
+          "material": "Malzeme bilgisi",
+          "tolerance": "Ölçü & toleranslar",
+          "quantity": "Üretim adedi"
+        },
+        "note": "Proje girdileri üretilebilirlik açısından değerlendirilerek proses, aparat, fikstür ve kontrol ihtiyaçları belirlenir.",
+        "imageAlt": "Endüstriyel komponent üretim prosesi",
+        "imageCaption": "Teknik gereksinimlere göre planlanan metal komponent üretimi"
+      },
+      "applicationsSection": {
+        "eyebrow": "Endüstriyel Uygulamalar",
+        "title": "Farklı endüstriyel ihtiyaçlar için üretilebilir komponentler.",
+        "description": "Tel parçalardan kaynaklı alt montajlara ve özel metal geometrilere kadar farklı komponent ihtiyaçlarını proje gereksinimlerine göre değerlendiriyoruz.",
+        "noteLabel": "Uygulama Yaklaşımı",
+        "note": "Gösterilen uygulamalar üretim kabiliyetlerini temsil eder. Nihai proses; teknik resim, malzeme, tolerans, geometri ve üretim adedine göre belirlenir."
+      },
+      "applications": {
+        "wireComponents": {
+          "title": "Şekillendirilmiş Tel Komponentler",
+          "description": "Endüstriyel ekipman ve sistemlerde kullanılan özel tel geometrilerinin teknik resim ve proje gereksinimlerine göre şekillendirilmesi."
+        },
+        "weldedAssemblies": {
+          "title": "Kaynaklı Alt Komponentler",
+          "description": "Tel ve metal parçaların kaynak veya punta operasyonlarıyla birleştirilerek üretime hazır alt komponentler haline getirilmesi."
+        },
+        "formedParts": {
+          "title": "Bükümlü & Şekillendirilmiş Parçalar",
+          "description": "Teknik resimde tanımlanan açı, ölçü ve geometrilere göre metal parçaların kontrollü büküm ve şekillendirme prosesleriyle üretilmesi."
+        },
+        "customComponents": {
+          "title": "Projeye Özel Komponentler",
+          "description": "Standart üretimlerin dışında kalan özel geometrilerin, numune veya teknik resim üzerinden üretilebilirlik açısından değerlendirilmesi."
+        }
+      },
+      "requirementsSection": {
+        "eyebrow": "Üretim Gereksinimleri",
+        "title": "İyi bir komponent, doğru proses planlamasıyla başlar.",
+        "description": "Endüstriyel komponent üretiminde üretilebilirlik, toleranslar, proses kararlılığı ve kontrol yaklaşımı birlikte değerlendirilir.",
+        "statementLabel": "Üretim Yaklaşımı",
+        "statement": "Teknik gereksinimler yalnızca parçanın geometrisini değil, kullanılacak prosesleri, aparat ihtiyaçlarını ve kontrol yöntemlerini de belirler.",
+        "itemLabel": "Teknik Gereksinim"
+      },
+      "requirements": {
+        "manufacturability": {
+          "title": "Üretilebilirlik",
+          "description": "Parça geometrisi, malzeme ve teknik gereksinimler uygun üretim proseslerinin belirlenebilmesi için birlikte değerlendirilir."
+        },
+        "tolerance": {
+          "title": "Ölçü & Tolerans Yönetimi",
+          "description": "Ürün fonksiyonunu veya montaj uyumunu etkileyen kritik ölçülerin tanımlanan toleranslar içerisinde sürdürülebilmesi hedeflenir."
+        },
+        "processStability": {
+          "title": "Proses Kararlılığı",
+          "description": "Tekrarlı üretimde aynı geometrinin ve üretim sonucunun korunabilmesi için proses, aparat ve fikstür yaklaşımı birlikte ele alınır."
+        },
+        "qualityControl": {
+          "title": "Üretim Kontrolü",
+          "description": "Üretim sonucu; proje gereksinimine göre ölçüsel ve görsel kontrollerle değerlendirilerek teknik beklentilerin doğrulanması amaçlanır."
+        }
+      },
+      "productionSection": {
+        "eyebrow": "Üretim Kabiliyetleri",
+        "title": "Teknik ihtiyacı uygun üretim prosesleriyle eşleştiriyoruz.",
+        "description": "Parça geometrisi, bağlantı noktaları, malzeme, tolerans ve üretim miktarı değerlendirilerek projeye uygun proses kombinasyonu oluşturulur.",
+        "needLabel": "Üretim İhtiyacı",
+        "solutionLabel": "MBA Metal Üretim Yaklaşımı",
+        "noteLabel": "Proses Seçimi",
+        "note": "Üretim yöntemi; teknik resim, numune, malzeme, toleranslar, üretim miktarı ve kullanım gereksinimleri birlikte değerlendirilerek belirlenir."
+      },
+      "production": {
+        "wire": {
+          "need": "Özel tel geometrileri",
+          "solution": "2D / 3D tel büküm ve şekillendirme"
+        },
+        "joining": {
+          "need": "Komponent ve alt montaj birleştirme",
+          "solution": "Kaynak / punta uygulamaları"
+        },
+        "forming": {
+          "need": "Bükümlü ve şekillendirilmiş metal parçalar",
+          "solution": "Metal büküm / şekillendirme"
+        },
+        "custom": {
+          "need": "Projeye özel komponent üretimi",
+          "solution": "Aparat & fikstür destekli özel üretim"
+        },
+        "control": {
+          "need": "Üretim sonucu doğrulama",
+          "solution": "Ölçüsel / görsel kontrol"
+        }
+      }
+    },
+    "defenseAerospaceSecurity": {
+      "name": "Verteidigung, Luft- und Raumfahrt & Sicherheit",
+      "hero": {
+        "eyebrow": "VERTEIDIGUNG • LUFT- UND RAUMFAHRT • SICHERHEIT",
+        "title": "Precision and wiederholbar metal Komponente Fertigung for critical Anwendungen.",
+        "description": "We evaluate wire, bent metal and geschweißte Komponenten used in defense, aerospace and security Anwendungen according to technische Zeichnungen, Materials, Toleranzen and Projektanforderungen with a focus on Fertigbarkeit.",
+        "capabilities": {
+          "wireForm": "Drahtumformung",
+          "metalForm": "Precision Metallbiegen",
+          "welding": "Schweißbaugruppen",
+          "repeatProduction": "wiederholbar Fertigung"
+        },
+        "imageAlt": "MBA Metal metal Komponente Fertigung for defense aerospace and security Anwendungen",
+        "imageCaption": "From technische Anforderungen to controlled and wiederholbar Komponente Fertigung.",
+        "visualLabel": "Fertigungssystem",
+        "productionLabel": "Präzisionskomponentenfertigung",
+        "productionMeta": "Wire • Metal • Schweißen • Bending",
+        "badge": "Defense & Aerospace Fertigung"
+      },
+      "overview": {
+        "eyebrow": "Branchenansatz",
+        "title": "Transforming critical technische Anforderungen into manufacturable solutions.",
+        "description": "In defense, aerospace and security Projekts, Komponente Geometrie is evaluated together with Material specifications, kritische Maße, Toleranzen, joining points and Fertigung Wiederholgenauigkeit.",
+        "secondaryDescription": "At MBA Metal, we combine our Drahtumformung, Metallbiegen and Schweißen capabilities with projektspezifisch technische Anforderungen to develop kontrollierte Fertigung solutions.",
+        "highlight": "The objective is to manufacture Komponenten that meet technische Anforderungen while remaining controllable and wiederholbar.",
+        "statement": "The Fertigung approach is determined by evaluating technische Zeichnungen, Material properties, critical Toleranzen, operating conditions and target Fertigungsmengen together.",
+        "inputLabel": "Projektgrundlagen",
+        "inputs": {
+          "technicalDrawing": "Technical drawing and specification",
+          "sample": "Muster / reference Komponente",
+          "material": "Material and Oberflächenanforderungen",
+          "tolerance": "kritische Maße and Toleranzen",
+          "quantity": "Prototyp / Serienfertigung quantity"
+        },
+        "note": "Projekt inputs are evaluated in terms of Fertigbarkeit to determine the appropriate Prozess, tooling, inspection and Fertigung approach.",
+        "imageAlt": "Precision metal Komponente Fertigung for defense aerospace and security Anwendungen",
+        "imageCaption": "Controlled metal Komponente Fertigung for critical Anwendungen"
+      },
+      "applicationsSection": {
+        "eyebrow": "Branchenanwendungen",
+        "title": "Metallkomponenten shaped around technische Anforderungen.",
+        "description": "From Drahtumformung and precision Biegeteile to welded subKomponenten and projektspezifisch Fertigung, we evaluate different requirements according to technical specifications.",
+        "noteLabel": "Anwendungsansatz",
+        "note": "Die Anwendungen shown represent Fertigung capabilities. The final Fertigung method wird anhand von technische Zeichnungen, Materials, Toleranzen, operating conditions and Fertigungsmengen festgelegt."
+      },
+      "applications": {
+        "wireComponents": {
+          "title": "Kundenspezifische Drahtkomponenten",
+          "description": "Forming custom wire geometries for connection, fastening, carrying and support Anwendungen gemäß den technischen Anforderungen."
+        },
+        "weldedComponents": {
+          "title": "Geschweißte Unterbaugruppen",
+          "description": "Joining wire and Metallteile using Schweißen methods selected gemäß den Projektanforderungen to create controlled subKomponenten."
+        },
+        "bentComponents": {
+          "title": "Präzisionsgebogene Metallkomponenten",
+          "description": "Controlled bending and forming of Metallkomponenten according to the angles, forms, Abmessungen and Toleranzen defined in technische Zeichnungen."
+        },
+        "customComponents": {
+          "title": "Projektspezifische Komponenten",
+          "description": "Evaluating and Fertigung Metallkomponenten with non-standard geometries and technische Anforderungen according to Projekt inputs and Fertigbarkeit criteria."
+        }
+      },
+      "requirementsSection": {
+        "eyebrow": "Fertigungsanforderungen",
+        "title": "Critical Anwendungen require controlled and wiederholbar Fertigung.",
+        "description": "Precision, Prozessstabilität, Prozess monitoring and Qualitätsanforderungen are fundamental elements of the Fertigung approach for defense, aerospace and security Anwendungen.",
+        "statementLabel": "Fertigungsansatz",
+        "statement": "A Komponente is evaluated not only by its Geometrie, but together with its kritische Maße, Material, Prozess steps and inspection requirements.",
+        "itemLabel": "Technische Anforderung"
+      },
+      "requirements": {
+        "precision": {
+          "title": "Präzision & Toleranz",
+          "description": "kritische Maße affecting function and assembly are evaluated to ensure they can be manufactured and inspected within defined Toleranzen."
+        },
+        "repeatability": {
+          "title": "Wiederholgenauigkeit",
+          "description": "From Prototyp to Serienfertigung, the objective is to maintain the approved Geometrie and Fertigung result consistently across subsequent Fertigung runs."
+        },
+        "traceability": {
+          "title": "Prozess Monitoring",
+          "description": "Fertigung steps are defined gemäß den Projektanforderungen, with critical operations managed through a kontrollierte Fertigung approach."
+        },
+        "quality": {
+          "title": "Qualitätskontrolle",
+          "description": "Manufactured Komponenten are evaluated against Projekt criteria for kritische Maße, form, welded areas and visual requirements."
+        }
+      },
+      "productionSection": {
+        "eyebrow": "Fertigungskompetenzen",
+        "title": "Matching technische Anforderungen with the appropriate Fertigungsprozess.",
+        "description": "Komponente Geometrie, Material, Toleranzen, joining points and Fertigungsmengen are evaluated together to establish an appropriate Fertigung approach.",
+        "needLabel": "Technische Anforderung",
+        "solutionLabel": "Fertigungsansatz von MBA Metal",
+        "noteLabel": "Prozessauswahl",
+        "note": "The Fertigung method is determined by evaluating technische Zeichnungen, Materials, Toleranzen, joining requirements, inspection criteria and Fertigungsmengen together rather than considering Geometrie alone."
+      },
+      "production": {
+        "wire": {
+          "need": "Custom wire geometries",
+          "solution": "2D / 3D Drahtbiegen and forming"
+        },
+        "forming": {
+          "need": "Precision Metallumformung",
+          "solution": "Controlled bending and forming"
+        },
+        "joining": {
+          "need": "Komponente joining",
+          "solution": "MIG / WIG / Punktschweißen Anwendungen"
+        },
+        "repeat": {
+          "need": "wiederholbar Fertigung",
+          "solution": "Jig and fixture supported Fertigung"
+        },
+        "control": {
+          "need": "Technical conformity verification",
+          "solution": "Maßal and visual inspection"
+        }
+      }
+    },
+    "marine": {
+      "hero": {
+        "eyebrow": "SCHIFF • MARITIM • HAFEN",
+        "title": "Metallkomponentenfertigung für maritime Anwendungen",
+        "description": "Wir bieten Drahtumformung, Rohrbiegen, Metallumformung, Schweißen und kundenspezifische Komponentenfertigung für unterschiedliche Anforderungen im Schiffbau sowie in maritimen und Hafenanwendungen.",
+        "primaryAction": "Projekt anfragen",
+        "secondaryAction": "Unsere Fertigungsmöglichkeiten",
+        "scrollLabel": "Entdecken",
+        "imageCaption": "Metallfertigungslösungen für maritime und Hafenanwendungen",
+        "imageAlt": "MBA Metal Metallkomponentenfertigung für Schiffs-, maritime und Hafenanwendungen",
+        "visualLabel": "Maritime Anwendungen",
+        "productionLabel": "Metallkomponentenfertigung",
+        "productionMeta": "Draht • Rohr • Schweißen • Umformen",
+        "badge": "Schiff • Maritim • Hafen",
+        "capabilities": {
+          "wireForm": "Drahtumformung",
+          "metalForm": "Metallumformung",
+          "welding": "Schweißverbindungen",
+          "repeatProduction": "Wiederholbare Fertigung"
+        }
+      },
+      "overview": {
+        "eyebrow": "BRANCHENSPEZIFISCHE FERTIGUNG",
+        "title": "Fertigungsansatz für anspruchsvolle maritime Bedingungen",
+        "description": "Metallkomponenten für maritime und Hafenanwendungen müssen unter Berücksichtigung von Umgebungsbedingungen, mechanischen Belastungen, Korrosionsrisiken und langfristigen Einsatzanforderungen bewertet werden. Bei MBA Metal analysieren wir die Fertigbarkeit anhand technischer Zeichnungen und Projektanforderungen, bestimmen geeignete Fertigungsverfahren und entwickeln reproduzierbare Produktionsprozesse.",
+        "highlight": "Kontrollierte und nachhaltige Metallkomponentenlösungen von den technischen Anforderungen bis zur Fertigung.",
+        "imageLabel": "MARITIME ANWENDUNGEN",
+        "statement": "Bei maritimen und Hafenprojekten bewerten wir technische Anforderungen gemeinsam mit Material, Geometrie, Einsatzbedingungen und Produktionsmenge und entwickeln daraus fertigungsgerechte Lösungen.",
+        "inputLabel": "Projekteingaben",
+        "inputs": {
+          "technicalDrawing": "Technische Zeichnung und Spezifikation",
+          "sample": "Muster / Referenzkomponente",
+          "material": "Material- und Oberflächenanforderungen",
+          "tolerance": "Kritische Maße und Toleranzen",
+          "quantity": "Prototypen- / Serienmenge"
+        },
+        "note": "Die Projekteingaben werden hinsichtlich der Fertigbarkeit bewertet, um geeignete Umform-, Schweiß-, Vorrichtungs-, Prüf- und Fertigungsprozesse festzulegen.",
+        "imageAlt": "Metallkomponentenfertigung für Schiffs-, maritime und Hafenanwendungen",
+        "imageCaption": "Kontrollierte Metallkomponentenfertigung für maritime Anwendungen"
+      },
+      "applicationsSection": {
+        "eyebrow": "ANWENDUNGSBEREICHE",
+        "title": "Schiffs-, maritime und Hafenanwendungen",
+        "description": "Wir passen unsere Metallumformungs- und Schweißkompetenzen an unterschiedliche Komponentenanforderungen maritimer und hafenbezogener Anwendungen an.",
+        "noteLabel": "Anwendungsansatz",
+        "note": "Die gezeigten Anwendungen stehen für unsere Fertigungskompetenzen. Das endgültige Fertigungsverfahren wird anhand von Zeichnung, Material, Toleranzen, Einsatzbedingungen und Produktionsmenge festgelegt."
+      },
+      "applications": {
+        "metalComponents": {
+          "title": "Metallkomponenten für Schiff und Deck",
+          "description": "Fertigung zeichnungsspezifischer gebogener, umgeformter und geschweißter Metallkomponenten für Decksysteme, Schutzkonstruktionen, Verbindungselemente und verschiedene Schiffsausrüstungen."
+        },
+        "weldedComponents": {
+          "title": "Geschweißte Metallkomponenten",
+          "description": "Fertigung geschweißter Komponenten und Baugruppen für maritime Anwendungen mittels MIG-/WIG-Schweißen und weiteren geeigneten Schweißverfahren."
+        },
+        "portEquipment": {
+          "title": "Komponenten für Hafen- und Terminalausrüstung",
+          "description": "Fertigung von Metallkomponenten für Schutz-, Trag- und Hilfsausrüstungen in Häfen, Terminals sowie Lade- und Materialtransportsystemen."
+        },
+        "customComponents": {
+          "title": "Kundenspezifische Metallkomponenten",
+          "description": "Kundenspezifische Fertigung von Metallkomponenten nach technischer Zeichnung oder Muster für maritime Projekte mit besonderen Abmessungen, Geometrien und Einsatzanforderungen."
+        }
+      },
+      "requirementsSection": {
+        "eyebrow": "TECHNISCHE ANFORDERUNGEN",
+        "title": "Fertigungsanforderungen für maritime Anwendungen",
+        "description": "Bei Metallkomponenten für maritime Umgebungen müssen Materialauswahl, Beständigkeit, Maßhaltigkeit und Fertigungsqualität gemeinsam betrachtet werden.",
+        "statementLabel": "UNSER FERTIGUNGSANSATZ",
+        "statement": "Wir bewerten jedes Projekt anhand seiner technischen Anforderungen und planen Material, Geometrie, Fertigungsverfahren und Qualitätskontrollen entsprechend den vorgesehenen Einsatzbedingungen.",
+        "itemLabel": "Technische Anforderung"
+      },
+      "requirements": {
+        "corrosionResistance": {
+          "title": "Korrosions- und Materialanforderungen",
+          "description": "Bewertung geeigneter Materialien und Oberflächenanforderungen unter Berücksichtigung von Feuchtigkeit, Salzbelastung und weiteren Umwelteinflüssen maritimer Einsatzbereiche."
+        },
+        "durability": {
+          "title": "Mechanische Festigkeit und Langlebigkeit",
+          "description": "Bewertung von Komponentengeometrie und Fertigungsverfahren entsprechend mechanischer Belastungen und langfristiger Einsatzanforderungen."
+        },
+        "dimensionalConsistency": {
+          "title": "Maßhaltigkeit",
+          "description": "Einhaltung der in technischen Zeichnungen definierten Maße und Toleranzen durch kontrollierte Fertigungsprozesse zur Unterstützung von Montage und Funktion."
+        },
+        "productionQuality": {
+          "title": "Fertigungs- und Schweißqualität",
+          "description": "Durchführung von Umform-, Biege- und Schweißoperationen nach definierten Prozessen sowie Überprüfung der Fertigungsergebnisse durch Qualitätskontrollen."
+        }
+      },
+      "productionSection": {
+        "eyebrow": "FERTIGUNGSMÖGLICHKEITEN",
+        "title": "Von der Anforderung zur Fertigungslösung",
+        "description": "Wir übertragen unterschiedliche Komponentenanforderungen maritimer und hafenbezogener Projekte mithilfe unserer Metallbearbeitungskompetenzen in fertigbare Lösungen.",
+        "needLabel": "ANFORDERUNG",
+        "solutionLabel": "FERTIGUNGSLÖSUNG",
+        "noteLabel": "Prozessauswahl",
+        "note": "Das Fertigungsverfahren wird unter gemeinsamer Berücksichtigung von Zeichnung, Material, Toleranzen, Verbindungsanforderungen, Prüfkriterien und Produktionsmenge festgelegt."
+      },
+      "production": {
+        "wire": {
+          "need": "Schutz-, Trag- oder Verbindungskomponenten aus Draht",
+          "solution": "CNC-Drahtbiegen und Drahtumformung"
+        },
+        "forming": {
+          "need": "Rohr- und Metallteile mit unterschiedlichen Geometrien",
+          "solution": "Rohrbiegen und Metallumformung"
+        },
+        "joining": {
+          "need": "Geschweißte Komponenten aus mehreren Einzelteilen",
+          "solution": "MIG-/WIG-Schweißen, Punktschweißen und geschweißte Baugruppen"
+        },
+        "custom": {
+          "need": "Projekt- oder zeichnungsspezifische Komponenten",
+          "solution": "Kundenspezifische Fertigung nach Muster und technischer Zeichnung"
+        },
+        "control": {
+          "need": "Reproduzierbare Maße und Fertigungsqualität",
+          "solution": "Prozesskontrolle und Qualitätsprüfung"
+        }
+      },
+      "name": "Schiff, Maritim & Hafen"
+    }
+  },
+  "marketPage": {
+    "hero": {
+      "eyebrow": "MÄRKTE • FERTIGUNGSLÖSUNGEN",
+      "title": "Wir verbinden unsere Fertigungskompetenzen mit den technischen Anforderungen unterschiedlicher Märkte.",
+      "description": "Von Maschinen- und Anlagenherstellern bis hin zu Anwendungen in den Bereichen Energie, Elektrotechnik und Klimatechnik bewerten wir Anforderungen an Draht-, Rohr- und Metallkomponenten mit einem projektspezifischen Fertigungsansatz.",
+      "primaryAction": "Märkte entdecken",
+      "secondaryAction": "Projekt teilen",
+      "panel": {
+        "eyebrow": "MARKTSPEKTRUM",
+        "title": "Zielbereiche der Fertigung",
+        "marketGroups": "Hauptmarktgruppe",
+        "applicationAreas": "Anwendungsbereich"
+      },
+      "bottom": {
+        "primary": "Maschinen & Anlagen • Energie • Elektrotechnik • HVAC",
+        "secondary": "Projektorientierte Metallfertigung"
+      }
+    },
+    "segments": {
+      "eyebrow": "ZIELMÄRKTE",
+      "title": "Unterschiedliche Fertigungsbereiche. Ein gemeinsamer Bedarf: zuverlässige Metallkomponenten.",
+      "description": "Wir passen unsere Fertigungskompetenzen an die technischen Anforderungen unterschiedlicher Maschinen-, Anlagen-, Energie- und Infrastrukturanwendungen an.",
+      "applicationLabel": "Anwendungen und Kundengruppen",
+      "items": {
+        "machineryEquipment": {
+          "eyebrow": "MARKT",
+          "title": "Maschinen- und Anlagenhersteller",
+          "description": "Wir bewerten den Bedarf von Maschinen- und Anlagenherstellern an Metallkomponenten mit unterschiedlichen Geometrien, Werkstoffen und Stückzahlen und setzen dabei unsere Kompetenzen in der Drahtumformung, Rohrbiegung, Metallumformung und Schweißtechnik ein.",
+          "imageAlt": "Fertigung von Metallkomponenten für Maschinen und Anlagen",
+          "imageLabel": "Maschinen • Anlagen • Industrielle Fertigung",
+          "applications": {
+            "agricultureConstructionMachinery": "Hersteller von Land- und Baumaschinen",
+            "foodProcessingPackaging": "Hersteller von Lebensmittelverarbeitungs- und Verpackungsmaschinen",
+            "textileMachinery": "Hersteller von Textilmaschinen",
+            "plasticInjectionPackaging": "Hersteller von Kunststoffspritzguss- und Verpackungsmaschinen",
+            "conveyorElevatorLifting": "Hersteller von Förder-, Aufzugs- und Hebetechnik",
+            "compressorPumpGeneratorMotor": "Hersteller von Kompressoren, Pumpen, Generatoren und Motoren",
+            "industrialOvenBoilerHeating": "Hersteller von Industrieöfen, Kesseln und Heizungsanlagen",
+            "warehouseLogisticsEquipment": "Hersteller von Lagerregalen, Förder- und Logistikausrüstung",
+            "machineryMaintenance": "Unternehmen für Maschinenüberholung und -wartung"
+          }
+        },
+        "energyElectricalHvac": {
+          "eyebrow": "MARKT",
+          "title": "Energie, Elektrotechnik und Klimatechnik",
+          "description": "Wir bewerten den Bedarf an Metallkomponenten für Energieerzeugung, elektrische Infrastruktur und Klimatechnik entsprechend den Projektanforderungen und passen unsere Kompetenzen in Umformung, Biegung, Schweißen und kundenspezifischer Fertigung an die jeweilige Anwendung an.",
+          "imageAlt": "Fertigung von Metallkomponenten für Energie-, Elektro- und Klimatechnikanwendungen",
+          "imageLabel": "Energie • Elektrotechnik • HVAC • Infrastruktur",
+          "applications": {
+            "solarEnergy": "Hersteller von Tragkonstruktionen für Solaranlagen",
+            "windEnergy": "Unternehmen für Windenergieanlagen und deren Wartung",
+            "electricalPanels": "Hersteller von Schaltschränken und Elektrogehäusen",
+            "generatorTransformer": "Hersteller von Generatoren und Transformatoren",
+            "hvac": "Hersteller von HVAC-, Lüftungskanal- und Klimaanlagen",
+            "boilerPressureVesselPiping": "Unternehmen für Kessel, Druckbehälter und Rohrleitungssysteme",
+            "dataCenterTelecom": "Unternehmen für Rechenzentrums- und Telekommunikationsinfrastruktur",
+            "electricalDistribution": "Auftragnehmer von Stromverteilungsunternehmen"
+          }
+        }
+      }
+    },
+    "approach": {
+      "eyebrow": "UNSER PROJEKTANSATZ",
+      "title": "Ein Prozess von der technischen Anforderung bis zur kontrollierten Fertigung.",
+      "description": "Wir beginnen jedes Projekt mit einem Verständnis der technischen Anforderungen und steuern den Fertigungsprozess systematisch – von der Bewertung der Herstellbarkeit über die Prozessplanung und Fertigung bis zur Qualitätskontrolle.",
+      "items": {
+        "technicalRequirement": {
+          "title": "Technische Anforderungen",
+          "description": "Wir bewerten Bauteilgeometrie, Werkstoff, Toleranzen, Einsatzbereich und Fertigungserwartungen, um den technischen Rahmen des Projekts festzulegen."
+        },
+        "manufacturability": {
+          "title": "Herstellbarkeit",
+          "description": "Wir bewerten die technischen Anforderungen hinsichtlich vorhandener Fertigungsmöglichkeiten, Prozessalternativen und geeigneter Fertigungsverfahren."
+        },
+        "processPlanning": {
+          "title": "Prozessplanung",
+          "description": "Wir planen den geeigneten Prozessablauf für Umformung, Biegung, Schweißen und weitere zur Herstellung des Bauteils erforderliche Arbeitsschritte."
+        },
+        "production": {
+          "title": "Fertigung",
+          "description": "Wir fertigen Metallkomponenten entsprechend den Projektanforderungen und dem festgelegten Prozessablauf."
+        },
+        "qualityControl": {
+          "title": "Qualitätskontrolle",
+          "description": "Wir bewerten die gefertigten Komponenten anhand der technischen Anforderungen und festgelegten Prüfkriterien und schließen damit den Fertigungsprozess ab."
+        }
+      }
+    },
+    "cta": {
+      "eyebrow": "LASSEN SIE UNS ÜBER IHR PROJEKT SPRECHEN",
+      "title": "Lassen Sie uns Ihren Fertigungsbedarf gemeinsam bewerten.",
+      "description": "Teilen Sie Ihre technischen Zeichnungen, Bauteilinformationen oder Fertigungsanforderungen mit uns. Gemeinsam bewerten wir Ihr Projekt hinsichtlich Herstellbarkeit, Prozessplanung und Fertigungsanforderungen.",
+      "primaryEyebrow": "WENN IHR PROJEKT BEREIT IST",
+      "primaryAction": "Schnellangebot anfragen",
+      "secondaryEyebrow": "SPRECHEN SIE MIT UNS",
+      "secondaryAction": "Kontakt aufnehmen",
+      "bottomPrimary": "Draht • Rohr • Metallumformung • Schweißen",
+      "bottomSecondary": "Projektorientierte Fertigung"
+    }
+  }
+}

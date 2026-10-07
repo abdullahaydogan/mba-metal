@@ -8,15 +8,38 @@ import {
     Check,
 } from 'lucide-react';
 
-import { motion } from 'motion/react';
+import {
+    motion,
+} from 'motion/react';
 
-import { Container } from '../../../components/common/Container';
+import {
+    useTranslation,
+} from 'react-i18next';
 
-import { solutionExamplesData } from '../../../data/why-us/why-us.data';
+import {
+    Container,
+} from '../../../components/common/Container';
+
+import {
+    whyUsPageData,
+} from '../../../data/why-us/why-us.data';
 
 const MotionBox = motion.create(Box);
 
+const detailIds = [
+    'detail1',
+    'detail2',
+    'detail3',
+    'detail4',
+] as const;
+
 export function SolutionExamplesSection() {
+    const { t } = useTranslation();
+
+    const {
+        examples,
+    } = whyUsPageData.solutionExamples;
+
     return (
         <Box
             component="section"
@@ -25,6 +48,7 @@ export function SolutionExamplesSection() {
                 overflow: 'hidden',
                 bgcolor: '#111714',
                 color: '#fff',
+
                 py: {
                     xs: 10,
                     md: 14,
@@ -32,23 +56,32 @@ export function SolutionExamplesSection() {
                 },
             }}
         >
+            {/* ================================================= */}
             {/* BACKGROUND DECORATION */}
+            {/* ================================================= */}
+
             <Box
                 sx={{
                     position: 'absolute',
+
                     width: {
                         xs: 400,
                         md: 700,
                     },
+
                     height: {
                         xs: 400,
                         md: 700,
                     },
+
                     borderRadius: '50%',
+
                     border:
                         '1px solid rgba(255,255,255,0.035)',
+
                     top: -260,
                     right: -220,
+
                     pointerEvents: 'none',
                 }}
             />
@@ -56,19 +89,25 @@ export function SolutionExamplesSection() {
             <Box
                 sx={{
                     position: 'absolute',
+
                     width: {
                         xs: 260,
                         md: 430,
                     },
+
                     height: {
                         xs: 260,
                         md: 430,
                     },
+
                     borderRadius: '50%',
+
                     border:
                         '1px solid rgba(255,255,255,0.035)',
+
                     top: -100,
                     right: -60,
+
                     pointerEvents: 'none',
                 }}
             />
@@ -79,19 +118,26 @@ export function SolutionExamplesSection() {
                     zIndex: 1,
                 }}
             >
+                {/* ================================================= */}
                 {/* HEADER */}
+                {/* ================================================= */}
+
                 <Box
                     sx={{
                         display: 'grid',
+
                         gridTemplateColumns: {
                             xs: '1fr',
                             lg: '1.1fr 0.9fr',
                         },
+
                         gap: {
                             xs: 4,
                             lg: 12,
                         },
+
                         alignItems: 'end',
+
                         mb: {
                             xs: 7,
                             md: 10,
@@ -100,6 +146,7 @@ export function SolutionExamplesSection() {
                     }}
                 >
                     {/* HEADER LEFT */}
+
                     <Box>
                         <Box
                             sx={{
@@ -113,20 +160,30 @@ export function SolutionExamplesSection() {
                                 sx={{
                                     width: 7,
                                     height: 7,
-                                    borderRadius: '50%',
-                                    bgcolor: 'primary.light',
+
+                                    borderRadius:
+                                        '50%',
+
+                                    bgcolor:
+                                        'primary.light',
                                 }}
                             />
 
                             <Typography
                                 variant="overline"
                                 sx={{
-                                    color: 'primary.light',
+                                    color:
+                                        'primary.light',
+
                                     fontWeight: 700,
-                                    letterSpacing: '0.16em',
+
+                                    letterSpacing:
+                                        '0.16em',
                                 }}
                             >
-                                {solutionExamplesData.eyebrow}
+                                {t(
+                                    'whyUsPage.solutionExamples.eyebrow'
+                                )}
                             </Typography>
                         </Box>
 
@@ -134,67 +191,93 @@ export function SolutionExamplesSection() {
                             component="h2"
                             sx={{
                                 maxWidth: 760,
+
                                 fontSize: {
                                     xs: '2.8rem',
                                     sm: '3.5rem',
                                     md: '4.3rem',
                                     lg: '4.8rem',
                                 },
+
                                 fontWeight: 700,
+
                                 lineHeight: 0.98,
-                                letterSpacing: '-0.055em',
+
+                                letterSpacing:
+                                    '-0.055em',
                             }}
                         >
-                            {solutionExamplesData.title}
+                            {t(
+                                'whyUsPage.solutionExamples.title'
+                            )}
                         </Typography>
                     </Box>
 
                     {/* HEADER RIGHT */}
+
                     <Typography
                         sx={{
                             maxWidth: 520,
+
                             justifySelf: {
                                 xs: 'start',
                                 lg: 'end',
                             },
+
                             color:
                                 'rgba(255,255,255,0.56)',
+
                             fontSize: {
                                 xs: '0.96rem',
                                 md: '1rem',
                             },
+
                             lineHeight: 1.85,
                         }}
                     >
-                        {solutionExamplesData.description}
+                        {t(
+                            'whyUsPage.solutionExamples.description'
+                        )}
                     </Typography>
                 </Box>
 
+                {/* ================================================= */}
                 {/* SOLUTION GRID */}
+                {/* ================================================= */}
+
                 <Box
                     sx={{
                         display: 'grid',
+
                         gridTemplateColumns: {
                             xs: '1fr',
                             md: 'repeat(2, 1fr)',
                         },
+
                         borderTop:
                             '1px solid rgba(255,255,255,0.14)',
 
                         borderLeft: {
                             xs: 'none',
+
                             md:
                                 '1px solid rgba(255,255,255,0.14)',
                         },
                     }}
                 >
-                    {solutionExamplesData.examples.map(
+                    {examples.map(
                         (example, index) => {
-                            const Icon = example.icon;
+                            const Icon =
+                                example.icon;
+
+                            const basePath =
+                                `whyUsPage.solutionExamples.examples.${example.id}`;
 
                             return (
                                 <MotionBox
-                                    key={example.title}
+                                    key={
+                                        example.id
+                                    }
                                     initial={{
                                         opacity: 0,
                                         y: 35,
@@ -209,7 +292,11 @@ export function SolutionExamplesSection() {
                                     }}
                                     transition={{
                                         duration: 0.7,
-                                        delay: index * 0.06,
+
+                                        delay:
+                                            index *
+                                            0.06,
+
                                         ease: [
                                             0.22,
                                             1,
@@ -218,7 +305,8 @@ export function SolutionExamplesSection() {
                                         ],
                                     }}
                                     sx={{
-                                        position: 'relative',
+                                        position:
+                                            'relative',
 
                                         minHeight: {
                                             xs: 'auto',
@@ -241,39 +329,59 @@ export function SolutionExamplesSection() {
                                         transition:
                                             'background-color 300ms ease',
 
-                                        '&::before': {
-                                            content: '""',
-                                            position: 'absolute',
-                                            top: 0,
-                                            left: 0,
-                                            width: '100%',
-                                            height: '2px',
-                                            bgcolor: 'primary.main',
-                                            transform:
-                                                'scaleX(0)',
-                                            transformOrigin:
-                                                'left',
-                                            transition:
-                                                'transform 350ms ease',
-                                        },
+                                        '&::before':
+                                            {
+                                                content:
+                                                    '""',
 
-                                        '&:hover': {
-                                            bgcolor:
-                                                'rgba(255,255,255,0.035)',
-                                        },
+                                                position:
+                                                    'absolute',
 
-                                        '&:hover::before': {
-                                            transform:
-                                                'scaleX(1)',
-                                        },
+                                                top: 0,
+                                                left: 0,
+
+                                                width:
+                                                    '100%',
+
+                                                height:
+                                                    '2px',
+
+                                                bgcolor:
+                                                    'primary.main',
+
+                                                transform:
+                                                    'scaleX(0)',
+
+                                                transformOrigin:
+                                                    'left',
+
+                                                transition:
+                                                    'transform 350ms ease',
+                                            },
+
+                                        '&:hover':
+                                            {
+                                                bgcolor:
+                                                    'rgba(255,255,255,0.035)',
+                                            },
+
+                                        '&:hover::before':
+                                            {
+                                                transform:
+                                                    'scaleX(1)',
+                                            },
 
                                         '&:hover .solution-icon':
                                             {
                                                 bgcolor:
                                                     'primary.main',
+
                                                 borderColor:
                                                     'primary.main',
-                                                color: '#fff',
+
+                                                color:
+                                                    '#fff',
+
                                                 transform:
                                                     'translateY(-4px)',
                                             },
@@ -282,19 +390,25 @@ export function SolutionExamplesSection() {
                                             {
                                                 color:
                                                     'primary.light',
+
                                                 transform:
                                                     'translate(4px, -4px)',
                                             },
                                     }}
                                 >
                                     {/* TOP */}
+
                                     <Box
                                         sx={{
-                                            display: 'flex',
+                                            display:
+                                                'flex',
+
                                             justifyContent:
                                                 'space-between',
+
                                             alignItems:
                                                 'flex-start',
+
                                             mb: {
                                                 xs: 5,
                                                 md: 7,
@@ -302,16 +416,22 @@ export function SolutionExamplesSection() {
                                         }}
                                     >
                                         {/* ICON */}
+
                                         <Box
                                             className="solution-icon"
                                             sx={{
                                                 width: 56,
                                                 height: 56,
-                                                borderRadius: '50%',
 
-                                                display: 'flex',
+                                                borderRadius:
+                                                    '50%',
+
+                                                display:
+                                                    'flex',
+
                                                 alignItems:
                                                     'center',
+
                                                 justifyContent:
                                                     'center',
 
@@ -326,16 +446,23 @@ export function SolutionExamplesSection() {
                                             }}
                                         >
                                             <Icon
-                                                size={22}
-                                                strokeWidth={1.6}
+                                                size={
+                                                    22
+                                                }
+                                                strokeWidth={
+                                                    1.6
+                                                }
                                             />
                                         </Box>
 
                                         {/* ARROW */}
+
                                         <ArrowUpRight
                                             className="solution-arrow"
                                             size={23}
-                                            strokeWidth={1.5}
+                                            strokeWidth={
+                                                1.5
+                                            }
                                             style={{
                                                 transition:
                                                     'all 300ms ease',
@@ -344,25 +471,32 @@ export function SolutionExamplesSection() {
                                     </Box>
 
                                     {/* EYEBROW */}
+
                                     <Typography
                                         variant="overline"
                                         sx={{
-                                            display: 'block',
+                                            display:
+                                                'block',
+
                                             mb: 2,
 
                                             color:
                                                 'primary.light',
 
-                                            fontWeight: 700,
+                                            fontWeight:
+                                                700,
 
                                             letterSpacing:
                                                 '0.14em',
                                         }}
                                     >
-                                        {example.eyebrow}
+                                        {t(
+                                            `${basePath}.eyebrow`
+                                        )}
                                     </Typography>
 
                                     {/* TITLE */}
+
                                     <Typography
                                         component="h3"
                                         sx={{
@@ -371,23 +505,33 @@ export function SolutionExamplesSection() {
                                             mb: 3,
 
                                             fontSize: {
-                                                xs: '1.8rem',
-                                                sm: '2rem',
-                                                md: '2.3rem',
+                                                xs:
+                                                    '1.8rem',
+
+                                                sm:
+                                                    '2rem',
+
+                                                md:
+                                                    '2.3rem',
                                             },
 
-                                            fontWeight: 650,
+                                            fontWeight:
+                                                650,
 
-                                            lineHeight: 1.08,
+                                            lineHeight:
+                                                1.08,
 
                                             letterSpacing:
                                                 '-0.04em',
                                         }}
                                     >
-                                        {example.title}
+                                        {t(
+                                            `${basePath}.title`
+                                        )}
                                     </Typography>
 
                                     {/* DESCRIPTION */}
+
                                     <Typography
                                         sx={{
                                             maxWidth: 520,
@@ -396,17 +540,24 @@ export function SolutionExamplesSection() {
                                                 'rgba(255,255,255,0.55)',
 
                                             fontSize: {
-                                                xs: '0.94rem',
-                                                md: '0.97rem',
+                                                xs:
+                                                    '0.94rem',
+
+                                                md:
+                                                    '0.97rem',
                                             },
 
-                                            lineHeight: 1.8,
+                                            lineHeight:
+                                                1.8,
                                         }}
                                     >
-                                        {example.description}
+                                        {t(
+                                            `${basePath}.description`
+                                        )}
                                     </Typography>
 
                                     {/* DETAILS */}
+
                                     <Box
                                         sx={{
                                             mt: {
@@ -422,13 +573,17 @@ export function SolutionExamplesSection() {
                                             borderTop:
                                                 '1px solid rgba(255,255,255,0.12)',
 
-                                            display: 'grid',
+                                            display:
+                                                'grid',
 
-                                            gridTemplateColumns: {
-                                                xs: '1fr',
-                                                sm:
-                                                    'repeat(2, minmax(0, 1fr))',
-                                            },
+                                            gridTemplateColumns:
+                                                {
+                                                    xs:
+                                                        '1fr',
+
+                                                    sm:
+                                                        'repeat(2, minmax(0, 1fr))',
+                                                },
 
                                             gap: {
                                                 xs: 1.8,
@@ -436,10 +591,14 @@ export function SolutionExamplesSection() {
                                             },
                                         }}
                                     >
-                                        {example.details.map(
-                                            (detail) => (
+                                        {detailIds.map(
+                                            (
+                                                detailId
+                                            ) => (
                                                 <Box
-                                                    key={detail}
+                                                    key={
+                                                        detailId
+                                                    }
                                                     sx={{
                                                         display:
                                                             'flex',
@@ -477,7 +636,9 @@ export function SolutionExamplesSection() {
                                                         }}
                                                     >
                                                         <Check
-                                                            size={13}
+                                                            size={
+                                                                13
+                                                            }
                                                             strokeWidth={
                                                                 2
                                                             }
@@ -496,7 +657,9 @@ export function SolutionExamplesSection() {
                                                                 1.5,
                                                         }}
                                                     >
-                                                        {detail}
+                                                        {t(
+                                                            `${basePath}.details.${detailId}`
+                                                        )}
                                                     </Typography>
                                                 </Box>
                                             )

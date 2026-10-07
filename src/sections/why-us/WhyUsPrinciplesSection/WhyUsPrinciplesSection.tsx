@@ -12,23 +12,25 @@ import {
 } from 'motion/react';
 
 import {
+    useTranslation,
+} from 'react-i18next';
+
+import {
     Container,
 } from '../../../components/common/Container';
 
 import {
-    whyUsPrinciplesData,
+    whyUsPageData,
 } from '../../../data/why-us/why-us.data';
 
 const MotionBox = motion.create(Box);
 
 export function WhyUsPrinciplesSection() {
-    const {
-        eyebrow,
-        title,
-        description,
-        items,
-    } = whyUsPrinciplesData;
+    const { t } = useTranslation();
 
+const {
+    items,
+} = whyUsPageData.principles;
     return (
         <Box
             component="section"
@@ -180,7 +182,9 @@ export function WhyUsPrinciplesSection() {
                                             '0.15em',
                                     }}
                                 >
-                                    {eyebrow}
+                                    {t(
+                                        'whyUsPage.principles.eyebrow'
+                                    )}
                                 </Typography>
                             </Box>
 
@@ -207,7 +211,9 @@ export function WhyUsPrinciplesSection() {
                                         '-0.055em',
                                 }}
                             >
-                                {title}
+                                {t(
+                                    'whyUsPage.principles.title'
+                                )}
                             </Typography>
 
                             <Typography
@@ -227,7 +233,9 @@ export function WhyUsPrinciplesSection() {
                                     lineHeight: 1.85,
                                 }}
                             >
-                                {description}
+                                {t(
+                                    'whyUsPage.principles.description'
+                                )}
                             </Typography>
 
                             {/* Small visual cue */}
@@ -268,7 +276,9 @@ export function WhyUsPrinciplesSection() {
                                             'uppercase',
                                     }}
                                 >
-                                    Çalışma yaklaşımımız
+                                    {t(
+                                        'whyUsPage.principles.approachLabel'
+                                    )}
                                 </Typography>
                             </Box>
                         </MotionBox>
@@ -287,16 +297,17 @@ export function WhyUsPrinciplesSection() {
                                 'divider',
                         }}
                     >
-                        {items.map(
-                            (item, index) => {
-                                const Icon =
-                                    item.icon;
+{items.map(
+    (item, index) => {
+        const Icon =
+            item.icon;
 
-                                return (
-                                    <MotionBox
-                                        key={
-                                            item.title
-                                        }
+        const basePath =
+            `whyUsPage.principles.items.${item.id}`;
+
+        return (
+            <MotionBox
+                key={item.id}
                                         initial={{
                                             opacity: 0,
                                             y: 35,
@@ -501,9 +512,9 @@ export function WhyUsPrinciplesSection() {
                                                         '0.13em',
                                                 }}
                                             >
-                                                {
-                                                    item.category
-                                                }
+                                                {t(
+                                                    `${basePath}.category`
+                                                )}
                                             </Typography>
 
                                             <Typography
@@ -540,9 +551,9 @@ export function WhyUsPrinciplesSection() {
                                                         'color 250ms ease',
                                                 }}
                                             >
-                                                {
-                                                    item.title
-                                                }
+                                                {t(
+                                                    `${basePath}.title`
+                                                )}
                                             </Typography>
 
                                             <Typography
@@ -564,9 +575,9 @@ export function WhyUsPrinciplesSection() {
                                                     lineHeight: 1.85,
                                                 }}
                                             >
-                                                {
-                                                    item.description
-                                                }
+                                                {t(
+                                                    `${basePath}.description`
+                                                )}
                                             </Typography>
                                         </Box>
                                     </MotionBox>

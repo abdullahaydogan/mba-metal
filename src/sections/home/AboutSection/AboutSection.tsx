@@ -1,15 +1,11 @@
 import {
   Box,
   Container,
-  Stack,
   Typography,
 } from '@mui/material';
 
 import {
   ArrowUpRight,
-  Factory,
-  GitBranch,
-  Sparkles,
 } from 'lucide-react';
 
 import { Link } from 'react-router-dom';
@@ -21,33 +17,6 @@ import aboutImage from '../../../assets/images/about/About.jpg';
 import { routes } from '../../../constants/routes';
 
 const MotionBox = motion.create(Box);
-
-const capabilities = [
-  {
-    icon: GitBranch,
-    number: '01',
-    titleKey:
-      'home.about.capabilities.wire.title',
-    descriptionKey:
-      'home.about.capabilities.wire.description',
-  },
-  {
-    icon: Sparkles,
-    number: '02',
-    titleKey:
-      'home.about.capabilities.welding.title',
-    descriptionKey:
-      'home.about.capabilities.welding.description',
-  },
-  {
-    icon: Factory,
-    number: '03',
-    titleKey:
-      'home.about.capabilities.oem.title',
-    descriptionKey:
-      'home.about.capabilities.oem.description',
-  },
-] as const;
 
 export default function AboutSection() {
   const { t } = useTranslation();
@@ -69,9 +38,12 @@ export default function AboutSection() {
         },
       }}
     >
-      {/* Decorative line */}
+      {/* ===================================================
+          BACKGROUND DECORATIVE LINE
+      =================================================== */}
 
       <Box
+        aria-hidden="true"
         sx={{
           position: 'absolute',
 
@@ -91,114 +63,6 @@ export default function AboutSection() {
       />
 
       <Container maxWidth="xl">
-        {/* ===================================================
-            SECTION HEADER
-        =================================================== */}
-
-        <MotionBox
-          initial={{
-            opacity: 0,
-            y: 24,
-          }}
-          whileInView={{
-            opacity: 1,
-            y: 0,
-          }}
-          viewport={{
-            once: true,
-            amount: 0.5,
-          }}
-          transition={{
-            duration: 0.7,
-            ease: [0.22, 1, 0.36, 1],
-          }}
-        >
-          <Stack
-            direction={{
-              xs: 'column',
-              md: 'row',
-            }}
-            spacing={2}
-            sx={{
-              alignItems: {
-                xs: 'flex-start',
-                md: 'center',
-              },
-
-              justifyContent:
-                'space-between',
-
-              mb: {
-                xs: 6,
-                md: 9,
-              },
-            }}
-          >
-            <Stack
-              direction="row"
-              spacing={1.5}
-              sx={{
-                alignItems: 'center',
-              }}
-            >
-              <Typography
-                sx={{
-                  color: 'primary.main',
-
-                  fontSize: '0.75rem',
-                  fontWeight: 700,
-
-                  letterSpacing:
-                    '0.16em',
-                }}
-              >
-                01
-              </Typography>
-
-              <Box
-                sx={{
-                  width: 36,
-                  height: 1,
-
-                  bgcolor: 'divider',
-                }}
-              />
-
-              <Typography
-                variant="overline"
-                sx={{
-                  color:
-                    'text.secondary',
-
-                  fontWeight: 600,
-
-                  letterSpacing:
-                    '0.15em',
-                }}
-              >
-                MBA METAL
-              </Typography>
-            </Stack>
-
-            <Typography
-              variant="caption"
-              sx={{
-                color: 'text.secondary',
-
-                letterSpacing:
-                  '0.12em',
-
-                textTransform:
-                  'uppercase',
-              }}
-            >
-              {t(
-                'home.about.eyebrow'
-              )}
-            </Typography>
-          </Stack>
-        </MotionBox>
-
         {/* ===================================================
             MAIN TITLE
         =================================================== */}
@@ -235,29 +99,16 @@ export default function AboutSection() {
 
               lineHeight: 0.98,
 
-              letterSpacing:
-                '-0.055em',
+              letterSpacing: '-0.055em',
 
               color: 'text.primary',
             }}
           >
-            {t(
-              'home.about.titleLine1'
-            )}
+            {t('home.about.titleLine1')}
 
             <br />
 
-            <Box
-              component="span"
-              sx={{
-                color:
-                  'text.secondary',
-              }}
-            >
-              {t(
-                'home.about.titleLine2'
-              )}
-            </Box>
+            {t('home.about.titleLine2')}
           </Typography>
         </MotionBox>
 
@@ -287,7 +138,9 @@ export default function AboutSection() {
             alignItems: 'end',
           }}
         >
-          {/* IMAGE */}
+          {/* =================================================
+              IMAGE
+          ================================================= */}
 
           <MotionBox
             initial={{
@@ -304,12 +157,7 @@ export default function AboutSection() {
             }}
             transition={{
               duration: 0.9,
-              ease: [
-                0.22,
-                1,
-                0.36,
-                1,
-              ],
+              ease: [0.22, 1, 0.36, 1],
             }}
             sx={{
               position: 'relative',
@@ -333,14 +181,12 @@ export default function AboutSection() {
                   md: 3,
                 },
 
-                bgcolor:
-                  'background.paper',
+                bgcolor: 'background.paper',
 
                 '&::after': {
                   content: '""',
 
-                  position:
-                    'absolute',
+                  position: 'absolute',
 
                   inset: 0,
 
@@ -352,8 +198,7 @@ export default function AboutSection() {
                     )
                   `,
 
-                  pointerEvents:
-                    'none',
+                  pointerEvents: 'none',
                 },
               }}
             >
@@ -363,13 +208,7 @@ export default function AboutSection() {
                 }}
                 transition={{
                   duration: 0.7,
-
-                  ease: [
-                    0.22,
-                    1,
-                    0.36,
-                    1,
-                  ],
+                  ease: [0.22, 1, 0.36, 1],
                 }}
                 sx={{
                   width: '100%',
@@ -379,28 +218,26 @@ export default function AboutSection() {
                 <Box
                   component="img"
                   src={aboutImage}
-                  alt={t(
-                    'home.about.imageAlt'
-                  )}
+                  alt={t('home.about.imageAlt')}
                   loading="lazy"
                   sx={{
                     width: '100%',
                     height: '100%',
 
-                    objectFit:
-                      'cover',
+                    objectFit: 'cover',
 
                     display: 'block',
                   }}
                 />
               </MotionBox>
 
-              {/* IMAGE LABEL */}
+              {/* =============================================
+                  IMAGE LABEL
+              ============================================= */}
 
               <Box
                 sx={{
-                  position:
-                    'absolute',
+                  position: 'absolute',
 
                   zIndex: 2,
 
@@ -417,8 +254,7 @@ export default function AboutSection() {
               >
                 <Typography
                   sx={{
-                    color:
-                      'common.white',
+                    color: 'common.white',
 
                     fontWeight: 600,
 
@@ -427,24 +263,20 @@ export default function AboutSection() {
                       md: '0.9rem',
                     },
 
-                    letterSpacing:
-                      '0.1em',
+                    letterSpacing: '0.1em',
 
-                    textTransform:
-                      'uppercase',
+                    textTransform: 'uppercase',
                   }}
                 >
-                  {t(
-                    'home.about.imageLabel'
-                  )}
+                  {t('home.about.imageLabel')}
                 </Typography>
               </Box>
             </Box>
           </MotionBox>
 
-          {/* ===================================================
+          {/* =================================================
               RIGHT CONTENT
-          =================================================== */}
+          ================================================= */}
 
           <MotionBox
             initial={{
@@ -463,12 +295,7 @@ export default function AboutSection() {
               duration: 0.8,
               delay: 0.12,
 
-              ease: [
-                0.22,
-                1,
-                0.36,
-                1,
-              ],
+              ease: [0.22, 1, 0.36, 1],
             }}
           >
             <Box
@@ -478,18 +305,6 @@ export default function AboutSection() {
                 },
               }}
             >
-              <Box
-                sx={{
-                  width: 48,
-                  height: 2,
-
-                  bgcolor:
-                    'primary.main',
-
-                  mb: 3,
-                }}
-              />
-
               <Typography
                 sx={{
                   fontSize: {
@@ -501,16 +316,12 @@ export default function AboutSection() {
 
                   lineHeight: 1.35,
 
-                  letterSpacing:
-                    '-0.025em',
+                  letterSpacing: '-0.025em',
 
-                  color:
-                    'text.primary',
+                  color: 'text.primary',
                 }}
               >
-                {t(
-                  'home.about.lead'
-                )}
+                {t('home.about.lead')}
               </Typography>
 
               <Typography
@@ -524,16 +335,15 @@ export default function AboutSection() {
 
                   lineHeight: 1.8,
 
-                  color:
-                    'text.secondary',
+                  color: 'text.secondary',
                 }}
               >
-                {t(
-                  'home.about.description'
-                )}
+                {t('home.about.description')}
               </Typography>
 
-              {/* LINK */}
+              {/* =============================================
+                  ABOUT LINK
+              ============================================= */}
 
               <Box
                 component={Link}
@@ -541,24 +351,21 @@ export default function AboutSection() {
                 sx={{
                   mt: 4,
 
-                  display:
-                    'inline-flex',
+                  display: 'inline-flex',
 
-                  alignItems:
-                    'center',
+                  alignItems: 'center',
 
                   gap: 1,
 
-                  color:
-                    'text.primary',
+                  color: 'text.primary',
 
-                  textDecoration:
-                    'none',
+                  textDecoration: 'none',
 
-                  fontSize:
-                    '0.9rem',
+                  fontSize: '0.9rem',
 
                   fontWeight: 600,
+
+                  transition: 'color 200ms ease',
 
                   '& svg': {
                     transition:
@@ -566,8 +373,7 @@ export default function AboutSection() {
                   },
 
                   '&:hover': {
-                    color:
-                      'primary.main',
+                    color: 'primary.main',
 
                     '& svg': {
                       transform:
@@ -576,202 +382,12 @@ export default function AboutSection() {
                   },
                 }}
               >
-                {t(
-                  'home.about.discover'
-                )}
+                {t('home.about.discover')}
 
-                <ArrowUpRight
-                  size={17}
-                />
+                <ArrowUpRight size={17} />
               </Box>
             </Box>
           </MotionBox>
-        </Box>
-
-        {/* ===================================================
-            CAPABILITY STRIP
-        =================================================== */}
-
-        <Box
-          sx={{
-            mt: {
-              xs: 7,
-              md: 10,
-            },
-
-            borderTop:
-              '1px solid',
-
-            borderBottom:
-              '1px solid',
-
-            borderColor: 'divider',
-
-            display: 'grid',
-
-            gridTemplateColumns: {
-              xs: '1fr',
-              md: 'repeat(3, 1fr)',
-            },
-          }}
-        >
-          {capabilities.map(
-            (item, index) => {
-              const Icon =
-                item.icon;
-
-              return (
-                <MotionBox
-                  key={item.number}
-                  initial={{
-                    opacity: 0,
-                    y: 20,
-                  }}
-                  whileInView={{
-                    opacity: 1,
-                    y: 0,
-                  }}
-                  viewport={{
-                    once: true,
-                    amount: 0.5,
-                  }}
-                  transition={{
-                    duration: 0.6,
-
-                    delay:
-                      index * 0.1,
-                  }}
-                  sx={{
-                    position:
-                      'relative',
-
-                    py: {
-                      xs: 3.5,
-                      md: 4,
-                    },
-
-                    px: {
-                      xs: 0,
-                      md: 4,
-                    },
-
-                    borderBottom: {
-                      xs:
-                        index !==
-                        capabilities.length -
-                          1
-                          ? '1px solid'
-                          : 'none',
-
-                      md: 'none',
-                    },
-
-                    borderRight: {
-                      xs: 'none',
-
-                      md:
-                        index !==
-                        capabilities.length -
-                          1
-                          ? '1px solid'
-                          : 'none',
-                    },
-
-                    borderColor:
-                      'divider',
-
-                    '&:first-of-type':
-                      {
-                        pl: {
-                          md: 0,
-                        },
-                      },
-                  }}
-                >
-                  <Stack
-                    direction="row"
-                    spacing={2}
-                    sx={{
-                      alignItems:
-                        'center',
-                    }}
-                  >
-                    <Box
-                      sx={{
-                        width: 48,
-                        height: 48,
-
-                        display:
-                          'grid',
-
-                        placeItems:
-                          'center',
-
-                        border:
-                          '1px solid',
-
-                        borderColor:
-                          'divider',
-
-                        color:
-                          'primary.main',
-                      }}
-                    >
-                      <Icon
-                        size={20}
-                        strokeWidth={
-                          1.6
-                        }
-                      />
-                    </Box>
-
-                    <Box>
-                      <Typography
-                        variant="caption"
-                        sx={{
-                          color:
-                            'primary.main',
-
-                          fontWeight:
-                            700,
-
-                          letterSpacing:
-                            '0.12em',
-                        }}
-                      >
-                        {item.number}
-                      </Typography>
-
-                      <Typography
-                        sx={{
-                          mt: 0.3,
-
-                          fontWeight:
-                            600,
-
-                          color:
-                            'text.primary',
-                        }}
-                      >
-                        {t(
-                          item.titleKey
-                        )}
-                      </Typography>
-
-                      <Typography
-                        variant="body2"
-                        color="text.secondary"
-                      >
-                        {t(
-                          item.descriptionKey
-                        )}
-                      </Typography>
-                    </Box>
-                  </Stack>
-                </MotionBox>
-              );
-            }
-          )}
         </Box>
       </Container>
     </Box>

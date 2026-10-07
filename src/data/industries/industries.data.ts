@@ -17,6 +17,12 @@ import logisticsImage
 import industrialImage
     from '../../assets/images/industries/industrial.jpg';
 
+import defenseAerospaceSecurityImage
+    from '../../assets/images/industries/defense-aerospace-security/defense-hero.jpg';
+
+import marineImage
+    from '../../assets/images/industries/marine/marine-hero.jpg';
+
 /* =========================================================
    ROUTES
 ========================================================= */
@@ -37,6 +43,8 @@ export interface IndustryItem {
     | 'furniture'
     | 'logistics'
     | 'railwayIndustrial'
+    | 'defenseAerospaceSecurity'
+    | 'marine'
     | 'medical'
     | 'agriculture'
     | 'construction';
@@ -80,7 +88,8 @@ export const industriesPageData = {
     ===================================================== */
 
     hero: {
-        contactHref: '/iletisim',
+        contactHref:
+            '/iletisim',
 
         industriesAnchor:
             '#industries-showcase',
@@ -91,11 +100,13 @@ export const industriesPageData = {
     ===================================================== */
 
     industries: {
-        id: 'industries-showcase',
+        id:
+            'industries-showcase',
 
         items: [
             {
-                id: 'automotive',
+                id:
+                    'automotive',
 
                 image:
                     automotiveImage,
@@ -105,7 +116,8 @@ export const industriesPageData = {
             },
 
             {
-                id: 'whiteGoods',
+                id:
+                    'whiteGoods',
 
                 image:
                     whiteGoodsImage,
@@ -115,38 +127,75 @@ export const industriesPageData = {
             },
 
             {
-                id: 'retail',
+                id:
+                    'retail',
 
                 image:
                     retailImage,
             },
 
             {
-                id: 'furniture',
+                id:
+                    'furniture',
             },
 
             {
-                id: 'logistics',
-                image: logisticsImage,
-                href: routes.logistics,
+                id:
+                    'logistics',
+
+                image:
+                    logisticsImage,
+
+                href:
+                    routes.logistics,
             },
 
             {
-                id: 'railwayIndustrial',
-                image: industrialImage,
-                href: routes.industrial,
+                id:
+                    'railwayIndustrial',
+
+                image:
+                    industrialImage,
+
+                href:
+                    routes.industrial,
             },
 
             {
-                id: 'medical',
+                id:
+                    'defenseAerospaceSecurity',
+
+                image:
+                    defenseAerospaceSecurityImage,
+
+                href:
+                    routes.defenseAerospaceSecurity,
             },
 
             {
-                id: 'agriculture',
+                id:
+                    'marine',
+
+                image:
+                    marineImage,
+
+                href:
+                    routes.marine,
             },
 
             {
-                id: 'construction',
+                id:
+                    'medical',
+            },
+
+            {
+                id:
+                    'agriculture',
+            },
+
+            {
+                id:
+                    'construction',
             },
         ] satisfies IndustryItem[],
     },
@@ -156,31 +205,38 @@ export const industriesPageData = {
     ===================================================== */
 
     solutions: {
-        id: 'industry-solutions',
+        id:
+            'industry-solutions',
 
         items: [
             {
-                id: 'wireForming',
+                id:
+                    'wireForming',
             },
 
             {
-                id: 'weldedComponents',
+                id:
+                    'weldedComponents',
             },
 
             {
-                id: 'tubeComponents',
+                id:
+                    'tubeComponents',
             },
 
             {
-                id: 'customProduction',
+                id:
+                    'customProduction',
             },
 
             {
-                id: 'prototypeProduction',
+                id:
+                    'prototypeProduction',
             },
 
             {
-                id: 'serialProduction',
+                id:
+                    'serialProduction',
             },
         ] satisfies IndustrySolutionItem[],
     },
@@ -190,31 +246,38 @@ export const industriesPageData = {
     ===================================================== */
 
     approach: {
-        id: 'industry-approach',
+        id:
+            'industry-approach',
 
         items: [
             {
-                id: 'technicalRequirements',
+                id:
+                    'technicalRequirements',
             },
 
             {
-                id: 'manufacturability',
+                id:
+                    'manufacturability',
             },
 
             {
-                id: 'qualityRequirements',
+                id:
+                    'qualityRequirements',
             },
 
             {
-                id: 'productionVolume',
+                id:
+                    'productionVolume',
             },
 
             {
-                id: 'packaging',
+                id:
+                    'packaging',
             },
 
             {
-                id: 'delivery',
+                id:
+                    'delivery',
             },
         ] satisfies IndustryApproachItem[],
     },
@@ -224,7 +287,8 @@ export const industriesPageData = {
     ===================================================== */
 
     cta: {
-        id: 'industries-contact',
+        id:
+            'industries-contact',
 
         contactHref:
             '/iletisim',

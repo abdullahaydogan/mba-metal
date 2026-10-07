@@ -10,8 +10,9 @@ export const routes = {
     retail: '/sektorler/perakende-magazacilik',
     logistics: '/sektorler/lojistik-tasima',
     industrial: '/sektorler/endustriyel-uretim',
-    quality: '/kalite',
-    projects: '/projeler',
+    defenseAerospaceSecurity: '/sektorler/savunma-havacilik-guvenlik',
+    marine: '/sektorler/gemi-denizcilik-liman',
     contact: '/iletisim',
-    quote: '/hizli-teklif',
+    market: '/pazar',
+
 } as const;

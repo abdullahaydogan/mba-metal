@@ -16,22 +16,23 @@ import {
 } from 'react-router-dom';
 
 import {
+    useTranslation,
+} from 'react-i18next';
+
+import {
     Container,
 } from '../../../components/common/Container';
 
 import {
-    exploreSolutionsData,
+    whyUsPageData,
 } from '../../../data/why-us/why-us.data';
 
 const MotionBox = motion.create(Box);
 
 export function ExploreSolutionsSection() {
-    const {
-        eyebrow,
-        title,
-        description,
-        items,
-    } = exploreSolutionsData;
+    const { t } = useTranslation();
+
+    const { items, } = whyUsPageData.exploreSolutions;
 
     return (
         <Box
@@ -169,7 +170,9 @@ export function ExploreSolutionsSection() {
                                         '0.15em',
                                 }}
                             >
-                                {eyebrow}
+                                {t(
+                                    'whyUsPage.exploreSolutions.eyebrow'
+                                )}
                             </Typography>
                         </Box>
 
@@ -196,7 +199,9 @@ export function ExploreSolutionsSection() {
                                     '-0.055em',
                             }}
                         >
-                            {title}
+                            {t(
+                                'whyUsPage.exploreSolutions.title'
+                            )}
                         </Typography>
                     </MotionBox>
 
@@ -233,7 +238,9 @@ export function ExploreSolutionsSection() {
                                 lineHeight: 1.85,
                             }}
                         >
-                            {description}
+                            {t(
+                                'whyUsPage.exploreSolutions.description'
+                            )}
                         </Typography>
                     </MotionBox>
                 </Box>
@@ -253,11 +260,12 @@ export function ExploreSolutionsSection() {
                             const Icon =
                                 solution.icon;
 
+                            const basePath =
+                                `whyUsPage.exploreSolutions.items.${solution.id}`;
+
                             return (
                                 <MotionBox
-                                    key={
-                                        solution.title
-                                    }
+                                    key={solution.id}
                                     initial={{
                                         opacity: 0,
                                         y: 30,
@@ -276,7 +284,7 @@ export function ExploreSolutionsSection() {
                                         delay:
                                             Math.min(
                                                 index *
-                                                    0.04,
+                                                0.04,
                                                 0.16
                                             ),
 
@@ -301,13 +309,13 @@ export function ExploreSolutionsSection() {
                                                 'grid',
 
                                             gridTemplateColumns:
-                                                {
-                                                    xs:
-                                                        '1fr',
+                                            {
+                                                xs:
+                                                    '1fr',
 
-                                                    md:
-                                                        '80px minmax(180px, 0.45fr) minmax(0, 1fr) 54px',
-                                                },
+                                                md:
+                                                    '80px minmax(180px, 0.45fr) minmax(0, 1fr) 54px',
+                                            },
 
                                             gap: {
                                                 xs: 2.5,
@@ -344,71 +352,71 @@ export function ExploreSolutionsSection() {
                                                 'background-color 250ms ease, padding 250ms ease',
 
                                             '&::before':
-                                                {
-                                                    content:
-                                                        '""',
+                                            {
+                                                content:
+                                                    '""',
 
-                                                    position:
-                                                        'absolute',
+                                                position:
+                                                    'absolute',
 
-                                                    left: 0,
-                                                    top: 0,
-                                                    bottom: 0,
+                                                left: 0,
+                                                top: 0,
+                                                bottom: 0,
 
-                                                    width: 3,
+                                                width: 3,
 
-                                                    bgcolor:
-                                                        'primary.main',
+                                                bgcolor:
+                                                    'primary.main',
 
-                                                    transform:
-                                                        'scaleY(0)',
+                                                transform:
+                                                    'scaleY(0)',
 
-                                                    transformOrigin:
-                                                        'center',
+                                                transformOrigin:
+                                                    'center',
 
-                                                    transition:
-                                                        'transform 300ms ease',
-                                                },
+                                                transition:
+                                                    'transform 300ms ease',
+                                            },
 
                                             '&:hover':
-                                                {
-                                                    bgcolor:
-                                                        'background.paper',
+                                            {
+                                                bgcolor:
+                                                    'background.paper',
 
-                                                    px: {
-                                                        md: 3,
-                                                    },
+                                                px: {
+                                                    md: 3,
                                                 },
+                                            },
 
                                             '&:hover::before':
-                                                {
-                                                    transform:
-                                                        'scaleY(1)',
-                                                },
+                                            {
+                                                transform:
+                                                    'scaleY(1)',
+                                            },
 
                                             '&:hover .explore-icon':
-                                                {
-                                                    bgcolor:
-                                                        'primary.main',
+                                            {
+                                                bgcolor:
+                                                    'primary.main',
 
-                                                    borderColor:
-                                                        'primary.main',
+                                                borderColor:
+                                                    'primary.main',
 
-                                                    color:
-                                                        '#fff',
+                                                color:
+                                                    '#fff',
 
-                                                    transform:
-                                                        'translateY(-3px)',
-                                                },
+                                                transform:
+                                                    'translateY(-3px)',
+                                            },
 
                                             '&:hover .explore-arrow':
-                                                {
-                                                    color:
-                                                        'primary.main',
+                                            {
+                                                color:
+                                                    'primary.main',
 
-                                                    transform:
-                                                        'translate(4px, -4px)',
-                                                },
+                                                transform:
+                                                    'translate(4px, -4px)',
+                                            },
                                         }}
                                     >
                                         {/* ICON */}
@@ -475,9 +483,9 @@ export function ExploreSolutionsSection() {
                                                         '0.13em',
                                                 }}
                                             >
-                                                {
-                                                    solution.category
-                                                }
+                                                {t(
+                                                    `${basePath}.category`
+                                                )}
                                             </Typography>
 
                                             <Typography
@@ -502,9 +510,9 @@ export function ExploreSolutionsSection() {
                                                         '-0.035em',
                                                 }}
                                             >
-                                                {
-                                                    solution.title
-                                                }
+                                                {t(
+                                                    `${basePath}.title`
+                                                )}
                                             </Typography>
                                         </Box>
 
@@ -523,9 +531,9 @@ export function ExploreSolutionsSection() {
                                                 lineHeight: 1.75,
                                             }}
                                         >
-                                            {
-                                                solution.description
-                                            }
+                                            {t(
+                                                `${basePath}.description`
+                                            )}
                                         </Typography>
 
                                         {/* ARROW */}
@@ -536,13 +544,13 @@ export function ExploreSolutionsSection() {
                                                     'flex',
 
                                                 justifyContent:
-                                                    {
-                                                        xs:
-                                                            'flex-start',
+                                                {
+                                                    xs:
+                                                        'flex-start',
 
-                                                        md:
-                                                            'flex-end',
-                                                    },
+                                                    md:
+                                                        'flex-end',
+                                                },
 
                                                 pt: {
                                                     xs: 1,

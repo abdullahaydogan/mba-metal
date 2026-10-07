@@ -1,4 +1,6 @@
-import { routes } from '../constants/routes';
+import {
+    routes,
+} from '../constants/routes';
 
 export interface NavigationItem {
     id: string;
@@ -6,40 +8,61 @@ export interface NavigationItem {
     href: string;
 }
 
-export const navigationItems: NavigationItem[] = [
-    {
-        id: 'home',
-        labelKey: 'navigation.home',
-        href: routes.home,
-    },
+export const navigationItems:
+    NavigationItem[] = [
+        {
+            id: 'home',
+            labelKey:
+                'navigation.home',
+            href:
+                routes.home,
+        },
 
-    {
-        id: 'about',
-        labelKey: 'navigation.about',
-        href: routes.about,
-    },
+        {
+            id: 'about',
+            labelKey:
+                'navigation.about',
+            href:
+                routes.about,
+        },
 
-    {
-        id: 'whyUs',
-        labelKey: 'navigation.whyUs',
-        href: routes.whyUs,
-    },
+        {
+            id: 'whyUs',
+            labelKey:
+                'navigation.whyUs',
+            href:
+                routes.whyUs,
+        },
 
-    {
-        id: 'capabilities',
-        labelKey: 'navigation.capabilities',
-        href: routes.capabilities,
-    },
+        {
+            id: 'capabilities',
+            labelKey:
+                'navigation.capabilities',
+            href:
+                routes.capabilities,
+        },
 
-    {
-        id: 'industries',
-        labelKey: 'navigation.industries',
-        href: routes.industries,
-    },
+        {
+            id: 'industries',
+            labelKey:
+                'navigation.industries',
+            href:
+                routes.industries,
+        },
 
-    {
-        id: 'contact',
-        labelKey: 'navigation.contact',
-        href: routes.contact,
-    },
-];
+        {
+            id: 'market',
+            labelKey:
+                'navigation.market',
+            href:
+                routes.market,
+        },
+
+        {
+            id: 'contact',
+            labelKey:
+                'navigation.contact',
+            href:
+                routes.contact,
+        },
+    ];

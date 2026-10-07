@@ -10,7 +10,6 @@ import {
 
 import {
     ArrowRight,
-    ArrowUpRight,
     Moon,
     Sun,
     X,
@@ -35,6 +34,10 @@ import {
 } from '../../common/Logo';
 
 import {
+    LanguageSwitcher,
+} from '../../common/LanguageSwitcher';
+
+import {
     navigationItems,
 } from '../../../config/navigation.config';
 
@@ -50,10 +53,18 @@ import {
     useThemeMode,
 } from '../../../hooks/useThemeMode';
 
+/* =========================================================
+   TYPES
+========================================================= */
+
 interface MobileMenuProps {
     open: boolean;
     onClose: () => void;
 }
+
+/* =========================================================
+   MOBILE MENU
+========================================================= */
 
 export function MobileMenu({
     open,
@@ -68,7 +79,6 @@ export function MobileMenu({
 
     const {
         language,
-        toggleLanguage,
     } = useLanguage();
 
     const {
@@ -76,9 +86,9 @@ export function MobileMenu({
         toggleTheme,
     } = useThemeMode();
 
-    /* ============================================================
+    /* =========================================================
        BODY SCROLL LOCK
-    ============================================================ */
+    ========================================================= */
 
     useEffect(() => {
         if (!open) {
@@ -86,20 +96,25 @@ export function MobileMenu({
         }
 
         const previousOverflow =
-            document.body.style.overflow;
+            document.body.style
+                .overflow;
 
-        document.body.style.overflow =
+        document.body.style
+            .overflow =
             'hidden';
 
         return () => {
-            document.body.style.overflow =
+            document.body.style
+                .overflow =
                 previousOverflow;
         };
-    }, [open]);
+    }, [
+        open,
+    ]);
 
-    /* ============================================================
+    /* =========================================================
        ESC CLOSE
-    ============================================================ */
+    ========================================================= */
 
     useEffect(() => {
         if (!open) {
@@ -133,15 +148,16 @@ export function MobileMenu({
         onClose,
     ]);
 
-    /* ============================================================
+    /* =========================================================
        ACTIVE ROUTE
-    ============================================================ */
+    ========================================================= */
 
     const isActiveRoute = (
         href: string
     ) => {
         if (
-            href === routes.home
+            href ===
+            routes.home
         ) {
             return (
                 location.pathname ===
@@ -150,38 +166,38 @@ export function MobileMenu({
         }
 
         return (
-            location.pathname === href ||
+            location.pathname ===
+                href ||
             location.pathname.startsWith(
                 `${href}/`
             )
         );
     };
 
-    const handleLanguageToggle =
-        () => {
-            void toggleLanguage();
-        };
-
     return (
         <AnimatePresence>
             {open && (
                 <>
-                    {/* ============================================
+                    {/* =================================================
                         BACKDROP
-                    ============================================= */}
+                    ================================================= */}
 
                     <motion.div
                         initial={{
-                            opacity: 0,
+                            opacity:
+                                0,
                         }}
                         animate={{
-                            opacity: 1,
+                            opacity:
+                                1,
                         }}
                         exit={{
-                            opacity: 0,
+                            opacity:
+                                0,
                         }}
                         transition={{
-                            duration: 0.25,
+                            duration:
+                                0.25,
                         }}
                         onClick={
                             onClose
@@ -190,9 +206,11 @@ export function MobileMenu({
                             position:
                                 'fixed',
 
-                            inset: 0,
+                            inset:
+                                0,
 
-                            zIndex: 1290,
+                            zIndex:
+                                1290,
 
                             background:
                                 'rgba(3, 10, 7, 0.62)',
@@ -205,19 +223,22 @@ export function MobileMenu({
                         }}
                     />
 
-                    {/* ============================================
+                    {/* =================================================
                         DRAWER
-                    ============================================= */}
+                    ================================================= */}
 
                     <motion.div
                         initial={{
-                            x: '100%',
+                            x:
+                                '100%',
                         }}
                         animate={{
-                            x: 0,
+                            x:
+                                0,
                         }}
                         exit={{
-                            x: '100%',
+                            x:
+                                '100%',
                         }}
                         transition={{
                             duration:
@@ -234,14 +255,20 @@ export function MobileMenu({
                             position:
                                 'fixed',
 
-                            top: 0,
-                            right: 0,
-                            bottom: 0,
+                            top:
+                                0,
+
+                            right:
+                                0,
+
+                            bottom:
+                                0,
 
                             width:
                                 'min(94vw, 460px)',
 
-                            zIndex: 1300,
+                            zIndex:
+                                1300,
                         }}
                     >
                         <Box
@@ -276,9 +303,6 @@ export function MobileMenu({
                                 overflow:
                                     'hidden',
 
-                                /*
-                                 * Üst teknik çizgi.
-                                 */
                                 '&::before':
                                     {
                                         content:
@@ -287,8 +311,11 @@ export function MobileMenu({
                                         position:
                                             'absolute',
 
-                                        top: 0,
-                                        left: 0,
+                                        top:
+                                            0,
+
+                                        left:
+                                            0,
 
                                         width:
                                             '42%',
@@ -299,13 +326,10 @@ export function MobileMenu({
                                         bgcolor:
                                             'primary.main',
 
-                                        zIndex: 5,
+                                        zIndex:
+                                            5,
                                     },
 
-                                /*
-                                 * Arka plandaki
-                                 * ambient ışık.
-                                 */
                                 '&::after':
                                     {
                                         content:
@@ -337,23 +361,27 @@ export function MobileMenu({
                                     },
                             }}
                         >
-                            {/* =====================================
+                            {/* =================================================
                                 HEADER
-                            ====================================== */}
+                            ================================================= */}
 
                             <Box
                                 sx={{
                                     position:
                                         'relative',
 
-                                    zIndex: 2,
+                                    zIndex:
+                                        2,
 
                                     minHeight:
                                         82,
 
                                     px: {
-                                        xs: 2.25,
-                                        sm: 3.25,
+                                        xs:
+                                            2.25,
+
+                                        sm:
+                                            3.25,
                                     },
 
                                     display:
@@ -365,7 +393,8 @@ export function MobileMenu({
                                     justifyContent:
                                         'space-between',
 
-                                    gap: 2,
+                                    gap:
+                                        2,
 
                                     borderBottom:
                                         '1px solid',
@@ -373,7 +402,8 @@ export function MobileMenu({
                                     borderColor:
                                         'divider',
 
-                                    flexShrink: 0,
+                                    flexShrink:
+                                        0,
                                 }}
                             >
                                 <Logo
@@ -394,9 +424,11 @@ export function MobileMenu({
                                             : 'Close menu'
                                     }
                                     sx={{
-                                        width: 44,
+                                        width:
+                                            44,
 
-                                        height: 44,
+                                        height:
+                                            44,
 
                                         border:
                                             '1px solid',
@@ -443,20 +475,23 @@ export function MobileMenu({
                                 </IconButton>
                             </Box>
 
-                            {/* =====================================
+                            {/* =================================================
                                 SCROLL AREA
-                            ====================================== */}
+                            ================================================= */}
 
                             <Box
                                 sx={{
                                     position:
                                         'relative',
 
-                                    zIndex: 2,
+                                    zIndex:
+                                        2,
 
-                                    flex: 1,
+                                    flex:
+                                        1,
 
-                                    minHeight: 0,
+                                    minHeight:
+                                        0,
 
                                     overflowY:
                                         'auto',
@@ -486,9 +521,9 @@ export function MobileMenu({
                                         },
                                 }}
                             >
-                                {/* =================================
+                                {/* =================================================
                                     NAVIGATION
-                                ================================== */}
+                                ================================================= */}
 
                                 <Box
                                     component="nav"
@@ -500,19 +535,28 @@ export function MobileMenu({
                                     }
                                     sx={{
                                         px: {
-                                            xs: 2.25,
-                                            sm: 3.25,
+                                            xs:
+                                                2.25,
+
+                                            sm:
+                                                3.25,
                                         },
 
                                         pt: {
-                                            xs: 3,
-                                            sm: 3.5,
+                                            xs:
+                                                3,
+
+                                            sm:
+                                                3.5,
                                         },
 
-                                        pb: 3,
+                                        pb:
+                                            3,
                                     }}
                                 >
-                                    {/* SECTION LABEL */}
+                                    {/* =================================================
+                                        SECTION LABEL
+                                    ================================================= */}
 
                                     <Box
                                         sx={{
@@ -522,14 +566,17 @@ export function MobileMenu({
                                             alignItems:
                                                 'center',
 
-                                            gap: 1.25,
+                                            gap:
+                                                1.25,
 
-                                            mb: 2,
+                                            mb:
+                                                2,
                                         }}
                                     >
                                         <Box
                                             sx={{
-                                                width: 30,
+                                                width:
+                                                    30,
 
                                                 height:
                                                     '1px',
@@ -564,7 +611,9 @@ export function MobileMenu({
                                         </Typography>
                                     </Box>
 
-                                    {/* NAVIGATION ITEMS */}
+                                    {/* =================================================
+                                        NAVIGATION ITEMS
+                                    ================================================= */}
 
                                     <Box>
                                         {navigationItems.map(
@@ -583,14 +632,18 @@ export function MobileMenu({
                                                             item.id
                                                         }
                                                         initial={{
-                                                            opacity: 0,
+                                                            opacity:
+                                                                0,
 
-                                                            x: 24,
+                                                            x:
+                                                                24,
                                                         }}
                                                         animate={{
-                                                            opacity: 1,
+                                                            opacity:
+                                                                1,
 
-                                                            x: 0,
+                                                            x:
+                                                                0,
                                                         }}
                                                         transition={{
                                                             delay:
@@ -635,7 +688,8 @@ export function MobileMenu({
                                                                 justifyContent:
                                                                     'space-between',
 
-                                                                gap: 2,
+                                                                gap:
+                                                                    2,
 
                                                                 borderBottom:
                                                                     '1px solid',
@@ -662,7 +716,8 @@ export function MobileMenu({
                                                                         position:
                                                                             'absolute',
 
-                                                                        left: 0,
+                                                                        left:
+                                                                            0,
 
                                                                         top:
                                                                             '50%',
@@ -695,9 +750,10 @@ export function MobileMenu({
                                                                         color:
                                                                             'primary.main',
 
-                                                                        pl: active
-                                                                            ? 0
-                                                                            : 0.75,
+                                                                        pl:
+                                                                            active
+                                                                                ? 0
+                                                                                : 0.75,
 
                                                                         '& .mobile-nav-arrow':
                                                                             {
@@ -709,15 +765,18 @@ export function MobileMenu({
                                                         >
                                                             <Typography
                                                                 sx={{
-                                                                    pl: active
-                                                                        ? 2
-                                                                        : 0,
+                                                                    pl:
+                                                                        active
+                                                                            ? 2
+                                                                            : 0,
 
                                                                     fontSize:
                                                                         {
-                                                                            xs: '1.02rem',
+                                                                            xs:
+                                                                                '1.02rem',
 
-                                                                            sm: '1.08rem',
+                                                                            sm:
+                                                                                '1.08rem',
                                                                         },
 
                                                                     fontWeight:
@@ -740,9 +799,11 @@ export function MobileMenu({
                                                             <Box
                                                                 className="mobile-nav-arrow"
                                                                 sx={{
-                                                                    width: 32,
+                                                                    width:
+                                                                        32,
 
-                                                                    height: 32,
+                                                                    height:
+                                                                        32,
 
                                                                     display:
                                                                         'flex',
@@ -788,239 +849,41 @@ export function MobileMenu({
                                             }
                                         )}
                                     </Box>
-
-                                    {/* =================================
-                                        QUOTE CTA
-                                    ================================== */}
-
-                                    <motion.div
-                                        initial={{
-                                            opacity: 0,
-
-                                            y: 16,
-                                        }}
-                                        animate={{
-                                            opacity: 1,
-
-                                            y: 0,
-                                        }}
-                                        transition={{
-                                            delay:
-                                                0.24,
-
-                                            duration:
-                                                0.4,
-                                        }}
-                                    >
-                                        <Box
-                                            component={
-                                                Link
-                                            }
-                                            to={
-                                                routes.quote
-                                            }
-                                            onClick={
-                                                onClose
-                                            }
-                                            sx={{
-                                                position:
-                                                    'relative',
-
-                                                mt: 3.5,
-
-                                                minHeight:
-                                                    62,
-
-                                                px: 2,
-
-                                                display:
-                                                    'flex',
-
-                                                alignItems:
-                                                    'center',
-
-                                                justifyContent:
-                                                    'space-between',
-
-                                                gap: 2,
-
-                                                overflow:
-                                                    'hidden',
-
-                                                bgcolor:
-                                                    'primary.main',
-
-                                                color:
-                                                    'primary.contrastText',
-
-                                                textDecoration:
-                                                    'none',
-
-                                                borderRadius:
-                                                    '8px',
-
-                                                boxShadow:
-                                                    '0 12px 30px rgba(16,96,67,0.20)',
-
-                                                transition:
-                                                    'transform 220ms cubic-bezier(0.22, 1, 0.36, 1), box-shadow 220ms ease',
-
-                                                '&::before':
-                                                    {
-                                                        content:
-                                                            '""',
-
-                                                        position:
-                                                            'absolute',
-
-                                                        inset: 0,
-
-                                                        background:
-                                                            'linear-gradient(110deg, transparent 20%, rgba(255,255,255,0.14) 50%, transparent 80%)',
-
-                                                        transform:
-                                                            'translateX(-120%)',
-
-                                                        transition:
-                                                            'transform 650ms cubic-bezier(0.22, 1, 0.36, 1)',
-                                                    },
-
-                                                '&:hover':
-                                                    {
-                                                        transform:
-                                                            'translateY(-2px)',
-
-                                                        boxShadow:
-                                                            '0 16px 38px rgba(16,96,67,0.27)',
-
-                                                        '&::before':
-                                                            {
-                                                                transform:
-                                                                    'translateX(120%)',
-                                                            },
-
-                                                        '& .mobile-quote-arrow':
-                                                            {
-                                                                transform:
-                                                                    'translate(2px, -2px)',
-                                                            },
-                                                    },
-                                            }}
-                                        >
-                                            <Box
-                                                sx={{
-                                                    position:
-                                                        'relative',
-
-                                                    zIndex: 1,
-                                                }}
-                                            >
-                                                <Typography
-                                                    sx={{
-                                                        mb: 0.15,
-
-                                                        fontSize:
-                                                            '0.68rem',
-
-                                                        fontWeight:
-                                                            600,
-
-                                                        opacity:
-                                                            0.72,
-
-                                                        letterSpacing:
-                                                            '0.08em',
-
-                                                        textTransform:
-                                                            'uppercase',
-                                                    }}
-                                                >
-                                                    MBA Metal
-                                                </Typography>
-
-                                                <Typography
-                                                    sx={{
-                                                        fontSize:
-                                                            '0.88rem',
-
-                                                        fontWeight:
-                                                            750,
-                                                    }}
-                                                >
-                                                    {t(
-                                                        'common.getQuote'
-                                                    )}
-                                                </Typography>
-                                            </Box>
-
-                                            <Box
-                                                className="mobile-quote-arrow"
-                                                sx={{
-                                                    position:
-                                                        'relative',
-
-                                                    zIndex: 1,
-
-                                                    width: 38,
-
-                                                    height: 38,
-
-                                                    display:
-                                                        'flex',
-
-                                                    alignItems:
-                                                        'center',
-
-                                                    justifyContent:
-                                                        'center',
-
-                                                    border:
-                                                        '1px solid rgba(255,255,255,0.24)',
-
-                                                    borderRadius:
-                                                        '7px',
-
-                                                    transition:
-                                                        'transform 200ms ease',
-                                                }}
-                                            >
-                                                <ArrowUpRight
-                                                    size={
-                                                        17
-                                                    }
-                                                    strokeWidth={
-                                                        1.7
-                                                    }
-                                                />
-                                            </Box>
-                                        </Box>
-                                    </motion.div>
                                 </Box>
 
-                                {/* =================================
+                                {/* =================================================
                                     BOTTOM AREA
-                                ================================== */}
+                                ================================================= */}
 
                                 <Box
                                     sx={{
-                                        mt: 'auto',
+                                        mt:
+                                            'auto',
 
                                         px: {
-                                            xs: 2.25,
-                                            sm: 3.25,
+                                            xs:
+                                                2.25,
+
+                                            sm:
+                                                3.25,
                                         },
 
-                                        pt: 1,
+                                        pt:
+                                            1,
 
                                         pb: {
-                                            xs: 2.5,
-                                            sm: 3,
+                                            xs:
+                                                2.5,
+
+                                            sm:
+                                                3,
                                         },
                                     }}
                                 >
                                     <Box
                                         sx={{
-                                            pt: 2.5,
+                                            pt:
+                                                2.5,
 
                                             borderTop:
                                                 '1px solid',
@@ -1031,7 +894,8 @@ export function MobileMenu({
                                     >
                                         <Typography
                                             sx={{
-                                                mb: 1.5,
+                                                mb:
+                                                    1.5,
 
                                                 color:
                                                     'text.secondary',
@@ -1063,33 +927,27 @@ export function MobileMenu({
                                                 gridTemplateColumns:
                                                     'repeat(2, minmax(0, 1fr))',
 
-                                                gap: 1,
+                                                gap:
+                                                    1,
                                             }}
                                         >
-                                            {/* LANGUAGE */}
+                                            {/* =================================================
+                                                LANGUAGE
+                                            ================================================= */}
 
                                             <Box
-                                                component="button"
-                                                type="button"
-                                                onClick={
-                                                    handleLanguageToggle
-                                                }
                                                 sx={{
                                                     minHeight:
                                                         52,
 
-                                                    px: 1.5,
+                                                    px:
+                                                        1,
 
                                                     display:
                                                         'flex',
 
                                                     alignItems:
                                                         'center',
-
-                                                    justifyContent:
-                                                        'space-between',
-
-                                                    gap: 1,
 
                                                     border:
                                                         '1px solid',
@@ -1103,66 +961,18 @@ export function MobileMenu({
                                                     bgcolor:
                                                         'transparent',
 
-                                                    color:
-                                                        'text.primary',
-
-                                                    cursor:
-                                                        'pointer',
-
-                                                    font:
-                                                        'inherit',
-
-                                                    transition:
-                                                        'border-color 180ms ease, background-color 180ms ease',
-
-                                                    '&:hover':
-                                                        {
-                                                            borderColor:
-                                                                'primary.main',
-
-                                                            bgcolor:
-                                                                'action.hover',
-                                                        },
+                                                    overflow:
+                                                        'hidden',
                                                 }}
                                             >
-                                                <Typography
-                                                    sx={{
-                                                        fontSize:
-                                                            '0.72rem',
-
-                                                        fontWeight:
-                                                            700,
-                                                    }}
-                                                >
-                                                    {language ===
-                                                    'tr'
-                                                        ? 'English'
-                                                        : 'Türkçe'}
-                                                </Typography>
-
-                                                <Typography
-                                                    sx={{
-                                                        color:
-                                                            'primary.main',
-
-                                                        fontSize:
-                                                            '0.64rem',
-
-                                                        fontWeight:
-                                                            800,
-
-                                                        letterSpacing:
-                                                            '0.08em',
-                                                    }}
-                                                >
-                                                    {language ===
-                                                    'tr'
-                                                        ? 'EN'
-                                                        : 'TR'}
-                                                </Typography>
+                                                <LanguageSwitcher
+                                                    compact
+                                                />
                                             </Box>
 
-                                            {/* THEME */}
+                                            {/* =================================================
+                                                THEME
+                                            ================================================= */}
 
                                             <Box
                                                 component="button"
@@ -1174,7 +984,8 @@ export function MobileMenu({
                                                     minHeight:
                                                         52,
 
-                                                    px: 1.5,
+                                                    px:
+                                                        1.5,
 
                                                     display:
                                                         'flex',
@@ -1185,7 +996,8 @@ export function MobileMenu({
                                                     justifyContent:
                                                         'space-between',
 
-                                                    gap: 1,
+                                                    gap:
+                                                        1,
 
                                                     border:
                                                         '1px solid',
@@ -1229,7 +1041,8 @@ export function MobileMenu({
                                                         alignItems:
                                                             'center',
 
-                                                        gap: 0.75,
+                                                        gap:
+                                                            0.75,
                                                     }}
                                                 >
                                                     {mode ===
@@ -1279,7 +1092,8 @@ export function MobileMenu({
 
                                         <Typography
                                             sx={{
-                                                mt: 2,
+                                                mt:
+                                                    2,
 
                                                 color:
                                                     'text.secondary',
@@ -1297,7 +1111,8 @@ export function MobileMenu({
                                                     'uppercase',
                                             }}
                                         >
-                                            MBA METAL ·{' '}
+                                            MBA METAL
+                                            {' · '}
                                             {language ===
                                             'tr'
                                                 ? 'ENDÜSTRİYEL ÜRETİM'

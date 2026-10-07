@@ -1,13 +1,20 @@
-import { createContext } from 'react';
+import {
+  createContext,
+} from 'react';
 
-export type Language = 'tr' | 'en';
+import type {
+  SupportedLanguage,
+} from '../../i18n';
+
+export type Language =
+  SupportedLanguage;
 
 export interface LanguageContextValue {
   language: Language;
+
   setLanguage: (
     language: Language
   ) => Promise<void>;
-  toggleLanguage: () => Promise<void>;
 }
 
 export const LanguageContext =

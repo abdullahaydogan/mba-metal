@@ -1,4 +1,6 @@
-import { useContext } from 'react';
+import {
+  useContext,
+} from 'react';
 
 import {
   LanguageContext,

@@ -23,18 +23,27 @@ import {
     useNavigate,
 } from 'react-router-dom';
 
-import { Container } from '../../../components/common/Container';
+import {
+    useTranslation,
+} from 'react-i18next';
 
 import {
-    whyUsHeroData,
+    Container,
+} from '../../../components/common/Container';
+
+import {
+    whyUsPageData,
 } from '../../../data/why-us/why-us.data';
 
-import heroImage from '../../../assets/images/hero/hero-manufacturing.jpeg';
+import heroImage
+    from '../../../assets/images/hero/hero-manufacturing.jpeg';
 
 const MotionBox = motion.create(Box);
 
 export function WhyUsHeroSection() {
     const navigate = useNavigate();
+
+    const { t } = useTranslation();
 
     const sectionRef =
         useRef<HTMLElement | null>(null);
@@ -70,13 +79,10 @@ export function WhyUsHeroSection() {
     );
 
     const {
-        eyebrow,
-        title,
-        description,
-        primaryAction,
-        secondaryAction,
+        primaryActionHref,
+        secondaryActionHref,
         startingPoints,
-    } = whyUsHeroData;
+    } = whyUsPageData.hero;
 
     return (
         <Box
@@ -130,7 +136,8 @@ export function WhyUsHeroSection() {
                         backgroundImage:
                             `url(${heroImage})`,
 
-                        backgroundSize: 'cover',
+                        backgroundSize:
+                            'cover',
 
                         backgroundPosition: {
                             xs: 'center',
@@ -142,18 +149,16 @@ export function WhyUsHeroSection() {
                         /*
                          * Main image overlay.
                          *
-                         * The old version became almost
-                         * transparent exactly where the
-                         * right-side copy was rendered.
-                         *
-                         * This version keeps enough contrast
-                         * behind the copy while still allowing
-                         * the industrial image to remain visible.
+                         * Keeps enough contrast behind the copy
+                         * while allowing the industrial image
+                         * to remain visible.
                          */
                         '&::before': {
                             content: '""',
 
-                            position: 'absolute',
+                            position:
+                                'absolute',
+
                             inset: 0,
 
                             background: {
@@ -189,7 +194,9 @@ export function WhyUsHeroSection() {
                         '&::after': {
                             content: '""',
 
-                            position: 'absolute',
+                            position:
+                                'absolute',
+
                             inset: 0,
 
                             background: `
@@ -213,11 +220,13 @@ export function WhyUsHeroSection() {
                 <Box
                     sx={{
                         position: 'absolute',
+
                         inset: 0,
 
                         zIndex: 1,
 
-                        pointerEvents: 'none',
+                        pointerEvents:
+                            'none',
 
                         background: {
                             xs: `
@@ -261,7 +270,8 @@ export function WhyUsHeroSection() {
                             lg: 680,
                         },
 
-                        borderRadius: '50%',
+                        borderRadius:
+                            '50%',
 
                         border:
                             '1px solid rgba(22,91,65,0.07)',
@@ -278,7 +288,8 @@ export function WhyUsHeroSection() {
 
                         zIndex: 1,
 
-                        pointerEvents: 'none',
+                        pointerEvents:
+                            'none',
                     }}
                 />
 
@@ -288,7 +299,8 @@ export function WhyUsHeroSection() {
 
                 <Container
                     sx={{
-                        position: 'relative',
+                        position:
+                            'relative',
 
                         zIndex: 3,
 
@@ -300,21 +312,25 @@ export function WhyUsHeroSection() {
                             y: contentY,
                         }}
                         sx={{
-                            display: 'grid',
+                            display:
+                                'grid',
 
-                            gridTemplateColumns: {
-                                xs: '1fr',
+                            gridTemplateColumns:
+                                {
+                                    xs:
+                                        '1fr',
 
-                                lg:
-                                    'minmax(0, 1.05fr) minmax(320px, 0.55fr)',
-                            },
+                                    lg:
+                                        'minmax(0, 1.05fr) minmax(320px, 0.55fr)',
+                                },
 
                             gap: {
                                 xs: 6,
                                 lg: 12,
                             },
 
-                            alignItems: 'end',
+                            alignItems:
+                                'end',
 
                             py: {
                                 xs: 11,
@@ -342,7 +358,8 @@ export function WhyUsHeroSection() {
                                     duration: 0.6,
                                 }}
                                 sx={{
-                                    display: 'flex',
+                                    display:
+                                        'flex',
 
                                     alignItems:
                                         'center',
@@ -373,13 +390,16 @@ export function WhyUsHeroSection() {
                                         color:
                                             'primary.main',
 
-                                        fontWeight: 700,
+                                        fontWeight:
+                                            700,
 
                                         letterSpacing:
                                             '0.16em',
                                     }}
                                 >
-                                    {eyebrow}
+                                    {t(
+                                        'whyUsPage.hero.eyebrow'
+                                    )}
                                 </Typography>
                             </MotionBox>
 
@@ -414,22 +434,35 @@ export function WhyUsHeroSection() {
                                             '#111714',
 
                                         fontSize: {
-                                            xs: '3.15rem',
-                                            sm: '4.1rem',
-                                            md: '5.1rem',
-                                            lg: '5.7rem',
-                                            xl: '6.1rem',
+                                            xs:
+                                                '3.15rem',
+
+                                            sm:
+                                                '4.1rem',
+
+                                            md:
+                                                '5.1rem',
+
+                                            lg:
+                                                '5.7rem',
+
+                                            xl:
+                                                '6.1rem',
                                         },
 
-                                        fontWeight: 700,
+                                        fontWeight:
+                                            700,
 
-                                        lineHeight: 0.94,
+                                        lineHeight:
+                                            0.94,
 
                                         letterSpacing:
                                             '-0.065em',
                                     }}
                                 >
-                                    {title}
+                                    {t(
+                                        'whyUsPage.hero.title'
+                                    )}
                                 </Typography>
                             </MotionBox>
                         </Box>
@@ -460,7 +493,8 @@ export function WhyUsHeroSection() {
                                 ],
                             }}
                             sx={{
-                                position: 'relative',
+                                position:
+                                    'relative',
 
                                 maxWidth: 500,
 
@@ -476,45 +510,50 @@ export function WhyUsHeroSection() {
                                  * only the region immediately behind
                                  * the text.
                                  */
-                                '&::before': {
-                                    content: '""',
+                                '&::before':
+                                    {
+                                        content:
+                                            '""',
 
-                                    position:
-                                        'absolute',
+                                        position:
+                                            'absolute',
 
-                                    zIndex: -1,
+                                        zIndex: -1,
 
-                                    pointerEvents:
-                                        'none',
+                                        pointerEvents:
+                                            'none',
 
-                                    inset: {
-                                        xs:
-                                            '-28px -20px',
-                                        lg:
-                                            '-70px -90px',
+                                        inset: {
+                                            xs:
+                                                '-28px -20px',
+
+                                            lg:
+                                                '-70px -90px',
+                                        },
+
+                                        background:
+                                            {
+                                                xs:
+                                                    'rgba(245,247,245,0.72)',
+
+                                                lg: `
+                                                    radial-gradient(
+                                                        ellipse at center,
+                                                        rgba(245,247,245,0.94) 0%,
+                                                        rgba(245,247,245,0.86) 32%,
+                                                        rgba(245,247,245,0.60) 54%,
+                                                        rgba(245,247,245,0.18) 72%,
+                                                        rgba(245,247,245,0) 82%
+                                                    )
+                                                `,
+                                            },
+
+                                        borderRadius:
+                                            {
+                                                xs: 2,
+                                                lg: 0,
+                                            },
                                     },
-
-                                    background: {
-                                        xs:
-                                            'rgba(245,247,245,0.72)',
-
-                                        lg: `
-                                            radial-gradient(
-                                                ellipse at center,
-                                                rgba(245,247,245,0.94) 0%,
-                                                rgba(245,247,245,0.86) 32%,
-                                                rgba(245,247,245,0.60) 54%,
-                                                rgba(245,247,245,0.18) 72%,
-                                                rgba(245,247,245,0) 82%
-                                            )
-                                        `,
-                                    },
-
-                                    borderRadius: {
-                                        xs: 2,
-                                        lg: 0,
-                                    },
-                                },
                             }}
                         >
                             <Typography
@@ -525,29 +564,38 @@ export function WhyUsHeroSection() {
                                         '#37413c',
 
                                     fontSize: {
-                                        xs: '0.98rem',
-                                        md: '1.03rem',
+                                        xs:
+                                            '0.98rem',
+
+                                        md:
+                                            '1.03rem',
                                     },
 
-                                    fontWeight: 450,
+                                    fontWeight:
+                                        450,
 
-                                    lineHeight: 1.9,
+                                    lineHeight:
+                                        1.9,
 
                                     textShadow:
                                         '0 1px 0 rgba(255,255,255,0.18)',
                                 }}
                             >
-                                {description}
+                                {t(
+                                    'whyUsPage.hero.description'
+                                )}
                             </Typography>
 
                             <Box
                                 sx={{
-                                    display: 'flex',
+                                    display:
+                                        'flex',
 
                                     alignItems:
                                         'center',
 
-                                    flexWrap: 'wrap',
+                                    flexWrap:
+                                        'wrap',
 
                                     gap: {
                                         xs: 1,
@@ -557,32 +605,35 @@ export function WhyUsHeroSection() {
                                     mt: 4,
                                 }}
                             >
+                                {/* ================================================= */}
                                 {/* PRIMARY CTA */}
+                                {/* ================================================= */}
 
                                 <Button
                                     variant="contained"
-
                                     endIcon={
                                         <ArrowRight
-                                            size={17}
+                                            size={
+                                                17
+                                            }
                                             strokeWidth={
                                                 1.7
                                             }
                                         />
                                     }
-
                                     onClick={() =>
                                         navigate(
-                                            primaryAction.href
+                                            primaryActionHref
                                         )
                                     }
-
                                     sx={{
-                                        minHeight: 52,
+                                        minHeight:
+                                            52,
 
                                         px: 3.2,
 
-                                        borderRadius: 0,
+                                        borderRadius:
+                                            0,
 
                                         boxShadow:
                                             'none',
@@ -590,45 +641,52 @@ export function WhyUsHeroSection() {
                                         textTransform:
                                             'none',
 
-                                        fontWeight: 700,
+                                        fontWeight:
+                                            700,
 
-                                        '&:hover': {
-                                            boxShadow:
-                                                'none',
-                                        },
+                                        '&:hover':
+                                            {
+                                                boxShadow:
+                                                    'none',
+                                            },
                                     }}
                                 >
-                                    {
-                                        primaryAction.label
-                                    }
+                                    {t(
+                                        'whyUsPage.hero.primaryAction'
+                                    )}
                                 </Button>
 
+                                {/* ================================================= */}
                                 {/* SECONDARY CTA */}
+                                {/* ================================================= */}
 
                                 <Button
                                     variant="text"
-
                                     endIcon={
                                         <ArrowDownRight
-                                            size={17}
+                                            size={
+                                                17
+                                            }
                                             strokeWidth={
                                                 1.7
                                             }
                                         />
                                     }
-
                                     onClick={() =>
                                         navigate(
-                                            secondaryAction.href
+                                            secondaryActionHref
                                         )
                                     }
-
                                     sx={{
-                                        minHeight: 52,
+                                        minHeight:
+                                            52,
 
                                         px: {
-                                            xs: 1.5,
-                                            sm: 2,
+                                            xs:
+                                                1.5,
+
+                                            sm:
+                                                2,
                                         },
 
                                         color:
@@ -637,20 +695,22 @@ export function WhyUsHeroSection() {
                                         textTransform:
                                             'none',
 
-                                        fontWeight: 700,
+                                        fontWeight:
+                                            700,
 
-                                        '&:hover': {
-                                            bgcolor:
-                                                'rgba(245,247,245,0.52)',
+                                        '&:hover':
+                                            {
+                                                bgcolor:
+                                                    'rgba(245,247,245,0.52)',
 
-                                            color:
-                                                'primary.main',
-                                        },
+                                                color:
+                                                    'primary.main',
+                                            },
                                     }}
                                 >
-                                    {
-                                        secondaryAction.label
-                                    }
+                                    {t(
+                                        'whyUsPage.hero.secondaryAction'
+                                    )}
                                 </Button>
                             </Box>
                         </MotionBox>
@@ -680,45 +740,50 @@ export function WhyUsHeroSection() {
                 <Container>
                     <Box
                         sx={{
-                            display: 'grid',
+                            display:
+                                'grid',
 
-                            gridTemplateColumns: {
-                                xs: '1fr',
+                            gridTemplateColumns:
+                                {
+                                    xs:
+                                        '1fr',
 
-                                sm:
-                                    'repeat(2, minmax(0, 1fr))',
+                                    sm:
+                                        'repeat(2, minmax(0, 1fr))',
 
-                                lg:
-                                    `repeat(${startingPoints.length}, minmax(0, 1fr))`,
-                            },
+                                    lg:
+                                        `repeat(${startingPoints.length}, minmax(0, 1fr))`,
+                                },
                         }}
                     >
                         {startingPoints.map(
-                            (item, index) => {
+                            (
+                                item,
+                                index
+                            ) => {
                                 const Icon =
                                     item.icon;
+
+                                const basePath =
+                                    `whyUsPage.hero.startingPoints.${item.id}`;
 
                                 return (
                                     <MotionBox
                                         key={
-                                            item.title
+                                            item.id
                                         }
-
                                         initial={{
                                             opacity: 0,
                                             y: 24,
                                         }}
-
                                         whileInView={{
                                             opacity: 1,
                                             y: 0,
                                         }}
-
                                         viewport={{
                                             once: true,
                                             amount: 0.3,
                                         }}
-
                                         transition={{
                                             duration: 0.6,
 
@@ -733,15 +798,15 @@ export function WhyUsHeroSection() {
                                                 1,
                                             ],
                                         }}
-
                                         sx={{
                                             position:
                                                 'relative',
 
-                                            minHeight: {
-                                                xs: 230,
-                                                md: 270,
-                                            },
+                                            minHeight:
+                                                {
+                                                    xs: 230,
+                                                    md: 270,
+                                                },
 
                                             py: {
                                                 xs: 4.5,
@@ -754,42 +819,44 @@ export function WhyUsHeroSection() {
                                                 lg: 4.5,
                                             },
 
-                                            borderRight: {
-                                                xs:
-                                                    'none',
+                                            borderRight:
+                                                {
+                                                    xs:
+                                                        'none',
 
-                                                sm:
-                                                    index %
-                                                        2 ===
-                                                    0
-                                                        ? '1px solid rgba(17,23,20,0.11)'
-                                                        : 'none',
+                                                    sm:
+                                                        index %
+                                                            2 ===
+                                                        0
+                                                            ? '1px solid rgba(17,23,20,0.11)'
+                                                            : 'none',
 
-                                                lg:
-                                                    index <
-                                                    startingPoints.length -
-                                                        1
-                                                        ? '1px solid rgba(17,23,20,0.11)'
-                                                        : 'none',
-                                            },
+                                                    lg:
+                                                        index <
+                                                        startingPoints.length -
+                                                            1
+                                                            ? '1px solid rgba(17,23,20,0.11)'
+                                                            : 'none',
+                                                },
 
-                                            borderBottom: {
-                                                xs:
-                                                    index <
-                                                    startingPoints.length -
-                                                        1
-                                                        ? '1px solid rgba(17,23,20,0.11)'
-                                                        : 'none',
+                                            borderBottom:
+                                                {
+                                                    xs:
+                                                        index <
+                                                        startingPoints.length -
+                                                            1
+                                                            ? '1px solid rgba(17,23,20,0.11)'
+                                                            : 'none',
 
-                                                sm:
-                                                    index <
-                                                    2
-                                                        ? '1px solid rgba(17,23,20,0.11)'
-                                                        : 'none',
+                                                    sm:
+                                                        index <
+                                                        2
+                                                            ? '1px solid rgba(17,23,20,0.11)'
+                                                            : 'none',
 
-                                                lg:
-                                                    'none',
-                                            },
+                                                    lg:
+                                                        'none',
+                                                },
 
                                             transition:
                                                 'background-color 250ms ease',
@@ -850,11 +917,12 @@ export function WhyUsHeroSection() {
                                                 },
                                         }}
                                     >
+                                        {/* ================================================= */}
                                         {/* ICON */}
+                                        {/* ================================================= */}
 
                                         <Box
                                             className="starting-point-icon"
-
                                             sx={{
                                                 width: 50,
                                                 height: 50,
@@ -887,18 +955,18 @@ export function WhyUsHeroSection() {
                                                 size={
                                                     20
                                                 }
-
                                                 strokeWidth={
                                                     1.6
                                                 }
                                             />
                                         </Box>
 
+                                        {/* ================================================= */}
                                         {/* TITLE */}
+                                        {/* ================================================= */}
 
                                         <Typography
                                             component="h3"
-
                                             sx={{
                                                 mb: 1.8,
 
@@ -914,24 +982,29 @@ export function WhyUsHeroSection() {
                                                             '1.5rem',
                                                     },
 
-                                                fontWeight: 650,
+                                                fontWeight:
+                                                    650,
 
-                                                lineHeight: 1.15,
+                                                lineHeight:
+                                                    1.15,
 
                                                 letterSpacing:
                                                     '-0.03em',
                                             }}
                                         >
-                                            {
-                                                item.title
-                                            }
+                                            {t(
+                                                `${basePath}.title`
+                                            )}
                                         </Typography>
 
+                                        {/* ================================================= */}
                                         {/* DESCRIPTION */}
+                                        {/* ================================================= */}
 
                                         <Typography
                                             sx={{
-                                                maxWidth: 280,
+                                                maxWidth:
+                                                    280,
 
                                                 color:
                                                     'rgba(17,23,20,0.64)',
@@ -939,12 +1012,13 @@ export function WhyUsHeroSection() {
                                                 fontSize:
                                                     '0.92rem',
 
-                                                lineHeight: 1.75,
+                                                lineHeight:
+                                                    1.75,
                                             }}
                                         >
-                                            {
-                                                item.description
-                                            }
+                                            {t(
+                                                `${basePath}.description`
+                                            )}
                                         </Typography>
                                     </MotionBox>
                                 );

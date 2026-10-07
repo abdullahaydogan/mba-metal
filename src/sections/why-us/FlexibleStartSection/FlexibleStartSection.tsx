@@ -17,25 +17,28 @@ import {
 } from 'react-router-dom';
 
 import {
+    useTranslation,
+} from 'react-i18next';
+
+import {
     Container,
 } from '../../../components/common/Container';
 
 import {
-    flexibleStartData,
+    whyUsPageData,
 } from '../../../data/why-us/why-us.data';
 
 const MotionBox = motion.create(Box);
 
 export function FlexibleStartSection() {
+    const { t } = useTranslation();
+
     const {
-        eyebrow,
-        title,
-        paragraphs,
+        paragraphIds,
         namingExample,
         existingProduct,
-        relatedCapabilitiesTitle,
         relatedCapabilities,
-    } = flexibleStartData;
+    } = whyUsPageData.flexibleStart;
 
     return (
         <Box
@@ -98,6 +101,7 @@ export function FlexibleStartSection() {
                             }}
                             transition={{
                                 duration: 0.7,
+
                                 ease: [
                                     0.22,
                                     1,
@@ -141,7 +145,9 @@ export function FlexibleStartSection() {
                                             '0.15em',
                                     }}
                                 >
-                                    {eyebrow}
+                                    {t(
+                                        'whyUsPage.flexibleStart.eyebrow'
+                                    )}
                                 </Typography>
                             </Box>
 
@@ -168,7 +174,9 @@ export function FlexibleStartSection() {
                                         '-0.055em',
                                 }}
                             >
-                                {title}
+                                {t(
+                                    'whyUsPage.flexibleStart.title'
+                                )}
                             </Typography>
                         </MotionBox>
 
@@ -183,10 +191,15 @@ export function FlexibleStartSection() {
                                 },
                             }}
                         >
-                            {paragraphs.map(
-                                (paragraph, index) => (
+                            {paragraphIds.map(
+                                (
+                                    paragraphId,
+                                    index
+                                ) => (
                                     <MotionBox
-                                        key={paragraph}
+                                        key={
+                                            paragraphId
+                                        }
                                         initial={{
                                             opacity: 0,
                                             y: 24,
@@ -250,23 +263,28 @@ export function FlexibleStartSection() {
 
                                         <Typography
                                             sx={{
-                                                maxWidth: 700,
+                                                maxWidth:
+                                                    700,
 
                                                 color:
                                                     'text.secondary',
 
-                                                fontSize: {
-                                                    xs:
-                                                        '0.97rem',
+                                                fontSize:
+                                                    {
+                                                        xs:
+                                                            '0.97rem',
 
-                                                    md:
-                                                        '1.04rem',
-                                                },
+                                                        md:
+                                                            '1.04rem',
+                                                    },
 
-                                                lineHeight: 1.9,
+                                                lineHeight:
+                                                    1.9,
                                             }}
                                         >
-                                            {paragraph}
+                                            {t(
+                                                `whyUsPage.flexibleStart.paragraphs.${paragraphId}`
+                                            )}
                                         </Typography>
                                     </MotionBox>
                                 )
@@ -377,6 +395,7 @@ export function FlexibleStartSection() {
 
                             gridTemplateColumns: {
                                 xs: '1fr',
+
                                 lg:
                                     'minmax(0, 0.75fr) minmax(0, 1.25fr)',
                             },
@@ -426,9 +445,9 @@ export function FlexibleStartSection() {
                                         '0.15em',
                                 }}
                             >
-                                {
-                                    namingExample.eyebrow
-                                }
+                                {t(
+                                    'whyUsPage.flexibleStart.namingExample.eyebrow'
+                                )}
                             </Typography>
 
                             <Typography
@@ -450,9 +469,15 @@ export function FlexibleStartSection() {
                                         '-0.05em',
                                 }}
                             >
-                                İsim değişebilir.
+                                {t(
+                                    'whyUsPage.flexibleStart.namingExample.titleLine1'
+                                )}
+
                                 <br />
-                                İhtiyaç aynı kalır.
+
+                                {t(
+                                    'whyUsPage.flexibleStart.namingExample.titleLine2'
+                                )}
                             </Typography>
 
                             <Typography
@@ -470,9 +495,9 @@ export function FlexibleStartSection() {
                                     lineHeight: 1.85,
                                 }}
                             >
-                                {
-                                    namingExample.description
-                                }
+                                {t(
+                                    'whyUsPage.flexibleStart.namingExample.description'
+                                )}
                             </Typography>
                         </MotionBox>
 
@@ -487,9 +512,14 @@ export function FlexibleStartSection() {
                             }}
                         >
                             {namingExample.items.map(
-                                (item, index) => (
+                                (
+                                    item,
+                                    index
+                                ) => (
                                     <MotionBox
-                                        key={item.label}
+                                        key={
+                                            item.id
+                                        }
                                         initial={{
                                             opacity: 0,
                                             x: 30,
@@ -551,7 +581,8 @@ export function FlexibleStartSection() {
                                                         'absolute',
 
                                                     left: 0,
-                                                    bottom: -1,
+                                                    bottom:
+                                                        -1,
 
                                                     width: 0,
                                                     height: 1,
@@ -584,23 +615,28 @@ export function FlexibleStartSection() {
                                                 color:
                                                     '#fff',
 
-                                                fontSize: {
-                                                    xs:
-                                                        '1.65rem',
+                                                fontSize:
+                                                    {
+                                                        xs:
+                                                            '1.65rem',
 
-                                                    md:
-                                                        '2.15rem',
-                                                },
+                                                        md:
+                                                            '2.15rem',
+                                                    },
 
-                                                fontWeight: 500,
+                                                fontWeight:
+                                                    500,
 
-                                                lineHeight: 1.1,
+                                                lineHeight:
+                                                    1.1,
 
                                                 letterSpacing:
                                                     '-0.035em',
                                             }}
                                         >
-                                            {item.label}
+                                            {t(
+                                                `whyUsPage.flexibleStart.namingExample.items.${item.id}`
+                                            )}
                                         </Typography>
 
                                         <ArrowUpRight
@@ -647,6 +683,7 @@ export function FlexibleStartSection() {
 
                             gridTemplateColumns: {
                                 xs: '1fr',
+
                                 lg:
                                     'minmax(0, 1fr) minmax(0, 0.85fr)',
                             },
@@ -696,9 +733,9 @@ export function FlexibleStartSection() {
                                         '0.15em',
                                 }}
                             >
-                                {
-                                    existingProduct.eyebrow
-                                }
+                                {t(
+                                    'whyUsPage.flexibleStart.existingProduct.eyebrow'
+                                )}
                             </Typography>
 
                             <Typography
@@ -723,9 +760,9 @@ export function FlexibleStartSection() {
                                         '-0.05em',
                                 }}
                             >
-                                {
-                                    existingProduct.title
-                                }
+                                {t(
+                                    'whyUsPage.flexibleStart.existingProduct.title'
+                                )}
                             </Typography>
 
                             <Typography
@@ -737,15 +774,14 @@ export function FlexibleStartSection() {
                                     color:
                                         'text.secondary',
 
-                                    fontSize:
-                                        '1rem',
+                                    fontSize: '1rem',
 
                                     lineHeight: 1.85,
                                 }}
                             >
-                                {
-                                    existingProduct.description
-                                }
+                                {t(
+                                    'whyUsPage.flexibleStart.existingProduct.description'
+                                )}
                             </Typography>
                         </MotionBox>
 
@@ -781,7 +817,9 @@ export function FlexibleStartSection() {
                             {existingProduct.checklist.map(
                                 (item) => (
                                     <Box
-                                        key={item}
+                                        key={
+                                            item.id
+                                        }
                                         sx={{
                                             display:
                                                 'grid',
@@ -845,12 +883,16 @@ export function FlexibleStartSection() {
                                                 fontSize:
                                                     '0.95rem',
 
-                                                fontWeight: 500,
+                                                fontWeight:
+                                                    500,
 
-                                                lineHeight: 1.5,
+                                                lineHeight:
+                                                    1.5,
                                             }}
                                         >
-                                            {item}
+                                            {t(
+                                                `whyUsPage.flexibleStart.existingProduct.checklist.${item.id}`
+                                            )}
                                         </Typography>
                                     </Box>
                                 )
@@ -884,6 +926,7 @@ export function FlexibleStartSection() {
 
                             gridTemplateColumns: {
                                 xs: '1fr',
+
                                 lg:
                                     'minmax(260px, 0.55fr) minmax(0, 1.45fr)',
                             },
@@ -911,9 +954,9 @@ export function FlexibleStartSection() {
                                 lineHeight: 1.8,
                             }}
                         >
-                            {
-                                relatedCapabilitiesTitle
-                            }
+                            {t(
+                                'whyUsPage.flexibleStart.relatedCapabilitiesTitle'
+                            )}
                         </Typography>
 
                         {/* CARDS */}
@@ -924,6 +967,7 @@ export function FlexibleStartSection() {
 
                                 gridTemplateColumns: {
                                     xs: '1fr',
+
                                     md:
                                         'repeat(2, minmax(0, 1fr))',
                                 },
@@ -943,10 +987,13 @@ export function FlexibleStartSection() {
                                     const Icon =
                                         capability.icon;
 
+                                    const basePath =
+                                        `whyUsPage.flexibleStart.relatedCapabilities.${capability.id}`;
+
                                     return (
                                         <Box
                                             key={
-                                                capability.title
+                                                capability.id
                                             }
                                             component={
                                                 Link
@@ -1107,17 +1154,19 @@ export function FlexibleStartSection() {
                                                     fontSize:
                                                         '1.45rem',
 
-                                                    fontWeight: 650,
+                                                    fontWeight:
+                                                        650,
 
-                                                    lineHeight: 1.15,
+                                                    lineHeight:
+                                                        1.15,
 
                                                     letterSpacing:
                                                         '-0.03em',
                                                 }}
                                             >
-                                                {
-                                                    capability.title
-                                                }
+                                                {t(
+                                                    `${basePath}.title`
+                                                )}
                                             </Typography>
 
                                             <Typography
@@ -1131,12 +1180,13 @@ export function FlexibleStartSection() {
                                                     fontSize:
                                                         '0.92rem',
 
-                                                    lineHeight: 1.75,
+                                                    lineHeight:
+                                                        1.75,
                                                 }}
                                             >
-                                                {
-                                                    capability.description
-                                                }
+                                                {t(
+                                                    `${basePath}.description`
+                                                )}
                                             </Typography>
                                         </Box>
                                     );

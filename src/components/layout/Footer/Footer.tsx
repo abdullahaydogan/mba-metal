@@ -42,9 +42,9 @@ import {
     routes,
 } from '../../../constants/routes';
 
-/* ================================================================
+/* =========================================================
    FOOTER
-================================================================ */
+========================================================= */
 
 export function Footer() {
     const {
@@ -54,9 +54,9 @@ export function Footer() {
     const currentYear =
         new Date().getFullYear();
 
-    /* ------------------------------------------------------------
+    /* =========================================================
        WHATSAPP
-    ------------------------------------------------------------ */
+    ========================================================= */
 
     const whatsappNumber =
         contactConfig.whatsapp.value.replace(
@@ -67,9 +67,9 @@ export function Footer() {
     const whatsappUrl =
         `https://wa.me/${whatsappNumber}`;
 
-    /* ------------------------------------------------------------
+    /* =========================================================
        CORPORATE LINKS
-    ------------------------------------------------------------ */
+    ========================================================= */
 
     const corporateLinks =
         navigationItems.filter(
@@ -82,52 +82,162 @@ export function Footer() {
         <Box
             component="footer"
             sx={{
-                position: 'relative',
+                position:
+                    'relative',
 
-                overflow: 'hidden',
+                overflow:
+                    'hidden',
 
                 bgcolor:
-                    'background.paper',
+                    '#06100b',
 
                 color:
-                    'text.primary',
+                    '#ffffff',
 
                 borderTop:
-                    '1px solid',
-
-                borderColor:
-                    'divider',
+                    '1px solid rgba(255,255,255,0.08)',
             }}
         >
-            {/* =====================================================
-                AMBIENT BACKGROUND
-            ===================================================== */}
+            {/* =================================================
+                BACKGROUND GRID
+            ================================================= */}
 
             <Box
                 aria-hidden="true"
                 sx={{
-                    position: 'absolute',
+                    position:
+                        'absolute',
 
-                    top: -280,
-                    right: -220,
+                    inset:
+                        0,
 
-                    width: 620,
-                    height: 620,
+                    opacity:
+                        0.14,
+
+                    backgroundImage: `
+                        linear-gradient(
+                            rgba(255,255,255,0.035) 1px,
+                            transparent 1px
+                        ),
+                        linear-gradient(
+                            90deg,
+                            rgba(255,255,255,0.035) 1px,
+                            transparent 1px
+                        )
+                    `,
+
+                    backgroundSize:
+                        '72px 72px',
+
+                    maskImage:
+                        'linear-gradient(to bottom, black 0%, transparent 88%)',
+
+                    WebkitMaskImage:
+                        'linear-gradient(to bottom, black 0%, transparent 88%)',
+
+                    pointerEvents:
+                        'none',
+                }}
+            />
+
+            {/* =================================================
+                RIGHT GLOW
+            ================================================= */}
+
+            <Box
+                aria-hidden="true"
+                sx={{
+                    position:
+                        'absolute',
+
+                    top:
+                        -330,
+
+                    right:
+                        -250,
+
+                    width:
+                        680,
+
+                    height:
+                        680,
 
                     borderRadius:
                         '50%',
 
-                    background: (
-                        theme
-                    ) =>
-                        `radial-gradient(
-                            circle,
-                            ${theme.palette.primary.main}18 0%,
-                            transparent 68%
-                        )`,
+                    background:
+                        'radial-gradient(circle, rgba(42,155,107,0.15) 0%, rgba(42,155,107,0.04) 40%, transparent 70%)',
 
                     pointerEvents:
                         'none',
+                }}
+            />
+
+            {/* =================================================
+                LEFT GLOW
+            ================================================= */}
+
+            <Box
+                aria-hidden="true"
+                sx={{
+                    position:
+                        'absolute',
+
+                    left:
+                        -300,
+
+                    bottom:
+                        -400,
+
+                    width:
+                        650,
+
+                    height:
+                        650,
+
+                    borderRadius:
+                        '50%',
+
+                    background:
+                        'radial-gradient(circle, rgba(42,155,107,0.08) 0%, transparent 68%)',
+
+                    pointerEvents:
+                        'none',
+                }}
+            />
+
+            {/* =================================================
+                TOP ACCENT
+            ================================================= */}
+
+            <Box
+                aria-hidden="true"
+                sx={{
+                    position:
+                        'absolute',
+
+                    top:
+                        0,
+
+                    left:
+                        0,
+
+                    width: {
+                        xs:
+                            100,
+
+                        sm:
+                            160,
+
+                        md:
+                            220,
+                    },
+
+                    height:
+                        '2px',
+
+                    bgcolor:
+                        'primary.main',
                 }}
             />
 
@@ -141,99 +251,186 @@ export function Footer() {
                         position:
                             'relative',
 
-                        zIndex: 1,
+                        zIndex:
+                            1,
+
+                        py: {
+                            xs:
+                                7,
+
+                            sm:
+                                8,
+
+                            md:
+                                9,
+
+                            lg:
+                                10,
+                        },
 
                         display:
                             'grid',
 
-                        gridTemplateColumns:
-                            {
-                                xs: '1fr',
+                        gridTemplateColumns: {
+                            xs:
+                                '1fr',
 
-                                sm: '1.2fr 1fr',
+                            sm:
+                                'repeat(2, minmax(0, 1fr))',
 
-                                lg: '1.55fr 0.8fr 0.8fr 1.15fr',
-                            },
-
-                        gap: {
-                            xs: 5,
-
-                            md: 6,
-
-                            lg: 8,
+                            lg:
+                                '1.65fr 0.75fr 0.85fr 1.25fr',
                         },
 
-                        py: {
-                            xs: 6,
+                        columnGap: {
+                            sm:
+                                6,
 
-                            sm: 7,
-
-                            md: 8,
+                            lg:
+                                8,
                         },
+
+                        rowGap: {
+                            xs:
+                                6,
+
+                            md:
+                                7,
+                        },
+
+                        alignItems:
+                            'start',
                     }}
                 >
-                    {/* =============================================
+                    {/* =================================================
                         BRAND
-                    ============================================= */}
+                    ================================================= */}
 
                     <Box
                         sx={{
-                            maxWidth: 360,
+                            maxWidth:
+                                410,
                         }}
                     >
-                        <Logo
-                            size="large"
-                        />
+                        <Box
+                            sx={{
+                                display:
+                                    'inline-flex',
+
+                                '& img':
+                                    {
+                                        filter:
+                                            'brightness(0) invert(1)',
+                                    },
+                            }}
+                        >
+                            <Logo
+                                size="large"
+                            />
+                        </Box>
 
                         <Typography
                             sx={{
-                                mt: 3,
+                                mt:
+                                    3.5,
 
-                                maxWidth: 330,
+                                maxWidth:
+                                    380,
 
                                 color:
-                                    'text.secondary',
+                                    'rgba(255,255,255,0.58)',
 
                                 fontSize:
-                                    '0.92rem',
+                                    '0.9rem',
 
-                                lineHeight: 1.8,
+                                lineHeight:
+                                    1.85,
                             }}
                         >
                             {t(
-                                'footer.description'
+                                'footer.company.description'
                             )}
                         </Typography>
 
                         <Typography
                             sx={{
-                                mt: 3,
+                                mt:
+                                    2,
+
+                                maxWidth:
+                                    380,
 
                                 color:
-                                    'primary.main',
+                                    'rgba(255,255,255,0.36)',
 
                                 fontSize:
-                                    '0.68rem',
+                                    '0.78rem',
 
-                                fontWeight:
-                                    700,
-
-                                letterSpacing:
-                                    '0.15em',
-
-                                textTransform:
-                                    'uppercase',
+                                lineHeight:
+                                    1.75,
                             }}
                         >
                             {t(
-                                'footer.tagline'
+                                'footer.company.sectors'
                             )}
                         </Typography>
+
+                        <Box
+                            sx={{
+                                mt:
+                                    3.5,
+
+                                display:
+                                    'flex',
+
+                                alignItems:
+                                    'center',
+
+                                gap:
+                                    1.4,
+                            }}
+                        >
+                            <Box
+                                sx={{
+                                    width:
+                                        34,
+
+                                    height:
+                                        '1px',
+
+                                    bgcolor:
+                                        'primary.main',
+                                }}
+                            />
+
+                            <Typography
+                                sx={{
+                                    color:
+                                        'primary.light',
+
+                                    fontSize:
+                                        '0.62rem',
+
+                                    fontWeight:
+                                        750,
+
+                                    letterSpacing:
+                                        '0.15em',
+
+                                    textTransform:
+                                        'uppercase',
+                                }}
+                            >
+                                {t(
+                                    'footer.signature'
+                                )}
+                            </Typography>
+                        </Box>
                     </Box>
 
-                    {/* =============================================
+                    {/* =================================================
                         CORPORATE
-                    ============================================= */}
+                    ================================================= */}
 
                     <Box>
                         <FooterHeading>
@@ -244,6 +441,9 @@ export function Footer() {
 
                         <Box
                             sx={{
+                                mt:
+                                    3,
+
                                 display:
                                     'flex',
 
@@ -253,13 +453,14 @@ export function Footer() {
                                 alignItems:
                                     'flex-start',
 
-                                gap: 1.6,
-
-                                mt: 3,
+                                gap:
+                                    1.75,
                             }}
                         >
                             {corporateLinks.map(
-                                (item) => (
+                                (
+                                    item
+                                ) => (
                                     <FooterRouterLink
                                         key={
                                             item.id
@@ -277,29 +478,19 @@ export function Footer() {
 
                             <FooterRouterLink
                                 to={
-                                    routes.quality
+                                    routes.contact
                                 }
                             >
                                 {t(
-                                    'navigation.quality'
-                                )}
-                            </FooterRouterLink>
-
-                            <FooterRouterLink
-                                to={
-                                    routes.projects
-                                }
-                            >
-                                {t(
-                                    'navigation.projects'
+                                    'navigation.contact'
                                 )}
                             </FooterRouterLink>
                         </Box>
                     </Box>
 
-                    {/* =============================================
+                    {/* =================================================
                         PRODUCTION
-                    ============================================= */}
+                    ================================================= */}
 
                     <Box>
                         <FooterHeading>
@@ -310,6 +501,9 @@ export function Footer() {
 
                         <Box
                             sx={{
+                                mt:
+                                    3,
+
                                 display:
                                     'flex',
 
@@ -319,9 +513,8 @@ export function Footer() {
                                 alignItems:
                                     'flex-start',
 
-                                gap: 1.6,
-
-                                mt: 3,
+                                gap:
+                                    1.75,
                             }}
                         >
                             <FooterRouterLink
@@ -346,29 +539,19 @@ export function Footer() {
 
                             <FooterRouterLink
                                 to={
-                                    routes.quality
+                                    routes.market
                                 }
                             >
                                 {t(
-                                    'footer.quality'
-                                )}
-                            </FooterRouterLink>
-
-                            <FooterRouterLink
-                                to={
-                                    routes.projects
-                                }
-                            >
-                                {t(
-                                    'footer.projects'
+                                    'navigation.market'
                                 )}
                             </FooterRouterLink>
                         </Box>
                     </Box>
 
-                    {/* =============================================
+                    {/* =================================================
                         CONTACT
-                    ============================================= */}
+                    ================================================= */}
 
                     <Box>
                         <FooterHeading>
@@ -379,25 +562,25 @@ export function Footer() {
 
                         <Box
                             sx={{
+                                mt:
+                                    3,
+
                                 display:
                                     'flex',
 
                                 flexDirection:
                                     'column',
 
-                                gap: 2.2,
-
-                                mt: 3,
+                                gap:
+                                    1.15,
                             }}
                         >
-                            {/* PHONE */}
-
-                            <ContactLink
+                            <ContactItem
                                 href={`tel:${contactConfig.phone.value}`}
                                 icon={
                                     <Phone
                                         size={
-                                            17
+                                            16
                                         }
                                         strokeWidth={
                                             1.6
@@ -414,14 +597,12 @@ export function Footer() {
                                 }
                             />
 
-                            {/* EMAIL */}
-
-                            <ContactLink
+                            <ContactItem
                                 href={`mailto:${contactConfig.email}`}
                                 icon={
                                     <Mail
                                         size={
-                                            17
+                                            16
                                         }
                                         strokeWidth={
                                             1.6
@@ -436,8 +617,6 @@ export function Footer() {
                                 }
                             />
 
-                            {/* WHATSAPP */}
-
                             <Box
                                 component="a"
                                 href={
@@ -446,8 +625,11 @@ export function Footer() {
                                 target="_blank"
                                 rel="noreferrer"
                                 sx={{
-                                    width:
-                                        'fit-content',
+                                    minHeight:
+                                        62,
+
+                                    px:
+                                        1.6,
 
                                     display:
                                         'flex',
@@ -455,49 +637,131 @@ export function Footer() {
                                     alignItems:
                                         'center',
 
-                                    gap: 1,
+                                    justifyContent:
+                                        'space-between',
+
+                                    gap:
+                                        1.5,
+
+                                    border:
+                                        '1px solid rgba(255,255,255,0.09)',
+
+                                    bgcolor:
+                                        'rgba(255,255,255,0.025)',
 
                                     color:
-                                        'primary.main',
+                                        '#ffffff',
 
                                     textDecoration:
                                         'none',
 
-                                    fontSize:
-                                        '0.82rem',
-
-                                    fontWeight:
-                                        700,
-
                                     transition:
-                                        'opacity 180ms ease, transform 180ms ease',
+                                        'border-color 180ms ease, background-color 180ms ease, transform 180ms ease',
 
                                     '&:hover':
                                         {
-                                            opacity:
-                                                0.72,
+                                            borderColor:
+                                                'rgba(48,165,115,0.52)',
+
+                                            bgcolor:
+                                                'rgba(48,165,115,0.07)',
 
                                             transform:
-                                                'translateX(3px)',
+                                                'translateY(-2px)',
+
+                                            '& .footer-whatsapp-arrow':
+                                                {
+                                                    transform:
+                                                        'translate(2px, -2px)',
+                                                },
                                         },
                                 }}
                             >
-                                <MessageCircle
-                                    size={17}
-                                    strokeWidth={
-                                        1.7
-                                    }
-                                />
+                                <Box
+                                    sx={{
+                                        display:
+                                            'flex',
 
-                                {t(
-                                    'footer.whatsapp'
-                                )}
+                                        alignItems:
+                                            'center',
+
+                                        gap:
+                                            1.2,
+
+                                        minWidth:
+                                            0,
+                                    }}
+                                >
+                                    <ContactIcon>
+                                        <MessageCircle
+                                            size={
+                                                16
+                                            }
+                                            strokeWidth={
+                                                1.6
+                                            }
+                                        />
+                                    </ContactIcon>
+
+                                    <Box>
+                                        <Typography
+                                            sx={{
+                                                color:
+                                                    'rgba(255,255,255,0.36)',
+
+                                                fontSize:
+                                                    '0.55rem',
+
+                                                fontWeight:
+                                                    750,
+
+                                                letterSpacing:
+                                                    '0.10em',
+
+                                                textTransform:
+                                                    'uppercase',
+                                            }}
+                                        >
+                                            WhatsApp
+                                        </Typography>
+
+                                        <Typography
+                                            sx={{
+                                                mt:
+                                                    0.25,
+
+                                                color:
+                                                    'rgba(255,255,255,0.82)',
+
+                                                fontSize:
+                                                    '0.77rem',
+
+                                                fontWeight:
+                                                    600,
+                                            }}
+                                        >
+                                            {t(
+                                                'footer.whatsapp'
+                                            )}
+                                        </Typography>
+                                    </Box>
+                                </Box>
 
                                 <ArrowUpRight
-                                    size={14}
-                                    strokeWidth={
-                                        1.7
+                                    className="footer-whatsapp-arrow"
+                                    size={
+                                        14
                                     }
+                                    strokeWidth={
+                                        1.6
+                                    }
+                                    style={{
+                                        flexShrink:
+                                            0,
+
+                                        transition:
+                                            'transform 180ms ease',
+                                    }}
                                 />
                             </Box>
                         </Box>
@@ -513,49 +777,54 @@ export function Footer() {
                         position:
                             'relative',
 
-                        zIndex: 1,
+                        zIndex:
+                            1,
 
-                        minHeight: 84,
+                        minHeight:
+                            82,
 
-                        py: 2.5,
+                        py:
+                            2.5,
 
-                        display: 'flex',
+                        display:
+                            'flex',
 
                         flexDirection: {
-                            xs: 'column',
+                            xs:
+                                'column',
 
-                            sm: 'row',
+                            sm:
+                                'row',
                         },
 
                         alignItems: {
-                            xs: 'flex-start',
+                            xs:
+                                'flex-start',
 
-                            sm: 'center',
+                            sm:
+                                'center',
                         },
 
                         justifyContent:
                             'space-between',
 
-                        gap: 2,
+                        gap:
+                            2,
 
                         borderTop:
-                            '1px solid',
-
-                        borderColor:
-                            'divider',
+                            '1px solid rgba(255,255,255,0.09)',
                     }}
                 >
-                    {/* COPYRIGHT */}
-
                     <Typography
                         sx={{
                             color:
-                                'text.secondary',
+                                'rgba(255,255,255,0.35)',
 
                             fontSize:
-                                '0.76rem',
+                                '0.71rem',
 
-                            lineHeight: 1.6,
+                            lineHeight:
+                                1.6,
                         }}
                     >
                         © {currentYear}{' '}
@@ -565,8 +834,6 @@ export function Footer() {
                         )}
                     </Typography>
 
-                    {/* BRAND SIGNATURE */}
-
                     <Box
                         sx={{
                             display:
@@ -575,36 +842,42 @@ export function Footer() {
                             alignItems:
                                 'center',
 
-                            gap: 1.5,
+                            gap:
+                                1.25,
                         }}
                     >
                         <Box
                             sx={{
-                                width: 6,
+                                width:
+                                    6,
 
-                                height: 6,
+                                height:
+                                    6,
 
                                 borderRadius:
                                     '50%',
 
                                 bgcolor:
                                     'primary.main',
+
+                                boxShadow:
+                                    '0 0 16px rgba(48,165,115,0.65)',
                             }}
                         />
 
                         <Typography
                             sx={{
                                 color:
-                                    'text.secondary',
+                                    'rgba(255,255,255,0.35)',
 
                                 fontSize:
-                                    '0.67rem',
+                                    '0.61rem',
 
                                 fontWeight:
-                                    700,
+                                    750,
 
                                 letterSpacing:
-                                    '0.14em',
+                                    '0.15em',
 
                                 textTransform:
                                     'uppercase',
@@ -619,9 +892,9 @@ export function Footer() {
     );
 }
 
-/* ================================================================
+/* =========================================================
    FOOTER HEADING
-================================================================ */
+========================================================= */
 
 interface FooterHeadingProps {
     children: ReactNode;
@@ -631,33 +904,51 @@ function FooterHeading({
     children,
 }: FooterHeadingProps) {
     return (
-        <Typography
-            component="h3"
-            sx={{
-                color:
-                    'text.primary',
+        <Box>
+            <Typography
+                component="h3"
+                sx={{
+                    color:
+                        'rgba(255,255,255,0.38)',
 
-                fontSize:
-                    '0.72rem',
+                    fontSize:
+                        '0.61rem',
 
-                fontWeight:
-                    800,
+                    fontWeight:
+                        750,
 
-                letterSpacing:
-                    '0.14em',
+                    letterSpacing:
+                        '0.15em',
 
-                textTransform:
-                    'uppercase',
-            }}
-        >
-            {children}
-        </Typography>
+                    textTransform:
+                        'uppercase',
+                }}
+            >
+                {children}
+            </Typography>
+
+            <Box
+                sx={{
+                    width:
+                        24,
+
+                    height:
+                        '1px',
+
+                    mt:
+                        1.5,
+
+                    bgcolor:
+                        'primary.main',
+                }}
+            />
+        </Box>
     );
 }
 
-/* ================================================================
-   FOOTER ROUTER LINK
-================================================================ */
+/* =========================================================
+   ROUTER LINK
+========================================================= */
 
 interface FooterRouterLinkProps {
     to: string;
@@ -671,33 +962,72 @@ function FooterRouterLink({
 }: FooterRouterLinkProps) {
     return (
         <Box
-            component={Link}
-            to={to}
+            component={
+                Link
+            }
+            to={
+                to
+            }
             sx={{
                 display:
                     'inline-flex',
 
+                alignItems:
+                    'center',
+
                 color:
-                    'text.secondary',
+                    'rgba(255,255,255,0.62)',
 
                 textDecoration:
                     'none',
 
                 fontSize:
-                    '0.86rem',
+                    '0.85rem',
 
-                lineHeight: 1.5,
+                lineHeight:
+                    1.5,
 
                 transition:
                     'color 180ms ease, transform 180ms ease',
 
-                '&:hover': {
-                    color:
-                        'primary.main',
+                '&::before':
+                    {
+                        content:
+                            '""',
 
-                    transform:
-                        'translateX(3px)',
-                },
+                        width:
+                            0,
+
+                        height:
+                            '1px',
+
+                        mr:
+                            0,
+
+                        bgcolor:
+                            'primary.main',
+
+                        transition:
+                            'width 180ms ease, margin-right 180ms ease',
+                    },
+
+                '&:hover':
+                    {
+                        color:
+                            '#ffffff',
+
+                        transform:
+                            'translateX(2px)',
+
+                        '&::before':
+                            {
+                                width:
+                                    14,
+
+                                mr:
+                                    1,
+                            },
+                    },
             }}
         >
             {children}
@@ -705,11 +1035,55 @@ function FooterRouterLink({
     );
 }
 
-/* ================================================================
-   CONTACT LINK
-================================================================ */
+/* =========================================================
+   CONTACT ICON
+========================================================= */
 
-interface ContactLinkProps {
+interface ContactIconProps {
+    children: ReactNode;
+}
+
+function ContactIcon({
+    children,
+}: ContactIconProps) {
+    return (
+        <Box
+            sx={{
+                width:
+                    32,
+
+                height:
+                    32,
+
+                display:
+                    'flex',
+
+                alignItems:
+                    'center',
+
+                justifyContent:
+                    'center',
+
+                flexShrink:
+                    0,
+
+                color:
+                    'primary.light',
+
+                border:
+                    '1px solid rgba(255,255,255,0.09)',
+            }}
+        >
+            {children}
+        </Box>
+    );
+}
+
+/* =========================================================
+   CONTACT ITEM
+========================================================= */
+
+interface ContactItemProps {
     href: string;
 
     icon: ReactNode;
@@ -719,83 +1093,91 @@ interface ContactLinkProps {
     value: string;
 }
 
-function ContactLink({
+function ContactItem({
     href,
     icon,
     label,
     value,
-}: ContactLinkProps) {
+}: ContactItemProps) {
     return (
         <Box
             component="a"
-            href={href}
+            href={
+                href
+            }
             sx={{
-                width:
-                    'fit-content',
+                minHeight:
+                    62,
+
+                px:
+                    1.6,
 
                 display:
                     'flex',
 
                 alignItems:
-                    'flex-start',
+                    'center',
 
-                gap: 1.4,
+                gap:
+                    1.2,
+
+                border:
+                    '1px solid rgba(255,255,255,0.09)',
+
+                bgcolor:
+                    'rgba(255,255,255,0.025)',
 
                 color:
-                    'text.primary',
+                    '#ffffff',
 
                 textDecoration:
                     'none',
 
                 transition:
-                    'transform 180ms ease',
+                    'border-color 180ms ease, background-color 180ms ease, transform 180ms ease',
 
-                '&:hover': {
-                    transform:
-                        'translateX(3px)',
-                },
-
-                '&:hover .footer-contact-value':
+                '&:hover':
                     {
-                        color:
-                            'primary.main',
+                        borderColor:
+                            'rgba(48,165,115,0.52)',
+
+                        bgcolor:
+                            'rgba(48,165,115,0.07)',
+
+                        transform:
+                            'translateY(-2px)',
+
+                        '& .footer-contact-value':
+                            {
+                                color:
+                                    'primary.light',
+                            },
                     },
             }}
         >
-            {/* ICON */}
+            <ContactIcon>
+                {icon}
+            </ContactIcon>
 
             <Box
                 sx={{
-                    mt: 0.25,
-
-                    color:
-                        'primary.main',
-
-                    display:
-                        'flex',
-
-                    flexShrink: 0,
+                    minWidth:
+                        0,
                 }}
             >
-                {icon}
-            </Box>
-
-            {/* CONTENT */}
-
-            <Box>
                 <Typography
                     sx={{
                         color:
-                            'text.secondary',
+                            'rgba(255,255,255,0.36)',
 
                         fontSize:
-                            '0.65rem',
+                            '0.55rem',
 
                         fontWeight:
-                            700,
+                            750,
 
                         letterSpacing:
-                            '0.08em',
+                            '0.10em',
 
                         textTransform:
                             'uppercase',
@@ -807,15 +1189,17 @@ function ContactLink({
                 <Typography
                     className="footer-contact-value"
                     sx={{
-                        mt: 0.35,
+                        mt:
+                            0.25,
 
                         color:
-                            'text.primary',
+                            'rgba(255,255,255,0.82)',
 
                         fontSize:
-                            '0.84rem',
+                            '0.77rem',
 
-                        lineHeight: 1.5,
+                        lineHeight:
+                            1.5,
 
                         overflowWrap:
                             'anywhere',
