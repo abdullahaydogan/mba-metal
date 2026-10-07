@@ -10,8 +10,6 @@ import {
 
 import {
     ArrowRight,
-    Moon,
-    Sun,
     X,
 } from 'lucide-react';
 
@@ -49,10 +47,6 @@ import {
     useLanguage,
 } from '../../../hooks/useLanguage';
 
-import {
-    useThemeMode,
-} from '../../../hooks/useThemeMode';
-
 /* =========================================================
    TYPES
 ========================================================= */
@@ -80,11 +74,6 @@ export function MobileMenu({
     const {
         language,
     } = useLanguage();
-
-    const {
-        mode,
-        toggleTheme,
-    } = useThemeMode();
 
     /* =========================================================
        BODY SCROLL LOCK
@@ -924,8 +913,8 @@ export function MobileMenu({
                                                 display:
                                                     'grid',
 
-                                                gridTemplateColumns:
-                                                    'repeat(2, minmax(0, 1fr))',
+  gridTemplateColumns:
+    '1fr',
 
                                                 gap:
                                                     1,
@@ -968,125 +957,6 @@ export function MobileMenu({
                                                 <LanguageSwitcher
                                                     compact
                                                 />
-                                            </Box>
-
-                                            {/* =================================================
-                                                THEME
-                                            ================================================= */}
-
-                                            <Box
-                                                component="button"
-                                                type="button"
-                                                onClick={
-                                                    toggleTheme
-                                                }
-                                                sx={{
-                                                    minHeight:
-                                                        52,
-
-                                                    px:
-                                                        1.5,
-
-                                                    display:
-                                                        'flex',
-
-                                                    alignItems:
-                                                        'center',
-
-                                                    justifyContent:
-                                                        'space-between',
-
-                                                    gap:
-                                                        1,
-
-                                                    border:
-                                                        '1px solid',
-
-                                                    borderColor:
-                                                        'divider',
-
-                                                    borderRadius:
-                                                        '7px',
-
-                                                    bgcolor:
-                                                        'transparent',
-
-                                                    color:
-                                                        'text.primary',
-
-                                                    cursor:
-                                                        'pointer',
-
-                                                    font:
-                                                        'inherit',
-
-                                                    transition:
-                                                        'border-color 180ms ease, background-color 180ms ease',
-
-                                                    '&:hover':
-                                                        {
-                                                            borderColor:
-                                                                'primary.main',
-
-                                                            bgcolor:
-                                                                'action.hover',
-                                                        },
-                                                }}
-                                            >
-                                                <Box
-                                                    sx={{
-                                                        display:
-                                                            'flex',
-
-                                                        alignItems:
-                                                            'center',
-
-                                                        gap:
-                                                            0.75,
-                                                    }}
-                                                >
-                                                    {mode ===
-                                                    'dark' ? (
-                                                        <Sun
-                                                            size={
-                                                                15
-                                                            }
-                                                            strokeWidth={
-                                                                1.7
-                                                            }
-                                                        />
-                                                    ) : (
-                                                        <Moon
-                                                            size={
-                                                                15
-                                                            }
-                                                            strokeWidth={
-                                                                1.7
-                                                            }
-                                                        />
-                                                    )}
-
-                                                    <Typography
-                                                        sx={{
-                                                            fontSize:
-                                                                '0.72rem',
-
-                                                            fontWeight:
-                                                                700,
-                                                        }}
-                                                    >
-                                                        {mode ===
-                                                        'dark'
-                                                            ? language ===
-                                                              'tr'
-                                                                ? 'Açık'
-                                                                : 'Light'
-                                                            : language ===
-                                                                'tr'
-                                                              ? 'Koyu'
-                                                              : 'Dark'}
-                                                    </Typography>
-                                                </Box>
                                             </Box>
                                         </Box>
 
