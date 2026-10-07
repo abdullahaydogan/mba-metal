@@ -536,16 +536,6 @@ export function Footer() {
                                     'footer.industries'
                                 )}
                             </FooterRouterLink>
-
-                            <FooterRouterLink
-                                to={
-                                    routes.market
-                                }
-                            >
-                                {t(
-                                    'navigation.market'
-                                )}
-                            </FooterRouterLink>
                         </Box>
                     </Box>
 

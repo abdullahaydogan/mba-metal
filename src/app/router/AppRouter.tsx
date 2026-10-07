@@ -35,10 +35,6 @@ import {
     IndustryDetail,
 } from '../../pages/IndustryDetail';
 
-import {
-    Market,
-} from '../../pages/Market';
-
 
 import {
     Contact,
@@ -105,14 +101,6 @@ const router =
 
                     element:
                         <IndustryDetail />,
-                },
-
-                {
-                    path:
-                        routes.market,
-
-                    element:
-                        <Market />,
                 },
 
                 {

@@ -933,11 +933,11 @@
       "description": "Contact our team directly regarding a new manufacturing project, technical evaluation or an existing project.",
       "phone": {
         "label": "Phone",
-        "value": "0 530 050 86 58"
+        "value": "+90 530 050 86 58"
       },
       "whatsapp": {
         "label": "WhatsApp",
-        "value": "0 530 050 86 58"
+        "value": "+90 530 050 86 58"
       },
       "email": {
         "label": "Email",
@@ -2594,106 +2594,6 @@
           "solution": "Dimensional / visual inspection"
         }
       }
-    }
-  },
-  "marketPage": {
-    "hero": {
-      "eyebrow": "MARKETS • MANUFACTURING SOLUTIONS",
-      "title": "We bring our manufacturing capabilities together with the technical needs of different markets.",
-      "description": "From machinery and equipment manufacturers to energy, electrical and HVAC applications, we evaluate wire, tube and metal component requirements with a project-specific manufacturing approach.",
-      "primaryAction": "Explore Markets",
-      "secondaryAction": "Share Your Project",
-      "panel": {
-        "eyebrow": "MARKET SCOPE",
-        "title": "Target Manufacturing Areas",
-        "marketGroups": "Main Market Group",
-        "applicationAreas": "Application Area"
-      },
-      "bottom": {
-        "primary": "Machinery & Equipment • Energy • Electrical • HVAC",
-        "secondary": "Project-Oriented Metal Manufacturing"
-      }
-    },
-    "segments": {
-      "eyebrow": "TARGET MARKETS",
-      "title": "Different manufacturing fields. One common need: reliable metal component production.",
-      "description": "We adapt our manufacturing capabilities to the technical requirements of different machinery, equipment, energy and infrastructure applications.",
-      "applicationLabel": "Applications and Customer Groups",
-      "items": {
-        "machineryEquipment": {
-          "eyebrow": "MARKET",
-          "title": "Machinery and Equipment Manufacturers",
-          "description": "We evaluate the metal component requirements of machinery and equipment manufacturers across different geometries, materials and production volumes through our wire forming, tube bending, metal forming and welding capabilities.",
-          "imageAlt": "Metal component manufacturing for machinery and equipment production",
-          "imageLabel": "Machinery • Equipment • Industrial Manufacturing",
-          "applications": {
-            "agricultureConstructionMachinery": "Agricultural and construction machinery manufacturers",
-            "foodProcessingPackaging": "Food processing and packaging machinery manufacturers",
-            "textileMachinery": "Textile machinery manufacturers",
-            "plasticInjectionPackaging": "Plastic injection and packaging machinery manufacturers",
-            "conveyorElevatorLifting": "Conveyor, elevator and lifting equipment manufacturers",
-            "compressorPumpGeneratorMotor": "Compressor, pump, generator and motor manufacturers",
-            "industrialOvenBoilerHeating": "Industrial oven, boiler and heating equipment manufacturers",
-            "warehouseLogisticsEquipment": "Warehouse racking, material handling and logistics equipment manufacturers",
-            "machineryMaintenance": "Machinery overhaul and maintenance companies"
-          }
-        },
-        "energyElectricalHvac": {
-          "eyebrow": "MARKET",
-          "title": "Energy, Electrical and HVAC",
-          "description": "We evaluate metal component requirements used in energy generation, electrical infrastructure and HVAC systems according to project requirements, adapting our forming, bending, welding and custom manufacturing capabilities to each application.",
-          "imageAlt": "Metal component manufacturing for energy, electrical and HVAC applications",
-          "imageLabel": "Energy • Electrical • HVAC • Infrastructure",
-          "applications": {
-            "solarEnergy": "Solar energy support structure manufacturers",
-            "windEnergy": "Wind energy equipment and maintenance companies",
-            "electricalPanels": "Electrical panel and enclosure manufacturers",
-            "generatorTransformer": "Generator and transformer manufacturers",
-            "hvac": "HVAC, ventilation duct and air-conditioning equipment manufacturers",
-            "boilerPressureVesselPiping": "Boiler, pressure vessel and piping companies",
-            "dataCenterTelecom": "Data center and telecommunications infrastructure companies",
-            "electricalDistribution": "Electrical distribution contractors"
-          }
-        }
-      }
-    },
-    "approach": {
-      "eyebrow": "OUR PROJECT APPROACH",
-      "title": "A process from technical requirements to controlled manufacturing.",
-      "description": "We approach every project by understanding its technical requirements and manage the manufacturing process systematically, from manufacturability assessment and process planning through production and quality control.",
-      "items": {
-        "technicalRequirement": {
-          "title": "Technical Requirements",
-          "description": "We evaluate part geometry, material, tolerances, application and production expectations to establish the technical framework of the project."
-        },
-        "manufacturability": {
-          "title": "Manufacturability",
-          "description": "We assess technical requirements in terms of available manufacturing capabilities, process alternatives and applicable production methods."
-        },
-        "processPlanning": {
-          "title": "Process Planning",
-          "description": "We plan the appropriate process flow for forming, bending, welding and other operations required to manufacture the component."
-        },
-        "production": {
-          "title": "Manufacturing",
-          "description": "We manufacture metal components according to project requirements and the defined production process."
-        },
-        "qualityControl": {
-          "title": "Quality Control",
-          "description": "We evaluate manufactured components against technical requirements and defined inspection criteria to complete the production process."
-        }
-      }
-    },
-    "cta": {
-      "eyebrow": "LET'S DISCUSS YOUR PROJECT",
-      "title": "Let's evaluate your manufacturing requirements together.",
-      "description": "Share your technical drawings, component information or manufacturing requirements with us. We can evaluate your project in terms of manufacturability, process planning and production requirements.",
-      "primaryEyebrow": "IF YOUR PROJECT IS READY",
-      "primaryAction": "Request a Quick Quote",
-      "secondaryEyebrow": "TALK TO OUR TEAM",
-      "secondaryAction": "Contact Us",
-      "bottomPrimary": "Wire • Tube • Metal Forming • Welding",
-      "bottomSecondary": "Project-Oriented Manufacturing"
     }
   }
 }

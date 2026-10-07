@@ -13,7 +13,6 @@ export const routes = {
     defenseAerospaceSecurity: '/sektorler/savunma-havacilik-guvenlik',
     marine: '/sektorler/gemi-denizcilik-liman',
     contact: '/iletisim',
-    market: '/pazar',
     furniture: '/sektorler/mobilya',
     medical: '/sektorler/medikal-hijyen-urunleri',
     agriculture: '/sektorler/tarim-hayvancilik',

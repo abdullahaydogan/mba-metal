@@ -49,15 +49,6 @@ export const navigationItems:
             href:
                 routes.industries,
         },
-
-        {
-            id: 'market',
-            labelKey:
-                'navigation.market',
-            href:
-                routes.market,
-        },
-
         {
             id: 'contact',
             labelKey:

@@ -1,3 +1,0 @@
-export {
-    MarketCtaSection,
-} from './MarketCtaSection';

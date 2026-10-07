@@ -1,3 +1,0 @@
-export {
-    MarketApproachSection,
-} from './MarketApproachSection';

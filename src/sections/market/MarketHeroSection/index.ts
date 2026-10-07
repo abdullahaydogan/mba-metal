@@ -1,3 +1,0 @@
-export {
-    MarketHeroSection,
-} from './MarketHeroSection';

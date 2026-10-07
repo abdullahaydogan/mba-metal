@@ -84,7 +84,7 @@
   "home": {
     "hero": {
       "titleLine1": "Metale Şekil Endüstriye Güç Katıyoruz",
-      "titleLine2": "Metal ve Endüstride Yeni Nesil Çözüm Ortağı",
+      "titleLine2": "",
       "description": "Metal ve Endüstride Yeni Nesil Çözüm Ortağınız MBA Metal olarak Sapanca’daki üretim tesisimizde; tel şekillendirme, metal büküm, kaynak ve projeye özel metal elemanları üretimi gerçekleştiriyoruz. Otomotivden beyaz eşyaya, perakendeden endüstriyel üretime kadar farklı sektörlere güvenilir ve sürdürülebilir üretim çözümleri sunuyoruz.",
       "imageAlt": "MBA Metal Sapanca endüstriyel üretim tesisi",
       "scrollToNext": "Sonraki bölüme git",
@@ -934,11 +934,11 @@
       "description": "Yeni bir üretim projesi, teknik değerlendirme veya mevcut bir çalışma hakkında ekibimizle doğrudan iletişime geçebilirsiniz.",
       "phone": {
         "label": "Telefon",
-        "value": "0 530 050 86 58"
+        "value": "+90 530 050 86 58"
       },
       "whatsapp": {
         "label": "WhatsApp",
-        "value": "0 530 050 86 58"
+        "value": "+90 530 050 86 58"
       },
       "email": {
         "label": "E-posta",
@@ -2595,106 +2595,6 @@
           "solution": "Ölçüsel / görsel kontrol"
         }
       }
-    }
-  },
-  "marketPage": {
-    "hero": {
-      "eyebrow": "PAZAR • ÜRETİM ÇÖZÜMLERİ",
-      "title": "Üretim kabiliyetlerimizi farklı pazarların teknik ihtiyaçlarıyla buluşturuyoruz.",
-      "description": "Makine ve ekipman üreticilerinden enerji, elektrik ve iklimlendirme uygulamalarına kadar farklı müşteri gruplarının tel, boru ve metal komponent ihtiyaçlarını projeye özel üretim yaklaşımıyla değerlendiriyoruz.",
-      "primaryAction": "Pazarları Keşfet",
-      "secondaryAction": "Projenizi Paylaşın",
-      "panel": {
-        "eyebrow": "PAZAR KAPSAMI",
-        "title": "Hedef Üretim Alanları",
-        "marketGroups": "Ana Pazar Grubu",
-        "applicationAreas": "Uygulama Alanı"
-      },
-      "bottom": {
-        "primary": "Makine & Ekipman • Enerji • Elektrik • HVAC",
-        "secondary": "Proje Odaklı Metal Üretimi"
-      }
-    },
-    "segments": {
-      "eyebrow": "HEDEF PAZARLAR",
-      "title": "Farklı üretim alanları. Ortak bir ihtiyaç: güvenilir metal parça üretimi.",
-      "description": "Üretim kabiliyetlerimizi farklı makine, ekipman, enerji ve altyapı uygulamalarının teknik gereksinimlerine göre uyarlıyoruz.",
-      "applicationLabel": "Uygulama ve Müşteri Grupları",
-      "items": {
-        "machineryEquipment": {
-          "eyebrow": "PAZAR",
-          "title": "Makine ve Ekipman Üreticileri",
-          "description": "Makine ve ekipman üreticilerinin farklı geometrilere, malzemelere ve üretim adetlerine sahip metal parça ihtiyaçlarını; tel şekillendirme, boru bükme, metal şekillendirme ve kaynak kabiliyetlerimizle değerlendiriyoruz.",
-          "imageAlt": "Makine ve ekipman üretimine yönelik metal parça üretimi",
-          "imageLabel": "Makine • Ekipman • Endüstriyel Üretim",
-          "applications": {
-            "agricultureConstructionMachinery": "Tarım ve iş makineleri üreticileri",
-            "foodProcessingPackaging": "Gıda işleme ve paketleme makinesi üreticileri",
-            "textileMachinery": "Tekstil makinesi üreticileri",
-            "plasticInjectionPackaging": "Plastik enjeksiyon ve ambalaj makineleri üreticileri",
-            "conveyorElevatorLifting": "Konveyör, asansör ve kaldırma ekipmanı üreticileri",
-            "compressorPumpGeneratorMotor": "Kompresör, pompa, jeneratör ve motor üreticileri",
-            "industrialOvenBoilerHeating": "Endüstriyel fırın, kazan ve ısıtma ekipmanı üreticileri",
-            "warehouseLogisticsEquipment": "Depo rafı, istifleme ve lojistik ekipmanı üreticileri",
-            "machineryMaintenance": "Makine revizyonu ve bakım firmaları"
-          }
-        },
-        "energyElectricalHvac": {
-          "eyebrow": "PAZAR",
-          "title": "Enerji, Elektrik ve İklimlendirme",
-          "description": "Enerji üretimi, elektrik altyapısı ve iklimlendirme sistemlerinde kullanılan metal komponent ihtiyaçlarını proje gereksinimlerine göre değerlendiriyor; şekillendirme, büküm, kaynak ve özel üretim kabiliyetlerimizi uygulamaya uyarlıyoruz.",
-          "imageAlt": "Enerji, elektrik ve iklimlendirme uygulamalarına yönelik metal komponent üretimi",
-          "imageLabel": "Enerji • Elektrik • HVAC • Altyapı",
-          "applications": {
-            "solarEnergy": "Güneş enerjisi taşıyıcı konstrüksiyon üreticileri",
-            "windEnergy": "Rüzgar enerjisi ekipman ve bakım firmaları",
-            "electricalPanels": "Elektrik panosu ve kabin üreticileri",
-            "generatorTransformer": "Jeneratör ve trafo üreticileri",
-            "hvac": "HVAC, havalandırma kanalı ve klima ekipmanı üreticileri",
-            "boilerPressureVesselPiping": "Kazan, basınçlı kap ve borulama firmaları",
-            "dataCenterTelecom": "Veri merkezi ve telekom altyapısı kuran firmalar",
-            "electricalDistribution": "Elektrik dağıtım şirketlerinin yüklenicileri"
-          }
-        }
-      }
-    },
-    "approach": {
-      "eyebrow": "PROJE YAKLAŞIMIMIZ",
-      "title": "Teknik ihtiyaçtan kontrollü üretime uzanan bir süreç.",
-      "description": "Her projeyi teknik gereksinimleri anlayarak ele alıyor, üretilebilirlik değerlendirmesinden proses planlamasına ve kalite kontrolüne kadar üretim sürecini sistematik bir yaklaşımla yönetiyoruz.",
-      "items": {
-        "technicalRequirement": {
-          "title": "Teknik Gereksinim",
-          "description": "Parça geometrisi, malzeme, tolerans, kullanım alanı ve üretim beklentilerini değerlendirerek projenin teknik çerçevesini oluşturuyoruz."
-        },
-        "manufacturability": {
-          "title": "Üretilebilirlik",
-          "description": "Teknik gereksinimleri mevcut üretim kabiliyetleri, proses seçenekleri ve uygulanabilir üretim yöntemleri açısından değerlendiriyoruz."
-        },
-        "processPlanning": {
-          "title": "Proses Planlama",
-          "description": "Parçanın üretimi için gerekli şekillendirme, büküm, kaynak ve diğer operasyonların uygun proses akışını planlıyoruz."
-        },
-        "production": {
-          "title": "Üretim",
-          "description": "Belirlenen proses planına göre metal parçaların üretimini proje gereksinimleri doğrultusunda gerçekleştiriyoruz."
-        },
-        "qualityControl": {
-          "title": "Kalite Kontrol",
-          "description": "Üretilen parçaları teknik gereksinimler ve belirlenen kontrol kriterleri doğrultusunda değerlendirerek üretim sürecini tamamlıyoruz."
-        }
-      }
-    },
-    "cta": {
-      "eyebrow": "PROJENİZİ KONUŞALIM",
-      "title": "Üretim ihtiyacınızı birlikte değerlendirelim.",
-      "description": "Teknik çiziminizi, parça bilgilerinizi veya üretim ihtiyacınızı bizimle paylaşın. Projenizi üretilebilirlik, proses ve üretim gereksinimleri açısından değerlendirelim.",
-      "primaryEyebrow": "PROJENİZ HAZIRSA",
-      "primaryAction": "Hızlı Teklif Al",
-      "secondaryEyebrow": "ÖNCE KONUŞMAK İSTERSENİZ",
-      "secondaryAction": "Bizimle İletişime Geçin",
-      "bottomPrimary": "Tel • Boru • Metal Şekillendirme • Kaynak",
-      "bottomSecondary": "Proje Odaklı Üretim"
     }
   }
 }

@@ -981,11 +981,11 @@
       "description": "Kontakt our team directly regarding a new Fertigung Projekt, technische Bewertung or an existing Projekt.",
       "phone": {
         "label": "Telefon",
-        "value": "0 530 050 86 58"
+        "value": "+90 530 050 86 58"
       },
       "whatsapp": {
         "label": "WhatsApp",
-        "value": "0 530 050 86 58"
+        "value": "+90 530 050 86 58"
       },
       "email": {
         "label": "E-Mail",
@@ -2669,106 +2669,6 @@
           "solution": "Maßliche / visuelle Prüfung"
         }
       }
-    }
-  },
-  "marketPage": {
-    "hero": {
-      "eyebrow": "MÄRKTE • FERTIGUNGSLÖSUNGEN",
-      "title": "Wir verbinden unsere Fertigungskompetenzen mit den technischen Anforderungen unterschiedlicher Märkte.",
-      "description": "Von Maschinen- und Anlagenherstellern bis hin zu Anwendungen in den Bereichen Energie, Elektrotechnik und Klimatechnik bewerten wir Anforderungen an Draht-, Rohr- und Metallkomponenten mit einem projektspezifischen Fertigungsansatz.",
-      "primaryAction": "Märkte entdecken",
-      "secondaryAction": "Projekt teilen",
-      "panel": {
-        "eyebrow": "MARKTSPEKTRUM",
-        "title": "Zielbereiche der Fertigung",
-        "marketGroups": "Hauptmarktgruppe",
-        "applicationAreas": "Anwendungsbereich"
-      },
-      "bottom": {
-        "primary": "Maschinen & Anlagen • Energie • Elektrotechnik • HVAC",
-        "secondary": "Projektorientierte Metallfertigung"
-      }
-    },
-    "segments": {
-      "eyebrow": "ZIELMÄRKTE",
-      "title": "Unterschiedliche Fertigungsbereiche. Ein gemeinsamer Bedarf: zuverlässige Metallkomponenten.",
-      "description": "Wir passen unsere Fertigungskompetenzen an die technischen Anforderungen unterschiedlicher Maschinen-, Anlagen-, Energie- und Infrastrukturanwendungen an.",
-      "applicationLabel": "Anwendungen und Kundengruppen",
-      "items": {
-        "machineryEquipment": {
-          "eyebrow": "MARKT",
-          "title": "Maschinen- und Anlagenhersteller",
-          "description": "Wir bewerten den Bedarf von Maschinen- und Anlagenherstellern an Metallkomponenten mit unterschiedlichen Geometrien, Werkstoffen und Stückzahlen und setzen dabei unsere Kompetenzen in der Drahtumformung, Rohrbiegung, Metallumformung und Schweißtechnik ein.",
-          "imageAlt": "Fertigung von Metallkomponenten für Maschinen und Anlagen",
-          "imageLabel": "Maschinen • Anlagen • Industrielle Fertigung",
-          "applications": {
-            "agricultureConstructionMachinery": "Hersteller von Land- und Baumaschinen",
-            "foodProcessingPackaging": "Hersteller von Lebensmittelverarbeitungs- und Verpackungsmaschinen",
-            "textileMachinery": "Hersteller von Textilmaschinen",
-            "plasticInjectionPackaging": "Hersteller von Kunststoffspritzguss- und Verpackungsmaschinen",
-            "conveyorElevatorLifting": "Hersteller von Förder-, Aufzugs- und Hebetechnik",
-            "compressorPumpGeneratorMotor": "Hersteller von Kompressoren, Pumpen, Generatoren und Motoren",
-            "industrialOvenBoilerHeating": "Hersteller von Industrieöfen, Kesseln und Heizungsanlagen",
-            "warehouseLogisticsEquipment": "Hersteller von Lagerregalen, Förder- und Logistikausrüstung",
-            "machineryMaintenance": "Unternehmen für Maschinenüberholung und -wartung"
-          }
-        },
-        "energyElectricalHvac": {
-          "eyebrow": "MARKT",
-          "title": "Energie, Elektrotechnik und Klimatechnik",
-          "description": "Wir bewerten den Bedarf an Metallkomponenten für Energieerzeugung, elektrische Infrastruktur und Klimatechnik entsprechend den Projektanforderungen und passen unsere Kompetenzen in Umformung, Biegung, Schweißen und kundenspezifischer Fertigung an die jeweilige Anwendung an.",
-          "imageAlt": "Fertigung von Metallkomponenten für Energie-, Elektro- und Klimatechnikanwendungen",
-          "imageLabel": "Energie • Elektrotechnik • HVAC • Infrastruktur",
-          "applications": {
-            "solarEnergy": "Hersteller von Tragkonstruktionen für Solaranlagen",
-            "windEnergy": "Unternehmen für Windenergieanlagen und deren Wartung",
-            "electricalPanels": "Hersteller von Schaltschränken und Elektrogehäusen",
-            "generatorTransformer": "Hersteller von Generatoren und Transformatoren",
-            "hvac": "Hersteller von HVAC-, Lüftungskanal- und Klimaanlagen",
-            "boilerPressureVesselPiping": "Unternehmen für Kessel, Druckbehälter und Rohrleitungssysteme",
-            "dataCenterTelecom": "Unternehmen für Rechenzentrums- und Telekommunikationsinfrastruktur",
-            "electricalDistribution": "Auftragnehmer von Stromverteilungsunternehmen"
-          }
-        }
-      }
-    },
-    "approach": {
-      "eyebrow": "UNSER PROJEKTANSATZ",
-      "title": "Ein Prozess von der technischen Anforderung bis zur kontrollierten Fertigung.",
-      "description": "Wir beginnen jedes Projekt mit einem Verständnis der technischen Anforderungen und steuern den Fertigungsprozess systematisch – von der Bewertung der Herstellbarkeit über die Prozessplanung und Fertigung bis zur Qualitätskontrolle.",
-      "items": {
-        "technicalRequirement": {
-          "title": "Technische Anforderungen",
-          "description": "Wir bewerten Bauteilgeometrie, Werkstoff, Toleranzen, Einsatzbereich und Fertigungserwartungen, um den technischen Rahmen des Projekts festzulegen."
-        },
-        "manufacturability": {
-          "title": "Herstellbarkeit",
-          "description": "Wir bewerten die technischen Anforderungen hinsichtlich vorhandener Fertigungsmöglichkeiten, Prozessalternativen und geeigneter Fertigungsverfahren."
-        },
-        "processPlanning": {
-          "title": "Prozessplanung",
-          "description": "Wir planen den geeigneten Prozessablauf für Umformung, Biegung, Schweißen und weitere zur Herstellung des Bauteils erforderliche Arbeitsschritte."
-        },
-        "production": {
-          "title": "Fertigung",
-          "description": "Wir fertigen Metallkomponenten entsprechend den Projektanforderungen und dem festgelegten Prozessablauf."
-        },
-        "qualityControl": {
-          "title": "Qualitätskontrolle",
-          "description": "Wir bewerten die gefertigten Komponenten anhand der technischen Anforderungen und festgelegten Prüfkriterien und schließen damit den Fertigungsprozess ab."
-        }
-      }
-    },
-    "cta": {
-      "eyebrow": "LASSEN SIE UNS ÜBER IHR PROJEKT SPRECHEN",
-      "title": "Lassen Sie uns Ihren Fertigungsbedarf gemeinsam bewerten.",
-      "description": "Teilen Sie Ihre technischen Zeichnungen, Bauteilinformationen oder Fertigungsanforderungen mit uns. Gemeinsam bewerten wir Ihr Projekt hinsichtlich Herstellbarkeit, Prozessplanung und Fertigungsanforderungen.",
-      "primaryEyebrow": "WENN IHR PROJEKT BEREIT IST",
-      "primaryAction": "Schnellangebot anfragen",
-      "secondaryEyebrow": "SPRECHEN SIE MIT UNS",
-      "secondaryAction": "Kontakt aufnehmen",
-      "bottomPrimary": "Draht • Rohr • Metallumformung • Schweißen",
-      "bottomSecondary": "Projektorientierte Fertigung"
     }
   }
 }
