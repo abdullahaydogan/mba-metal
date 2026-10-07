@@ -1,22 +1,24 @@
 export const siteConfig = {
-  name: 'MBA Metal',
+    name: 'MBA Metal',
 
-  shortName: 'MBA',
+    url:
+        import.meta.env.VITE_SITE_URL ||
+        'https://mbametal.com',
 
-  domain: 'mbametal.com',
+    defaultLocale: 'tr',
 
-  defaultLanguage: 'tr',
+    supportedLocales: [
+        'tr',
+        'en',
+        'de',
+        'ru',
+    ],
 
-  supportedLanguages: [
-    'tr',
-    'en',
-  ] as const,
+    defaultTitle:
+        'MBA Metal | Tel Şekillendirme, Metal Büküm ve Kaynaklı Üretim',
 
-  seo: {
-    title:
-      'MBA Metal | Endüstriyel Metal Üretimi',
+    defaultDescription:
+        'MBA Metal; tel şekillendirme, metal büküm, kaynak ve projeye özel tel ve metal parça üretimi alanlarında endüstriyel üretim çözümleri sunar.',
 
-    description:
-      'Tel, boru ve metal parçalarda endüstriyel üretim çözümleri.',
-  },
+    ogImage: '/og-image.jpg',
 } as const;
