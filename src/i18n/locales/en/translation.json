@@ -246,6 +246,18 @@
           ],
           "actionLabel": "Request a Manufacturability Review",
           "imageAlt": "MBA Metal prototype and serial production process"
+        },
+        "lashing-toka": {
+          "title": "Lashing Buckle Manufacturing",
+          "description": "MBA Metal manufactures metal lashing buckles used in cargo securing and strapping applications. We provide manufacturing solutions for logistics, transportation and industrial packaging requirements.",
+          "features": [
+            "Manufacturing for cargo securing and strapping applications",
+            "Metal buckle solutions for different application requirements",
+            "Serial production and order-based manufacturing",
+            "Applications in logistics and industrial packaging"
+          ],
+          "actionLabel": "Request a Quote",
+          "imageAlt": "MBA Metal shiny metal lashing buckle manufacturing"
         }
       }
     },

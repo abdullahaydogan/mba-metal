@@ -370,11 +370,7 @@ function CapabilityRow({
                     <Box>
                         <Button
                             variant="text"
-                            onClick={() =>
-                                navigate(
-                                    item.href
-                                )
-                            }
+                            onClick={() => navigate('/iletisim')}
                             endIcon={
                                 <ArrowUpRight
                                     size={17}
@@ -398,20 +394,20 @@ function CapabilityRow({
                                     '0.9rem',
 
                                 '& .MuiButton-endIcon':
-                                    {
-                                        transition:
-                                            'transform 200ms ease',
-                                    },
+                                {
+                                    transition:
+                                        'transform 200ms ease',
+                                },
 
                                 '&:hover': {
                                     bgcolor:
                                         'transparent',
 
                                     '& .MuiButton-endIcon':
-                                        {
-                                            transform:
-                                                'translate(3px, -3px)',
-                                        },
+                                    {
+                                        transform:
+                                            'translate(3px, -3px)',
+                                    },
                                 },
                             }}
                         >
@@ -482,10 +478,10 @@ function CapabilityRow({
                             'isolate',
 
                         '&:hover img':
-                            {
-                                filter:
-                                    'saturate(1.05) contrast(1.03)',
-                            },
+                        {
+                            filter:
+                                'saturate(1.05) contrast(1.03)',
+                        },
                     }}
                 >
                     {/* PARALLAX IMAGE */}
@@ -800,13 +796,13 @@ export function MainCapabilitiesSection() {
                         display: 'grid',
 
                         gridTemplateColumns:
-                            {
-                                xs:
-                                    '1fr',
+                        {
+                            xs:
+                                '1fr',
 
-                                lg:
-                                    'minmax(0, 1.1fr) minmax(300px, 0.55fr)',
-                            },
+                            lg:
+                                'minmax(0, 1.1fr) minmax(300px, 0.55fr)',
+                        },
 
                         gap: {
                             xs: 4,

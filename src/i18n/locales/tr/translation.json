@@ -246,6 +246,18 @@
           ],
           "actionLabel": "Üretilebilirlik Değerlendirmesi Alın",
           "imageAlt": "MBA Metal prototip ve seri üretim prosesi"
+        },
+        "lashing-toka": {
+          "title": "Lashing Toka Üretimi",
+          "description": "MBA Metal, yük sabitleme ve çemberleme uygulamalarında kullanılan metal lashing tokalarının üretimini gerçekleştirmektedir. Lojistik, taşımacılık ve endüstriyel paketleme ihtiyaçlarına yönelik üretim çözümleri sunmaktadır.",
+          "features": [
+            "Yük sabitleme ve çemberleme uygulamalarına yönelik üretim",
+            "Farklı kullanım ihtiyaçlarına uygun metal toka çözümleri",
+            "Seri üretim ve sipariş bazlı üretim imkânı",
+            "Lojistik ve endüstriyel paketleme sektörlerine yönelik uygulamalar"
+          ],
+          "actionLabel": "Teklif Al",
+          "imageAlt": "MBA Metal parlak metal lashing toka üretimi"
         }
       }
     },

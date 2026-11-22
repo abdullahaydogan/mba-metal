@@ -1,18 +1,18 @@
 {
-"common": {
-  "learnMore": "Mehr erfahren",
-  "discover": "Entdecken",
-  "viewAll": "Alle anzeigen",
-  "contactUs": "Kontaktieren Sie uns",
-  "getQuote": "Schnellangebot anfordern",
-  "sendMessage": "Nachricht senden",
-  "whatsapp": "WhatsApp",
-  "readMore": "Weiterlesen",
-  "mainNavigation": "Hauptnavigation",
-  "openMenu": "Menü öffnen",
-  "lightTheme": "Helles Design",
-  "darkTheme": "Dunkles Design"
-},
+  "common": {
+    "learnMore": "Mehr erfahren",
+    "discover": "Entdecken",
+    "viewAll": "Alle anzeigen",
+    "contactUs": "Kontaktieren Sie uns",
+    "getQuote": "Schnellangebot anfordern",
+    "sendMessage": "Nachricht senden",
+    "whatsapp": "WhatsApp",
+    "readMore": "Weiterlesen",
+    "mainNavigation": "Hauptnavigation",
+    "openMenu": "Menü öffnen",
+    "lightTheme": "Helles Design",
+    "darkTheme": "Dunkles Design"
+  },
   "navigation": {
     "home": "Startseite",
     "corporate": "Unternehmen",
@@ -25,24 +25,24 @@
     "contact": "Kontakt",
     "market": "Märkte"
   },
-"hero": {
-  "eyebrow": "Industrielle Metallfertigung",
-  "title": "Wir verwandeln Ihre Ideen in Realität.",
-  "description": "Wir verwandeln Ihre technischen Anforderungen an Draht-, Rohr- und Metallteile in fertigbare, zuverlässige und nachhaltige Lösungen.",
-  "primaryAction": "Fertigungsmöglichkeiten",
-  "secondaryAction": "Schnellangebot anfordern"
-},
-"about": {
-  "eyebrow": "Über uns",
-  "title": "Wir schaffen Vertrauen",
-  "description1": "Bei MBA Metal bieten wir mit unseren erfahrenen Fachkräften und unserem Know-how nicht nur Metallteile, sondern auch Zuverlässigkeit, hohe Servicequalität und hochwertige Verarbeitung.",
-  "description2": "MBA Metal ist Ihr industrieller Lösungspartner für das Formen, Verbinden und die Fertigungsvorbereitung verschiedenster Draht- und Metallteile. Von kundenspezifischen Teilen bis hin zur wiederholbaren Serienfertigung verwandeln wir unterschiedliche B2B-Anforderungen in fertigbare Lösungen."
-},
-"capabilities": {
-  "eyebrow": "Unsere Fertigungsmöglichkeiten",
-  "title": "Unsere Fertigungsmöglichkeiten für Rohr-, Draht- und Metallteile",
-  "description": "MBA Metal bietet Lösungen für unterschiedliche Fertigungsanforderungen – von der OEM-Teilefertigung über Schweiß- und Gewindearbeiten bis hin zur Edelstahlbearbeitung sowie Rohr- und Drahtumformung. Von der technischen Zeichnung über den Prototyp bis zur wiederholbaren Serienfertigung betrachten wir den gesamten Prozess mit Fokus auf die Fertigbarkeit."
-},
+  "hero": {
+    "eyebrow": "Industrielle Metallfertigung",
+    "title": "Wir verwandeln Ihre Ideen in Realität.",
+    "description": "Wir verwandeln Ihre technischen Anforderungen an Draht-, Rohr- und Metallteile in fertigbare, zuverlässige und nachhaltige Lösungen.",
+    "primaryAction": "Fertigungsmöglichkeiten",
+    "secondaryAction": "Schnellangebot anfordern"
+  },
+  "about": {
+    "eyebrow": "Über uns",
+    "title": "Wir schaffen Vertrauen",
+    "description1": "Bei MBA Metal bieten wir mit unseren erfahrenen Fachkräften und unserem Know-how nicht nur Metallteile, sondern auch Zuverlässigkeit, hohe Servicequalität und hochwertige Verarbeitung.",
+    "description2": "MBA Metal ist Ihr industrieller Lösungspartner für das Formen, Verbinden und die Fertigungsvorbereitung verschiedenster Draht- und Metallteile. Von kundenspezifischen Teilen bis hin zur wiederholbaren Serienfertigung verwandeln wir unterschiedliche B2B-Anforderungen in fertigbare Lösungen."
+  },
+  "capabilities": {
+    "eyebrow": "Unsere Fertigungsmöglichkeiten",
+    "title": "Unsere Fertigungsmöglichkeiten für Rohr-, Draht- und Metallteile",
+    "description": "MBA Metal bietet Lösungen für unterschiedliche Fertigungsanforderungen – von der OEM-Teilefertigung über Schweiß- und Gewindearbeiten bis hin zur Edelstahlbearbeitung sowie Rohr- und Drahtumformung. Von der technischen Zeichnung über den Prototyp bis zur wiederholbaren Serienfertigung betrachten wir den gesamten Prozess mit Fokus auf die Fertigbarkeit."
+  },
   "industries": {
     "eyebrow": "Branchen",
     "title": "Fertigungslösungen für unterschiedliche Branchen",
@@ -120,898 +120,818 @@
       }
     }
   },
-"capabilitiesPage": {
-  "hero": {
-    "eyebrow": "FERTIGUNGSMÖGLICHKEITEN",
-    "title": "Fertigbare Lösungen für Draht-, Rohr- und Metallteile.",
-    "description": "Von der technischen Zeichnung und dem Muster über den Prototyp bis zur Serienfertigung betrachten wir Projekte für Draht-, Rohr- und Metallteile ganzheitlich hinsichtlich Fertigbarkeit, Prozess, Qualität und Lieferung.",
-    "primaryAction": "Projekt anfragen",
-    "secondaryAction": "Fertigungsmöglichkeiten entdecken",
-    "imageAlt": "MBA Metal Produktionsstätte für Draht-, Rohr- und Metallteile",
-    "explore": "Entdecken"
-  },
-
-  "productionApproach": {
-    "eyebrow": "UNSER FERTIGUNGSANSATZ",
-    "title": "Von der technischen Anforderung zur reproduzierbaren Serienfertigung.",
-    "items": {
-      "cad": "Fertigung auf Grundlage von CAD-Daten und technischen Zeichnungen",
-      "dfm": "DFM- und Fertigbarkeitsbewertung",
-      "prototype": "Prototypen-, Muster- und Serienfertigung",
-      "processes": "Draht-, Rohr-, Schweiß- und Gewindebearbeitung",
-      "stainless": "Verarbeitung von Edelstahl- und verzinktem Draht",
-      "management": "Integriertes Projektmanagement mit einem zentralen Ansprechpartner"
-    }
-  },
-
-  "mainCapabilities": {
-    "eyebrow": "EIGENE FERTIGUNG",
-    "title": "Unsere zentralen Fertigungsmöglichkeiten",
-    "description": "Die wesentlichen Fertigungsprozesse für Draht-, Rohr- und Metallteilprojekte führen wir in unserer eigenen Produktionsumgebung durch. Von der technischen Anfrage über die Musterfertigung bis zur Serienproduktion betrachten wir Fertigbarkeit, Prozessstabilität und Qualitätsanforderungen ganzheitlich.",
-    "processLabel": "Fertigungsprozess",
-
-    "items": {
-      "tel-cekme": {
-        "title": "Drahtziehen",
-        "description": "Kontrolliertes Kaltziehen von Walzdraht entsprechend dem gewünschten Durchmesser und den geforderten Oberflächeneigenschaften.",
-        "features": [
-          "Durchmesserkontrolle",
-          "Oberflächenüberwachung",
-          "Coil oder gerichteter Draht"
-        ],
-        "actionLabel": "Details ansehen",
-        "imageAlt": "MBA Metal industrieller Drahtfertigungs- und Verarbeitungsprozess"
-      },
-
-      "cnc-tel-bukme": {
-        "title": "CNC-Drahtbiegen",
-        "description": "Präzise und reproduzierbare Serienfertigung von 2D- / 3D-Drahtteilen nach technischer Zeichnung.",
-        "features": [
-          "Kundenspezifische Geometrien",
-          "Serienfertigung",
-          "Technische Maßkontrolle"
-        ],
-        "actionLabel": "Details ansehen",
-        "imageAlt": "MBA Metal CNC-Drahtbiegeprozess"
-      },
-
-      "2d-3d-tel-sekillendirme": {
-        "title": "2D- / 3D-Drahtumformung",
-        "description": "Umformung kundenspezifischer Drahtteile mit mehrachsigen Biegungen und komplexen Geometrien entsprechend den technischen Anforderungen.",
-        "features": [
-          "Mehrachsige Geometrien",
-          "Kundenspezifische Winkel und Radien",
-          "OEM-Anwendungen"
-        ],
-        "actionLabel": "Details ansehen",
-        "imageAlt": "MBA Metal Anwendung für 2D- und 3D-Drahtumformung"
-      },
-
-      "mig-tig-kaynak": {
-        "title": "MIG- / WIG-Schweißen",
-        "description": "Kontrolliertes Fügen von Draht-, Rohr- und Metallteilen mit Schweißverfahren, die auf die jeweiligen Projektanforderungen abgestimmt sind.",
-        "features": [
-          "MIG-Schweißen",
-          "WIG-Schweißen",
-          "Geschweißte Baugruppen"
-        ],
-        "actionLabel": "Projekt anfragen",
-        "imageAlt": "MBA Metal MIG- und WIG-Schweißprozess"
-      },
-
-      "puntali-kaynak": {
-        "title": "Punktschweißen",
-        "description": "Reproduzierbare und kontrollierte Punktschweißverfahren für Drahtkörbe, Paneele, Gitter und vergleichbare Produkte.",
-        "features": [
-          "Draht-Draht-Verbindungen",
-          "Paneele und Gitter",
-          "Serienfertigung"
-        ],
-        "actionLabel": "Details ansehen",
-        "imageAlt": "MBA Metal Punktschweißprozess"
-      },
-
-      "dis-acma": {
-        "title": "Gewindeherstellung",
-        "description": "Herstellung von Gewindeenden und Verbindungsbereichen durch Gewinderollen oder Gewindeschneiden entsprechend den Projektanforderungen.",
-        "features": [
-          "Gewinderollen",
-          "Gewindeschneiden",
-          "Kundenspezifische Verbindungsteile"
-        ],
-        "actionLabel": "Technische Anfrage senden",
-        "imageAlt": "MBA Metal Fertigung kundenspezifischer Metall- und Verbindungsteile"
-      },
-
-      "boru-bukme": {
-        "title": "Rohrbiegen",
-        "description": "Rohrumformung sowie Fertigung geschweißter und montierter Bauteile nach technischer Zeichnung.",
-        "features": [
-          "Kundenspezifische Rohrgeometrien",
-          "Montierte Baugruppen",
-          "Muster- und Serienfertigung"
-        ],
-        "actionLabel": "Rohrprojekt anfragen",
-        "imageAlt": "MBA Metal Rohrbiege- und Metallumformungsprozess"
-      },
-
-      "paslanmaz-celik-isleme": {
-        "title": "Edelstahlverarbeitung",
-        "description": "Biegen, Schweißen, Umformen und Montieren von Edelstahldraht und Metallteilen.",
-        "features": [
-          "Edelstahldraht",
-          "Geschweißte Produkte",
-          "Kundenspezifische OEM-Teile"
-        ],
-        "actionLabel": "Angebot anfordern",
-        "imageAlt": "MBA Metal Edelstahl- und Metallverarbeitung"
-      },
-
-      "prototip-seri-uretim": {
-        "title": "Prototypen- & Serienfertigung",
-        "description": "Steuerung des Fertigungsprozesses von der Mustervalidierung und Erstteilfreigabe über die reproduzierbare Serienfertigung bis zur Versandplanung.",
-        "features": [
-          "Prototyp",
-          "Erstteilfreigabe",
-          "Serienfertigungsplanung"
-        ],
-        "actionLabel": "Fertigbarkeit bewerten lassen",
-        "imageAlt": "MBA Metal Prototypen- und Serienfertigungsprozess"
+  "capabilitiesPage": {
+    "hero": {
+      "eyebrow": "FERTIGUNGSMÖGLICHKEITEN",
+      "title": "Fertigbare Lösungen für Draht-, Rohr- und Metallteile.",
+      "description": "Von der technischen Zeichnung und dem Muster über den Prototyp bis zur Serienfertigung betrachten wir Projekte für Draht-, Rohr- und Metallteile ganzheitlich hinsichtlich Fertigbarkeit, Prozess, Qualität und Lieferung.",
+      "primaryAction": "Projekt anfragen",
+      "secondaryAction": "Fertigungsmöglichkeiten entdecken",
+      "imageAlt": "MBA Metal Produktionsstätte für Draht-, Rohr- und Metallteile",
+      "explore": "Entdecken"
+    },
+    "productionApproach": {
+      "eyebrow": "UNSER FERTIGUNGSANSATZ",
+      "title": "Von der technischen Anforderung zur reproduzierbaren Serienfertigung.",
+      "items": {
+        "cad": "Fertigung auf Grundlage von CAD-Daten und technischen Zeichnungen",
+        "dfm": "DFM- und Fertigbarkeitsbewertung",
+        "prototype": "Prototypen-, Muster- und Serienfertigung",
+        "processes": "Draht-, Rohr-, Schweiß- und Gewindebearbeitung",
+        "stainless": "Verarbeitung von Edelstahl- und verzinktem Draht",
+        "management": "Integriertes Projektmanagement mit einem zentralen Ansprechpartner"
       }
-    }
-  },
-
-  "partnerProcesses": {
-    "eyebrow": "KOOPERIERENDE FERTIGUNGSPARTNER",
-    "title": "Ergänzende Prozesse koordinieren wir im Rahmen eines zentralen Projektmanagements.",
-    "description": "Während wir unsere Kernfertigungsprozesse im eigenen Haus durchführen, koordinieren wir ergänzende Fertigungs- und Oberflächenprozesse über unsere kooperierenden Fertigungspartner.",
-    "note": "Diese Prozesse werden nicht bei MBA Metal selbst durchgeführt. Sie werden entsprechend den technischen Anforderungen mit geeigneten Fertigungspartnern geplant, überwacht und in den gesamten Projektablauf integriert.",
-    "imageAlt": "MBA Metal ergänzende Fertigungsprozesse und Partnernetzwerk",
-    "imageLabel": "Partnernetzwerk",
-
-    "groups": {
-      "manufacturing": {
-        "title": "Ergänzende Fertigungsverfahren",
-        "description": "Spezielle Fertigungsanforderungen, die unsere Kernprozesse ergänzen, werden entsprechend den Projektanforderungen mit unseren Fertigungspartnern koordiniert.",
+    },
+    "mainCapabilities": {
+      "eyebrow": "EIGENE FERTIGUNG",
+      "title": "Unsere zentralen Fertigungsmöglichkeiten",
+      "description": "Die wesentlichen Fertigungsprozesse für Draht-, Rohr- und Metallteilprojekte führen wir in unserer eigenen Produktionsumgebung durch. Von der technischen Anfrage über die Musterfertigung bis zur Serienproduktion betrachten wir Fertigbarkeit, Prozessstabilität und Qualitätsanforderungen ganzheitlich.",
+      "processLabel": "Fertigungsprozess",
+      "items": {
+        "tel-cekme": {
+          "title": "Drahtziehen",
+          "description": "Kontrolliertes Kaltziehen von Walzdraht entsprechend dem gewünschten Durchmesser und den geforderten Oberflächeneigenschaften.",
+          "features": [
+            "Durchmesserkontrolle",
+            "Oberflächenüberwachung",
+            "Coil oder gerichteter Draht"
+          ],
+          "actionLabel": "Details ansehen",
+          "imageAlt": "MBA Metal industrieller Drahtfertigungs- und Verarbeitungsprozess"
+        },
+        "cnc-tel-bukme": {
+          "title": "CNC-Drahtbiegen",
+          "description": "Präzise und reproduzierbare Serienfertigung von 2D- / 3D-Drahtteilen nach technischer Zeichnung.",
+          "features": [
+            "Kundenspezifische Geometrien",
+            "Serienfertigung",
+            "Technische Maßkontrolle"
+          ],
+          "actionLabel": "Details ansehen",
+          "imageAlt": "MBA Metal CNC-Drahtbiegeprozess"
+        },
+        "2d-3d-tel-sekillendirme": {
+          "title": "2D- / 3D-Drahtumformung",
+          "description": "Umformung kundenspezifischer Drahtteile mit mehrachsigen Biegungen und komplexen Geometrien entsprechend den technischen Anforderungen.",
+          "features": [
+            "Mehrachsige Geometrien",
+            "Kundenspezifische Winkel und Radien",
+            "OEM-Anwendungen"
+          ],
+          "actionLabel": "Details ansehen",
+          "imageAlt": "MBA Metal Anwendung für 2D- und 3D-Drahtumformung"
+        },
+        "mig-tig-kaynak": {
+          "title": "MIG- / WIG-Schweißen",
+          "description": "Kontrolliertes Fügen von Draht-, Rohr- und Metallteilen mit Schweißverfahren, die auf die jeweiligen Projektanforderungen abgestimmt sind.",
+          "features": [
+            "MIG-Schweißen",
+            "WIG-Schweißen",
+            "Geschweißte Baugruppen"
+          ],
+          "actionLabel": "Projekt anfragen",
+          "imageAlt": "MBA Metal MIG- und WIG-Schweißprozess"
+        },
+        "puntali-kaynak": {
+          "title": "Punktschweißen",
+          "description": "Reproduzierbare und kontrollierte Punktschweißverfahren für Drahtkörbe, Paneele, Gitter und vergleichbare Produkte.",
+          "features": [
+            "Draht-Draht-Verbindungen",
+            "Paneele und Gitter",
+            "Serienfertigung"
+          ],
+          "actionLabel": "Details ansehen",
+          "imageAlt": "MBA Metal Punktschweißprozess"
+        },
+        "dis-acma": {
+          "title": "Gewindeherstellung",
+          "description": "Herstellung von Gewindeenden und Verbindungsbereichen durch Gewinderollen oder Gewindeschneiden entsprechend den Projektanforderungen.",
+          "features": [
+            "Gewinderollen",
+            "Gewindeschneiden",
+            "Kundenspezifische Verbindungsteile"
+          ],
+          "actionLabel": "Technische Anfrage senden",
+          "imageAlt": "MBA Metal Fertigung kundenspezifischer Metall- und Verbindungsteile"
+        },
+        "boru-bukme": {
+          "title": "Rohrbiegen",
+          "description": "Rohrumformung sowie Fertigung geschweißter und montierter Bauteile nach technischer Zeichnung.",
+          "features": [
+            "Kundenspezifische Rohrgeometrien",
+            "Montierte Baugruppen",
+            "Muster- und Serienfertigung"
+          ],
+          "actionLabel": "Rohrprojekt anfragen",
+          "imageAlt": "MBA Metal Rohrbiege- und Metallumformungsprozess"
+        },
+        "paslanmaz-celik-isleme": {
+          "title": "Edelstahlverarbeitung",
+          "description": "Biegen, Schweißen, Umformen und Montieren von Edelstahldraht und Metallteilen.",
+          "features": [
+            "Edelstahldraht",
+            "Geschweißte Produkte",
+            "Kundenspezifische OEM-Teile"
+          ],
+          "actionLabel": "Angebot anfordern",
+          "imageAlt": "MBA Metal Edelstahl- und Metallverarbeitung"
+        },
+        "prototip-seri-uretim": {
+          "title": "Prototypen- & Serienfertigung",
+          "description": "Steuerung des Fertigungsprozesses von der Mustervalidierung und Erstteilfreigabe über die reproduzierbare Serienfertigung bis zur Versandplanung.",
+          "features": [
+            "Prototyp",
+            "Erstteilfreigabe",
+            "Serienfertigungsplanung"
+          ],
+          "actionLabel": "Fertigbarkeit bewerten lassen",
+          "imageAlt": "MBA Metal Prototypen- und Serienfertigungsprozess"
+        },
+        "lashing-toka": {
+          "title": "Herstellung von Zurrschnallen",
+          "description": "MBA Metal fertigt Metall-Zurrschnallen für die Ladungssicherung und Umreifung. Wir bieten Fertigungslösungen für die Anforderungen in Logistik, Transport und industrieller Verpackung.",
+          "features": [
+            "Fertigung für Ladungssicherung und Umreifung",
+            "Metallschnallen für unterschiedliche Anwendungsanforderungen",
+            "Serienfertigung und auftragsbezogene Produktion",
+            "Anwendungen in Logistik und industrieller Verpackung"
+          ],
+          "actionLabel": "Angebot anfordern",
+          "imageAlt": "MBA Metal Herstellung glänzender Metall-Zurrschnallen"
+        }
+      }
+    },
+    "partnerProcesses": {
+      "eyebrow": "KOOPERIERENDE FERTIGUNGSPARTNER",
+      "title": "Ergänzende Prozesse koordinieren wir im Rahmen eines zentralen Projektmanagements.",
+      "description": "Während wir unsere Kernfertigungsprozesse im eigenen Haus durchführen, koordinieren wir ergänzende Fertigungs- und Oberflächenprozesse über unsere kooperierenden Fertigungspartner.",
+      "note": "Diese Prozesse werden nicht bei MBA Metal selbst durchgeführt. Sie werden entsprechend den technischen Anforderungen mit geeigneten Fertigungspartnern geplant, überwacht und in den gesamten Projektablauf integriert.",
+      "imageAlt": "MBA Metal ergänzende Fertigungsprozesse und Partnernetzwerk",
+      "imageLabel": "Partnernetzwerk",
+      "groups": {
+        "manufacturing": {
+          "title": "Ergänzende Fertigungsverfahren",
+          "description": "Spezielle Fertigungsanforderungen, die unsere Kernprozesse ergänzen, werden entsprechend den Projektanforderungen mit unseren Fertigungspartnern koordiniert.",
+          "items": [
+            "Stauchen / Endenaufweitung",
+            "Laserschneiden",
+            "Blechbearbeitung",
+            "Federfertigung"
+          ]
+        },
+        "surface": {
+          "title": "Oberflächenbehandlung & ergänzende Prozesse",
+          "description": "Erforderliche Oberflächenbehandlungen und ergänzende Arbeitsschritte werden entsprechend den technischen Anforderungen des Produkts mit unseren Fertigungspartnern koordiniert.",
+          "items": [
+            "Pulverbeschichtung",
+            "Koordination von Beschichtungsverfahren",
+            "Sonderverpackung"
+          ]
+        }
+      },
+      "coordination": {
+        "eyebrow": "PROJEKTKOORDINATION",
+        "title": "Ein Ansprechpartner, kontrollierte Prozesse, ganzheitliche Lieferung.",
+        "description": "Bei Projekten mit externen Fertigungsprozessen steuern wir den gesamten Ablauf – von der Übermittlung der technischen Anforderungen über die Prozessüberwachung und Produktkontrolle bis zur Versandvorbereitung.",
+        "steps": {
+          "technicalSpecification": {
+            "title": "Technische Spezifikation",
+            "description": "Produkt- und Prozessanforderungen werden eindeutig definiert."
+          },
+          "partnerProcess": {
+            "title": "Partnerprozess",
+            "description": "Der geeignete Fertigungspartner und das passende Fertigungsverfahren werden festgelegt."
+          },
+          "processTracking": {
+            "title": "Prozessüberwachung",
+            "description": "Der ergänzende Fertigungsprozess wird entsprechend den Projektkriterien überwacht."
+          },
+          "qualityControl": {
+            "title": "Qualitätskontrolle",
+            "description": "Nach Abschluss des Prozesses wird die Erfüllung der Produktanforderungen überprüft."
+          },
+          "shipping": {
+            "title": "Versand",
+            "description": "Das fertige Produkt wird entsprechend dem vereinbarten Lieferplan vorbereitet."
+          }
+        }
+      }
+    },
+    "projectFlow": {
+      "eyebrow": "PROJEKTABLAUF",
+      "title": "Von der technischen Anfrage zur Serienfertigung",
+      "description": "Von der Aufnahme der Anfrage bis zur Fertigung und Auslieferung steuern wir die einzelnen Projektschritte entsprechend den technischen Anforderungen.",
+      "completedLabel": "Prozess abgeschlossen",
+      "items": {
+        "technicalRequest": {
+          "title": "Technische Anfrage",
+          "description": "Zeichnungen, Muster, Stückzahl, Material und Einsatzbedingungen werden aufgenommen."
+        },
+        "dfmReview": {
+          "title": "DFM-Prüfung",
+          "description": "Geometrie, Toleranzen, Prozessfolge und Fertigbarkeit werden bewertet."
+        },
+        "quoteSample": {
+          "title": "Angebot & Muster",
+          "description": "Preis, Lieferzeit, Werkzeugbedarf und Anforderungen an die Musterfertigung werden abgestimmt."
+        },
+        "serialProduction": {
+          "title": "Serienfertigung",
+          "description": "Der Fertigungsplan wird entsprechend den freigegebenen technischen Spezifikationen umgesetzt."
+        },
+        "inspectionShipping": {
+          "title": "Prüfung & Versand",
+          "description": "Maßkontrolle, Verpackung und Lieferung werden abgeschlossen."
+        }
+      }
+    },
+    "oemProduction": {
+      "eyebrow": "OEM- & LOHNFERTIGUNG",
+      "title": "Fertigung nach technischer Zeichnung, Muster oder Anwendungsszenario.",
+      "description": "Bei der Projektbewertung betrachten wir nicht nur die Geometrie des Bauteils. Materialauswahl, Draht- oder Rohrabmessungen, Biegeradien, Toleranzen, Schweißbereiche, Gewindeanforderungen, Oberflächenanforderungen, Verpackung und Jahresbedarf werden gemeinsam bewertet.",
+      "evaluation": {
+        "eyebrow": "PROJEKTBEWERTUNG",
+        "title": "Fertigung umfasst mehr als nur die Geometrie eines Bauteils.",
         "items": [
-          "Stauchen / Endenaufweitung",
-          "Laserschneiden",
-          "Blechbearbeitung",
-          "Federfertigung"
+          "Materialauswahl",
+          "Draht- oder Rohrabmessungen",
+          "Biegeradien",
+          "Maße und Toleranzen",
+          "Schweißbereiche",
+          "Gewindeanforderungen",
+          "Oberflächenanforderungen",
+          "Verpackung",
+          "Jahresbedarf"
         ]
       },
-
-      "surface": {
-        "title": "Oberflächenbehandlung & ergänzende Prozesse",
-        "description": "Erforderliche Oberflächenbehandlungen und ergänzende Arbeitsschritte werden entsprechend den technischen Anforderungen des Produkts mit unseren Fertigungspartnern koordiniert.",
-        "items": [
-          "Pulverbeschichtung",
-          "Koordination von Beschichtungsverfahren",
-          "Sonderverpackung"
+      "withoutDrawing": {
+        "eyebrow": "WENN KEINE TECHNISCHE ZEICHNUNG VORLIEGT",
+        "title": "Wir können mit einem Muster und Informationen zur Anwendung beginnen.",
+        "description": "Eine erste Bewertung kann anhand eines vorhandenen Musters, von Produktfotos, ungefähren Abmessungen und dem vorgesehenen Einsatzzweck erfolgen. Vor Beginn der Serienfertigung werden kritische Maße und technische Anforderungen eindeutig festgelegt.",
+        "inputs": [
+          "Vorhandenes Produkt oder Muster",
+          "Produktfotos",
+          "Ungefähre Abmessungen",
+          "Einsatzzweck"
         ]
       }
     },
-
-    "coordination": {
-      "eyebrow": "PROJEKTKOORDINATION",
-      "title": "Ein Ansprechpartner, kontrollierte Prozesse, ganzheitliche Lieferung.",
-      "description": "Bei Projekten mit externen Fertigungsprozessen steuern wir den gesamten Ablauf – von der Übermittlung der technischen Anforderungen über die Prozessüberwachung und Produktkontrolle bis zur Versandvorbereitung.",
-
+    "quoteRequirements": {
+      "eyebrow": "ANGEBOTSVORBEREITUNG",
+      "title": "Die erforderlichen Informationen für ein präzises Angebot.",
+      "description": "Damit Fertigbarkeit, Prozesse, Kosten und Lieferzeit zuverlässig bewertet werden können, sollten zu Projektbeginn die grundlegenden technischen Informationen bereitgestellt werden.",
+      "items": {
+        "technicalDocument": {
+          "title": "Technische Unterlagen",
+          "description": "Technische Zeichnung im PDF-, DWG- oder STEP-Format oder ein vorhandenes Produktmuster."
+        },
+        "materialDimensions": {
+          "title": "Material & Abmessungen",
+          "description": "Angaben zum vorgesehenen Material sowie zu Durchmesser und Abmessungen des Drahts oder Rohrs."
+        },
+        "tolerances": {
+          "title": "Toleranzen",
+          "description": "Kritische Maße, allgemeine Abmessungen und einzuhaltende Toleranzwerte."
+        },
+        "quantity": {
+          "title": "Produktionsmenge",
+          "description": "Jahresbedarf und geplante Bestellmenge."
+        },
+        "additionalProcesses": {
+          "title": "Zusätzliche Prozesse",
+          "description": "Zusätzliche Anforderungen wie Schweißen, Gewindebearbeitung, Beschichtung oder Lackierung."
+        },
+        "packagingDelivery": {
+          "title": "Verpackung & Lieferung",
+          "description": "Anforderungen an die Verpackung und Angaben zum vorgesehenen Lieferort."
+        }
+      }
+    },
+    "faq": {
+      "eyebrow": "HÄUFIG GESTELLTE FRAGEN",
+      "title": "Über unsere Fertigungsmöglichkeiten",
+      "description": "Häufig gestellte Fragen zu unseren Fertigungsprozessen, technischen Bewertungen, Prototypenarbeiten und ergänzenden Fertigungsverfahren.",
+      "items": {
+        "customParts": {
+          "question": "Fertigen Sie kundenspezifische Teile nach technischer Zeichnung?",
+          "answer": "Ja. Die Fertigbarkeit und Preisgestaltung können anhand einer technischen Zeichnung, eines Musters oder des vorgesehenen Anwendungsszenarios bewertet werden."
+        },
+        "prototype": {
+          "question": "Bieten Sie Prototypen- und Musterfertigung an?",
+          "answer": "Ja. Abhängig von der Geometrie des Projekts, dem Werkzeugbedarf und der geplanten Stückzahl kann vor der Serienfertigung ein Prototyp oder Erstteil gefertigt werden."
+        },
+        "weldingThreading": {
+          "question": "Führen Sie Schweiß- und Gewindearbeiten im eigenen Haus durch?",
+          "answer": "Ja. MIG-, WIG- und Punktschweißen sowie die Gewindeherstellung gehören zu unseren eigenen Fertigungsmöglichkeiten."
+        },
+        "partnerProcesses": {
+          "question": "Wie werden Laserschneiden, Blechbearbeitung und Federfertigung abgewickelt?",
+          "answer": "Diese Prozesse werden gemeinsam mit unseren kooperierenden Fertigungspartnern unter der Projektkoordination von MBA Metal durchgeführt."
+        },
+        "coating": {
+          "question": "Werden Beschichtungen im eigenen Haus durchgeführt?",
+          "answer": "Nein. Beschichtungen werden nicht bei MBA Metal selbst durchgeführt. Die für das jeweilige Projekt geeignete Oberflächenbehandlung wird mit unseren kooperierenden Fertigungspartnern koordiniert."
+        },
+        "minimumOrder": {
+          "question": "Wie hoch ist die Mindestbestellmenge?",
+          "answer": "Die Mindestmenge hängt von der Geometrie, dem Werkzeugbedarf, der Anzahl der Fertigungsschritte, dem Material und der erforderlichen Oberflächenbehandlung ab."
+        }
+      }
+    },
+    "finalCta": {
+      "eyebrow": "LASSEN SIE UNS IHR PROJEKT GEMEINSAM BEWERTEN",
+      "title": "Lassen Sie Fertigbarkeit und Kosten Ihres Projekts bewerten",
+      "description": "Senden Sie uns Ihre technische Zeichnung sowie Angaben zu Zielstückzahl, Material, Toleranzen und Lieferanforderungen.",
+      "primaryAction": "Technische Zeichnung senden",
+      "secondaryAction": "Über WhatsApp kontaktieren"
+    }
+  },
+  "whyUsPage": {
+    "hero": {
+      "eyebrow": "WARUM MBA METAL?",
+      "title": "Für Unternehmen, die nicht nur Produkte, sondern fertigbare Lösungen suchen.",
+      "description": "Wir betrachten die Fertigung eines Draht- oder Metallteils nicht ausschließlich im Hinblick auf Maschinen und einzelne Arbeitsschritte. Geometrie, Einsatzzweck, Material, Produktionsmenge, Toleranzen und die erforderliche Prozessfolge werden gemeinsam bewertet, um einen praxisgerechten Fertigungsansatz zu entwickeln.",
+      "primaryAction": "Projekt anfragen",
+      "secondaryAction": "MBA Metal entdecken",
+      "startingPoints": {
+        "technicalDrawing": {
+          "title": "Technische Zeichnung",
+          "description": "Bewertung der Fertigbarkeit anhand technischer Zeichnungen und Abmessungen."
+        },
+        "sample": {
+          "title": "Muster",
+          "description": "Bewertung von Abmessungen, Geometrie und Fertigungsverfahren anhand eines vorhandenen Bauteils als Referenz."
+        },
+        "photoMeasurement": {
+          "title": "Foto & Abmessungen",
+          "description": "Ein möglicher Ausgangspunkt für Bauteile ohne technische Zeichnung auf Grundlage von Fotos und grundlegenden Abmessungen."
+        },
+        "prototypeToSerial": {
+          "title": "Prototyp → Serienfertigung",
+          "description": "Projektbegleitung vom ersten Produkt und Muster bis zur reproduzierbaren Fertigung."
+        }
+      }
+    },
+    "principles": {
+      "eyebrow": "BEI DER WAHL IHRES FERTIGUNGSPARTNERS",
+      "title": "Die Arbeitsweise, die MBA Metal auszeichnet.",
+      "description": "Ein Fertigungspartner sollte nicht ausschließlich anhand seines Maschinenparks bewertet werden. Ebenso wichtig sind das Verständnis des Projekts, die Bewertung der Fertigbarkeit, die Auswahl der richtigen Arbeitsschritte und die Entwicklung eines auf die Anforderungen abgestimmten Fertigungsansatzes.",
+      "approachLabel": "Unsere Arbeitsweise",
+      "items": {
+        "projectFocus": {
+          "category": "PROJEKTFOKUS",
+          "title": "Wir beginnen damit, Ihre Anforderungen zu verstehen",
+          "description": "Wir betrachten mehr als nur Form und Abmessungen des Bauteils. Wir möchten verstehen, wo es eingesetzt wird, welche Funktion es erfüllen soll und welchen Bedingungen es während der Nutzung ausgesetzt ist."
+        },
+        "flexibleStart": {
+          "category": "FLEXIBLER START",
+          "title": "Für den Start ist nicht zwingend eine technische Zeichnung erforderlich",
+          "description": "Eine technische Zeichnung ist eine wichtige Informationsquelle, doch nicht jedes Projekt beginnt mit einer solchen. Eine erste Bewertung kann auch anhand eines Musters, von Fotos, grundlegenden Abmessungen oder der zu lösenden Anwendungsanforderung erfolgen."
+        },
+        "manufacturability": {
+          "category": "FERTIGBARKEIT",
+          "title": "Wir geben nicht jede Zeichnung direkt in die Fertigung",
+          "description": "Wir bewerten Geometrie, Material, Toleranzen, Prozessfolge und Produktionsmenge gemeinsam. Bei Bedarf erarbeiten wir Alternativen, mit denen sich das Bauteil praxisgerechter und reproduzierbarer fertigen lässt."
+        },
+        "multiCapability": {
+          "category": "PROZESSÜBERGREIFENDE FERTIGUNG",
+          "title": "Wir sind nicht auf einen einzelnen Fertigungsschritt beschränkt",
+          "description": "Drahtumformung, Metallbiegen, Schweißen und ergänzende, projektspezifisch erforderliche Arbeitsschritte betrachten wir nicht isoliert, sondern als Bestandteile des gesamten Fertigungsprozesses."
+        },
+        "projectScale": {
+          "category": "SKALIERBARKEIT",
+          "title": "Wir bewerten Projekte mit unterschiedlichen Produktionsvolumen",
+          "description": "Wenn Fertigbarkeit und Prozesseignung gegeben sind, können wir projektbezogen nicht nur Großserien, sondern auch kleine und mittlere kommerzielle Produktionsanforderungen bewerten."
+        },
+        "continuity": {
+          "category": "KONTINUITÄT",
+          "title": "Vom Prototyp zur reproduzierbaren Fertigung",
+          "description": "Bei geeigneten Projekten definieren wir nach der Freigabe des ersten Musters oder Produkts die Fertigungsparameter und überführen den Prozess in eine strukturierte, kontrollierte und reproduzierbare Fertigung."
+        }
+      }
+    },
+    "exploreSolutions": {
+      "eyebrow": "MBA METAL ÖKOSYSTEM",
+      "title": "Entdecken Sie den Lösungsbereich, der am besten zu Ihren Anforderungen passt.",
+      "description": "Ob Sie ein kundenspezifisches Drahtteil, eine industrielle Ausrüstungslösung oder eine Lösung für den Einzelhandel benötigen – entdecken Sie die Fertigungs- und Anwendungsbereiche, die für Ihr Projekt relevant sind.",
+      "items": {
+        "cncWireBending": {
+          "category": "FERTIGUNG",
+          "title": "CNC-Drahtbiegen",
+          "description": "Kundenspezifische Drahtteile und Umformlösungen auf Grundlage technischer Zeichnungen oder Muster."
+        },
+        "industrialWireForming": {
+          "category": "FERTIGUNG",
+          "title": "Industrielle Drahtumformung",
+          "description": "Drahtumformlösungen für industrielle Anwendungen, Ausrüstungen und kundenspezifische Projekte."
+        },
+        "shelfHooks": {
+          "category": "EINZELHANDEL",
+          "title": "Regalhaken",
+          "description": "Aufhängeelemente in unterschiedlichen Geometrien für Drahtpaneele, Regalsysteme und Produktpräsentationen."
+        },
+        "wireShelfSystems": {
+          "category": "EINZELHANDEL",
+          "title": "Drahtregalsysteme",
+          "description": "Draht- und Metallregallösungen für Märkte und gewerbliche Verkaufsflächen."
+        },
+        "marketWireBaskets": {
+          "category": "EINZELHANDEL",
+          "title": "Drahtkörbe für den Einzelhandel",
+          "description": "Drahtkorblösungen für Produktpräsentation, Aktionsflächen, Transport und den Einsatz im Einzelhandel."
+        },
+        "aboutMbaMetal": {
+          "category": "UNTERNEHMEN",
+          "title": "Über MBA Metal",
+          "description": "Erfahren Sie mehr über unseren Fertigungsansatz, unsere Kompetenzbereiche und MBA Metal."
+        }
+      }
+    },
+    "flexibleStart": {
+      "eyebrow": "SIE MÜSSEN DIE GENAUE BEZEICHNUNG DES BAUTEILS NICHT KENNEN",
+      "title": "Sie können auch einfach sagen: „Ich brauche etwas in dieser Art.“",
+      "paragraphs": {
+        "paragraph1": "Die genaue technische Bezeichnung eines Bauteils, das in der Industrie, in Produktionsanlagen oder in Ladenausstattungen eingesetzt wird, ist dem Anwender nicht immer bekannt. Das ist kein Hindernis für die Bewertung Ihrer Fertigungsanforderung.",
+        "paragraph2": "Dasselbe Produkt kann in verschiedenen Unternehmen oder Branchen unterschiedlich bezeichnet werden. Entscheidend ist nicht der Name des Bauteils, sondern das Verständnis seiner Geometrie, seines Einsatzzwecks, seiner Abmessungen und seiner erforderlichen Funktion.",
+        "paragraph3": "Daher reichen Fotos, ein physisches Muster, grundlegende Abmessungen, der Anwendungsbereich und die benötigte Stückzahl häufig aus, um mit der technischen Bewertung zu beginnen."
+      },
+      "namingExample": {
+        "eyebrow": "GLEICHES BAUTEIL, UNTERSCHIEDLICHE BEZEICHNUNGEN",
+        "titleLine1": "Die Bezeichnung kann variieren.",
+        "titleLine2": "Die Anforderung bleibt gleich.",
+        "description": "Ein gleiches oder ähnliches Drahtteil für die Produktpräsentation kann beispielsweise von verschiedenen Anwendern unterschiedlich bezeichnet werden:",
+        "items": {
+          "shelfHook": "Regalhaken",
+          "wireHanger": "Drahtaufhänger",
+          "panelHook": "Paneelhaken",
+          "productHangerRod": "Produktaufhängestange"
+        }
+      },
+      "existingProduct": {
+        "eyebrow": "WIR KÖNNEN VON EINEM VORHANDENEN PRODUKT AUSGEHEN",
+        "title": "Wenn Sie ein ähnliches Produkt haben, zeigen Sie es uns.",
+        "description": "Sie können uns Fotos oder ein physisches Muster des vorhandenen Bauteils zur Verfügung stellen. Anschließend bewerten wir die Fertigbarkeit anhand der grundlegenden Abmessungen, Materialanforderungen, Einsatzbedingungen und benötigten Stückzahl.",
+        "checklist": {
+          "photo": "Foto des Produkts oder Musters",
+          "dimensions": "Grundlegende Abmessungen",
+          "usage": "Einsatzzweck",
+          "material": "Materialart, sofern bekannt",
+          "quantity": "Geschätzte Produktions- oder Bestellmenge",
+          "tolerances": "Kritische Maße und Toleranzen, sofern vorhanden"
+        }
+      },
+      "relatedCapabilitiesTitle": "Für Projekte dieser Art können Sie auch unsere entsprechenden Fertigungsmöglichkeiten entdecken.",
+      "relatedCapabilities": {
+        "cncWireBending": {
+          "title": "CNC-Drahtbiegen",
+          "description": "Bewertung kundenspezifischer Drahtteile mit unterschiedlichen Geometrien anhand technischer Zeichnungen oder Muster."
+        },
+        "industrialWireForming": {
+          "title": "Industrielle Drahtumformung",
+          "description": "Lösungen für die Drahtumformung und Teilefertigung für industrielle Anwendungen, Ausrüstungen und kundenspezifische Projekte."
+        }
+      }
+    },
+    "projectFlow": {
+      "eyebrow": "ZUSAMMENARBEIT MIT UNS",
+      "title": "Ein klarer Prozess, der Anforderungen in Fertigung überführt.",
+      "description": "Umfang und technische Komplexität jedes Projekts können unterschiedlich sein. Die grundlegenden Informationen für eine effektive Erstbewertung sind jedoch bei den meisten Projekten ähnlich.",
+      "items": {
+        "shareRequest": {
+          "title": "Teilen Sie uns Ihre Anforderungen mit",
+          "description": "Senden Sie uns Ihre technische Zeichnung, Fotos, ein Muster oder Ihre Anwendungsanforderungen.",
+          "detail": "Zusätzliche Informationen wie Material, Abmessungen, Toleranzen, benötigte Stückzahl und Einsatzbedingungen können die Erstbewertung beschleunigen."
+        },
+        "manufacturability": {
+          "title": "Fertigbarkeit gemeinsam bewerten",
+          "description": "Wir bewerten Geometrie, Arbeitsschritte, Material, Toleranzen und Produktionsmenge gemeinsam.",
+          "detail": "Wir bestimmen die erforderlichen Arbeitsschritte, kritischen Fertigungsaspekte und einen geeigneten Prozessansatz für das Bauteil."
+        },
+        "sampleFirstProduct": {
+          "title": "Muster / Erstteil",
+          "description": "Bei Projekten, die dies erfordern, kann der Fertigungsansatz anhand eines ersten Bauteils oder Musters validiert werden.",
+          "detail": "Abmessungen, Form, Verbindungsstellen und kritische Anwendungsmerkmale können am Erstteil geprüft und bei Bedarf angepasst werden."
+        },
+        "productionPlan": {
+          "title": "Fertigungsplanung",
+          "description": "Wir entwickeln einen geeigneten und reproduzierbaren Fertigungsablauf für das freigegebene Projekt.",
+          "detail": "Arbeitsfolge, Fertigungskontrollpunkte und Projektanforderungen werden definiert, um den Fertigungsprozess festzulegen."
+        }
+      },
+      "footer": {
+        "eyebrow": "KONTROLLIERTE FERTIGUNG",
+        "description": "Ziel ist nicht nur die Fertigung des ersten Bauteils, sondern bei geeigneten Projekten die kontrollierte und reproduzierbare Fortführung desselben Fertigungsansatzes."
+      }
+    },
+    "solutionExamples": {
+      "eyebrow": "LÖSUNGSBEISPIELE",
+      "title": "Fertigbare Metalllösungen für unterschiedliche Anforderungen.",
+      "description": "Eine Anforderung kann über die reine Fertigung eines Bauteils hinausgehen. Projekte können aus unterschiedlichen Ausgangssituationen entstehen – von der Produktentwicklung und Nachfertigung eines bestehenden Bauteils bis zum Übergang in die Serienfertigung oder zur Lösung betrieblicher Anforderungen.",
+      "examples": {
+        "customProduction": {
+          "eyebrow": "KUNDENSPEZIFISCHE FERTIGUNG",
+          "title": "Kundenspezifische Teilefertigung nach technischen Anforderungen",
+          "description": "Wir bewerten die Anforderungen anhand technischer Zeichnungen, Abmessungen, Muster oder des vorgesehenen Einsatzzwecks und entwickeln daraus eine fertigbare Lösung für Metallteile.",
+          "details": {
+            "detail1": "Bewertung anhand technischer Zeichnungen",
+            "detail2": "Prüfung von Maßen und Toleranzen",
+            "detail3": "Bewertung von Material und Fertigungsverfahren",
+            "detail4": "Planung von Prototypen- oder Serienfertigung"
+          }
+        },
+        "existingProduct": {
+          "eyebrow": "BESTEHENDES PRODUKT",
+          "title": "Nachfertigung anhand eines vorhandenen Bauteils",
+          "description": "Für vorhandene Bauteile ohne technische Dokumentation können wir anhand eines Musters, von Fotos und grundlegenden Abmessungen einen geeigneten Fertigungsansatz entwickeln.",
+          "details": {
+            "detail1": "Bewertung anhand eines Musters",
+            "detail2": "Bewertung grundlegender Abmessungen",
+            "detail3": "Analyse des vorgesehenen Einsatzzwecks",
+            "detail4": "Entwicklung eines reproduzierbaren Fertigungsprozesses"
+          }
+        },
+        "prototypeToSerial": {
+          "eyebrow": "PROTOTYP → SERIE",
+          "title": "Von der Versuchsfertigung zu wiederkehrenden Aufträgen",
+          "description": "Bei neu entwickelten Produkten unterstützen wir bei geeigneten Projekten den Übergang von ersten Mustern und Prototypen zu einer reproduzierbaren Fertigung.",
+          "details": {
+            "detail1": "Fertigung erster Muster",
+            "detail2": "Produkt- und Prozessvalidierung",
+            "detail3": "Bewertung von Änderungen",
+            "detail4": "Planung der Serienfertigung"
+          }
+        },
+        "industryAndProduction": {
+          "eyebrow": "INDUSTRIE & FERTIGUNG",
+          "title": "Bauteile für Maschinen und Produktionslinien",
+          "description": "Wir entwickeln projektbezogene Fertigungslösungen für Draht- und Metallteile, die in Maschinen, Ausrüstungen, Produktionslinien und Hilfssystemen eingesetzt werden.",
+          "details": {
+            "detail1": "Bauteile für Maschinen und Ausrüstungen",
+            "detail2": "Verbindungs- und Befestigungselemente",
+            "detail3": "Draht- und Metallteile",
+            "detail4": "Projektbezogene Sonderfertigung"
+          }
+        },
+        "retailAndDisplay": {
+          "eyebrow": "EINZELHANDEL & PRÄSENTATION",
+          "title": "Lösungen für Regal-, Aufhänge- und Präsentationssysteme",
+          "description": "Wir fertigen kundenspezifische Drahtprodukte, Aufhänger, Haken und Präsentationsteile für Anwendungen im Einzelhandel und in Geschäften.",
+          "details": {
+            "detail1": "Regal- und Paneelhaken",
+            "detail2": "Produktaufhängungen",
+            "detail3": "Präsentationsteile aus Draht",
+            "detail4": "Kundenspezifische Ladenausstattung"
+          }
+        },
+        "logisticsAndOperations": {
+          "eyebrow": "LOGISTIK & BETRIEB",
+          "title": "Transport-, Lager- und Betriebsausrüstung",
+          "description": "Wir bewerten Metall- und Drahtteile für Lagerung, Transport und betriebliche Prozesse entsprechend ihren Einsatzbedingungen und entwickeln einen geeigneten Fertigungsansatz.",
+          "details": {
+            "detail1": "Bauteile für Transportausrüstung",
+            "detail2": "Bauteile für Lagersysteme",
+            "detail3": "Schutz- und Befestigungsteile",
+            "detail4": "Kundenspezifische Betriebslösungen"
+          }
+        }
+      }
+    },
+    "cta": {
+      "eyebrow": "ZEIGEN SIE UNS IHR BAUTEIL",
+      "title": "Ist es fertigbar? Lassen Sie uns das zuerst gemeinsam bewerten.",
+      "description": "Wenn Sie eine technische Zeichnung haben, senden Sie sie uns. Falls nicht, können wir auch mit einem Muster, Foto oder grundlegenden Abmessungen beginnen. Gemeinsam bewerten wir Einsatzzweck, Material, kritische Maße und benötigte Stückzahl des Bauteils, um einen praxisgerechten Fertigungsansatz zu bestimmen.",
+      "primaryAction": "Projekt anfragen",
+      "secondaryAction": "Kontaktieren Sie uns"
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "eyebrow": "MBA METAL",
+      "title": "Lösungen, die sich an Ihren Anforderungen in der Draht- und Metallfertigung orientieren.",
+      "description": "Von technischen Zeichnungen und Mustern über kundenspezifische Teile bis hin zur reproduzierbaren Fertigung verwandeln wir unterschiedliche industrielle Anforderungen in praxisgerechte Fertigungslösungen."
+    },
+    "companyStory": {
+      "eyebrow": "MBA Metal",
+      "title": "Ein fertigungsorientierter Lösungspartner für die Draht- und Metallbearbeitung.",
+      "description": "MBA Metal konzentriert sich darauf, den Bedarf verschiedener Branchen an Draht- und Metallteilen in fertigbare Lösungen umzusetzen. Unser Tätigkeitsbereich ist dabei nicht auf eine einzelne Produktgruppe beschränkt.",
+      "secondaryDescription": "Von der Automobil- und Haushaltsgeräteindustrie über Einzelhandelsausstattungen bis hin zu industriellen Transport- und Lagerlösungen entwickeln wir Fertigungslösungen, die auf die jeweiligen Anforderungen der Anwendung abgestimmt sind.",
+      "imageAlt": "MBA Metal Produktionsstätte",
+      "approach": {
+        "eyebrow": "Unser Fertigungsansatz",
+        "projectBased": {
+          "title": "Projektbezogen",
+          "description": "Ein Fertigungsansatz, der sich an den jeweiligen Anforderungen orientiert."
+        },
+        "flexibleProduction": {
+          "title": "Flexible Fertigung",
+          "description": "Ein anpassbarer Prozess vom Muster bis zur reproduzierbaren Fertigung."
+        },
+        "brand": "MBA Metal"
+      },
+      "secondaryStory": {
+        "eyebrow": "Wie beginnt ein Projekt?",
+        "title": "Nicht jedes Projekt beginnt mit einer technischen Zeichnung.",
+        "paragraphs": [
+          "Manchmal beginnt eine Fertigungsanfrage mit einer vollständig ausgearbeiteten technischen Zeichnung. In anderen Fällen stehen lediglich ein vorhandenes Muster, ein Produktfoto, grundlegende Abmessungen oder eine zu lösende Anwendungsanforderung zur Verfügung.",
+          "Deshalb konzentrieren wir uns zunächst darauf, zu verstehen, wo und wie das Bauteil eingesetzt werden soll. Anschließend bewerten wir Kriterien wie Geometrie, Material, Fertigungsverfahren und benötigte Stückzahl, um einen praxisgerechten Fertigungsansatz festzulegen."
+        ]
+      },
+      "inputs": {
+        "eyebrow": "Für den Projektstart",
+        "items": [
+          "Technische Zeichnung",
+          "Muster",
+          "Produktfoto",
+          "Fertigungsanforderung"
+        ]
+      }
+    },
+    "productionApproach": {
+      "eyebrow": "Unser Fertigungsprozess",
+      "title": "Von der technischen Anforderung zur kontrollierten Fertigung.",
+      "description": "Wir betrachten jedes Projekt nicht nur als ein zu fertigendes Bauteil, sondern als einen ganzheitlichen Prozess, bei dem technische Anforderungen richtig verstanden, die Fertigbarkeit bewertet und die Fertigung kontrolliert umgesetzt werden muss.",
       "steps": {
-        "technicalSpecification": {
-          "title": "Technische Spezifikation",
-          "description": "Produkt- und Prozessanforderungen werden eindeutig definiert."
+        "technicalNeed": {
+          "title": "Technische Anforderung",
+          "description": "Die Projektanforderungen werden anhand technischer Zeichnungen, Muster, Produktfotos oder Informationen zum vorgesehenen Einsatzzweck ermittelt."
         },
-
-        "partnerProcess": {
-          "title": "Partnerprozess",
-          "description": "Der geeignete Fertigungspartner und das passende Fertigungsverfahren werden festgelegt."
+        "projectPlanning": {
+          "title": "Projektplanung",
+          "description": "Material, Geometrie, Toleranzen, Fertigungsverfahren und Zielstückzahl werden bewertet, um einen praxisgerechten Fertigungsplan zu erstellen."
         },
-
-        "processTracking": {
-          "title": "Prozessüberwachung",
-          "description": "Der ergänzende Fertigungsprozess wird entsprechend den Projektkriterien überwacht."
+        "production": {
+          "title": "Fertigung",
+          "description": "Draht-, Metall- und zugehörige Teile werden entsprechend den festgelegten Fertigungsprozessen hergestellt."
         },
-
         "qualityControl": {
           "title": "Qualitätskontrolle",
-          "description": "Nach Abschluss des Prozesses wird die Erfüllung der Produktanforderungen überprüft."
+          "description": "Während und nach der Fertigung werden kritische Maße, visuelle Anforderungen und projektspezifische Kriterien kontrolliert."
         },
-
-        "shipping": {
+        "shipment": {
           "title": "Versand",
-          "description": "Das fertige Produkt wird entsprechend dem vereinbarten Lieferplan vorbereitet."
+          "description": "Freigegebene Produkte werden entsprechend den Verpackungs- und Lieferanforderungen vorbereitet und für den Versand bereitgestellt."
         }
-      }
-    }
-  },
-
-  "projectFlow": {
-    "eyebrow": "PROJEKTABLAUF",
-    "title": "Von der technischen Anfrage zur Serienfertigung",
-    "description": "Von der Aufnahme der Anfrage bis zur Fertigung und Auslieferung steuern wir die einzelnen Projektschritte entsprechend den technischen Anforderungen.",
-    "completedLabel": "Prozess abgeschlossen",
-
-    "items": {
-      "technicalRequest": {
-        "title": "Technische Anfrage",
-        "description": "Zeichnungen, Muster, Stückzahl, Material und Einsatzbedingungen werden aufgenommen."
       },
-
-      "dfmReview": {
-        "title": "DFM-Prüfung",
-        "description": "Geometrie, Toleranzen, Prozessfolge und Fertigbarkeit werden bewertet."
-      },
-
-      "quoteSample": {
-        "title": "Angebot & Muster",
-        "description": "Preis, Lieferzeit, Werkzeugbedarf und Anforderungen an die Musterfertigung werden abgestimmt."
-      },
-
-      "serialProduction": {
-        "title": "Serienfertigung",
-        "description": "Der Fertigungsplan wird entsprechend den freigegebenen technischen Spezifikationen umgesetzt."
-      },
-
-      "inspectionShipping": {
-        "title": "Prüfung & Versand",
-        "description": "Maßkontrolle, Verpackung und Lieferung werden abgeschlossen."
-      }
-    }
-  },
-
-  "oemProduction": {
-    "eyebrow": "OEM- & LOHNFERTIGUNG",
-    "title": "Fertigung nach technischer Zeichnung, Muster oder Anwendungsszenario.",
-    "description": "Bei der Projektbewertung betrachten wir nicht nur die Geometrie des Bauteils. Materialauswahl, Draht- oder Rohrabmessungen, Biegeradien, Toleranzen, Schweißbereiche, Gewindeanforderungen, Oberflächenanforderungen, Verpackung und Jahresbedarf werden gemeinsam bewertet.",
-
-    "evaluation": {
-      "eyebrow": "PROJEKTBEWERTUNG",
-      "title": "Fertigung umfasst mehr als nur die Geometrie eines Bauteils.",
-      "items": [
-        "Materialauswahl",
-        "Draht- oder Rohrabmessungen",
-        "Biegeradien",
-        "Maße und Toleranzen",
-        "Schweißbereiche",
-        "Gewindeanforderungen",
-        "Oberflächenanforderungen",
-        "Verpackung",
-        "Jahresbedarf"
-      ]
+      "bottomMessage": "Unser Ziel ist nicht nur die Fertigung eines Bauteils, sondern die Entwicklung eines reproduzierbaren und nachhaltigen Fertigungsprozesses, der die technischen Anforderungen des Projekts erfüllt."
     },
-
-    "withoutDrawing": {
-      "eyebrow": "WENN KEINE TECHNISCHE ZEICHNUNG VORLIEGT",
-      "title": "Wir können mit einem Muster und Informationen zur Anwendung beginnen.",
-      "description": "Eine erste Bewertung kann anhand eines vorhandenen Musters, von Produktfotos, ungefähren Abmessungen und dem vorgesehenen Einsatzzweck erfolgen. Vor Beginn der Serienfertigung werden kritische Maße und technische Anforderungen eindeutig festgelegt.",
-      "inputs": [
-        "Vorhandenes Produkt oder Muster",
-        "Produktfotos",
-        "Ungefähre Abmessungen",
-        "Einsatzzweck"
-      ]
-    }
-  },
-
-  "quoteRequirements": {
-    "eyebrow": "ANGEBOTSVORBEREITUNG",
-    "title": "Die erforderlichen Informationen für ein präzises Angebot.",
-    "description": "Damit Fertigbarkeit, Prozesse, Kosten und Lieferzeit zuverlässig bewertet werden können, sollten zu Projektbeginn die grundlegenden technischen Informationen bereitgestellt werden.",
-
-    "items": {
-      "technicalDocument": {
-        "title": "Technische Unterlagen",
-        "description": "Technische Zeichnung im PDF-, DWG- oder STEP-Format oder ein vorhandenes Produktmuster."
-      },
-
-      "materialDimensions": {
-        "title": "Material & Abmessungen",
-        "description": "Angaben zum vorgesehenen Material sowie zu Durchmesser und Abmessungen des Drahts oder Rohrs."
-      },
-
-      "tolerances": {
-        "title": "Toleranzen",
-        "description": "Kritische Maße, allgemeine Abmessungen und einzuhaltende Toleranzwerte."
-      },
-
-      "quantity": {
-        "title": "Produktionsmenge",
-        "description": "Jahresbedarf und geplante Bestellmenge."
-      },
-
-      "additionalProcesses": {
-        "title": "Zusätzliche Prozesse",
-        "description": "Zusätzliche Anforderungen wie Schweißen, Gewindebearbeitung, Beschichtung oder Lackierung."
-      },
-
-      "packagingDelivery": {
-        "title": "Verpackung & Lieferung",
-        "description": "Anforderungen an die Verpackung und Angaben zum vorgesehenen Lieferort."
-      }
-    }
-  },
-
-  "faq": {
-    "eyebrow": "HÄUFIG GESTELLTE FRAGEN",
-    "title": "Über unsere Fertigungsmöglichkeiten",
-    "description": "Häufig gestellte Fragen zu unseren Fertigungsprozessen, technischen Bewertungen, Prototypenarbeiten und ergänzenden Fertigungsverfahren.",
-
-    "items": {
-      "customParts": {
-        "question": "Fertigen Sie kundenspezifische Teile nach technischer Zeichnung?",
-        "answer": "Ja. Die Fertigbarkeit und Preisgestaltung können anhand einer technischen Zeichnung, eines Musters oder des vorgesehenen Anwendungsszenarios bewertet werden."
-      },
-
-      "prototype": {
-        "question": "Bieten Sie Prototypen- und Musterfertigung an?",
-        "answer": "Ja. Abhängig von der Geometrie des Projekts, dem Werkzeugbedarf und der geplanten Stückzahl kann vor der Serienfertigung ein Prototyp oder Erstteil gefertigt werden."
-      },
-
-      "weldingThreading": {
-        "question": "Führen Sie Schweiß- und Gewindearbeiten im eigenen Haus durch?",
-        "answer": "Ja. MIG-, WIG- und Punktschweißen sowie die Gewindeherstellung gehören zu unseren eigenen Fertigungsmöglichkeiten."
-      },
-
-      "partnerProcesses": {
-        "question": "Wie werden Laserschneiden, Blechbearbeitung und Federfertigung abgewickelt?",
-        "answer": "Diese Prozesse werden gemeinsam mit unseren kooperierenden Fertigungspartnern unter der Projektkoordination von MBA Metal durchgeführt."
-      },
-
-      "coating": {
-        "question": "Werden Beschichtungen im eigenen Haus durchgeführt?",
-        "answer": "Nein. Beschichtungen werden nicht bei MBA Metal selbst durchgeführt. Die für das jeweilige Projekt geeignete Oberflächenbehandlung wird mit unseren kooperierenden Fertigungspartnern koordiniert."
-      },
-
-      "minimumOrder": {
-        "question": "Wie hoch ist die Mindestbestellmenge?",
-        "answer": "Die Mindestmenge hängt von der Geometrie, dem Werkzeugbedarf, der Anzahl der Fertigungsschritte, dem Material und der erforderlichen Oberflächenbehandlung ab."
-      }
-    }
-  },
-
-  "finalCta": {
-    "eyebrow": "LASSEN SIE UNS IHR PROJEKT GEMEINSAM BEWERTEN",
-    "title": "Lassen Sie Fertigbarkeit und Kosten Ihres Projekts bewerten",
-    "description": "Senden Sie uns Ihre technische Zeichnung sowie Angaben zu Zielstückzahl, Material, Toleranzen und Lieferanforderungen.",
-    "primaryAction": "Technische Zeichnung senden",
-    "secondaryAction": "Über WhatsApp kontaktieren"
-  }
-},
-"whyUsPage": {
-  "hero": {
-    "eyebrow": "WARUM MBA METAL?",
-    "title": "Für Unternehmen, die nicht nur Produkte, sondern fertigbare Lösungen suchen.",
-    "description": "Wir betrachten die Fertigung eines Draht- oder Metallteils nicht ausschließlich im Hinblick auf Maschinen und einzelne Arbeitsschritte. Geometrie, Einsatzzweck, Material, Produktionsmenge, Toleranzen und die erforderliche Prozessfolge werden gemeinsam bewertet, um einen praxisgerechten Fertigungsansatz zu entwickeln.",
-    "primaryAction": "Projekt anfragen",
-    "secondaryAction": "MBA Metal entdecken",
-    "startingPoints": {
-      "technicalDrawing": {
-        "title": "Technische Zeichnung",
-        "description": "Bewertung der Fertigbarkeit anhand technischer Zeichnungen und Abmessungen."
-      },
-      "sample": {
-        "title": "Muster",
-        "description": "Bewertung von Abmessungen, Geometrie und Fertigungsverfahren anhand eines vorhandenen Bauteils als Referenz."
-      },
-      "photoMeasurement": {
-        "title": "Foto & Abmessungen",
-        "description": "Ein möglicher Ausgangspunkt für Bauteile ohne technische Zeichnung auf Grundlage von Fotos und grundlegenden Abmessungen."
-      },
-      "prototypeToSerial": {
-        "title": "Prototyp → Serienfertigung",
-        "description": "Projektbegleitung vom ersten Produkt und Muster bis zur reproduzierbaren Fertigung."
-      }
-    }
-  },
-
-  "principles": {
-    "eyebrow": "BEI DER WAHL IHRES FERTIGUNGSPARTNERS",
-    "title": "Die Arbeitsweise, die MBA Metal auszeichnet.",
-    "description": "Ein Fertigungspartner sollte nicht ausschließlich anhand seines Maschinenparks bewertet werden. Ebenso wichtig sind das Verständnis des Projekts, die Bewertung der Fertigbarkeit, die Auswahl der richtigen Arbeitsschritte und die Entwicklung eines auf die Anforderungen abgestimmten Fertigungsansatzes.",
-    "approachLabel": "Unsere Arbeitsweise",
-    "items": {
-      "projectFocus": {
-        "category": "PROJEKTFOKUS",
-        "title": "Wir beginnen damit, Ihre Anforderungen zu verstehen",
-        "description": "Wir betrachten mehr als nur Form und Abmessungen des Bauteils. Wir möchten verstehen, wo es eingesetzt wird, welche Funktion es erfüllen soll und welchen Bedingungen es während der Nutzung ausgesetzt ist."
-      },
-      "flexibleStart": {
-        "category": "FLEXIBLER START",
-        "title": "Für den Start ist nicht zwingend eine technische Zeichnung erforderlich",
-        "description": "Eine technische Zeichnung ist eine wichtige Informationsquelle, doch nicht jedes Projekt beginnt mit einer solchen. Eine erste Bewertung kann auch anhand eines Musters, von Fotos, grundlegenden Abmessungen oder der zu lösenden Anwendungsanforderung erfolgen."
-      },
-      "manufacturability": {
-        "category": "FERTIGBARKEIT",
-        "title": "Wir geben nicht jede Zeichnung direkt in die Fertigung",
-        "description": "Wir bewerten Geometrie, Material, Toleranzen, Prozessfolge und Produktionsmenge gemeinsam. Bei Bedarf erarbeiten wir Alternativen, mit denen sich das Bauteil praxisgerechter und reproduzierbarer fertigen lässt."
-      },
-      "multiCapability": {
-        "category": "PROZESSÜBERGREIFENDE FERTIGUNG",
-        "title": "Wir sind nicht auf einen einzelnen Fertigungsschritt beschränkt",
-        "description": "Drahtumformung, Metallbiegen, Schweißen und ergänzende, projektspezifisch erforderliche Arbeitsschritte betrachten wir nicht isoliert, sondern als Bestandteile des gesamten Fertigungsprozesses."
-      },
-      "projectScale": {
-        "category": "SKALIERBARKEIT",
-        "title": "Wir bewerten Projekte mit unterschiedlichen Produktionsvolumen",
-        "description": "Wenn Fertigbarkeit und Prozesseignung gegeben sind, können wir projektbezogen nicht nur Großserien, sondern auch kleine und mittlere kommerzielle Produktionsanforderungen bewerten."
-      },
-      "continuity": {
-        "category": "KONTINUITÄT",
-        "title": "Vom Prototyp zur reproduzierbaren Fertigung",
-        "description": "Bei geeigneten Projekten definieren wir nach der Freigabe des ersten Musters oder Produkts die Fertigungsparameter und überführen den Prozess in eine strukturierte, kontrollierte und reproduzierbare Fertigung."
-      }
-    }
-  },
-
-  "exploreSolutions": {
-    "eyebrow": "MBA METAL ÖKOSYSTEM",
-    "title": "Entdecken Sie den Lösungsbereich, der am besten zu Ihren Anforderungen passt.",
-    "description": "Ob Sie ein kundenspezifisches Drahtteil, eine industrielle Ausrüstungslösung oder eine Lösung für den Einzelhandel benötigen – entdecken Sie die Fertigungs- und Anwendungsbereiche, die für Ihr Projekt relevant sind.",
-    "items": {
-      "cncWireBending": {
-        "category": "FERTIGUNG",
-        "title": "CNC-Drahtbiegen",
-        "description": "Kundenspezifische Drahtteile und Umformlösungen auf Grundlage technischer Zeichnungen oder Muster."
-      },
-      "industrialWireForming": {
-        "category": "FERTIGUNG",
-        "title": "Industrielle Drahtumformung",
-        "description": "Drahtumformlösungen für industrielle Anwendungen, Ausrüstungen und kundenspezifische Projekte."
-      },
-      "shelfHooks": {
-        "category": "EINZELHANDEL",
-        "title": "Regalhaken",
-        "description": "Aufhängeelemente in unterschiedlichen Geometrien für Drahtpaneele, Regalsysteme und Produktpräsentationen."
-      },
-      "wireShelfSystems": {
-        "category": "EINZELHANDEL",
-        "title": "Drahtregalsysteme",
-        "description": "Draht- und Metallregallösungen für Märkte und gewerbliche Verkaufsflächen."
-      },
-      "marketWireBaskets": {
-        "category": "EINZELHANDEL",
-        "title": "Drahtkörbe für den Einzelhandel",
-        "description": "Drahtkorblösungen für Produktpräsentation, Aktionsflächen, Transport und den Einsatz im Einzelhandel."
-      },
-      "aboutMbaMetal": {
-        "category": "UNTERNEHMEN",
-        "title": "Über MBA Metal",
-        "description": "Erfahren Sie mehr über unseren Fertigungsansatz, unsere Kompetenzbereiche und MBA Metal."
-      }
-    }
-  },
-
-  "flexibleStart": {
-    "eyebrow": "SIE MÜSSEN DIE GENAUE BEZEICHNUNG DES BAUTEILS NICHT KENNEN",
-    "title": "Sie können auch einfach sagen: „Ich brauche etwas in dieser Art.“",
-    "paragraphs": {
-      "paragraph1": "Die genaue technische Bezeichnung eines Bauteils, das in der Industrie, in Produktionsanlagen oder in Ladenausstattungen eingesetzt wird, ist dem Anwender nicht immer bekannt. Das ist kein Hindernis für die Bewertung Ihrer Fertigungsanforderung.",
-      "paragraph2": "Dasselbe Produkt kann in verschiedenen Unternehmen oder Branchen unterschiedlich bezeichnet werden. Entscheidend ist nicht der Name des Bauteils, sondern das Verständnis seiner Geometrie, seines Einsatzzwecks, seiner Abmessungen und seiner erforderlichen Funktion.",
-      "paragraph3": "Daher reichen Fotos, ein physisches Muster, grundlegende Abmessungen, der Anwendungsbereich und die benötigte Stückzahl häufig aus, um mit der technischen Bewertung zu beginnen."
-    },
-
-    "namingExample": {
-      "eyebrow": "GLEICHES BAUTEIL, UNTERSCHIEDLICHE BEZEICHNUNGEN",
-      "titleLine1": "Die Bezeichnung kann variieren.",
-      "titleLine2": "Die Anforderung bleibt gleich.",
-      "description": "Ein gleiches oder ähnliches Drahtteil für die Produktpräsentation kann beispielsweise von verschiedenen Anwendern unterschiedlich bezeichnet werden:",
+    "workingApproach": {
+      "eyebrow": "Unsere Arbeitsweise",
+      "title": "Von der Anforderung zur reproduzierbaren Fertigung.",
+      "description": "Nicht jedes Projekt beginnt am selben Ausgangspunkt. Manchmal liegt eine detaillierte technische Zeichnung vor, in anderen Fällen lediglich ein vorhandenes Bauteil oder eine zu lösende Fertigungsanforderung. Wir gestalten den Prozess so, dass die verfügbaren Informationen in eine fertigbare und reproduzierbare Lösung überführt werden.",
       "items": {
-        "shelfHook": "Regalhaken",
-        "wireHanger": "Drahtaufhänger",
-        "panelHook": "Paneelhaken",
-        "productHangerRod": "Produktaufhängestange"
-      }
-    },
-
-    "existingProduct": {
-      "eyebrow": "WIR KÖNNEN VON EINEM VORHANDENEN PRODUKT AUSGEHEN",
-      "title": "Wenn Sie ein ähnliches Produkt haben, zeigen Sie es uns.",
-      "description": "Sie können uns Fotos oder ein physisches Muster des vorhandenen Bauteils zur Verfügung stellen. Anschließend bewerten wir die Fertigbarkeit anhand der grundlegenden Abmessungen, Materialanforderungen, Einsatzbedingungen und benötigten Stückzahl.",
-      "checklist": {
-        "photo": "Foto des Produkts oder Musters",
-        "dimensions": "Grundlegende Abmessungen",
-        "usage": "Einsatzzweck",
-        "material": "Materialart, sofern bekannt",
-        "quantity": "Geschätzte Produktions- oder Bestellmenge",
-        "tolerances": "Kritische Maße und Toleranzen, sofern vorhanden"
-      }
-    },
-
-    "relatedCapabilitiesTitle": "Für Projekte dieser Art können Sie auch unsere entsprechenden Fertigungsmöglichkeiten entdecken.",
-    "relatedCapabilities": {
-      "cncWireBending": {
-        "title": "CNC-Drahtbiegen",
-        "description": "Bewertung kundenspezifischer Drahtteile mit unterschiedlichen Geometrien anhand technischer Zeichnungen oder Muster."
-      },
-      "industrialWireForming": {
-        "title": "Industrielle Drahtumformung",
-        "description": "Lösungen für die Drahtumformung und Teilefertigung für industrielle Anwendungen, Ausrüstungen und kundenspezifische Projekte."
-      }
-    }
-  },
-
-  "projectFlow": {
-    "eyebrow": "ZUSAMMENARBEIT MIT UNS",
-    "title": "Ein klarer Prozess, der Anforderungen in Fertigung überführt.",
-    "description": "Umfang und technische Komplexität jedes Projekts können unterschiedlich sein. Die grundlegenden Informationen für eine effektive Erstbewertung sind jedoch bei den meisten Projekten ähnlich.",
-    "items": {
-      "shareRequest": {
-        "title": "Teilen Sie uns Ihre Anforderungen mit",
-        "description": "Senden Sie uns Ihre technische Zeichnung, Fotos, ein Muster oder Ihre Anwendungsanforderungen.",
-        "detail": "Zusätzliche Informationen wie Material, Abmessungen, Toleranzen, benötigte Stückzahl und Einsatzbedingungen können die Erstbewertung beschleunigen."
-      },
-      "manufacturability": {
-        "title": "Fertigbarkeit gemeinsam bewerten",
-        "description": "Wir bewerten Geometrie, Arbeitsschritte, Material, Toleranzen und Produktionsmenge gemeinsam.",
-        "detail": "Wir bestimmen die erforderlichen Arbeitsschritte, kritischen Fertigungsaspekte und einen geeigneten Prozessansatz für das Bauteil."
-      },
-      "sampleFirstProduct": {
-        "title": "Muster / Erstteil",
-        "description": "Bei Projekten, die dies erfordern, kann der Fertigungsansatz anhand eines ersten Bauteils oder Musters validiert werden.",
-        "detail": "Abmessungen, Form, Verbindungsstellen und kritische Anwendungsmerkmale können am Erstteil geprüft und bei Bedarf angepasst werden."
-      },
-      "productionPlan": {
-        "title": "Fertigungsplanung",
-        "description": "Wir entwickeln einen geeigneten und reproduzierbaren Fertigungsablauf für das freigegebene Projekt.",
-        "detail": "Arbeitsfolge, Fertigungskontrollpunkte und Projektanforderungen werden definiert, um den Fertigungsprozess festzulegen."
-      }
-    },
-
-    "footer": {
-      "eyebrow": "KONTROLLIERTE FERTIGUNG",
-      "description": "Ziel ist nicht nur die Fertigung des ersten Bauteils, sondern bei geeigneten Projekten die kontrollierte und reproduzierbare Fortführung desselben Fertigungsansatzes."
-    }
-  },
-
-  "solutionExamples": {
-    "eyebrow": "LÖSUNGSBEISPIELE",
-    "title": "Fertigbare Metalllösungen für unterschiedliche Anforderungen.",
-    "description": "Eine Anforderung kann über die reine Fertigung eines Bauteils hinausgehen. Projekte können aus unterschiedlichen Ausgangssituationen entstehen – von der Produktentwicklung und Nachfertigung eines bestehenden Bauteils bis zum Übergang in die Serienfertigung oder zur Lösung betrieblicher Anforderungen.",
-
-    "examples": {
-      "customProduction": {
-        "eyebrow": "KUNDENSPEZIFISCHE FERTIGUNG",
-        "title": "Kundenspezifische Teilefertigung nach technischen Anforderungen",
-        "description": "Wir bewerten die Anforderungen anhand technischer Zeichnungen, Abmessungen, Muster oder des vorgesehenen Einsatzzwecks und entwickeln daraus eine fertigbare Lösung für Metallteile.",
-        "details": {
-          "detail1": "Bewertung anhand technischer Zeichnungen",
-          "detail2": "Prüfung von Maßen und Toleranzen",
-          "detail3": "Bewertung von Material und Fertigungsverfahren",
-          "detail4": "Planung von Prototypen- oder Serienfertigung"
-        }
-      },
-
-      "existingProduct": {
-        "eyebrow": "BESTEHENDES PRODUKT",
-        "title": "Nachfertigung anhand eines vorhandenen Bauteils",
-        "description": "Für vorhandene Bauteile ohne technische Dokumentation können wir anhand eines Musters, von Fotos und grundlegenden Abmessungen einen geeigneten Fertigungsansatz entwickeln.",
-        "details": {
-          "detail1": "Bewertung anhand eines Musters",
-          "detail2": "Bewertung grundlegender Abmessungen",
-          "detail3": "Analyse des vorgesehenen Einsatzzwecks",
-          "detail4": "Entwicklung eines reproduzierbaren Fertigungsprozesses"
-        }
-      },
-
-      "prototypeToSerial": {
-        "eyebrow": "PROTOTYP → SERIE",
-        "title": "Von der Versuchsfertigung zu wiederkehrenden Aufträgen",
-        "description": "Bei neu entwickelten Produkten unterstützen wir bei geeigneten Projekten den Übergang von ersten Mustern und Prototypen zu einer reproduzierbaren Fertigung.",
-        "details": {
-          "detail1": "Fertigung erster Muster",
-          "detail2": "Produkt- und Prozessvalidierung",
-          "detail3": "Bewertung von Änderungen",
-          "detail4": "Planung der Serienfertigung"
-        }
-      },
-
-      "industryAndProduction": {
-        "eyebrow": "INDUSTRIE & FERTIGUNG",
-        "title": "Bauteile für Maschinen und Produktionslinien",
-        "description": "Wir entwickeln projektbezogene Fertigungslösungen für Draht- und Metallteile, die in Maschinen, Ausrüstungen, Produktionslinien und Hilfssystemen eingesetzt werden.",
-        "details": {
-          "detail1": "Bauteile für Maschinen und Ausrüstungen",
-          "detail2": "Verbindungs- und Befestigungselemente",
-          "detail3": "Draht- und Metallteile",
-          "detail4": "Projektbezogene Sonderfertigung"
-        }
-      },
-
-      "retailAndDisplay": {
-        "eyebrow": "EINZELHANDEL & PRÄSENTATION",
-        "title": "Lösungen für Regal-, Aufhänge- und Präsentationssysteme",
-        "description": "Wir fertigen kundenspezifische Drahtprodukte, Aufhänger, Haken und Präsentationsteile für Anwendungen im Einzelhandel und in Geschäften.",
-        "details": {
-          "detail1": "Regal- und Paneelhaken",
-          "detail2": "Produktaufhängungen",
-          "detail3": "Präsentationsteile aus Draht",
-          "detail4": "Kundenspezifische Ladenausstattung"
-        }
-      },
-
-      "logisticsAndOperations": {
-        "eyebrow": "LOGISTIK & BETRIEB",
-        "title": "Transport-, Lager- und Betriebsausrüstung",
-        "description": "Wir bewerten Metall- und Drahtteile für Lagerung, Transport und betriebliche Prozesse entsprechend ihren Einsatzbedingungen und entwickeln einen geeigneten Fertigungsansatz.",
-        "details": {
-          "detail1": "Bauteile für Transportausrüstung",
-          "detail2": "Bauteile für Lagersysteme",
-          "detail3": "Schutz- und Befestigungsteile",
-          "detail4": "Kundenspezifische Betriebslösungen"
+        "understandRequirement": {
+          "label": "Anforderungen verstehen",
+          "title": "Wir bestimmen, welche Funktion das Bauteil erfüllen soll.",
+          "description": "Der Prozess muss nicht zwingend mit einer technischen Zeichnung beginnen. Wir können ein Projekt auch anhand eines Musters, Fotos, ungefährer Abmessungen oder direkt anhand des vorgesehenen Einsatzzwecks bewerten.",
+          "details": [
+            "Einsatzbereich",
+            "Bauteilgeometrie",
+            "Ungefähre Abmessungen",
+            "Benötigte Stückzahl"
+          ]
+        },
+        "evaluateManufacturability": {
+          "label": "Fertigbarkeit bewerten",
+          "title": "Wir gleichen die Idee mit realen Fertigungsbedingungen ab.",
+          "description": "Material, Geometrie, Toleranzen, Fügeverfahren und Produktionsmenge werden gemeinsam bewertet, um einen praxisgerechten Fertigungsansatz festzulegen.",
+          "details": [
+            "Materialauswahl",
+            "Fertigungsverfahren",
+            "Geometrieprüfung",
+            "Arbeitsablaufplanung"
+          ]
+        },
+        "sampleValidation": {
+          "label": "Muster & Validierung",
+          "title": "Wir validieren das Bauteil vor der Serienfertigung.",
+          "description": "Bei Bedarf werden am ersten Muster oder Prototyp Abmessungen, Form, Funktion und Fertigbarkeit überprüft. Dadurch können notwendige Anpassungen vor Beginn der Serienfertigung vorgenommen werden.",
+          "details": [
+            "Erstmuster",
+            "Maßprüfung",
+            "Funktionsprüfung",
+            "Überarbeitung"
+          ]
+        },
+        "repeatableProduction": {
+          "label": "Reproduzierbare Fertigung",
+          "title": "Wir überführen die freigegebene Lösung in eine nachhaltige Fertigung.",
+          "description": "Die Fertigungsschritte des validierten Bauteils werden definiert, damit bei nachfolgenden Aufträgen derselbe Fertigungsansatz und dieselben Qualitätskriterien beibehalten werden können.",
+          "details": [
+            "Fertigungsplanung",
+            "Prozesskontrolle",
+            "Qualitätskontrolle",
+            "Wiederholfertigung"
+          ]
         }
       }
-    }
-  },
-
-  "cta": {
-    "eyebrow": "ZEIGEN SIE UNS IHR BAUTEIL",
-    "title": "Ist es fertigbar? Lassen Sie uns das zuerst gemeinsam bewerten.",
-    "description": "Wenn Sie eine technische Zeichnung haben, senden Sie sie uns. Falls nicht, können wir auch mit einem Muster, Foto oder grundlegenden Abmessungen beginnen. Gemeinsam bewerten wir Einsatzzweck, Material, kritische Maße und benötigte Stückzahl des Bauteils, um einen praxisgerechten Fertigungsansatz zu bestimmen.",
-    "primaryAction": "Projekt anfragen",
-    "secondaryAction": "Kontaktieren Sie uns"
-  }
-},
-"aboutPage": {
-  "hero": {
-    "eyebrow": "MBA METAL",
-    "title": "Lösungen, die sich an Ihren Anforderungen in der Draht- und Metallfertigung orientieren.",
-    "description": "Von technischen Zeichnungen und Mustern über kundenspezifische Teile bis hin zur reproduzierbaren Fertigung verwandeln wir unterschiedliche industrielle Anforderungen in praxisgerechte Fertigungslösungen."
-  },
-
-  "companyStory": {
-    "eyebrow": "MBA Metal",
-    "title": "Ein fertigungsorientierter Lösungspartner für die Draht- und Metallbearbeitung.",
-    "description": "MBA Metal konzentriert sich darauf, den Bedarf verschiedener Branchen an Draht- und Metallteilen in fertigbare Lösungen umzusetzen. Unser Tätigkeitsbereich ist dabei nicht auf eine einzelne Produktgruppe beschränkt.",
-    "secondaryDescription": "Von der Automobil- und Haushaltsgeräteindustrie über Einzelhandelsausstattungen bis hin zu industriellen Transport- und Lagerlösungen entwickeln wir Fertigungslösungen, die auf die jeweiligen Anforderungen der Anwendung abgestimmt sind.",
-    "imageAlt": "MBA Metal Produktionsstätte",
-
-    "approach": {
-      "eyebrow": "Unser Fertigungsansatz",
-      "projectBased": {
-        "title": "Projektbezogen",
-        "description": "Ein Fertigungsansatz, der sich an den jeweiligen Anforderungen orientiert."
-      },
-      "flexibleProduction": {
-        "title": "Flexible Fertigung",
-        "description": "Ein anpassbarer Prozess vom Muster bis zur reproduzierbaren Fertigung."
-      },
-      "brand": "MBA Metal"
     },
-
-    "secondaryStory": {
-      "eyebrow": "Wie beginnt ein Projekt?",
-      "title": "Nicht jedes Projekt beginnt mit einer technischen Zeichnung.",
-      "paragraphs": [
-        "Manchmal beginnt eine Fertigungsanfrage mit einer vollständig ausgearbeiteten technischen Zeichnung. In anderen Fällen stehen lediglich ein vorhandenes Muster, ein Produktfoto, grundlegende Abmessungen oder eine zu lösende Anwendungsanforderung zur Verfügung.",
-        "Deshalb konzentrieren wir uns zunächst darauf, zu verstehen, wo und wie das Bauteil eingesetzt werden soll. Anschließend bewerten wir Kriterien wie Geometrie, Material, Fertigungsverfahren und benötigte Stückzahl, um einen praxisgerechten Fertigungsansatz festzulegen."
-      ]
-    },
-
-    "inputs": {
-      "eyebrow": "Für den Projektstart",
-      "items": [
-        "Technische Zeichnung",
-        "Muster",
-        "Produktfoto",
-        "Fertigungsanforderung"
-      ]
-    }
-  },
-
-  "productionApproach": {
-    "eyebrow": "Unser Fertigungsprozess",
-    "title": "Von der technischen Anforderung zur kontrollierten Fertigung.",
-    "description": "Wir betrachten jedes Projekt nicht nur als ein zu fertigendes Bauteil, sondern als einen ganzheitlichen Prozess, bei dem technische Anforderungen richtig verstanden, die Fertigbarkeit bewertet und die Fertigung kontrolliert umgesetzt werden muss.",
-
-    "steps": {
-      "technicalNeed": {
-        "title": "Technische Anforderung",
-        "description": "Die Projektanforderungen werden anhand technischer Zeichnungen, Muster, Produktfotos oder Informationen zum vorgesehenen Einsatzzweck ermittelt."
-      },
-
-      "projectPlanning": {
-        "title": "Projektplanung",
-        "description": "Material, Geometrie, Toleranzen, Fertigungsverfahren und Zielstückzahl werden bewertet, um einen praxisgerechten Fertigungsplan zu erstellen."
-      },
-
-      "production": {
-        "title": "Fertigung",
-        "description": "Draht-, Metall- und zugehörige Teile werden entsprechend den festgelegten Fertigungsprozessen hergestellt."
-      },
-
-      "qualityControl": {
-        "title": "Qualitätskontrolle",
-        "description": "Während und nach der Fertigung werden kritische Maße, visuelle Anforderungen und projektspezifische Kriterien kontrolliert."
-      },
-
-      "shipment": {
-        "title": "Versand",
-        "description": "Freigegebene Produkte werden entsprechend den Verpackungs- und Lieferanforderungen vorbereitet und für den Versand bereitgestellt."
+    "industriesShowcase": {
+      "eyebrow": "Branchen, für die wir fertigen",
+      "title": "Wir sind nicht auf eine einzelne Produktgruppe beschränkt.",
+      "description": "Unsere Möglichkeiten in der Draht- und Metallbearbeitung passen wir an die Produkte, Einsatzbereiche und Fertigungsanforderungen verschiedener Branchen an.",
+      "items": {
+        "automotive": {
+          "title": "Automobilindustrie",
+          "description": "Für Draht-, Rohr- und Metallteile, die in automobilen Fertigungsprozessen eingesetzt werden, entwickeln wir auf die Projektanforderungen abgestimmte Fertigungslösungen.",
+          "imageAlt": "Metallfertigungslösungen für die Automobilindustrie"
+        },
+        "whiteGoods": {
+          "title": "Haushaltsgeräte",
+          "description": "Draht- und Metallteile für Haushaltsgeräte und langlebige Konsumgüter werden entsprechend den jeweiligen Geometrien und Fertigungsanforderungen geformt.",
+          "imageAlt": "Metallteile für die Haushaltsgeräteindustrie"
+        },
+        "retail": {
+          "title": "Einzelhandelsausstattung",
+          "description": "Wir fertigen Draht- und Metallteile für Regale, Körbe, Präsentationsständer und ähnliche Ausstattungen in Geschäften, Märkten und Verkaufsstellen.",
+          "imageAlt": "Draht- und Metallprodukte für Einzelhandelsausstattungen"
+        },
+        "logistics": {
+          "title": "Lagerung & Logistik",
+          "description": "Wir bieten Fertigungslösungen für Metallausrüstungen und Hilfsteile, die bei Lagerung, Transport und innerbetrieblichen Logistikprozessen eingesetzt werden.",
+          "imageAlt": "Metallausrüstung für Lagerung und Logistik"
+        },
+        "industrial": {
+          "title": "Industrielle Fertigung",
+          "description": "Wir fertigen projektspezifische Draht- und Metallteile für Maschinen, Ausrüstungen und unterschiedliche industrielle Systeme.",
+          "imageAlt": "Kundenspezifische Draht- und Metallteile für industrielle Anwendungen"
+        }
       }
     },
-
-    "bottomMessage": "Unser Ziel ist nicht nur die Fertigung eines Bauteils, sondern die Entwicklung eines reproduzierbaren und nachhaltigen Fertigungsprozesses, der die technischen Anforderungen des Projekts erfüllt."
-  },
-
-  "workingApproach": {
-    "eyebrow": "Unsere Arbeitsweise",
-    "title": "Von der Anforderung zur reproduzierbaren Fertigung.",
-    "description": "Nicht jedes Projekt beginnt am selben Ausgangspunkt. Manchmal liegt eine detaillierte technische Zeichnung vor, in anderen Fällen lediglich ein vorhandenes Bauteil oder eine zu lösende Fertigungsanforderung. Wir gestalten den Prozess so, dass die verfügbaren Informationen in eine fertigbare und reproduzierbare Lösung überführt werden.",
-
-    "items": {
-      "understandRequirement": {
-        "label": "Anforderungen verstehen",
-        "title": "Wir bestimmen, welche Funktion das Bauteil erfüllen soll.",
-        "description": "Der Prozess muss nicht zwingend mit einer technischen Zeichnung beginnen. Wir können ein Projekt auch anhand eines Musters, Fotos, ungefährer Abmessungen oder direkt anhand des vorgesehenen Einsatzzwecks bewerten.",
-        "details": [
-          "Einsatzbereich",
-          "Bauteilgeometrie",
-          "Ungefähre Abmessungen",
-          "Benötigte Stückzahl"
-        ]
-      },
-
-      "evaluateManufacturability": {
-        "label": "Fertigbarkeit bewerten",
-        "title": "Wir gleichen die Idee mit realen Fertigungsbedingungen ab.",
-        "description": "Material, Geometrie, Toleranzen, Fügeverfahren und Produktionsmenge werden gemeinsam bewertet, um einen praxisgerechten Fertigungsansatz festzulegen.",
-        "details": [
-          "Materialauswahl",
-          "Fertigungsverfahren",
-          "Geometrieprüfung",
-          "Arbeitsablaufplanung"
-        ]
-      },
-
-      "sampleValidation": {
-        "label": "Muster & Validierung",
-        "title": "Wir validieren das Bauteil vor der Serienfertigung.",
-        "description": "Bei Bedarf werden am ersten Muster oder Prototyp Abmessungen, Form, Funktion und Fertigbarkeit überprüft. Dadurch können notwendige Anpassungen vor Beginn der Serienfertigung vorgenommen werden.",
-        "details": [
-          "Erstmuster",
-          "Maßprüfung",
-          "Funktionsprüfung",
-          "Überarbeitung"
-        ]
-      },
-
-      "repeatableProduction": {
-        "label": "Reproduzierbare Fertigung",
-        "title": "Wir überführen die freigegebene Lösung in eine nachhaltige Fertigung.",
-        "description": "Die Fertigungsschritte des validierten Bauteils werden definiert, damit bei nachfolgenden Aufträgen derselbe Fertigungsansatz und dieselben Qualitätskriterien beibehalten werden können.",
-        "details": [
-          "Fertigungsplanung",
-          "Prozesskontrolle",
-          "Qualitätskontrolle",
-          "Wiederholfertigung"
-        ]
+    "manufacturingCapabilities": {
+      "eyebrow": "Unsere Fertigungsmöglichkeiten",
+      "title": "Eine zentrale Lösung für unterschiedliche Fertigungsanforderungen.",
+      "description": "Von der Umformung von Draht- und Metallteilen über Fügeprozesse bis hin zum Erstmuster und zur reproduzierbaren Fertigung betrachten wir unterschiedliche Fertigungsanforderungen mit einem ganzheitlichen Ansatz.",
+      "itemLabel": "Fertigungsmöglichkeit",
+      "actionLabel": "Fertigungsmöglichkeit entdecken",
+      "items": {
+        "wireForming": {
+          "title": "Drahtumformung",
+          "description": "Kontrollierte und reproduzierbare Fertigung von Drahtteilen für unterschiedliche Abmessungen, Geometrien und Anwendungsanforderungen.",
+          "imageAlt": "MBA Metal Drahtumformung",
+          "tags": [
+            "Drahtbiegen",
+            "2D- / 3D-Umformung",
+            "Kundenspezifische Geometrie"
+          ]
+        },
+        "metalForming": {
+          "title": "Metallumformung",
+          "description": "Umformung kundenspezifischer Metallteile in Geometrien, die auf ihren Einsatzbereich und die technischen Anforderungen abgestimmt sind.",
+          "imageAlt": "MBA Metal Metallumformung",
+          "tags": [
+            "Biegen",
+            "Umformen",
+            "Sonderfertigung"
+          ]
+        },
+        "weldingJoining": {
+          "title": "Schweißen & Fügen",
+          "description": "Verbinden von Draht- und Metallteilen mit geeigneten Schweißverfahren entsprechend der Produktgeometrie und den Einsatzbedingungen.",
+          "imageAlt": "MBA Metal Schweiß- und Fügeverfahren",
+          "tags": [
+            "MIG / WIG",
+            "Punktschweißen",
+            "Fügen"
+          ]
+        },
+        "prototypeSerialProduction": {
+          "title": "Prototypen- & Serienfertigung",
+          "description": "Entwicklung des Fertigungsansatzes vom ersten Muster über die Produktvalidierung bis zur Vorbereitung auf eine reproduzierbare Serienfertigung.",
+          "imageAlt": "MBA Metal Prototypen- und Serienfertigung",
+          "tags": [
+            "Muster",
+            "Prototyp",
+            "Serienfertigung"
+          ]
+        }
+      }
+    },
+    "qualityApproach": {
+      "eyebrow": "UNSER QUALITÄTSANSPRUCH",
+      "title": "Fertigen allein reicht nicht. Das Ergebnis muss überprüfbar sein.",
+      "description": "Wir betrachten den Fertigungsprozess nicht nur als Fertigstellung eines Bauteils. Durch die Kontrolle von Abmessungen, Form, Oberfläche und Fertigungskriterien während des gesamten Prozesses stellen wir sicher, dass das Produkt die definierten Anforderungen erfüllt.",
+      "imageAlt": "MBA Metal Fertigungs- und Qualitätskontrollprozess",
+      "imageLabel": "MBA METAL · QUALITÄTSKONTROLLE",
+      "items": {
+        "dimensionalControl": {
+          "title": "Maßkontrolle",
+          "description": "Wir prüfen die Produktabmessungen entsprechend den technischen Anforderungen und festgelegten Toleranzen."
+        },
+        "visualControl": {
+          "title": "Sichtprüfung",
+          "description": "Wir bewerten Oberfläche, Form, Schweißbereiche und die allgemeine Produktbeschaffenheit anhand der festgelegten Fertigungskriterien."
+        },
+        "processControl": {
+          "title": "Prozesskontrolle",
+          "description": "Die Kontrolle erfolgt nicht erst am fertigen Produkt. Wir überwachen den Prozess bereits in den erforderlichen Fertigungsstufen."
+        },
+        "repeatability": {
+          "title": "Reproduzierbarkeit",
+          "description": "Wir legen Wert darauf, dass ein freigegebenes Produkt auch bei nachfolgenden Fertigungsaufträgen nach denselben Kriterien reproduziert werden kann."
+        }
       }
     }
   },
-
-  "industriesShowcase": {
-    "eyebrow": "Branchen, für die wir fertigen",
-    "title": "Wir sind nicht auf eine einzelne Produktgruppe beschränkt.",
-    "description": "Unsere Möglichkeiten in der Draht- und Metallbearbeitung passen wir an die Produkte, Einsatzbereiche und Fertigungsanforderungen verschiedener Branchen an.",
-
-    "items": {
-      "automotive": {
-        "title": "Automobilindustrie",
-        "description": "Für Draht-, Rohr- und Metallteile, die in automobilen Fertigungsprozessen eingesetzt werden, entwickeln wir auf die Projektanforderungen abgestimmte Fertigungslösungen.",
-        "imageAlt": "Metallfertigungslösungen für die Automobilindustrie"
-      },
-
-      "whiteGoods": {
-        "title": "Haushaltsgeräte",
-        "description": "Draht- und Metallteile für Haushaltsgeräte und langlebige Konsumgüter werden entsprechend den jeweiligen Geometrien und Fertigungsanforderungen geformt.",
-        "imageAlt": "Metallteile für die Haushaltsgeräteindustrie"
-      },
-
-      "retail": {
-        "title": "Einzelhandelsausstattung",
-        "description": "Wir fertigen Draht- und Metallteile für Regale, Körbe, Präsentationsständer und ähnliche Ausstattungen in Geschäften, Märkten und Verkaufsstellen.",
-        "imageAlt": "Draht- und Metallprodukte für Einzelhandelsausstattungen"
-      },
-
-      "logistics": {
-        "title": "Lagerung & Logistik",
-        "description": "Wir bieten Fertigungslösungen für Metallausrüstungen und Hilfsteile, die bei Lagerung, Transport und innerbetrieblichen Logistikprozessen eingesetzt werden.",
-        "imageAlt": "Metallausrüstung für Lagerung und Logistik"
-      },
-
-      "industrial": {
-        "title": "Industrielle Fertigung",
-        "description": "Wir fertigen projektspezifische Draht- und Metallteile für Maschinen, Ausrüstungen und unterschiedliche industrielle Systeme.",
-        "imageAlt": "Kundenspezifische Draht- und Metallteile für industrielle Anwendungen"
-      }
-    }
-  },
-
-  "manufacturingCapabilities": {
-    "eyebrow": "Unsere Fertigungsmöglichkeiten",
-    "title": "Eine zentrale Lösung für unterschiedliche Fertigungsanforderungen.",
-    "description": "Von der Umformung von Draht- und Metallteilen über Fügeprozesse bis hin zum Erstmuster und zur reproduzierbaren Fertigung betrachten wir unterschiedliche Fertigungsanforderungen mit einem ganzheitlichen Ansatz.",
-    "itemLabel": "Fertigungsmöglichkeit",
-    "actionLabel": "Fertigungsmöglichkeit entdecken",
-
-    "items": {
-      "wireForming": {
-        "title": "Drahtumformung",
-        "description": "Kontrollierte und reproduzierbare Fertigung von Drahtteilen für unterschiedliche Abmessungen, Geometrien und Anwendungsanforderungen.",
-        "imageAlt": "MBA Metal Drahtumformung",
-        "tags": [
-          "Drahtbiegen",
-          "2D- / 3D-Umformung",
-          "Kundenspezifische Geometrie"
-        ]
-      },
-
-      "metalForming": {
-        "title": "Metallumformung",
-        "description": "Umformung kundenspezifischer Metallteile in Geometrien, die auf ihren Einsatzbereich und die technischen Anforderungen abgestimmt sind.",
-        "imageAlt": "MBA Metal Metallumformung",
-        "tags": [
-          "Biegen",
-          "Umformen",
-          "Sonderfertigung"
-        ]
-      },
-
-      "weldingJoining": {
-        "title": "Schweißen & Fügen",
-        "description": "Verbinden von Draht- und Metallteilen mit geeigneten Schweißverfahren entsprechend der Produktgeometrie und den Einsatzbedingungen.",
-        "imageAlt": "MBA Metal Schweiß- und Fügeverfahren",
-        "tags": [
-          "MIG / WIG",
-          "Punktschweißen",
-          "Fügen"
-        ]
-      },
-
-      "prototypeSerialProduction": {
-        "title": "Prototypen- & Serienfertigung",
-        "description": "Entwicklung des Fertigungsansatzes vom ersten Muster über die Produktvalidierung bis zur Vorbereitung auf eine reproduzierbare Serienfertigung.",
-        "imageAlt": "MBA Metal Prototypen- und Serienfertigung",
-        "tags": [
-          "Muster",
-          "Prototyp",
-          "Serienfertigung"
-        ]
-      }
-    }
-  },
-
-  "qualityApproach": {
-    "eyebrow": "UNSER QUALITÄTSANSPRUCH",
-    "title": "Fertigen allein reicht nicht. Das Ergebnis muss überprüfbar sein.",
-    "description": "Wir betrachten den Fertigungsprozess nicht nur als Fertigstellung eines Bauteils. Durch die Kontrolle von Abmessungen, Form, Oberfläche und Fertigungskriterien während des gesamten Prozesses stellen wir sicher, dass das Produkt die definierten Anforderungen erfüllt.",
-    "imageAlt": "MBA Metal Fertigungs- und Qualitätskontrollprozess",
-    "imageLabel": "MBA METAL · QUALITÄTSKONTROLLE",
-
-    "items": {
-      "dimensionalControl": {
-        "title": "Maßkontrolle",
-        "description": "Wir prüfen die Produktabmessungen entsprechend den technischen Anforderungen und festgelegten Toleranzen."
-      },
-
-      "visualControl": {
-        "title": "Sichtprüfung",
-        "description": "Wir bewerten Oberfläche, Form, Schweißbereiche und die allgemeine Produktbeschaffenheit anhand der festgelegten Fertigungskriterien."
-      },
-
-      "processControl": {
-        "title": "Prozesskontrolle",
-        "description": "Die Kontrolle erfolgt nicht erst am fertigen Produkt. Wir überwachen den Prozess bereits in den erforderlichen Fertigungsstufen."
-      },
-
-      "repeatability": {
-        "title": "Reproduzierbarkeit",
-        "description": "Wir legen Wert darauf, dass ein freigegebenes Produkt auch bei nachfolgenden Fertigungsaufträgen nach denselben Kriterien reproduziert werden kann."
-      }
-    }
-  }
-},
   "contactPage": {
     "hero": {
       "eyebrow": "KONTAKT",
@@ -1095,286 +1015,259 @@
       "note": "If your technische Zeichnung is not ready yet, that is not a problem. We can begin the preliminary evaluation using photos, approximate Abmessungen and Anwendung details."
     }
   },
-"industriesPage": {
-  "hero": {
-    "eyebrow": "BRANCHENLÖSUNGEN",
-    "title": "Fertigungslösungen für die technischen Anforderungen verschiedener Branchen.",
-    "description": "Bei Draht-, Rohr- und Metallteilen berücksichtigen wir die Einsatzbedingungen, Toleranzen, Qualitätsanforderungen und Produktionsmengen jeder Branche und entwickeln projektspezifische Lösungen.",
-    "primaryAction": "Branchen entdecken",
-    "secondaryAction": "Projekt besprechen"
-  },
-
-  "showcase": {
-    "eyebrow": "BRANCHEN, FÜR DIE WIR FERTIGEN",
-    "title": "Unterschiedliche Anwendungen, dieselbe Fertigungsdisziplin.",
-    "description": "Von der technischen Zeichnung bis zur kundenspezifischen Fertigung betrachten wir den Bedarf verschiedener Branchen an Draht-, Rohr- und Metallteilen mit Fokus auf die Fertigbarkeit.",
-    "cardEyebrow": "Branchenspezifische Fertigung",
-    "otherIndustries": "Weitere Anwendungsbereiche",
-
-    "items": {
-      "automotive": {
-        "title": "Automobilindustrie",
-        "description": "Kundenspezifische Draht-, Rohr- und geschweißte Metallteile für Verbindungs-, Befestigungs-, Stütz- und Transportanwendungen.",
-        "applications": [
-          "Kundenspezifische Drahtformteile",
-          "Verbindungs- und Befestigungselemente",
-          "Stützteile",
-          "Geschweißte Baugruppen",
-          "Innerbetriebliche Transportausrüstung"
-        ]
-      },
-
-      "whiteGoods": {
-        "title": "Haushaltsgeräte & Küche",
-        "description": "Draht- und Metallteile für Transport-, Stütz-, Schutz- und Montageanwendungen in Geräten.",
-        "applications": [
-          "Drahtablagen",
-          "Körbe",
-          "Gitter",
-          "Trägerteile",
-          "Stützteile"
-        ]
-      },
-
-      "retail": {
-        "title": "Einzelhandel & Ladenausstattung",
-        "description": "Draht- und Metalllösungen für Geschäfte, Märkte und Präsentationssysteme.",
-        "applications": [
-          "Drahtkörbe",
-          "Regalsysteme",
-          "Haken",
-          "Aufhängungen und Trennelemente",
-          "Präsentationssysteme"
-        ]
-      },
-
-      "furniture": {
-        "title": "Möbel",
-        "description": "Projektspezifische Fertigung von Draht-, Rohr- und geformten Metallteilen für Möbelhersteller.",
-        "applications": [
-          "Drahtregal- und Korbteile",
-          "Stuhl- und Tischgestelle",
-          "Gebogene Rohrteile",
-          "Metallische Stütz- und Verbindungsteile",
-          "Geschweißte Metallteile",
-          "Projektspezifische Draht- und Metallteile"
-        ]
-      },
-
-      "logistics": {
-        "title": "Logistik & Lagerung",
-        "description": "Robuste Draht- und Metallausrüstung für Lager-, Transport- und innerbetriebliche Logistikanwendungen.",
-        "applications": [
-          "Transportkörbe",
-          "Drahtgitterboxen",
-          "Metallbehälter",
-          "Transportwagen",
-          "Trenn- und Schutzelemente"
-        ]
-      },
-
-      "railwayIndustrial": {
-        "title": "Schienenverkehr & Industrieausrüstung",
-        "description": "Kundenspezifische Verbindungs-, Stütz- und Montageteile nach technischen Spezifikationen und Zeichnungen.",
-        "applications": [
-          "Verbindungsteile",
-          "Stützteile",
-          "Geschweißte Baugruppen",
-          "Schutzteile",
-          "Kundenspezifische Teile für die Serienfertigung"
-        ]
-      },
-
-      "defenseAerospaceSecurity": {
-        "title": "Verteidigung, Luft- & Raumfahrt und Sicherheit",
-        "description": "Kundenspezifische Draht-, Rohr-, Biege- und Schweißteile nach technischen Anforderungen für Anwendungen in Verteidigung, Luft- und Raumfahrt sowie Sicherheit.",
-        "applications": [
-          "Kundenspezifische Drahtformteile",
-          "Präzisionsgebogene Metallteile",
-          "Geschweißte Baugruppen",
-          "Schutz- und Trägerteile",
-          "Projektspezifische Metallteile"
-        ]
-      },
-
-      "medical": {
-        "title": "Medizin- & Hygieneprodukte",
-        "description": "Projektspezifische Fertigung von Draht- und Metallteilen für Medizin- und Hygieneausrüstung.",
-        "applications": [
-          "Geformte Drahtteile",
-          "Drahtkörbe und Ablageteile",
-          "Halterungs- und Stützteile",
-          "Metallische Trägerteile",
-          "Projektspezifische Draht- und Metallteile"
-        ]
-      },
-
-      "agriculture": {
-        "title": "Landwirtschaft & Tierhaltung",
-        "description": "Projektspezifische Fertigung von Draht- und Metallteilen für Landmaschinen und Tierhaltungsausrüstung.",
-        "applications": [
-          "Geformte Drahtteile",
-          "Drahtschutzstrukturen",
-          "Halterungs- und Stützteile",
-          "Teile für Tierhaltungsausrüstung",
-          "Projektspezifische Draht- und Metallteile"
-        ]
-      },
-
-      "construction": {
-        "title": "Bauwesen & Allgemeine Industrie",
-        "description": "Fertigung von Metallteilen nach technischen Zeichnungen für Maschinen, Ausrüstung, Bauwesen und spezielle Industrieanwendungen.",
-        "applications": [
-          "Kundenspezifische Drahtteile",
-          "Schutzteile",
-          "Verbindungselemente",
-          "Gebogene Metallteile",
-          "Projektspezifische Sonderfertigung"
-        ]
-      },
-
-      "marine": {
-        "title": "Schiffbau, Maritime Anwendungen & Hafen",
-        "description": "Fertigungslösungen für Draht-, Rohr-, Biege- und Schweißteile für Anwendungen im Schiffbau, in der maritimen Industrie und im Hafenbereich.",
-        "applications": [
-          "Schiffs- und Deckteile",
-          "Geschweißte Metallteile",
-          "Teile für Hafen- und Terminalausrüstung",
-          "Kundenspezifische Metallteile"
-        ]
+  "industriesPage": {
+    "hero": {
+      "eyebrow": "BRANCHENLÖSUNGEN",
+      "title": "Fertigungslösungen für die technischen Anforderungen verschiedener Branchen.",
+      "description": "Bei Draht-, Rohr- und Metallteilen berücksichtigen wir die Einsatzbedingungen, Toleranzen, Qualitätsanforderungen und Produktionsmengen jeder Branche und entwickeln projektspezifische Lösungen.",
+      "primaryAction": "Branchen entdecken",
+      "secondaryAction": "Projekt besprechen"
+    },
+    "showcase": {
+      "eyebrow": "BRANCHEN, FÜR DIE WIR FERTIGEN",
+      "title": "Unterschiedliche Anwendungen, dieselbe Fertigungsdisziplin.",
+      "description": "Von der technischen Zeichnung bis zur kundenspezifischen Fertigung betrachten wir den Bedarf verschiedener Branchen an Draht-, Rohr- und Metallteilen mit Fokus auf die Fertigbarkeit.",
+      "cardEyebrow": "Branchenspezifische Fertigung",
+      "otherIndustries": "Weitere Anwendungsbereiche",
+      "items": {
+        "automotive": {
+          "title": "Automobilindustrie",
+          "description": "Kundenspezifische Draht-, Rohr- und geschweißte Metallteile für Verbindungs-, Befestigungs-, Stütz- und Transportanwendungen.",
+          "applications": [
+            "Kundenspezifische Drahtformteile",
+            "Verbindungs- und Befestigungselemente",
+            "Stützteile",
+            "Geschweißte Baugruppen",
+            "Innerbetriebliche Transportausrüstung"
+          ]
+        },
+        "whiteGoods": {
+          "title": "Haushaltsgeräte & Küche",
+          "description": "Draht- und Metallteile für Transport-, Stütz-, Schutz- und Montageanwendungen in Geräten.",
+          "applications": [
+            "Drahtablagen",
+            "Körbe",
+            "Gitter",
+            "Trägerteile",
+            "Stützteile"
+          ]
+        },
+        "retail": {
+          "title": "Einzelhandel & Ladenausstattung",
+          "description": "Draht- und Metalllösungen für Geschäfte, Märkte und Präsentationssysteme.",
+          "applications": [
+            "Drahtkörbe",
+            "Regalsysteme",
+            "Haken",
+            "Aufhängungen und Trennelemente",
+            "Präsentationssysteme"
+          ]
+        },
+        "furniture": {
+          "title": "Möbel",
+          "description": "Projektspezifische Fertigung von Draht-, Rohr- und geformten Metallteilen für Möbelhersteller.",
+          "applications": [
+            "Drahtregal- und Korbteile",
+            "Stuhl- und Tischgestelle",
+            "Gebogene Rohrteile",
+            "Metallische Stütz- und Verbindungsteile",
+            "Geschweißte Metallteile",
+            "Projektspezifische Draht- und Metallteile"
+          ]
+        },
+        "logistics": {
+          "title": "Logistik & Lagerung",
+          "description": "Robuste Draht- und Metallausrüstung für Lager-, Transport- und innerbetriebliche Logistikanwendungen.",
+          "applications": [
+            "Transportkörbe",
+            "Drahtgitterboxen",
+            "Metallbehälter",
+            "Transportwagen",
+            "Trenn- und Schutzelemente"
+          ]
+        },
+        "railwayIndustrial": {
+          "title": "Schienenverkehr & Industrieausrüstung",
+          "description": "Kundenspezifische Verbindungs-, Stütz- und Montageteile nach technischen Spezifikationen und Zeichnungen.",
+          "applications": [
+            "Verbindungsteile",
+            "Stützteile",
+            "Geschweißte Baugruppen",
+            "Schutzteile",
+            "Kundenspezifische Teile für die Serienfertigung"
+          ]
+        },
+        "defenseAerospaceSecurity": {
+          "title": "Verteidigung, Luft- & Raumfahrt und Sicherheit",
+          "description": "Kundenspezifische Draht-, Rohr-, Biege- und Schweißteile nach technischen Anforderungen für Anwendungen in Verteidigung, Luft- und Raumfahrt sowie Sicherheit.",
+          "applications": [
+            "Kundenspezifische Drahtformteile",
+            "Präzisionsgebogene Metallteile",
+            "Geschweißte Baugruppen",
+            "Schutz- und Trägerteile",
+            "Projektspezifische Metallteile"
+          ]
+        },
+        "medical": {
+          "title": "Medizin- & Hygieneprodukte",
+          "description": "Projektspezifische Fertigung von Draht- und Metallteilen für Medizin- und Hygieneausrüstung.",
+          "applications": [
+            "Geformte Drahtteile",
+            "Drahtkörbe und Ablageteile",
+            "Halterungs- und Stützteile",
+            "Metallische Trägerteile",
+            "Projektspezifische Draht- und Metallteile"
+          ]
+        },
+        "agriculture": {
+          "title": "Landwirtschaft & Tierhaltung",
+          "description": "Projektspezifische Fertigung von Draht- und Metallteilen für Landmaschinen und Tierhaltungsausrüstung.",
+          "applications": [
+            "Geformte Drahtteile",
+            "Drahtschutzstrukturen",
+            "Halterungs- und Stützteile",
+            "Teile für Tierhaltungsausrüstung",
+            "Projektspezifische Draht- und Metallteile"
+          ]
+        },
+        "construction": {
+          "title": "Bauwesen & Allgemeine Industrie",
+          "description": "Fertigung von Metallteilen nach technischen Zeichnungen für Maschinen, Ausrüstung, Bauwesen und spezielle Industrieanwendungen.",
+          "applications": [
+            "Kundenspezifische Drahtteile",
+            "Schutzteile",
+            "Verbindungselemente",
+            "Gebogene Metallteile",
+            "Projektspezifische Sonderfertigung"
+          ]
+        },
+        "marine": {
+          "title": "Schiffbau, Maritime Anwendungen & Hafen",
+          "description": "Fertigungslösungen für Draht-, Rohr-, Biege- und Schweißteile für Anwendungen im Schiffbau, in der maritimen Industrie und im Hafenbereich.",
+          "applications": [
+            "Schiffs- und Deckteile",
+            "Geschweißte Metallteile",
+            "Teile für Hafen- und Terminalausrüstung",
+            "Kundenspezifische Metallteile"
+          ]
+        }
       }
+    },
+    "solutions": {
+      "eyebrow": "FERTIGUNGSLÖSUNGEN",
+      "title": "Wir verbinden branchenspezifische Anforderungen mit unseren Fertigungsmöglichkeiten.",
+      "description": "Wir bewerten Projekte aus verschiedenen Branchen nicht nur nach ihrem Anwendungsbereich, sondern auch hinsichtlich Bauteilgeometrie, Material, Verbindungsmethode, Produktionsmenge und Anforderungen an die Wiederholgenauigkeit.",
+      "helper": "Projektspezifische Fertigungsmöglichkeiten",
+      "note": "Das Fertigungsverfahren wird für jedes Projekt anhand von technischen Zeichnungen, Mustern, Material, Toleranzen und der geplanten Produktionsmenge festgelegt.",
+      "items": {
+        "wireForming": {
+          "label": "Drahtbearbeitung",
+          "title": "Draht- & Stabumformung",
+          "description": "Kontrollierte Fertigung von Draht- und Stabteilen in unterschiedlichen Durchmessern, Geometrien und Formen entsprechend den technischen Anforderungen.",
+          "features": [
+            "CNC-Drahtbiegen",
+            "2D- / 3D-Umformung",
+            "Kundenspezifische Geometrien"
+          ]
+        },
+        "weldedComponents": {
+          "label": "Verbindungstechnik",
+          "title": "Geschweißte Teile",
+          "description": "Verbinden von Draht- und Metallteilen mit geeigneten Schweißverfahren entsprechend der Produktgeometrie und den Einsatzbedingungen.",
+          "features": [
+            "MIG / TIG",
+            "Punktschweißen",
+            "Geschweißte Baugruppen"
+          ]
+        },
+        "tubeComponents": {
+          "label": "Rohrbearbeitung",
+          "title": "Rohrteile",
+          "description": "Umformung und Fertigungsvorbereitung von Rohrteilen nach technischen Zeichnungen und Einsatzanforderungen.",
+          "features": [
+            "Rohrbiegen",
+            "Kundenspezifische Geometrien",
+            "Montierte Teile"
+          ]
+        },
+        "customProduction": {
+          "label": "Projektspezifisch",
+          "title": "Sonderfertigung",
+          "description": "Projektspezifische Metallteillösungen nach technischer Zeichnung, Muster oder Anwendungsanforderung anstelle eines standardisierten Produktansatzes.",
+          "features": [
+            "Nach technischer Zeichnung",
+            "Nach Muster",
+            "Projektspezifisch"
+          ]
+        },
+        "prototypeProduction": {
+          "label": "Validierung",
+          "title": "Prototypen- & Musterfertigung",
+          "description": "Musterfertigung zur Bewertung von Form, Abmessungen, Fertigbarkeit und Anwendungsanforderungen des Bauteils vor der Serienfertigung.",
+          "features": [
+            "Erstmuster",
+            "Produktvalidierung",
+            "Unterstützung bei Revisionen"
+          ]
+        },
+        "serialProduction": {
+          "label": "Reproduzierbare Fertigung",
+          "title": "Serienfertigung",
+          "description": "Überführung des freigegebenen Fertigungsansatzes in eine reproduzierbare und nachhaltige Produktion durch kontrollierte Abläufe.",
+          "features": [
+            "Produktionsplanung",
+            "Prozesskontrolle",
+            "Wiederholaufträge"
+          ]
+        }
+      }
+    },
+    "approach": {
+      "eyebrow": "BRANCHENSPEZIFISCHER FERTIGUNGSANSATZ",
+      "title": "Jedes Projekt ist anders. Unser Fertigungsansatz ist kontrolliert.",
+      "description": "Unabhängig von der Branche betrachten wir jedes Bauteil gemeinsam mit seinen technischen Anforderungen, seiner Fertigbarkeit, dem Fertigungsprozess und den Qualitätsanforderungen.",
+      "items": {
+        "technicalRequirements": {
+          "title": "Technische Anforderungen",
+          "description": "Technische Zeichnungen, Muster, Abmessungen, Toleranzen, Material und Einsatzbedingungen des Bauteils werden gemeinsam bewertet.",
+          "meta": "Technische Daten · Toleranz · Material"
+        },
+        "manufacturability": {
+          "title": "Fertigbarkeit",
+          "description": "Geometrie, Biegestellen, Verbindungsdetails und Fertigungsgrenzen des Bauteils werden analysiert, um einen geeigneten Fertigungsansatz festzulegen.",
+          "meta": "Geometrie · DFM · Fertigungsprozess"
+        },
+        "processPlanning": {
+          "title": "Prozessplanung",
+          "description": "Draht- oder Rohrumformung, Schweißen, zusätzliche Bearbeitungsschritte und erforderliche Fertigungsoperationen werden entsprechend den technischen Anforderungen des Projekts geplant.",
+          "meta": "Umformung · Schweißen · Bearbeitung"
+        },
+        "qualityControl": {
+          "title": "Qualität & Kontrolle",
+          "description": "Kritische Abmessungen, Toleranzen und visuelle Anforderungen werden an geeigneten Stellen des Fertigungsprozesses kontrolliert, um das Produkt zu verifizieren.",
+          "meta": "Messung · Kontrolle · Verifizierung"
+        },
+        "repeatableProduction": {
+          "title": "Reproduzierbare Fertigung",
+          "description": "Das freigegebene Muster und der definierte Fertigungsansatz werden in einen kontrollierten Prozess überführt, der bei wiederkehrenden Aufträgen einen gleichbleibenden Fertigungsstandard unterstützt.",
+          "meta": "Muster · Serienfertigung · Kontinuität"
+        },
+        "delivery": {
+          "title": "Verpackung & Lieferung",
+          "description": "Unter Berücksichtigung der Produktstruktur, Transportbedingungen und Kundenanforderungen wird ein geeigneter Verpackungs- und Versandansatz festgelegt.",
+          "meta": "Verpackung · Versand · Lieferung"
+        }
+      }
+    },
+    "cta": {
+      "eyebrow": "FERTIGUNG FÜR IHRE BRANCHE",
+      "title": "Lassen Sie uns gemeinsam die passende Fertigungslösung für Ihr Projekt entwickeln.",
+      "description": "Teilen Sie Ihre technische Zeichnung, Ihr Muster oder Ihre Projektdetails mit uns. Gemeinsam bewerten wir die Fertigbarkeit des Bauteils, die erforderlichen Fertigungsschritte und seine Eignung für die Serienfertigung.",
+      "note": "Ein projektspezifischer Fertigungsansatz – von kundenspezifischen Teilen bis hin zu wiederkehrenden Produktionsanforderungen.",
+      "primaryAction": "Projekt besprechen",
+      "secondaryAction": "Fertigungsmöglichkeiten entdecken"
     }
   },
-
-  "solutions": {
-    "eyebrow": "FERTIGUNGSLÖSUNGEN",
-    "title": "Wir verbinden branchenspezifische Anforderungen mit unseren Fertigungsmöglichkeiten.",
-    "description": "Wir bewerten Projekte aus verschiedenen Branchen nicht nur nach ihrem Anwendungsbereich, sondern auch hinsichtlich Bauteilgeometrie, Material, Verbindungsmethode, Produktionsmenge und Anforderungen an die Wiederholgenauigkeit.",
-    "helper": "Projektspezifische Fertigungsmöglichkeiten",
-    "note": "Das Fertigungsverfahren wird für jedes Projekt anhand von technischen Zeichnungen, Mustern, Material, Toleranzen und der geplanten Produktionsmenge festgelegt.",
-
-    "items": {
-      "wireForming": {
-        "label": "Drahtbearbeitung",
-        "title": "Draht- & Stabumformung",
-        "description": "Kontrollierte Fertigung von Draht- und Stabteilen in unterschiedlichen Durchmessern, Geometrien und Formen entsprechend den technischen Anforderungen.",
-        "features": [
-          "CNC-Drahtbiegen",
-          "2D- / 3D-Umformung",
-          "Kundenspezifische Geometrien"
-        ]
-      },
-
-      "weldedComponents": {
-        "label": "Verbindungstechnik",
-        "title": "Geschweißte Teile",
-        "description": "Verbinden von Draht- und Metallteilen mit geeigneten Schweißverfahren entsprechend der Produktgeometrie und den Einsatzbedingungen.",
-        "features": [
-          "MIG / TIG",
-          "Punktschweißen",
-          "Geschweißte Baugruppen"
-        ]
-      },
-
-      "tubeComponents": {
-        "label": "Rohrbearbeitung",
-        "title": "Rohrteile",
-        "description": "Umformung und Fertigungsvorbereitung von Rohrteilen nach technischen Zeichnungen und Einsatzanforderungen.",
-        "features": [
-          "Rohrbiegen",
-          "Kundenspezifische Geometrien",
-          "Montierte Teile"
-        ]
-      },
-
-      "customProduction": {
-        "label": "Projektspezifisch",
-        "title": "Sonderfertigung",
-        "description": "Projektspezifische Metallteillösungen nach technischer Zeichnung, Muster oder Anwendungsanforderung anstelle eines standardisierten Produktansatzes.",
-        "features": [
-          "Nach technischer Zeichnung",
-          "Nach Muster",
-          "Projektspezifisch"
-        ]
-      },
-
-      "prototypeProduction": {
-        "label": "Validierung",
-        "title": "Prototypen- & Musterfertigung",
-        "description": "Musterfertigung zur Bewertung von Form, Abmessungen, Fertigbarkeit und Anwendungsanforderungen des Bauteils vor der Serienfertigung.",
-        "features": [
-          "Erstmuster",
-          "Produktvalidierung",
-          "Unterstützung bei Revisionen"
-        ]
-      },
-
-      "serialProduction": {
-        "label": "Reproduzierbare Fertigung",
-        "title": "Serienfertigung",
-        "description": "Überführung des freigegebenen Fertigungsansatzes in eine reproduzierbare und nachhaltige Produktion durch kontrollierte Abläufe.",
-        "features": [
-          "Produktionsplanung",
-          "Prozesskontrolle",
-          "Wiederholaufträge"
-        ]
-      }
-    }
-  },
-
-  "approach": {
-    "eyebrow": "BRANCHENSPEZIFISCHER FERTIGUNGSANSATZ",
-    "title": "Jedes Projekt ist anders. Unser Fertigungsansatz ist kontrolliert.",
-    "description": "Unabhängig von der Branche betrachten wir jedes Bauteil gemeinsam mit seinen technischen Anforderungen, seiner Fertigbarkeit, dem Fertigungsprozess und den Qualitätsanforderungen.",
-
-    "items": {
-      "technicalRequirements": {
-        "title": "Technische Anforderungen",
-        "description": "Technische Zeichnungen, Muster, Abmessungen, Toleranzen, Material und Einsatzbedingungen des Bauteils werden gemeinsam bewertet.",
-        "meta": "Technische Daten · Toleranz · Material"
-      },
-
-      "manufacturability": {
-        "title": "Fertigbarkeit",
-        "description": "Geometrie, Biegestellen, Verbindungsdetails und Fertigungsgrenzen des Bauteils werden analysiert, um einen geeigneten Fertigungsansatz festzulegen.",
-        "meta": "Geometrie · DFM · Fertigungsprozess"
-      },
-
-      "processPlanning": {
-        "title": "Prozessplanung",
-        "description": "Draht- oder Rohrumformung, Schweißen, zusätzliche Bearbeitungsschritte und erforderliche Fertigungsoperationen werden entsprechend den technischen Anforderungen des Projekts geplant.",
-        "meta": "Umformung · Schweißen · Bearbeitung"
-      },
-
-      "qualityControl": {
-        "title": "Qualität & Kontrolle",
-        "description": "Kritische Abmessungen, Toleranzen und visuelle Anforderungen werden an geeigneten Stellen des Fertigungsprozesses kontrolliert, um das Produkt zu verifizieren.",
-        "meta": "Messung · Kontrolle · Verifizierung"
-      },
-
-      "repeatableProduction": {
-        "title": "Reproduzierbare Fertigung",
-        "description": "Das freigegebene Muster und der definierte Fertigungsansatz werden in einen kontrollierten Prozess überführt, der bei wiederkehrenden Aufträgen einen gleichbleibenden Fertigungsstandard unterstützt.",
-        "meta": "Muster · Serienfertigung · Kontinuität"
-      },
-
-      "delivery": {
-        "title": "Verpackung & Lieferung",
-        "description": "Unter Berücksichtigung der Produktstruktur, Transportbedingungen und Kundenanforderungen wird ein geeigneter Verpackungs- und Versandansatz festgelegt.",
-        "meta": "Verpackung · Versand · Lieferung"
-      }
-    }
-  },
-
-  "cta": {
-    "eyebrow": "FERTIGUNG FÜR IHRE BRANCHE",
-    "title": "Lassen Sie uns gemeinsam die passende Fertigungslösung für Ihr Projekt entwickeln.",
-    "description": "Teilen Sie Ihre technische Zeichnung, Ihr Muster oder Ihre Projektdetails mit uns. Gemeinsam bewerten wir die Fertigbarkeit des Bauteils, die erforderlichen Fertigungsschritte und seine Eignung für die Serienfertigung.",
-    "note": "Ein projektspezifischer Fertigungsansatz – von kundenspezifischen Teilen bis hin zu wiederkehrenden Produktionsanforderungen.",
-    "primaryAction": "Projekt besprechen",
-    "secondaryAction": "Fertigungsmöglichkeiten entdecken"
-  }
-},
   "industryDetail": {
     "automotive": {
       "name": "Otomotiv",

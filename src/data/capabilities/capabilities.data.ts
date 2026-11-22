@@ -1,3 +1,4 @@
+
 import {
     Activity,
     Box,
@@ -20,7 +21,7 @@ import wireBendingImage from '../../assets/images/capabilities/wire-bending.jpg'
 import wireBendingDetailImage from '../../assets/images/capabilities/wire-bending.jpeg';
 import weldingImage from '../../assets/images/capabilities/welding.jpg';
 import metalBendingImage from '../../assets/images/capabilities/metal-bending.jpg';
-
+import lashingBuckleImage from '../../assets/images/capabilities/lashing-buckle.png';
 /* =========================================================
    TYPES
 ========================================================= */
@@ -169,6 +170,12 @@ export const capabilitiesPageData = {
                 href: '/iletisim',
                 image: manufacturingWorkerImage,
                 icon: Factory,
+            },
+            {
+                slug: 'lashing-toka',
+                href: '/uretim-kabiliyetleri/lashing-toka',
+                image: lashingBuckleImage,
+                icon: PackageCheck,
             },
         ] satisfies MainCapabilityItem[],
     },
